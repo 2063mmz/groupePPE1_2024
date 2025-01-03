@@ -28,8 +28,8 @@ fichiers=$(find "$dossier" -maxdepth 1 -type f -name "${base}-*.txt")
 contenu_counter=0
 
 # Chemins de sortie
-sortie_pals_dumps="../pals/dumps-text-$base.txt"   # ex: dumps-text-lang2.txt
-#sortie_pals_contextes="../pals/contextes-$base.txt" # ex: contextes-text-lang2.txt
+#sortie_pals_dumps="../pals/dumps-text-$base.txt"   # ex: dumps-text-lang2.txt
+sortie_pals_contextes="../pals/contextes-$base.txt" # ex: contextes-text-lang2.txt
 
 ## EXECUTION DE LA TÂCHE ##
 for fichier in $fichiers
@@ -53,7 +53,7 @@ do
             fi
 
             format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]")
-            echo "$format_pals" >> "$sortie_pals_dumps"
+            echo "$format_pals" >> "$sortie_pals_contextes"
         fi
 
         # ANGLAIS

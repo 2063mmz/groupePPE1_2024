@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# CHECK ARGUMENTS
+## DEFINITION DES ARGUMENTS D'ENTRÉE ##
 if [[ $# -ne 2 ]]
 then
     echo "Il manque exactement deux arguments"
@@ -12,7 +12,7 @@ fi
 dossier=$1
 base=$2
 
-# Language mapping with if statements
+# DEFINTION DE LA LANGUE
 if [[ "$base" == "lang1" ]]
 then
     lang="fr"
@@ -30,7 +30,7 @@ then
     lang="zh"
 fi
 
-# File path handling with if statements
+# DEFINITION DES FICHIERS À TRAITER ET LES SORTIES
 if [[ "$dossier" == "dumps-text" ]]
 then
     fichiers=$(find "../$dossier" -maxdepth 1 -type f -name "${base}-*.txt")
@@ -45,6 +45,8 @@ fi
 echo "<lang=\"$lang\">" > "$sortie_itrameur"
 
 contenu_counter=0
+
+## DEFINITION DE L'AUTOMATISATION DU CONTENU AU FORMAT XML POUR ITRAMEUR ##
 for fichier in $fichiers
 do
     ((contenu_counter++))
@@ -60,5 +62,4 @@ do
     } >> "$sortie_itrameur"
 done
 
-# Close language tag
 echo "</lang>" >> "$sortie_itrameur"

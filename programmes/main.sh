@@ -49,8 +49,8 @@ fi
 # CHINOIS lang4
 if [[ "$base" == "lang4" ]]
 then
-    mot_a_rechercher=""
-    mot_pattern=""
+    mot_a_rechercher="柔"
+    mot_pattern="柔"
     exec > "../tableaux/$base.html"
 fi
 
@@ -85,11 +85,14 @@ do
 
     echo "Traitement de $line" >&2
 
-    entete=$(curl -s -I -L "$line") # HTTP Header Request -> gets the server response. Server response is stored in this variable.
-    code_http=$(echo "$entete" | head -n 1 | cut -d' ' -f2) # extracts the http code
-    if [[ "200" == "$code_http" ]]
+    # entete=$(curl -s -I -L "$line") # HTTP Header Request -> gets the server response. Server response is stored in this variable.
+    # code_http=$(echo "$entete" | head -n 1 | cut -d' ' -f2) # extracts the http code
+    code_http=$(curl -s -I -L -w "%{http_code}" -o /dev/null $line) # extracts the http code
+    # if [[ "200" == "$code_http" ]]
+    if [[ "$code_http" -eq 200 ]]
     then
-        encodage=$(echo "$entete" | grep -i "charset=" | cut -d'=' -f2 | tr '[:lower:]' '[:upper:]')
+        # encodage=$(echo "$entete" | grep -i "charset=" | cut -d'=' -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
+        encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
         aspiration="../aspirations/$base-$count.html"
         contenu_html=$(curl -s -L "$line")
         echo "$contenu_html" > "$aspiration"
@@ -106,11 +109,26 @@ do
         if [[ -z "$encodage" ]]
         then
             echo "Encodage non trouvé pour $line. Continuation..." >&2
+            ((count--))
+            continue
+        elif [[ "$encodage" != "UTF-8" ]]
+        then
+            echo "$contenu_html" | iconv -f "$encodage" -t UTF-8 > "$aspiration"
+            echo "✓ Aspiration sauvegardée pour ligne $count (Encodage converti de $encodage à UTF-8)" >&2
+            encodage="UTF-8"
+        else
+            echo "$contenu_html" > "$aspiration"
+            echo "✓ Aspiration sauvegardée pour ligne $count (Encodage: UTF-8)" >&2
         fi
 
         # DUMP TEXT CONTENT
         dump_text="../dumps-text/$base-$count.txt"
-        contenu_dump=$(lynx -dump -nolist -assume_charset=UTF-8 -display_charset=UTF-8 "$aspiration")
+        if [[ "$base" == "lang4" ]]
+        then
+            contenu_dump=$(lynx -dump -nolist -assume_charset=GB18030 -display_charset=UTF-8 "$aspiration")
+        else
+            contenu_dump=$(lynx -dump -nolist -assume_charset=UTF-8 -display_charset=UTF-8 "$aspiration")
+        fi
 
         # CLEAN DUMP TEXT
         # DEFINITION DU INFO TEXTUELLE QU'ON VEUT SUPRIMMER
@@ -126,7 +144,8 @@ do
 
 
         # OCCURRENCES
-        occurrences=$(echo "$cleaned_contenu_dump" | grep -o -i -E "$mot_pattern" | wc -l)
+        # occurrences=$(echo "$cleaned_contenu_dump" | grep -o -i -E "$mot_pattern" | wc -l)
+        occurrences=$(grep -o -i -E "$mot_pattern" <<< "$cleaned_contenu_dump" | wc -l)
 
         # CONTEXT EXTRACTION
         contexte="../contextes/$base-$count.txt"

@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width;">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>VISY TECHNOLOGY SYSTEMS生产标签印刷机 - RFID新闻中心 - RFID世界网</title>
+    <meta name="keywords" content="RFID,标签,标签印刷机" />
+    <meta name="description" content="VISY TECHNOLOGY SYSTEMS生产标签印刷机" />
+    <script src="https://oss.rfidworld.com.cn/js/jquery.js"></script>
+    <script src="https://oss.rfidworld.com.cn/lib/layui/layui.js"></script>
+    <script src="https://oss.rfidworld.com.cn/lib/layui/layuiconfig.js"></script>
+    <script src="https://oss.rfidworld.com.cn/RFID23/js/RFID.js"></script>
+    <script src="https://oss.rfidworld.com.cn/RFID23/js/RFIDView.js"></script>
+    <script src="https://oss.rfidworld.com.cn/RFID23/js/NewsView.js"></script>
+
+    <link href="https://oss.rfidworld.com.cn/lib/layui/css/layui.css" rel="stylesheet" media="all" />
+    <link href="https://oss.rfidworld.com.cn/RFID23/css/comm.css" rel="stylesheet" />
+    <link href="https://oss.rfidworld.com.cn/RFID23/css/page.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="t-hd">
+    <div class="t-hd-tp">
+        <div class="tw flex-s t-tp-box">
+            <div class="lt"></div>
+            <div class="rt flex">
+                <div class="t-tp-item">
+                    <div class="tp-item-title flex">
+                        <span class="tp-item-bt">物联传媒 旗下网站</span>
+                        <img class="icon dh03" src="https://oss.rfidworld.com.cn/RFID23/Img/right.svg" />
+                    </div>
+                    <div class="tp-item-div dh02" id="OurGroupSites">
+                        <div class="flex tp-item-flex"></div>
+                    </div>
+                </div>
+                <a class="btnTm tm btn topLogin" href="https://user.rfidworld.com.cn/Passport/Login">
+                    <img class="icon" src="https://oss.rfidworld.com.cn/RFID23/Img/login.svg" />
+                    登录
+                </a>
+
+                <a class="btnTm tm topReg" href="https://user.rfidworld.com.cn/Passport/UserReg">
+                    <img class="icon" src="https://oss.rfidworld.com.cn/RFID23/Img/reg.svg" />
+                    注册
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="t-hd-ct">
+        <div class="tw flex-s hd-ct-box">
+            <div class="t-hd-logo flex">
+                <img src="https://oss.rfidworld.com.cn/RFID23/Img/logo.svg">
+            </div>
+            <div class="rt">
+                 <style>
+                    .hd-search-box{margin:0}
+                    .hd-search-box .in-nr{width:calc(100% - 200px);border-color:rgba(var(--zColor),1)}
+                    .hd-search-box .hd-select{border-color:rgba(var(--zColor),1);padding:0 10px;background-color:rgba(var(--zColor),.8);color:white;border-left:0}
+                    .hd-search-box .btnTm{height:42px}
+                    .hd-search-nr{height:42px;width:300px;}
+                    .hd-select{border-color:#ddd;border-right:0;border-width:1px;padding:5px;color:#666}
+                    .hd-ct-box .rt .in-ap{width:500px}
+                </style>
+                <div class="in-ap hd-search-box">
+                    <div class="in-box in-btn">
+                        <input type="text" class="in-nr hd-search-nr" placeholder="请输入要搜索的内容" id="txtRFIDSEARCHKEY">
+                        <select class="hd-select" id="hd-search-type">
+                            <option value="">请选择分类</option>
+                            <option value="news">新闻</option>
+                            <option value="product">产品</option>
+                            <option value="solution">方案</option>
+                            <option value="success">案例</option>
+                        </select>
+                        <button class="btnTm" id="btnRFIDSEARCH">
+                            <img class="icon" src="https://oss.rfidworld.com.cn/RFID23/Img/search.svg">
+                            搜索
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="t-hd-bot">
+        <div class="tw">
+            <nav class="t-hd-menu flex" id="RFIDMainNav">
+                <a href="https://www.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">首页</a>
+                <a href="https://news.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">新闻</a>
+                <a href="https://company.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">企业</a>
+                <a href="https://product.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">产品</a>
+                <a href="https://solution.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">方案</a>
+                <a href="https://success.rfidworld.com.cn/" class="hd-menu-item flex dh02">案例</a>
+                <a href="https://v.rfidworld.com.cn/" class="hd-menu-item flex dh02 layui-hide">视频</a>
+                <a href="https://biz.rfidworld.com.cn/" class="hd-menu-item flex dh02 ">供需</a>
+                <a href="https://biz.rfidworld.com.cn/TenderList.aspx" class="hd-menu-item flex dh02 ">招标</a>
+                <a href="https://job.rfidworld.com.cn/" class="hd-menu-item flex dh02 layui-hide">招聘</a>
+                <a href="https://www.iotworld.com.cn/AIOT.aspx" class="hd-menu-item flex dh02 " target="_blank" rel="nofollow">AIoT星图研究院</a>
+                <a href="https://vote.iotworld.com.cn/" class="hd-menu-item flex dh02" target="_blank" rel="nofollow">物联之星</a>
+                <a href="https://www.sziota.com/" class="hd-menu-item flex dh02" target="_blank" rel="nofollow">深圳物联网产业协会</a>
+                <a href="https://www.iotexpo.com.cn/" class="hd-menu-item flex dh02" target="_blank" rel="nofollow">IOTE物联网展</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+    <div class="tw">
+        <div class="RFIDAdContainer" data-id="RFIDListBanner"></div>
+
+        <div class="p-content flex mt-15">
+            <div class="lt">
+                <div class="content">
+                    <div class="span-box flex-s">
+                        <span class="span1">
+                            <a href="http://www.rfidworld.com.cn/">RFID世界网</a>&nbsp;&gt;&nbsp;
+                            <a href="http://www.rfidworld.com.cn/news/">新闻中心</a> &nbsp;&gt;&nbsp;
+                            <a href="http://www.rfidworld.com.cn/news/list-0-4-1.aspx">新品发布</a> &nbsp;&gt;&nbsp;
+                            正文
+                        </span>
+                    </div>
+                    <h1 class="content-title">VISY TECHNOLOGY SYSTEMS生产标签印刷机</h1>
+                    <div class="ct-bs flex">
+                        <div class="zz">作者：标签与贴标</div>
+                        <div class="ly">来源：来源网络(侵权删)</div>
+                        <div class="rq">日期：2011-08-26 09:37:49</div>
+                    </div>
+
+                    <div class="icon-tips flex">
+                        <iframe width="125" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&amp;width=136&amp;height=24&amp;uid=2473914700&amp;style=2&amp;btn=red&amp;dpc=1"></iframe>
+                    </div>
+                    <div class="p-zy mt-10">摘要：VISY TECHNOLOGY SYSTEMS生产标签印刷机</div>
+                    <div class="p-zy mt-10"><span class="s1">关键词：</span><span class="s2"><a href="https://www.rfidworld.com.cn/kw/news-11118" target="_blank">RFID</a></span><span class="s2"><a href="https://www.rfidworld.com.cn/kw/news-18372" target="_blank">标签</a></span><span class="s2"><a href="https://www.rfidworld.com.cn/kw/news-18484" target="_blank">标签印刷机</a></span></div>
+
+                    <div class="nr"><P align=center><IMG src="http://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/401a683957170821ead.jpg" onload="javascript:if(this.width>620)this.style.width=620;" border=0></P>
+<P>　　这款被称为Mikoh四色可变数据喷墨印刷机的设备，同时具备几种可选的配置：如扇形折页、模切、覆膜、可变数据印刷加工等。该设备的机架来源于澳大利亚印刷设备制造商Rotary Engineering开发的Rotomag柔印机。合作伙伴表示：新机器适用于短版可变数据标签的印刷以及其他之前采用柔印的包装印刷。该设备无需使用经过预处理的承印材料，采用Xaar 1001喷墨头，可以使用多家厂商的墨水。这款设备的标准配置可以在卷筒纸幅宽250mm的材料上印刷出宽度达210mm的图像，最高速度为每分钟25米。</P></div>
+                    <div class="RFIDAdContainer" data-id="RFIDViewBottom"></div>
+                </div>
+
+                <div class="ct-ft">
+                    <div class="flex p-ft-menu">
+                        
+                        <a class="lt flex" href="https://www.rfidworld.com.cn/news/2011_08_68912f5faf452c27.html">上一篇：PRESTO智能卡在手 方便快捷</a>
+                        
+                        
+                        <a class="rt flex" href="https://www.rfidworld.com.cn/news/2011_08_9c127daea0c1b018.html">下一篇：社保“一卡通”引网友关注 原系福建省首发</a>
+                        
+                    </div>
+                    
+                    <div class="p-box">
+                        <div class="p-box-hd flex-s ">
+                            <div class="lt">相关新闻</div>
+                        </div>
+                        <div class="p-box-ct">
+                            <ul class="img-text2-ul">
+                                
+                                <li class="img-item2-item flex-s">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_68912f5faf452c27.html" class="flex-s">
+                                        <div class="title">PRESTO智能卡在手 方便快捷</div>
+                                        <div class="date">08/26</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="img-item2-item flex-s">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_6e7e79c38a155027.html" class="flex-s">
+                                        <div class="title">“智能”的标签岂能随便贴</div>
+                                        <div class="date">08/26</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="img-item2-item flex-s">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_20c5b1df46335198.html" class="flex-s">
+                                        <div class="title">用“城市通”卡能交手机费了</div>
+                                        <div class="date">08/26</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="img-item2-item flex-s">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_7cbaede1186c9fe8.html" class="flex-s">
+                                        <div class="title">大富科技购华阳微电子涉足物联网</div>
+                                        <div class="date">08/26</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="img-item2-item flex-s">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_16fec071c73e0302.html" class="flex-s">
+                                        <div class="title">江苏高速年底实现ETC全覆盖</div>
+                                        <div class="date">08/26</div>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="p-box">
+                        <div class="p-box-hd flex-s "><div class="lt">图片新闻</div></div>
+                        <div class="p-box-ct p-ft-box">
+                            <ul class="img-text2-ul flex-5 flex">
+                                
+                                <li class="flex-li">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_68912f5faf452c27.html" target="_blank">
+                                        <div class="img-box flex">
+                                            <img src="http://www.yktchina.com/userfiles/0826-1.jpg">
+                                        </div>
+                                        <div class="title">PRESTO智能卡在手 方便快捷</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="flex-li">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_edca960657b12273.html" target="_blank">
+                                        <div class="img-box flex">
+                                            <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/94844e516138dbf9f62.jpg">
+                                        </div>
+                                        <div class="title">张建宁：“海阔天空”的物联网必须脚踏实地</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="flex-li">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_87e029adaf538d2f.html" target="_blank">
+                                        <div class="img-box flex">
+                                            <img src="http://www.yktchina.com/userfiles/ce6rij9ief9nm.jpg">
+                                        </div>
+                                        <div class="title">楼宇对讲联网集成多种功能是其发展方向</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="flex-li">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_25292cb8a732cce2.html" target="_blank">
+                                        <div class="img-box flex">
+                                            <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/92460d6de49dcc1f738.jpg">
+                                        </div>
+                                        <div class="title">墨西哥人植入RFID追踪芯片求自保</div>
+                                    </a>
+                                </li>
+                                
+                                <li class="flex-li">
+                                    <a href="https://www.rfidworld.com.cn/news/2011_08_6e4476cabf9578d0.html" target="_blank">
+                                        <div class="img-box flex">
+                                            <img src="http://www.yktchina.com/userfiles/2011082408534551.jpg">
+                                        </div>
+                                        <div class="title">“品牌万里行”系列活动之走进广州科密科技</div>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="rt">
+                <div class="RFIDAdContainer" data-id="RFIDViewRTop"></div>
+
+                <div class="p-box">
+                    <div class="p-box-hd flex-s"><div class="lt">热点专题</div><div class="rt"><a href="http://www.rfidworld.com.cn/RFIDZT/">更多</a></div></div>
+                    <div class="p-box-ct">
+                        <ul class="img-text2-ul" id="RFIDULHotZTList">
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.iotexpo.com.cn/sh/NewsView-52ab74de-5a76-4685-9e32-d6565071386c" class="flex-s">
+                                    <div class="title">IOTE 2022 上海RFID无源物联网技术与应用高峰论坛</div>
+                                    <div class="date">08/19</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/rfidzt/html/rfidbbs2021sh.html" class="flex-s">
+                                    <div class="title">IOTE·2021第十八届RFID世界大会</div>
+                                    <div class="date">05/18</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.iotworld.com.cn/htmlzt/5g2021sh.html" class="flex-s">
+                                    <div class="title">会议专题 | IOTE·2021年度5G物联网产业生态大会</div>
+                                    <div class="date">05/18</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.iotworld.com.cn/html/IOTZT/2021shceo.html" class="flex-s">
+                                    <div class="title">2021中国物联网CEO大会暨“物联之星”颁奖典礼</div>
+                                    <div class="date">05/18</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.iotworld.com.cn/html/IOTZT/industry2021sh.html" class="flex-s">
+                                    <div class="title">会议专题 | IOTE·2021上海国际工业物联网应用高峰论坛</div>
+                                    <div class="date">05/18</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-box mt-15">
+                    <div class="p-box-hd flex-s"><div class="lt">人物访谈</div><div class="rt"><a href="http://www.rfidworld.com.cn/news/list-0-6-1.aspx">更多</a></div></div>
+                    <div class="p-box-ct">
+                        <ul class="img-text1-ul">
+                            
+                            <li class="img-text1-item flex">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_edca960657b12273.html" target="_blank" class="flex">
+                                    <div class="img-main flex"><img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/94844e516138dbf9f62.jpg"></div>
+                                    <div class="text">关村物联网产业联盟秘书长张建宁做客互联网大会现场光明网访谈间。</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-text1-item flex">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_5c752cf167baffbb.html" target="_blank" class="flex">
+                                    <div class="img-main flex"><img src="http://www.yktchina.com/userfiles/88a4e424970022a7.jpg"></div>
+                                    <div class="text">每个人在生活当中都会接触到身份认证，最常见的就是用钥匙开门，在互联网世界中，身份认证也有着广泛的应用，如登录论坛、在线购物、网银转账等等。大多数时候，我们使用用户名/密码的方式就完成了身份认证，并获得访问权限，然而在一些对安全性要求较高的场合，用户名/密码方式就无法满足需要了，这个时候，就需要使用智能身份认证了。”刘玉峰在介绍身份认证时这样说。</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-text1-item flex">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_3b66e48c2038cec5.html" target="_blank" class="flex">
+                                    <div class="img-main flex"><img src="http://www.yktchina.com/userfiles/2011081511213392.jpg"></div>
+                                    <div class="text">在世界上最大和要求最苛刻的智能卡项目上，在安全领域，是谁默默的、辛勤耕耘25载，取得了诸多技术创新却依然不辍钻研?是谁连续14年始终保持着智能卡和安全芯片市场头号供应商的地位?“天将降大任于斯人”本是对个人而言的千古励志名句，但从对英飞凌科技亚太区副总裁兼职智能卡与安全部负责人吴世耀先生的采访中，我们却着实看到了一个企业在成长与发展中的“天将降大任于斯人”。在本期，让我们一同跟随吴先生了解更多有关英飞凌发展的理念与点滴……</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-text1-item flex">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_b2be4ecd93225d99.html" target="_blank" class="flex">
+                                    <div class="img-main flex"><img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/69ddb78c89a7eca27f.jpg"></div>
+                                    <div class="text">作为2010中国RFID行业十大最有影响力国际品牌之一，ATID这个名字对业界人士而言绝不陌生。它是韩国知名的移动数据采集终端的生产厂家，品牌自成立之初就着眼于高品质移动终端产品，以通过开发工业用移动终端的整套解决方案和产品来给客户创造价值为公司使命。</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-box mt-15">
+                    <div class="p-box-hd flex-s"><div class="lt">最新发布产品</div><div class="rt"><a href="http://www.rfidworld.com.cn/product/">更多</a></div></div>
+                    <div class="p-box-ct">
+                        <ul class="flex flex-2 flex-li-103">
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_f73b5daf65098bd9.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/25223849542698111855.jpg">
+                                    </div>
+                                    <div class="title">武汉消费机*IC卡消费机</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_9672a9fa180f394c.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/252235548232012643656.jpg">
+                                    </div>
+                                    <div class="title">武汉停车场*停车场系统</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_423cef4eb5f666a7.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/25153830229856851764.jpg">
+                                    </div>
+                                    <div class="title">水控一体机成功面市</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_b60395c454c52ab3.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/251534332172075067574.jpg">
+                                    </div>
+                                    <div class="title">供应苏州RFID电子标签XC-TF8116-C06</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_88fee8e80f087ae1.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/251532385931242115728.jpg">
+                                    </div>
+                                    <div class="title">供应苏州RFID电子标签XCTF-8500型</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_ba2c7965f71bcf72.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/25145732964953167755.jpg">
+                                    </div>
+                                    <div class="title">M3T UHF台式读写器/发卡器</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_256a264633481406.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/251425273171786119601.jpg">
+                                    </div>
+                                    <div class="title">Mecury6 UHF 固定读写器</div>
+                                </a>
+                            </li>
+                            
+                            <li class="flex-li">
+                                <a href="https://www.rfidworld.com.cn/product/2011_08_f572ab487d4cd366.html">
+                                    <div class="img-box flex">
+                                        <img src="https://images.rfidworld.com.cn/FileUpLoadSavePath/2011-08/251427525961916327665.jpg">
+                                    </div>
+                                    <div class="title">SLM-088E门禁一体机</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-box mt-15">
+                    <div class="p-box-hd flex-s"><div class="lt">推荐新闻</div><div class="rt"><a href="http://www.rfidworld.com.cn/news/">更多</a></div></div>
+                    <div class="p-box-ct">
+                        <ul class="img-text2-ul">
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_084f62f98eec2835.html" class="flex-s">
+                                    <div class="title">北京将推停车诱导系统和电子计时收费</div>
+                                    <div class="date">08/26</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_02280988e2ae14fc.html" class="flex-s">
+                                    <div class="title">物联网之春宣言五大看点</div>
+                                    <div class="date">08/26</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_8a1500217beb4a87.html" class="flex-s">
+                                    <div class="title">RFID Sensor Systems 推出高性能 EPC Gen 2 无源金属壳使用的标签</div>
+                                    <div class="date">08/26</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_ab67fa1c03358fb1.html" class="flex-s">
+                                    <div class="title">2011第六届粤港射频识别（RFID）技术应用高峰论坛邀请函</div>
+                                    <div class="date">08/25</div>
+                                </a>
+                            </li>
+                            
+                            <li class="img-item2-item flex-s">
+                                <a href="https://www.rfidworld.com.cn/news/2011_08_aa90760fcb5c46bd.html" class="flex-s">
+                                    <div class="title">社保卡将成"全能卡" 逐步拓展到民政计生等领域</div>
+                                    <div class="date">08/25</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="hdnId" id="hdnId" value="41165" />
+    <input type="hidden" name="hdnUID" id="hdnUID" value="0" />
+    <input type="hidden" name="hdnTitle" id="hdnTitle" value="VISY TECHNOLOGY SYSTEMS生产标签印刷机" />
+    <input type="hidden" name="hdnChanel" id="hdnChanel" value="News" />
+    <footer class="footer t-ft">
+    <div class="tw">
+        <div style="text-align:center;">
+            <p>
+                RFID世界网联系电话：0755-86227155（客服） 传真：0755-86227110 E-mail:cjh@ulinkmedia.cn 宣传报道、广告投放：18676385933 
+            </p>
+            <p>
+                会员客服：<a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=1437525885&amp;site=qq&amp;menu=yes"><img border="0" src="https://oss.rfidworld.com.cn/RFID23/Img/qqChat.gif" alt="点击这里给我发消息"></a>
+                广告投放：<a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=874031152&amp;site=qq&amp;menu=yes"><img border="0" src="https://oss.rfidworld.com.cn/RFID23/Img/qqChat.gif" alt="点击这里给我发消息"></a>
+            </p>
+            <p>
+                版权所有 &copy; 深圳市物联传媒有限公司 RFID世界网|RFID|电子标签
+                <a href="https://beian.miit.gov.cn/" rel="nofllow" target="_blank">粤ICP05006090号</a>
+                <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001434" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" rel="nofollow">粤公网安备 44030502001434号</a>
+            </p>
+            <p>Copyright 2005-<span id="SPANCOPYRIGHTYEAR">2023</span> www.rfidworld.com.cn All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

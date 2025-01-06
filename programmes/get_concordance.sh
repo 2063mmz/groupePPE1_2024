@@ -58,6 +58,14 @@ do
         droit=""
     fi
 
+    # CHINOIS
+    if [[ "$base" == "lang4" ]]
+    then
+        gauche=$(echo "$line" | sed -E "s/(.*)(${mot_a_rechercher})(.*)/\1/")
+        milieu=$(echo "$line" | sed -E "s/(.*)(${mot_a_rechercher})(.*)/\2/")
+        droit=$(echo "$line" | sed -E "s/(.*)(${mot_a_rechercher})(.*)/\3/")
+    fi
+
     echo "                <tr>
                     <td>$gauche</td>
                     <td>$milieu</td>

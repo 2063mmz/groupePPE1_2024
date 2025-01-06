@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>新闻网</title>
+    
+<link rel="stylesheet" href="../css/swiper.min.css">
+<link rel="stylesheet" href="../css/baguetteBox.min.css">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/style_2019.css?v=1004">
+<script src="../js/jquery-2.1.4.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../js/bootstrap.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/baguetteBox.min.js"></script></head>
+<!-- 头部开始 -->
+    
+<div class="container-fluid head">
+    <!-- PC端导航 -->
+    <div class="container hidden-xs">
+        <!-- 搜索 -->
+        <div class="row">
+            <div class="col-xs-6">
+                <a href="../index.htm" class="logo-w">                    
+                    <img src="../images/logo.png" alt="北京建筑大学">
+                    <div class="logo-name">NEWS 新闻网</div>                    
+                </a>
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-7">
+			<form name="dataForm" class="search" action="/cms/web/search/index.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                <input name="siteID" value="9" type ="hidden"> 
+                <div class="input-group search-box">
+                    <input  class="form-control" placeholder="Search for..." value="" name="query" type="text" id="keywords" onFocus="if(value==defaultValue){value='';}" onBlur="if(!value){value=defaultValue;}" onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#444'}">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" name="Submit" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
+                    </div>
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-4 text-center top-links"><a  class="btn btn-default" href="http://www.bucea.edu.cn/"><strong>学校主页</strong></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8">
+                <!-- 导航 -->
+                <div class="row nav-w">
+                    <div class="col-xs-6">
+                        <a href="#" class="nav-title pull-left">
+                            资讯
+                        </a>
+                        <div class="nav-bd text-center">
+                            <div><a href="../ttxw/index.htm">头条新闻</a> | <a href="../xxyw/index.htm">综合新闻</a> | <a href="../llxx/index.htm">理论学习</a></div>
+                            <div><a href="../mtkjy/index.htm">媒体建大</a> | <a href="../jdgs/index.htm">建大故事</a> | <a href="../dzcc/index.htm">电子橱窗</a> </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#" class="nav-title pull-left">
+                            视觉
+                        </a>
+                        <div class="nav-bd text-center">
+                            <div><a href="../xygy/index.htm">光影建大</a><br><a href="../xdst/index.htm">视觉建大</a></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#" class="nav-title pull-left">
+                            平台
+                        </a>
+                        <div class="nav-bd text-center">
+                            <div><a href="../jyxb/index.htm">北建大校报</a><br><a href="http://zsyst.bucea.edu.cn/">筑实艺术厅</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /PC端导航 -->
+    <!-- 移动端导航 -->
+    <div class="container hidden-sm hidden-md hidden-lg">
+        <div class="row m-nav">
+            <div class="col-xs-8">
+                <div class="logo-m"><a href="../index.htm"><img src="../images/logo-white.png" width="100%" alt="北京建筑大学"></a></div>
+            </div>
+            <div class="col-xs-4">
+                <div class="btn-group">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+        <li><a href="../ttxw/index.htm" title="头条新闻">头条新闻</a></li>
+        <li><a href="../xxyw/index.htm" title="综合新闻">综合新闻</a></li>
+        <li><a href="../llxx/index.htm" title="理论学习">理论学习</a></li>
+        <li><a href="../mtkjy/index.htm" title="媒体建大">媒体建大</a></li>
+        <li><a href="../jdgs/index.htm" title="建大故事">建大故事</a></li>
+        <li><a href="../xygy/index.htm" title="光影建大">光影建大</a></li>
+        <li><a href="../xdst/index.htm" title="视觉建大">视觉建大</a></li>
+        <li><a href="../jyxb/index.htm" title="北建大校报">北建大校报</a></li>
+        <li><a href="../dzcc/index.htm" title="电子橱窗">电子橱窗</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- /移动端导航 -->
+</div>    <!-- 头部结束 -->
+
+    <!-- 主体开始 -->
+    <div class="container">
+        <ol class="breadcrumb">
+            
+<li>
+    <a href="../index.htm">
+        <span class="glyphicon glyphicon-home cl-zi"></span>
+    </a>
+</li>
+
+<li><a href="index.htm">投稿平台</a></li>        </ol>
+        <div class="row">
+            <!-- 左侧 -->
+            <div class="col-xs-12 col-md-8">
+                <div class="page-list__left bg-fff">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">建大新闻</h3>                            
+                        </div>
+                        <div class="panel-body">
+                                <h2 class="detail-title">我校举行第三十六届田径运动会暨第十六届教职工运动会 </h2>
+                                                                <p>
+                                    <small>
+                                    	                                   	
+                                                                                    <span class="glyphicon glyphicon-object-align-horizontal cl-zi"></span>部门：
+                                                                                                                                                                                                        <span class="glyphicon glyphicon-time cl-zi"></span> 发布时间：2017-04-21
+                                        <span class="glyphicon glyphicon-eye-open cl-zi"></span> 阅读次数： <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=102314
+"></script></script>
+                                    </small>
+                                </p>
+                                <p>字号大小                                     
+                                    <button class="btn btn-default js-font-size" type="button" data-size="22px" onclick="Tomax();">大</button> 
+                                    <button class="btn btn-default js-font-size" type="button" data-size="18px" onclick="Tomiddle();">中</button> 
+                                    <button class="btn btn-default js-font-size" type="button" data-size="14px" onclick="Tomin();">小</button> 
+                                </p>
+                                <hr>
+                                <div class="m-content" id="art">
+                                        <p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421174412601025_1.JPG')" src="/pub/xww/images/content/2017-04/20170421174412601025.JPG" style="height:400px; width:600px" /></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4月14日，我校第三十六届田径运动会暨第十六届教职工运动会在大兴校区田径场隆重举行。校领导何志洪、汪苏、李维平、张大玉、李爱群出席了运动会开幕式，体育部主任杨慈洲主持开幕式，副校长李爱群致开幕词，纪委书记何志洪宣布运动会开幕。</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421191611098390_1.jpg')" src="/pub/xww/images/content/2017-04/20170421191611098390.jpg" style="height:321px; width:500px" /></p>
+
+<p style="text-align: center">体育部主任杨慈洲主持开幕式</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421191552825251_1.jpg')" src="/pub/xww/images/content/2017-04/20170421191552825251.jpg" style="height:323px; width:500px" /></p>
+
+<p style="text-align: center">副校长李爱群致开幕词</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421191514856166_1.jpg')" src="/pub/xww/images/content/2017-04/20170421191514856166.jpg" style="height:333px; width:500px" /></p>
+
+<p style="text-align: center">纪委书记何志洪宣布运动会开幕</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;<img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421191657890465_1.jpg')" src="/pub/xww/images/content/2017-04/20170421191657890465.jpg" style="height:322px; width:500px" /></p>
+
+<p style="text-align: center">裁判员代表宣誓</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421191713672579_1.jpg')" src="/pub/xww/images/content/2017-04/20170421191713672579.jpg" style="height:313px; width:500px" /></p>
+
+<p style="text-align: center">运动员代表宣誓</p>
+
+<p>&nbsp;</p>
+
+<p>　　开幕式上，各组方阵整齐划一，在学校国旗护卫队队员的引领下，迈着矫健的步伐踏入运动场，建大人用自信和阳光展示着健康向上的精神风貌。团体太极拳和太极扇的表演场面壮大，气势恢宏，一柔一刚、一静一动之间，彰显出内敛与刚毅的完美融合。在传统田径项目的赛场上，青春的活力向着更高、更快、更强的目标释放激情；团体项目中，欢声笑语记录下集体协作达成比赛目标的喜悦；趣味运动进行时，丰富精彩的项目让人不禁想要参与其中，感受别样运动带来的趣味体验。</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421173608050643_1.JPG')" src="/pub/xww/images/content/2017-04/20170421173608050643.JPG" style="height:400px; width:600px" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421174004792992_1.jpg')" src="/pub/xww/images/content/2017-04/20170421174004792992.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p>　　比赛环节分为两个部分，在3月28日下午举行了师生环校园长跑比赛，共有近200学生和400余名教职工参加。4月14日全天比赛，共有9个学院、国际教育学院在内的10支队伍，累计500名学生运动员参加了学生比赛项目，来自全校14个分工会的600余名教职工参与了三个集体及十个个人比赛项目。比赛现场十分热烈，师生们挥洒汗水、释放激情，欢呼声、呐喊声此起彼伏，运动员们凭着顽强的斗志和进取的精神，团结拼搏、赛出友谊、赛出水平，取得了骄人成绩，展现出北建大生机勃勃的校园体育活力。在比赛中过程中校领导和院部领导为每个项目的前三名运动员颁奖。这也成为比赛的一个亮点。在所有项目结束后，团委书记朱静主持了闭幕式，党委书记王建中、纪委书记何志洪、副校长汪苏和部分处级领导为获奖集体颁奖，运动会取得了圆满成功。</p>
+
+<p>　　</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421173730701874_1.jpg')" src="/pub/xww/images/content/2017-04/20170421173730701874.jpg" /></p>
+
+<p>　　</p>
+
+<p>　　学生团体成绩：</p>
+
+<p>　　1、男女团体总分：第一名土木学院；第二名经管学院；第三名机电学院</p>
+
+<p>　　2、男子团体成绩：第一名土木学院；第二名机电学院；第三名经管学院</p>
+
+<p>　　3、女子团体成绩：第一名经管学院；第二名测绘学院；第三名土木学院</p>
+
+<p>　</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421180550311723_1.JPG')" src="/pub/xww/images/content/2017-04/20170421180550311723.JPG" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421180539096626_1.JPG')" src="/pub/xww/images/content/2017-04/20170421180539096626.JPG" style="height:400px; width:600px" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421180825767865_1.jpg')" src="/pub/xww/images/content/2017-04/20170421180825767865.jpg" style="height:200px; width:620px" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p>　　教职工集体项目成绩：</p>
+
+<p>　　1、跳长绳：第一名理学院；第二名建筑学院；第三名机关2队</p>
+
+<p>　　2、踢毽子：第一名理学院；第二名电信学院；第三名环能学院</p>
+
+<p>　　3、4*100米男女混合接力：第一名机关1队；第二名机关2队；第三名测绘学院</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421180000621378_1.jpg')" src="/pub/xww/images/content/2017-04/20170421180000621378.jpg" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><img alt="" onclick="window.open('/pub/xww/images/content/2017-04/20170421180053461425_1.jpg')" src="/pub/xww/images/content/2017-04/20170421181725340090.jpg" /></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: right">&nbsp;编辑：高蕾</p>
+ <br>
+                                                                        </div>
+                                <br>
+                                <br>
+      								       
+       							                                 
+                                <br>
+                                <nav aria-label="...">
+                   <!--                 <ul class="pager">
+123
+                                    </ul>    -->
+                                </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            
+<div class="col-xs-12 col-md-4 hidden-xs">
+    <div class="page-list__right">
+                <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading"><span class="glyphicon glyphicon-th cl-zi"></span> 最新新闻</div>
+            
+            <!-- List group -->
+            <ul class="list-group">
+<a href="132dd61005834e12b305876d0ab876d4.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             【战“疫”/教与学】内容回归思考  方式知行合一 ——校督导眼中的优质线上课程 
+    </a>
+<a href="e591526497814099b0125a672445d066.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             “艺术与阅读”高校图书馆线上讲堂：《城市·建筑与阅读》 
+    </a>
+<a href="261cb470514b47dea2acc8b9920c668a.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             研山讲坛|李翔宁：展览作为当代建筑文化的推进器 
+    </a>
+<a href="f03fc28eed994a82a5767e58253aae5e.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             研山讲坛|赵扬：场地策略与生活方式 
+    </a>
+<a href="483cec267479439dbdda22743c837e11.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             学校召开2020年“五·四达标创优”十佳答辩会 
+    </a>
+<a href="79f06deb701d4f05a41c2546e9b27609.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             朗朗读书声 浸润在“云端” 
+    </a>
+<a href="0346faf62b9e4c7db6a38d25c10137c0.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             文化讲座：北京皇城轶事——带你北京皇城走一遭.docx 
+    </a>
+<a href="dfa003a318eb4f7f854c0915659efa0a.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             北京建筑大学第十四届“开卷·众志”读书活动线上开幕 
+    </a>
+<a href="00c74b70b85e4b12b8af22104e81b410.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             土木学院开展“就业一帮一”主题党日活动 
+    </a>
+<a href="5e2e1094021b4237ad34530ac3bcd6a0.htm" title="$channel.title" class="list-group-item txt-hide" target="_blank">
+	<span class="glyphicon glyphicon-menu-right pull-right"></span>             土木学院召开党建工作例会 
+    </a>
+            </ul>
+        </div>
+                <!--<div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="glyphicon glyphicon-list cl-zi"></span> 热点新闻</h3>
+            </div>
+            
+            <div class="list-group">
+                                <a href="155563.htm" class="list-group-item txt-hide" target="_blank">◆ 大兴区委副书记霍光峰一行来学校调研</a>
+                                <a href="155820.htm" class="list-group-item txt-hide" target="_blank">◆ 【战“疫”/教与学】“讲、析、练”三位一体，创新演绎在线思政课 ——校督导眼中的优质线上课程</a>
+                                <a href="155862.htm" class="list-group-item txt-hide" target="_blank">◆ 我校图书馆与中国建筑图书馆联合发布2019年度热门图书排行榜</a>
+                                <a href="155865.htm" class="list-group-item txt-hide" target="_blank">◆ 宅家战“疫”，EBSCO 4月下旬网络课程推送</a>
+                                <a href="155761.htm" class="list-group-item txt-hide" target="_blank">◆ 西城区委常委、常务副区长喻华锋一行来学校调研</a>
+                            </div>
+        </div>-->
+                           <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-align-left cl-zi"></span> 热点新闻</h3>
+                        </div>                        
+                        <div class="panel-body hot-list">
+                        	
+                 
+																										                      	
+																												
+																		
+		                            <div class="media">
+		                                <div class="media-left">
+		                                    <span class="hot-num hot-num-1">1</span>
+		                                </div>
+		                                <div class="media-body">
+		                                    <h4 class="media-heading"><a href="155563.htm">            大兴区委副书记霍光峰一行来学校调研 
+    </a></h4>
+		                            <!--        <p class="small">让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻</p>   -->
+		                                    <div class="u-date"><span class="icon-time glyphicon glyphicon-time"></span> 2018-03-26 <span class="glyphicon glyphicon-eye-open cl-zi"></span> <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=22f6d29fc6f24e2990335c255c642663"></script>次</div>
+		                                </div>
+		                            </div>            
+		                            
+																												
+																		
+		                            <div class="media">
+		                                <div class="media-left">
+		                                    <span class="hot-num hot-num-2">2</span>
+		                                </div>
+		                                <div class="media-body">
+		                                    <h4 class="media-heading"><a href="155820.htm">            【战“疫”/教与学】“讲、析、练”三位一... 
+    </a></h4>
+		                            <!--        <p class="small">让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻</p>   -->
+		                                    <div class="u-date"><span class="icon-time glyphicon glyphicon-time"></span> 2018-03-26 <span class="glyphicon glyphicon-eye-open cl-zi"></span> <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=6bb717605f0a4915ae3743c921ec8c7c"></script>次</div>
+		                                </div>
+		                            </div>            
+		                            
+																												
+																		
+		                            <div class="media">
+		                                <div class="media-left">
+		                                    <span class="hot-num hot-num-3">3</span>
+		                                </div>
+		                                <div class="media-body">
+		                                    <h4 class="media-heading"><a href="155862.htm">            我校图书馆与中国建筑图书馆联合发布201... 
+    </a></h4>
+		                            <!--        <p class="small">让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻</p>   -->
+		                                    <div class="u-date"><span class="icon-time glyphicon glyphicon-time"></span> 2018-03-26 <span class="glyphicon glyphicon-eye-open cl-zi"></span> <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=07a8566c4d254d59808fc504c0d83941"></script>次</div>
+		                                </div>
+		                            </div>            
+		                            
+																												
+																		
+		                            <div class="media">
+		                                <div class="media-left">
+		                                    <span class="hot-num hot-num-4">4</span>
+		                                </div>
+		                                <div class="media-body">
+		                                    <h4 class="media-heading"><a href="155865.htm">            宅家战“疫”，EBSCO 4月下旬网络课... 
+    </a></h4>
+		                            <!--        <p class="small">让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻</p>   -->
+		                                    <div class="u-date"><span class="icon-time glyphicon glyphicon-time"></span> 2018-03-26 <span class="glyphicon glyphicon-eye-open cl-zi"></span> <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=215dcf0acab34797b81ab1b69fe3c762"></script>次</div>
+		                                </div>
+		                            </div>            
+		                            
+																												
+																		
+		                            <div class="media">
+		                                <div class="media-left">
+		                                    <span class="hot-num hot-num-5">5</span>
+		                                </div>
+		                                <div class="media-body">
+		                                    <h4 class="media-heading"><a href="155761.htm">            西城区委常委、常务副区长喻华锋一行来学校... 
+    </a></h4>
+		                            <!--        <p class="small">让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻让城市的“生命线”畅通无阻</p>   -->
+		                                    <div class="u-date"><span class="icon-time glyphicon glyphicon-time"></span> 2018-03-26 <span class="glyphicon glyphicon-eye-open cl-zi"></span> <script src="/cms/web/writeLog.jsp?siteID=9&channelID=5110&contentID=d843a011c0004051847849f365f6ce60"></script>次</div>
+		                                </div>
+		                            </div>            
+		                            
+														
+                        </div>
+                    </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="glyphicon glyphicon-list cl-zi"></span> 建大故事</h3>
+            </div>
+            
+            <div class="panel-body">
+                <div class="row">
+                                                            <div class="col-xs-12">
+                        <a href="154261.htm" class="thumbnail" target="_blank"> 	
+                        <img src="../images/content/2020-03/20200327171411460481.jpg" alt="【博导风采】土木工程学科：王随林" />                      
+                        <h4 class="txt-hide ">【博导风采】土木工程学科：王随林</h4>
+                        </a>
+                    </div>
+                                                                                          <div class="col-xs-12">
+                        <a href="153825.htm" class="thumbnail" target="_blank"> 	
+                        <img src="../images/content/2020-03/20200326161843214470.jpg" alt="【博导风采】土木工程学科：李俊奇" />                      
+                        <h4 class="txt-hide ">【博导风采】土木工程学科：李俊奇</h4>
+                        </a>
+                    </div>
+                                                                                          <div class="col-xs-12">
+                        <a href="153826.htm" class="thumbnail" target="_blank"> 	
+                        <img src="../images/content/2020-03/20200326161716416303.jpg" alt="【博导风采】土木工程学科：高大文" />                      
+                        <h4 class="txt-hide ">【博导风采】土木工程学科：高大文</h4>
+                        </a>
+                    </div>
+                                                                                          <div class="col-xs-12">
+                        <a href="153529.htm" class="thumbnail" target="_blank"> 	
+                        <img src="../images/content/2020-03/20200325095259578803.jpg" alt="【博导风采】土木工程学科：郝晓地" />                      
+                        <h4 class="txt-hide ">【博导风采】土木工程学科：郝晓地</h4>
+                        </a>
+                    </div>
+                                                                                          <div class="col-xs-12">
+                        <a href="153528.htm" class="thumbnail" target="_blank"> 	
+                        <img src="../images/content/2020-03/20200325095203196748.jpg" alt="【博导风采】土木工程学科：王崇臣" />                      
+                        <h4 class="txt-hide ">【博导风采】土木工程学科：王崇臣</h4>
+                        </a>
+                    </div>
+                                                                  </div>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+    </div>
+
+    <!-- 底部开始 -->
+    
+<div class="container-fluid foot">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 hidden-xs">
+                <img src="../images/logo2.png" class="logo2" width="125" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6">
+                    <dl class="foot-address">
+                        <dt>北京建筑大学</dt>
+                        <dd>西城校区地址：北京市西城区展览馆路1号               邮编100044 </dd>
+                        <dd>大兴校区地址：北京市大兴区黄村镇永源路15号       邮编102616</dd>
+                        <dd>京ICP备案：09079300  文保网安备案：1101020003  版权所有 ：北京建筑大学</dd>
+                    </dl>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center">
+                <span class="qr_item">
+                    <img src="../images/qr_1.png" alt=""><br>
+                    微博账号
+                </span> 
+                <span class="qr_item">
+                    <img src="../images/qr_2.png" alt=""><br>
+                    微信公众号
+                </span>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+<script src="../js/main.js"></script>    <!-- 底部结束 -->
+    <script>
+            var aAaa = document.getElementById('art');
+            var aBb = aAaa.getElementsByTagName('*');
+    
+            function Tomax() {
+                for (var i = 0; i < aBb.length; i++) {
+                    if (aBb[i].nodeType === 1) {
+                        aBb[i].style.fontSize = '20px';
+                    }
+                }
+                aAaa.style.fontSize = '20px';
+            }
+    
+            function Tomiddle() {
+                for (var i = 0; i < aBb.length; i++) {
+                    if (aBb[i].nodeType === 1) {
+                        aBb[i].style.fontSize = '16px';
+                    }
+                }
+                aAaa.style.fontSize = '16px';
+            }
+    
+            function Tomin() {
+                for (var i = 0; i < aBb.length; i++) {
+                    if (aBb[i].nodeType === 1) {
+                        aBb[i].style.fontSize = '12px';
+                    }
+                }
+                aAaa.style.fontSize = '12px';
+            }
+        </script>
+    <script src="/cms/web/writeLog.jsp?articleID=$curArticle.ID"></script>
+</body></html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="baidu-tc-verification" content="158efe3571ab48fcd16beeece40f4b44" />
+<title>IBM x86服务器结合HANA大数据解决方案-X86-服务器频道-至顶网</title>
+<META name="Keywords" content="eX5,x86,IBM,zhiding.cn,至顶网,X86,服务器频道">
+<META name="Description" content="IBM未来三年将投入10亿美元System x服务器市场战略，同时新款服务器也显露出IBM抢攻高端x86服务器市场的决心。eX5在原有特性上的升级，并针对SAP内存设备“SAP HANA”的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://server.zhiding.cn/server/2013/1015/2992376.shtml" />
+<meta property="og:title" content="IBM x86服务器结合HANA大数据解决方案" />
+<meta property="og:description" content="IBM未来三年将投入10亿美元System x服务器市场战略，同时新款服务器也显露出IBM抢攻高端x86服务器市场的决心。eX5在原有特性上的升级，并针对SAP内存设备“SAP HANA”的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.zhiding.cn/article/2992376\.htm" >
+<script type="text/javascript">var document_id=2992376;</script>
+
+<link rel="shortcut icon" href="http://www.zhiding.cn/zdnet/favicon.ico" /><!--zdnet-->
+<link href="//icon.zhiding.cn/online/css/zdbase.gzcss?v1" rel="stylesheet" type="text/css" />
+<script src="//icon.zhiding.cn/online/js/zdbase.gzjs?v1"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=2d7cb3c57a88978f5163bdabcc07d8c5"></script>
+
+</head>
+
+<body><a onclick="window.scrollTo(0,0);return false" class="retu" title="返回顶部" target="_self" href="javascript:void(0);" style="display: inline;"> </a>
+<!-- <div class="qu_ad_head">
+	<div class="headads">
+		 <div class="l_ads"> <img class="i_ad" src="http://icon.zhiding.cn/software_zone/pic/utd/ad_grey.gif"><br><img src="http://icon.zhiding.cn/zdnet/2015/images/ad_03.jpg" /></div>
+    	 <div class="r_ads"> <img class="i_ad" src="http://icon.zhiding.cn/software_zone/pic/utd/ad_grey.gif"><br><img src="http://icon.zhiding.cn/zdnet/2015/images/ad_06.jpg" /></div>
+         <div class="clear"></div>
+         </div>
+</div>  -->
+<style>
+	.qu_nav_2017{border-bottom:1px #d2d7db solid;padding-bottom:10px}
+	.qu_nav_nei_2017{width:1200px;height:120px;margin:0 auto;position:relative}
+	.logo_2017{display:block;width:214px;height:59px;position:absolute;top:44px;left:0;z-index:300}
+	/*2018春节logo*/
+/*	.logo_2018_newyear{display:block;width:258px;height:65px;position:absolute;top:44px;left:-53px;z-index:300}*/
+	/* end_logo*/
+	.logo_newyear{display:block;width:252px;height:81px;position:absolute;top:30px;left:-55px;z-index:300}
+	.qu_nav02_2017{position:absolute;width:986px;right:0px;top:38px;z-index:800}
+	.qu_nav02_2017 li{font:16px/1 microsoft yahei,verdana;float:left;padding:.6em 12px .6em 0.99em;position:relative;border-bottom:3px #fff solid}
+	.qu_nav02_2017 li a:hover{text-decoration:none}
+	.qu_nav02_2017 li.tan_li{background:url(//icon.zhiding.cn/zdnet/2015/images/et_03.gif) no-repeat right 50%}
+	.qu_nav02_2017 li a{color:#858585}
+	.qu_nav02_2017 li.no01{color:#679cdd;padding-right:6px}
+	.qu_nav02_2017 li.no02{color:#ff2601;padding-right:.7em}
+	.qu_nav02_2017 li.on{border-bottom:3px red solid}
+	.qu_nav02_2017 li.l_r2{padding:.6em 12.5px .6em .6em}
+	.qu_nav02_2017 li p.tan{position:absolute;display:block;background:#f9f9f9;border-top:3px red solid;z-index:9999;width:145px;top:35px;left:-43px}
+	.qu_nav02_2017 li p.tan span{display:block;text-align:center;border-bottom:1px #dadada solid;-moz-box-shadow:0 1px 0 #fff;-webkit-box-shadow:0 1px 0 #fff;box-shadow:0 1px 0 #fff}
+	.qu_nav02_2017 li p.tan span:last-child{border:0;-moz-box-shadow:0 0 0 #fff;-webkit-box-shadow:0 0 0 #fff;box-shadow:0 0 0 #fff}
+	.qu_nav02_2017 li p.tan span a{color:#6e7e8a;font:16px/46px microsoft yahei,verdana}
+	.qu_nav02_2017 li p.tan span a:hover{text-decoration:underline}
+	.qu_nav02_2017 li p.cio_nav{left:-42px}
+	.qu_nav02_2017 li p.server_nav{left:-37px}
+	.qu_nav02_2017 li p.biz_nav{left:-27px}
+	.qu_nav02_2017 li p.cloud_nav{left:-30px}
+	.qu_nav03_2017{right:0px;top:76px;z-index:700}
+
+	.qu_nav04_2017{position:absolute;width:200px;right:-20px;top:82px;z-index:700}
+	.qu_nav04_2017 a{display:block;color:#fff;padding:.1em 1em .1em 1em;font:14px/1.6 microsoft yahei,arial}
+	.qu_nav04_2017 a:hover{text-decoration:none}
+	.qu_nav04_2017 dt{float:left;margin-right:1.8em;background:#afbbc5;border-radius:4px;position:relative}
+	.qu_nav04_2017 dd{float:left;background:#afbbc5;border-radius:4px;position:relative;}
+	.qu_nav04_2017 dt a.tit_a{background:url(//icon.zhiding.cn/zdnet/2015/images/e54_06.jpg) no-repeat 72px .7em;border-radius:4px;padding:.1em 1.2em .1em .8em}
+	.qu_nav04_2017 dd a.tit_a{background:url(//icon.zhiding.cn/zdnet/2015/images/e54_06.jpg) no-repeat 4.2em .7em;border-radius:4px;padding:.1em 1.2em .1em .8em}
+	.qu_nav04_2017 a.last{margin-bottom:.2em}
+	.qu_nav04_2017 p{display:none; padding-bottom:0}
+	.qu_nav04_2017 dt p a,.qu_nav04_2017 dd p a{display:block;padding:.2em 0}
+	.qu_nav04_2017 dt:hover,.qu_nav04_2017 dd:hover{background:#a3aeb7;border-bottom-left-radius:0;border-bottom-right-radius:0}
+	.qu_nav04_2017 dt:hover p{display:block;position:absolute;width:10em;left:-2em;border-top:2px #a3aeb7 solid;background:#a3aeb7;border-radius:4px;box-shadow:0 5px 5px #fff;text-align:center}
+	.qu_nav04_2017 dd:hover p{display:block;position:absolute;width:6em; left:-.7em;border-top:2px #a3aeb7 solid;background:#a3aeb7;border-radius:4px;box-shadow:0 5px 5px #fff;text-align:center}
+	.qu_nav04_2017 dt:hover p a:hover,.qu_nav04_2017 dd:hover p a:hover{background:#afbbc5}
+	.qu_nav04_2017 dt:hover a.tit_a,.qu_nav04_2017 dd:hover a.tit_a{background:0 0}
+	/*left|right*/
+	.qu_icon_bg{width:87px;height:414px;position:absolute;z-index:320;cursor:pointer}
+	#arrow_left{left:0;top:0}
+	#arrow_right{right:0;top:0}
+
+	.qu_icon_arrw{width:50px;height:50px;position:absolute;top:182px;z-index:310; display:none;}
+	.icon_r{background:rgba(0,0,0,.5) url(//icon.zhiding.cn/zdnet/2015/images/arrow_03.png) no-repeat 50% 50%;right:18px}
+	.icon_l{background:rgba(0,0,0,.5) url(//icon.zhiding.cn/zdnet/2015/images/arrow_06.png) no-repeat 50% 50%;left:18px}
+
+	/*-@media screen and (max-width:992px) {
+		.qu_nav_2017{ display:none;}
+	}
+	---------------------------------------------------焦点图部分修改--------------------------------------------------
+	.qu_potsd{ position:absolute; right:15%; bottom:20px; z-index:400;}
+	.qu_potsd li{ float:left; width:11px; height:11px; text-indent:-9999px; overflow:hidden; margin-right:16px; background:url(//icon.zhiding.cn/zdnet/2015/images/e5_03.png) no-repeat -27px 0; cursor:pointer;}
+	.qu_potsd li.on{ background-position:0 0;}
+    
+	.qu_bra{ font:12px/1 microsoft yahei,arial;padding:.3em 0; background:#849aa9; color:#fff; text-align:center;  border-radius:2em; width:110px; position:absolute;right:2%; bottom:16px; z-index:400;}
+	.qu_bra a{ color:#fff; padding:0 .5em;}
+	.qu_bra a:hover{ text-decoration:none; color:#f00;}
+	*/
+	/*----------------------------------------------------VIP部分修改--------------------------------------------------*/
+	.qu_vips{ display:block; float:right; background:#f43738;padding:.1em .7em; border-radius:4px; margin-top:.7em;  }
+	.qu_vips a{color:#fff; font:14px/1.6 microsoft yahei,arial;}
+	.qu_vips a:hover{ text-decoration:none;}
+</style>
+<div class="qu_nav_2017">
+	<div class="qu_nav_nei_2017">
+		<!--LOGO-->
+		        <a href="//www.zhiding.cn" class="logo_2017" title="至顶网（zhiding.cn）- 记录和推动数字化创新" target="_blank"><img src="//icon.zhiding.cn/zdnet/2015/images/e44_03.jpg" /></a>
+		<!--NEWYEAR LOGO-->
+<!--		<a href="//www.zhiding.cn" class="logo_2018_newyear" title="至顶网（zhiding.cn）- 记录和推动数字化创新" target="_blank"><img src="//icon.zhiding.cn/server/special/index_test_2018/images/e44_03_2018_newyear.jpg" /></a>-->
+
+		<ul class="qu_nav02_2017 ">
+			<li class="no01">新技术：</li>
+			<li class="tan_li">
+				<a target="_blank" href="//server.zhiding.cn/">服务器</a>
+				<p class="tan server_nav" style="display:none;">
+					<span><a href="//server.zhiding.cn/server/x86.shtml" target="_self">x86服务器</a></span>
+					<span><a href="//server.zhiding.cn/server/minipc.shtml" target="_self">Non-x86服务器</a></span>
+					<span><a href="//server.zhiding.cn/server/chip.shtml" target="_self">服务器组件</a></span>
+					<span><a href="//server.zhiding.cn/server/vm.shtml" target="_self">虚拟化/云计算</a></span>
+					<span><a href="//server.zhiding.cn/server/throng.shtml" target="_self">高性能计算</a></span>
+					<span><a href="//server.zhiding.cn/files/klist-23-333249-1.htm" target="_self">超融合系统</a></span>
+					<span><a href="//server.zhiding.cn/files/klist-23-317440-1.htm" target="_self">虚拟桌面</a></span>
+					<span><a href="//server.zhiding.cn/files/klist-23-325809-1.htm" target="_self">数据中心</a></span>
+					<span><a href="//server.zhiding.cn/files/klist-23-311293-1.htm" target="_self">关键业务服务器</a></span>
+				</p>
+
+			</li>
+			<li class="tan_li">
+				<a target="_blank" href="//stor-age.zhiding.cn/">存储</a>
+				<p class="tan stor-age_nav" style="display:none;">
+					<span><a href="//stor-age.zhiding.cn/stor-age/system.shtml">存储系统</a></span>
+					<span><a href="//stor-age.zhiding.cn/stor-age/network.shtml">存储网络</a></span>
+					<span><a href="//stor-age.zhiding.cn/stor-age/Software.shtml">存储管理</a></span>
+					<span><a href="//stor-age.zhiding.cn/stor-age/TapeVTL.shtml">备份归档</a></span>
+					<span><a href="//stor-age.zhiding.cn/stor-age/HDD.shtml">存储组件</a></span>
+					<span><a href="//stor-age.zhiding.cn/stor-age/cloud.shtml">云/数据中心</a></span>
+				</p>
+
+			</li>
+			<li class="tan_li">
+				<a target="_blank" href="//net.zhiding.cn/">网络</a>
+				<p class="tan net_nav" style="display:none;">
+					<span><a  href="//net.zhiding.cn/network_security_zone/router-switch.shtml" target="_self">路由交换</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/ip-communications.shtml" target="_self">企业通信</a></span>
+					<span><a href="//net.zhiding.cn/network_security_zone/wireless-network.shtml" target="_self" >无线</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/network-access.shtml" target="_self">应用交付</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/network-manage.shtml" target="_self">网络管理</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/netaccelerate-Optimization.shtml" target="_self">网络优化</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/sdn-nfv.shtml" target="_self">SDN/NFV</a></span>
+					<span><a  href="//net.zhiding.cn/network_security_zone/Iot.shtml" target="_self">物联网</a></span>
+				</p>
+
+			</li>
+			<li class="tan_li">
+				<a target="_blank" href="//security.zhiding.cn/">安全</a>
+				<p class="tan security_nav" style="display:none;">
+					<span><a  href="//security.zhiding.cn/security_zone/virus-defend.shtml" target="_self">终端安全</a></span>
+					<span><a  href="//security.zhiding.cn/security_zone/attack-defend.shtml" target="_self">网络安全</a></span>
+					<span><a href="//security.zhiding.cn/security_zone/dlp.shtml" target="_self" >数据安全</a></span>
+					<span><a  href="//security.zhiding.cn/security_zone/application-security.shtml" target="_self">应用安全</a></span>
+					<span><a  href="//security.zhiding.cn/security_zone/firewall.shtml" target="_self">移动安全</a></span>
+					<span><a href="//security.zhiding.cn/security_zone/system-security.shtml" target="_self" >风险与合规</a></span>
+					<span><a href="//security.zhiding.cn/security_zone/security-policy.shtml" target="_self" >安全管理</a></span>
+					<span><a href="//yun.zhiding.cn/security.php" target="_self" >安全导航</a></span>
+				</p>
+			</li>
+			<li class="tan_li">
+				<a target="_blank" href="//soft.zhiding.cn/">软件</a>
+				<p class="tan soft_nav" style="display:none;">
+					<span><a target="_blank" title="产业观察" href="//soft.zhiding.cn/software_zone/industry_observe.shtml">产业观察</a></span>
+					<span><a target="_blank" title="行业应用" href="//soft.zhiding.cn/software_zone/project_case.shtml">行业应用</a></span>
+					<span><a target="_blank" title="应用软件" href="//soft.zhiding.cn/software_zone/apps.shtml">应用软件</a></span>
+					<span><a target="_blank" title="基础软件" href="//soft.zhiding.cn/software_zone/basic_software.shtml">基础软件</a></span>
+					<span><a target="_blank" title="互联网" href="//soft.zhiding.cn/software_zone/net.shtml">互联网</a></span>
+					<span><a target="_blank" title="开发者" href="//developer.zhiding.cn">开发者</a></span>
+				</p>
+			</li>
+			<li class="tan_li">
+				<a target="_blank" href="//cloud.zhiding.cn">云资讯</a>
+				<p class="tan cloud_nav" style="display:none;">
+					<span><a target="_blank" href="//virtual.zhiding.cn">虚拟化</a></span>
+
+				</p>
+			</li>
+			<li><a target="_blank" href="//big-data.zhiding.cn">大数据</a></li>
+
+			<li><a target="_blank" href="//ai.zhiding.cn">人工智能</a></li>
+			<li><a target="_blank" href="//iot.zhiding.cn">物联网</a></li>
+			<li><a target="_blank" href="//byod.zhiding.cn/">移动化</a></li>
+			<li class="tan_li">
+				<a target="_blank" href="//biz.zhiding.cn">个人商用</a>
+				<p class="tan biz_nav" style="display:none;">
+					<span><a href="//pc.zhiding.cn">PC</a></span>
+					<span><a href="//printer.zhiding.cn">打印机</a></span>
+					<span><a href="//workstation.zhiding.cn">工作站</a></span>
+					<span><a href="//pad.zhiding.cn">平板电脑</a></span>
+					<span><a href="//mobile.zhiding.cn">智能手机</a></span>
+					<span><a href="//smart.zhiding.cn">智能硬件</a></span>
+				</p>
+			</li>
+			<li><a target="_blank" href="//solution.zhiding.cn/">至顶Labs</a></li>
+			<div class="clear"></div>
+		</ul>
+		<ul class="qu_nav02_2017 qu_nav03_2017">
+			<li class="no02">新商业：</li>
+			<li class="l_r2 tan_li">
+				<a target="_blank" href="//cio.zhiding.cn/">CIO</a>
+				<p class="tan cio_nav" style="display:none;">
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-1-0-1.htm">人物</a></span>
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-3-0-1.htm">CIO加油站</a></span>
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-18-0-1.htm">云计算</a></span>
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-19-0-1.htm">大数据</a></span>
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-20-0-1.htm">Apps</a></span>
+					<span><a target="_blank" href="//cio.zhiding.cn/files/list-0-21-0-1.htm">10Things</a></span>
+					<span><a target="_blank" href="//www.zhiding.cn/special/OpenSource_07">企业开源智库</a></span>
+				</p>
+			</li>
+			<li class="l_r2"><a target="_blank" href="//cxo.zhiding.cn">CXO</a></li>
+			<li class="l_r2"><a target="_blank" href="//innovation.zhiding.cn/">创新创业</a></li>
+			<li class="l_r2"><a target="_blank" href="//digital.zhiding.cn">数字化转型</a></li>
+			<li class="l_r2"><a target="_blank" href="//industry.zhiding.cn/">新工业</a></li>
+			<li class="l_r2"><a target="_blank" href="//fintech.zhiding.cn/">金融科技</a></li>
+			<li class="l_r2"><a target="_blank"  href="//research.zhiding.cn/">市场调研</a></li>
+			<li class="l_r2"><a target="_blank"  href="//cloud.zhiding.cn/meeting.shtml">行业会议</a></li>
+			<li class="l_r2"><a target="_blank" href="//www.zhiding.cn/lists-0-1-1-0-0.htm">最新文章</a></li>
+		</ul>
+		<dl class="qu_nav04_2017 ">
+			<dt>
+				<a href="javascript:;" class="tit_a">科技行者</a>
+				<p>
+					<a href="//www.zhiding.cn/share" target="_blank">行者学院</a>
+					<a href="//soft.zhiding.cn/special/TechWalker_Transformation_1220" target="_blank">转型私董会</a>
+					<a href="//www.zhiding.cn/files/klist-0-342192-1.htm" target="_blank" >科技行者专题报道</a>
+					<a href="//cio.zhiding.cn/files/klist-121-343957-1.htm" target="_blank" class="last">网红大战科技行者</a>
+				</p>
+			</dt>
+
+			<dd>
+				<a href="javascript:;" class="tit_a">知识库</a>
+				<p>
+					<a href="//itpapers.zhiding.cn/" target="_blank">知识库</a>
+					<a href="//yun.zhiding.cn/security.php" target="_blank">安全导航</a>
+				</p>
+			</dd>
+			<div class="clear"></div>
+		</dl>
+	</div>
+</div>
+<script>
+	//导航高亮
+	jQuery(function ($) {
+		var host = window.location.hostname;
+		var url = window.location.href;
+		var pathname = window.location.pathname;
+		if (!pathname) {
+			pathname = 'index';
+		}
+		var linum = 1;
+		var ulnum = 0;
+		if (host == "server.zhiding.cn") {
+			linum = 1;
+		} else if (host == 'stor-age.zhiding.cn') {
+			linum = 2;
+		} else if (host == 'net.zhiding.cn') {
+			linum = 3;
+		} else if (host == 'security.zhiding.cn') {
+			linum = 4;
+		} else if (host == 'soft.zhiding.cn') {
+			linum = 5;
+		} else if (host == 'cloud.zhiding.cn') {
+			if (pathname == '/meeting.shtml') {
+				linum = 8;
+				ulnum = 1;
+			} else {
+				linum = 6;
+				ulnum = 0;
+			}
+		} else if (host == 'big-data.zhiding.cn') {
+			linum = 7;
+		} else if (host == 'ai.zhiding.cn') {
+			linum = 8;
+		} else if (host == 'iot.zhiding.cn') {
+			linum = 9;
+		} else if (host == 'byod.zhiding.cn') {
+			linum = 10;
+		} else if (host == 'biz.zhiding.cn') {
+			linum = 11;
+		} else if (host == 'solution.zhiding.cn') {
+			linum = 12;
+		} else if (host == 'cio.zhiding.cn') {
+			linum = 1;
+			ulnum = 1;
+		} else if (host == 'cxo.zhiding.cn') {
+			linum = 2;
+			ulnum = 1
+		} else if (host == 'innovation.zhiding.cn') {
+			linum = 3;
+			ulnum = 1
+		} else if (host == 'digital.zhiding.cn') {
+			linum = 4;
+			ulnum = 1
+		} else if (host == 'industry.zhiding.cn') {
+			linum = 5;
+			ulnum = 1
+		} else if (host == 'fintech.zhiding.cn') {
+			linum = 6;
+			ulnum = 1
+		} else if (host == 'research.zhiding.cn') {
+			linum = 7;
+			ulnum = 1
+		} else if (host == 'smartcity.zhiding.cn') {
+			linum = 9;
+			ulnum = 1
+		} else {
+			//alert(hostname);
+			linum = 0;
+			ulnum = 2;
+		}
+		var hosts = [];
+		var subclass = 0;
+		hosts[0] = 'pc.zhiding.cn';
+		hosts[1] = 'printer.zhiding.cn';
+		hosts[2] = 'workstation.zhiding.cn';
+		hosts[3] = 'pad.zhiding.cn';
+		hosts[4] = 'mobile.zhiding.cn';
+		hosts[5] = 'smart.zhiding.cn';
+		for (var i = 0; i < hosts.length; i++) {
+			if (host == hosts[i]) {
+				linum = 11;
+				ulnum = 0;
+				subclass = i + 1;
+				$(".qu_nav02_2017:eq(" + ulnum + ") > li").eq(linum).addClass("on").not(".qu_nav02_2017 li").removeClass('on');
+				$(".qu_fuwo li").eq(subclass).addClass("on").siblings().removeClass('on');
+			}
+		}
+		var subnav = $(".qu_fuwo").html();
+		if (subnav) {
+			var base_url = host + pathname;
+			$(".qu_fuwo li").each(function (e) {
+				var _this = $(this).children('a').attr('href');
+				if (_this.indexOf(base_url) > -1) {
+					$(this).addClass("on").siblings().removeClass('on');
+					return false;
+				}
+
+			});
+			$(".qu_fuwo li").not(".on").hover(function () {
+				$(this).addClass("on")
+			}, function () {
+				$(this).removeClass("on")
+			})
+		}
+		$(".qu_nav02_2017:eq(" + ulnum + ") > li").eq(linum).addClass("on").not(".qu_nav02_2017 li").removeClass('on');
+		$('.qu_nav02_2017 > li').hover(function () {
+			if (!($(this).hasClass('no01')) && !($(this).hasClass('no02'))) {
+				$(".qu_nav02_2017 li").removeClass('on');
+				$(this).addClass("on");
+
+			}
+			$(this).children("p").show();
+			$(this).siblings().children("p").hide();
+		}, function () {
+			$(this).children("p").hide();
+			$(".qu_nav02_2017 li").removeClass('on');
+			$(".qu_nav02_2017:eq(" + ulnum + ") > li").eq(linum).addClass("on");
+		});
+	})
+</script>
+
+<div class="headads">
+             <div class="l_ads">
+    <!--server_article_1_tonglan -->
+
+    <a href="javascript:void(0);" class="ad_hover_href"></a>
+<div id="AD8812" style="width:1200px;height:90px;text-align:center;float:none;"><a href="http://www.zhiding.cn/dxinsight" target="_blank"><img width="1200" height="90" src="http://am.zhiding.cn/www/images/202204/default_ads_dxinsight1200k_0402.jpg" alt="" border="0"></a></div>
+
+</div>
+<div class="r_ads">
+    <!--server_article_1_button -->
+    <div><div id="AD8813" style="width:330px;height:215px;text-align:center;float:none;"><a href="javascript:;"><img width="330" height="215" src="http://am.zhiding.cn/www/images/202204/default_ads_qikegushi330m_0402.jpg" alt="" border="0"></a></div>
+</div>
+</div>
+         <div class="clear"></div>
+         </div>
+<div class="clear10"></div>
+<div class="qu_main">
+	<div class="qu_left">
+    	<div class="qu_weizhi"><a href="http://www.zhiding.cn/">至顶网</a>&#8250;<a href="http://server.zhiding.cn">服务器频道</a> &#8250;<a  href="http://server.zhiding.cn/server/x86.shtml">X86服务器</a>&#8250;<span>IBM x86服务器结合HANA大数据解决方案</span></div>
+        <div class="clear20"></div>
+        <h1 class="foucs_title">IBM x86服务器结合HANA大数据解决方案</h1><div class="clear20"></div>				<div class="qu_consd">
+					<ul class="qu_code" id="qu_code" style="top:0;"><li><img src="http://m.zhiding.cn/techzone/phpqrcode/index.php?url=http://server.zhiding.cn/server/2013/1015/2992376.shtml" width="99" /><p>扫一扫<br />分享文章到微信</p></li><li><img src="http://icon.zhiding.cn/zdnet/2015/images/w45_06.jpg" /><p>扫一扫<br />关注官方公众号<br />至顶头条</p></li></ul>
+					<div class="qu_lix">
+						<div class="qu_zhao">  IBM未来三年将投入10亿美元System x服务器市场战略，同时新款服务器也显露出IBM抢攻高端x86服务器市场的决心。eX5在原有特性上的升级，并针对SAP内存设备“SAP HANA”的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。 </div>
+						<div class="qu_zuo"><p>作者：王涛 来源：ZDNetserver频道【原创】 2013年10月15日</p><p class="guzhu">关键字： <a href="/files/klist-23-330700-1.htm" target="_blank">IBM</a> <a href="/files/klist-23-330171-1.htm" target="_blank">x86</a> <a href="/files/klist-23-310672-1.htm" target="_blank">eX5</a></p><p></p><div class="clear"></div></div>
+						<ul class="qu_li058x"><li><a href="http://server.zhiding.cn/server/2013/1015/2992376.shtml#comment" id="weixin"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_11.jpg" alt="评论" /></a></li><li><a href="javascript:;"  date-url="http://service.weibo.com/share/share.php?title=IBM x86服务器结合HANA大数据解决方案:IBM未来三年将投入10亿美元System x服务器市场战略，同时新款服务器也显露出IBM抢攻高端x86服务器市场的决心。eX5在原有特性上的升级，并针对SAP内存设备“SAP HANA”的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。&url=http://server.zhiding.cn/server/2013/1015/2992376.shtml&pic=http://img.zhiding.cn/2/575/lioAu5nZZfjI_140.jpg&ralateUid=#2992376" class="s_wb" id="weibo"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_08.jpg" alt="分享微博"  /></a></li><li><a href="javascript:;"   date-url="http://s.jiathis.com/?webid=email&url=http://server.zhiding.cn/server/2013/1015/2992376.shtml&title=IBM x86服务器结合HANA大数据解决方案&su=1" class="s_wb" id="mail"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_14.jpg" alt="分享邮件"  /></a></li></ul>
+						<div class="clear30"></div>
+						
+						<div class="qu_ocn">
+							<p><span class="xiaoxibaodao" style="color: #0000ff;">ZDNet至顶网服务器频道 10月15日 评论分析（文/王涛）：</span>想必大家都记得《射雕英雄传》里的老顽童周伯通，左右手互博，一手画圆，一手画方，一柔一刚，翻手为云覆手为雨，造就了一代武林传奇。在<span lang="EN-US">IT</span>界，顺应以上趋势，<span lang="EN-US">IBM HE X</span>和<span lang="EN-US">SAP HANA</span>两巨头联手打造的大数据解决方案，也能否使<span lang="EN-US">CIO</span>们眼前一亮，给业界带来较大的冲击？</p>
+<p>打击网上谣言是当今的热点，记得某微博大<span lang="EN-US">V</span>曾说过，可以动用大数据技术把微博谣言的源头挖出来。当然，这只是大数据技术应用的一个特例，当今社会，企业的<span lang="EN-US">CIO</span>们更关心的是如何把大数据技术应用在企业中，他们纷纷屏住了呼吸，努力捕捉大数据技术的点点滴滴，争取早日把大数据的新技术趋势促进企业的业务模式变革。</p>
+<p><strong>企业<span lang="EN-US">CIO</span>亲睐<span lang="EN-US">IBMHE X HANA</span>大数据解决方案</strong></p>
+<p><span lang="EN-US">Gartner</span>在<span lang="EN-US">2013</span>年<span lang="EN-US">1</span>月份对超过<span lang="EN-US">2000</span>名的<span lang="EN-US">CIO</span>做了一项十大技术优先级民意调查，这些采样的<span lang="EN-US">CIO</span>们分布在<span lang="EN-US">41</span>个国家、<span lang="EN-US">36</span>个行业、掌管着超过<span lang="EN-US">2300</span>亿美元的<span lang="EN-US">IT</span>预算。结果显示，分析和<span lang="EN-US">BI(</span>包括数据库技术<span lang="EN-US">)</span>高居榜首。从数据分析中得出可操作的洞察力，性能优越、更高的可用性和更多的内存是<span lang="EN-US">CIO</span>们对大数据技术的普遍要求。</p>
+<p>另据<span lang="EN-US">IDC</span>服务器市场的分析趋势报告认为，到<span lang="EN-US">2015</span>年，<span lang="EN-US">X86</span>服务器在企业中的转型是行业大势所趋，并且应用于大数据的<span lang="EN-US">X86</span>服务器也呈逐年递增之势。企业的<span lang="EN-US">CIO</span>们未雨绸缪，是否从中洞悉了些什么？先下手的为强，后下手的遭殃，现在从长计议，是该考虑大数据的软硬件架构的布局了。</p>
+<p style="text-align: center;"><a class="fancybox_content" href="http://img.zdnet.com.cn/2/572/liIw5cWRszuY.jpg"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://img.zdnet.com.cn/2/572/liIw5cWRszuY.jpg" alt="IBM x86服务器结合HANA大数据解决方案" /></a><span lang="EN-US">X86</span>服务器市场呈现逐年增长趋势</p>
+<p><strong><span lang="EN-US">IBM HE X HANA</span>大数据解决方案架构</strong></p>
+<p><span lang="EN-US">IBM HEX HANA</span>大数据解决方案从走出实验室到落地，如今有各行各业的企业像玛丝菲尔、海康威视、顶新国际、安踏体育、动向体育等采用了该方案，一个走在大街上的美女，穿着玛丝菲尔的时尚女装，在一个<span lang="EN-US">IT</span>人看来，就有<span lang="EN-US">IBM HE X HANA</span>大数据的影子。</p>
+<p><a class="fancybox_content" href="http://img.zdnet.com.cn/2/573/li0Q0qASArUWE.jpg"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://img.zdnet.com.cn/2/573/li0Q0qASArUWE_600.jpg" alt="IBM x86服务器结合HANA大数据解决方案" /></a><span class="apple-converted-space"><span lang="EN-US">&nbsp;</span></span></p>
+<p><span class="apple-converted-space"><span lang="EN-US"><a class="fancybox_content" href="http://img.zdnet.com.cn/2/571/litxwOQx47w6s.jpg"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://img.zdnet.com.cn/2/571/litxwOQx47w6s.jpg" alt="IBM x86服务器结合HANA大数据解决方案" /></a></span></span></p>
+<p><strong><span lang="EN-US"> IBM HE X创新技术赋予<span lang="EN-US">HANA</span>新活力</span></strong></p>
+<p><span lang="EN-US"><span>早在去年，</span><span lang="EN-US">SAP CTO</span><span>史维学和</span><span lang="EN-US">IBM</span><span>全球副总裁钱大群就在北京共同发布了当时世界上最大的内存计算数据库系统和性能最快的内存计算系统。该系统使用了</span><span lang="EN-US">100</span><span>个节点的</span><span lang="EN-US">IBM X5</span><span>集群系统，主内存达</span><span lang="EN-US">100TB</span><span>，</span><span lang="EN-US">X86 CPU</span><span>核心达</span><span lang="EN-US">4000</span><span>个。</span></span></p>
+<p><span lang="EN-US"><span lang="EN-US">SAP</span><span>解决方案和架构部总经理张志琦更是爆出了这次模拟实验的细节，</span><span lang="EN-US">&ldquo;SAPHANA</span><span>到底能够支撑多大的数据量？能不能把所有的数据都装到内存？在奥兰多</span><span lang="EN-US">SAPPHIRE NOW</span><span>上，</span><span lang="EN-US">SAP</span><span>与</span><span lang="EN-US">IBM</span><span>通力合作，用</span><span lang="EN-US">3</span><span>个月的时间，构建了一套由</span><span lang="EN-US">100</span><span>台</span><span lang="EN-US">X86 PC</span><span>服务器环境构建的一个总体容量为</span><span lang="EN-US">100TB</span><span>的</span><span lang="EN-US">SAP HANA</span><span>环境。</span><span lang="EN-US">100</span><span>个</span><span lang="EN-US">TB</span><span>意味着什么？应用</span><span lang="EN-US">SAP HANA</span><span>的内存压缩技术可以把</span><span lang="EN-US">SAP</span><span>目前记录的全球最大的七个</span><span lang="EN-US">SAP</span><span>系统都装在一起。</span></span></p>
+<p><span lang="EN-US"><span>对于很多企业，</span><span lang="EN-US">SAP HANA</span><span>本身的容量，已经不再是问题了。并且</span><span lang="EN-US">SAPHANA</span><span>的稳定性经受了断电实验的考验，数据自动分布到备份节点，且能支持</span><span lang="EN-US">24*7</span><span>小时的运转。在这样一个高速的平台上，有这样一个大的</span><span lang="EN-US">IT</span><span>环境，又通过</span><span>这么短的时间构建这么完整的平台帮助企业，可见</span><span lang="EN-US">SAP HANA</span><span>是一个稳定高效支撑企业持续发展的平台。</span><span lang="EN-US">&rdquo;</span></span></p>
+<p><span lang="EN-US"><span>世界离开了创新，便没有了活力，唯有创新，才能使荒芜之地郁郁生葱。</span><span lang="EN-US">HANA</span><span>技术是不是一种创新呢？其用到的内存计算是一项新技术，行</span><span lang="EN-US">+</span><span>列存储、压缩、分区、不提供聚合表、只嵌入到数据中，应该都是创新点，其最初的设计理念是：加快数据接入速度，最大限度地避免转移数据扩展；分而治之，将数据保存在主存储器中；利用列式存储的概念，向外扩展到系统边界之外。</span></span></p>
+<p><span lang="EN-US"><span>随着</span><span lang="EN-US">SAP</span><span>高性能分析应用软件</span><span lang="EN-US">SAP HANA</span><span>的推出，</span><span lang="EN-US">SAP</span><span>在利用基于内存计算推动革新的历程中又取得了一项具有里程碑意义的重大突破，其配套的硬件方案也在不断发展。</span></span></p>
+<p><span lang="EN-US"><span>而对于</span><span lang="EN-US">IBM</span><span>的</span><span lang="EN-US">System x eX5</span><span>服务器平台来说，</span><span lang="EN-US">SAP HANA</span><span>的性能指标随硬件升级而线性扩展，因此用户在未来可以通过部署配备</span><span lang="EN-US">1000</span><span>个或更多内核的系统实现更复杂的实时分析。</span></span></p>
+<p><span lang="EN-US"><span>考虑到性能方面的需要以及产品定位的问题，</span><span lang="EN-US">IBM</span><span>去年对</span><span lang="EN-US">x3950 X5</span><span>和</span><span lang="EN-US">x3690 X5</span><span>服务器进行升级，并组建了四套系统和一套可升级选项套件，采用</span><span lang="EN-US">IBM</span><span>的通用并行文件系统</span><span lang="EN-US">(GPFS)</span><span>，基于</span><span lang="EN-US">Novell SLES for SAP</span><span>运行。</span></span></p>
+<p><span lang="EN-US"><span lang="EN-US">HANA</span><span>是一种内存饥渴型应用，如果用户想将更多的数据放入内存进行分析，还需要进行升级。英特尔</span><span lang="EN-US">eX</span><span>系列高端</span><span lang="EN-US">x86</span><span>服务器定位于面向大内存的</span><span lang="EN-US">x86</span><span>服务器，采用英特尔至强</span><span lang="EN-US">E7</span><span>双插槽设计，除了本身已近具备的</span><span lang="EN-US">32</span><span>个</span><span lang="EN-US">DIMM</span><span>，通过</span><span lang="EN-US">MAX5</span><span>内存扩展模块，</span><span lang="EN-US">x3690 X5</span><span>还能获得额外的</span><span lang="EN-US">32</span><span>个</span><span lang="EN-US">DIMM</span><span>，采用单条</span><span lang="EN-US">32GB</span><span>内存，最大可支持</span><span lang="EN-US">2TB</span><span>。</span></span></p>
+<p><span lang="EN-US"><span>对于</span><span lang="EN-US">IBM</span><span>推出新产品来说，也完成显示出未来三年将投入</span><span lang="EN-US">10</span><span>亿美元</span><span lang="EN-US">System x</span><span>服务器市场战略，对于</span><span lang="EN-US">4</span><span>月传出</span><span lang="EN-US">IBM</span><span>即将出售</span><span lang="EN-US">X86</span><span>服务器给联想的传闻的一个回击，同时新款服务器也显露出</span><span lang="EN-US">IBM</span><span>抢攻高端</span><span lang="EN-US">x86</span><span>服务器市场的决心。</span><span lang="EN-US">eX5</span><span>在原有特性上的升级，并针对</span><span lang="EN-US">SAP</span><span>内存设备</span><span lang="EN-US">&ldquo;SAP HANA&rdquo;</span><span>的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。</span></span></p>
+<p><span lang="EN-US">了解更多，请搜索<a href="http://server.zdnet.com.cn/special/IBM_SYSTEMX">&ldquo;System X最佳拍档 领航高效IT&rdquo;</a></span></p>
+							
+
+						</div>
+						
+						<ul class='qu_lixddd'></ul>
+						<div class="qu_fe123">
+							<div style="display:none;" id="newsPageTitle" class="newsinnerhrtit"> <i class="pagenavtag" style="display:none;"></i></div>
+							
+						</div>
+						<div class="qu_liix">
+							
+						</div>
+						<div class="clear30"></div>
+						<ul class="qu_li058x"><li><a href="http://server.zhiding.cn/server/2013/1015/2992376.shtml#comment" id="weixin"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_11.jpg" alt="评论" /></a></li><li><a href="javascript:;"  date-url="http://service.weibo.com/share/share.php?title=IBM x86服务器结合HANA大数据解决方案:IBM未来三年将投入10亿美元System x服务器市场战略，同时新款服务器也显露出IBM抢攻高端x86服务器市场的决心。eX5在原有特性上的升级，并针对SAP内存设备“SAP HANA”的全新的工作负载优化型解决方案一定能够吊起不少企业的胃口。&url=http://server.zhiding.cn/server/2013/1015/2992376.shtml&pic=http://img.zhiding.cn/2/575/lioAu5nZZfjI_140.jpg&ralateUid=#2992376" class="s_wb" id="weibo"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_08.jpg" alt="分享微博"  /></a></li><li><a href="javascript:;"   date-url="http://s.jiathis.com/?webid=email&url=http://server.zhiding.cn/server/2013/1015/2992376.shtml&title=IBM x86服务器结合HANA大数据解决方案&su=1" class="s_wb" id="mail"><img src="http://icon.zhiding.cn/zdnet/2015/images/wvvx_14.jpg" alt="分享邮件"  /></a></li></ul>
+						<div class="clear40"></div>
+						<div class="qu_guo"><div class="qu_lix05s"><input type="button" value="IBM" class="on"><input type="button" value="x86"><input type="button" value="eX5" class="end"></div><div class="qu_qihi434x"><div><ul class="qu_lies" style="display:block"> <li><a href="http://server.zhiding.cn/server/2013/1014/2992342.shtml" title="" target="blank">四大厂商云性能基准测试 Dimension Data夺冠</a></li> <li><a href="http://server.zhiding.cn/server/2013/1011/2992093.shtml" title="" target="blank">IBM透露其软件定义环境及过渡Nirvanix存储计划</a></li> <li><a href="http://server.zhiding.cn/server/2013/1011/2991998.shtml" title="" target="blank">IBM新品服务器继续延用Power7+ 目标混合云</a></li> <li><a href="http://server.zhiding.cn/server/2013/0927/2991160.shtml" title="" target="blank">简便灵活可扩展 IBM发布高密度NeXtScale System</a></li> <li><a href="http://server.zhiding.cn/server/2013/0924/2990833.shtml" title="" target="blank">IBM寻求资金等多方面合作伙伴</a></li></ul><ul class="qu_lies"> <li><a href="http://server.zhiding.cn/server/2013/1014/2992358.shtml" title="" target="blank">针锋相对 分析ARM与X86服务器的那些事儿</a></li> <li><a href="http://server.zhiding.cn/server/2013/1012/2992213.shtml" title="" target="blank">联想在英国物色销售及技术人才</a></li> <li><a href="http://server.zhiding.cn/server/2013/1012/2992144.shtml" title="" target="blank">重定义数据中心 Intel ATOM C2000方案解读</a></li> <li><a href="http://server.zhiding.cn/server/2013/1011/2992082.shtml" title="" target="blank">医疗系统信息化需要高可靠 </a></li> <li><a href="http://server.zhiding.cn/server/2013/1011/2992078.shtml" title="" target="blank">容错不会犯买保险的错误</a></li></ul><ul class="qu_lies"> <li><a href="http://server.zhiding.cn/server/2013/0608/2163230.shtml" title="" target="blank">中型企业云平台之选 IBM高端x86服务器优势解读</a></li> <li><a href="http://server.zhiding.cn/special/IBM_HEX" title="" target="blank">易云新能力 注入行业新活力</a></li> <li><a href="http://server.zhiding.cn/server/2013/0517/2159825.shtml" title="" target="blank">构建云平台 IBM高端x86服务器技术优势解析</a></li> <li><a href="http://server.zhiding.cn/server/2013/0227/2146075.shtml" title="" target="blank">云计算需构建虚拟化基础  IT建设应注重数据分析</a></li> <li><a href="http://server.zhiding.cn/server/2013/0129/2142834.shtml" title="" target="blank">高端x86成企业关键应用“云动力”之选</a></li></ul></div></div></div><div class="qu_guo2"><div class="qu_lix05s"><input type="button" value="IBM" class="on"><input type="button" value="x86"><input type="button" value="eX5" class="end"></div><div class="qu_qihi434x"><div><ul class="qu_lies" style="display:block"> <li><a href="http://server.zhiding.cn/server/2017/1108/3100229.shtml" title="" target="blank">Akamai内容交付网络现可供IBM Cloud上的企业使用</a></li> <li><a href="http://server.zhiding.cn/server/2017/1026/3099657.shtml" title="" target="blank">从虚拟化到私有云 你需要知道的上云方法论</a></li> <li><a href="http://server.zhiding.cn/server/2017/1018/3099375.shtml" title="" target="blank">IBM第三季度业绩：z系统发力  即服务年运转收入达94亿美元</a></li> <li><a href="http://server.zhiding.cn/server/2017/0930/3098906.shtml" title="" target="blank">安全、互联 全新一代大机IBM Z具有怎样的现实意义</a></li> <li><a href="http://server.zhiding.cn/server/2017/0929/3098827.shtml" title="" target="blank">软硬件一体化架构方案 IBM认知系统实现AI开箱即用</a></li></ul><ul class="qu_lies"> <li><a href="http://server.zhiding.cn/server/2017/0223/3089838.shtml" title="" target="blank">X86战争再升级 AMD向英特尔发起全线冲击</a></li> <li><a href="http://server.zhiding.cn/server/2016/1115/3085886.shtml" title="" target="blank">澳大利亚计划构建全新超级计算机 或将利用Power CPU取代x86</a></li> <li><a href="http://server.zhiding.cn/server/2016/0913/3083215.shtml" title="" target="blank">在x86进军小型机市场途中 华为KunLun有多强势</a></li> <li><a href="http://server.zhiding.cn/server/2016/0824/3082248.shtml" title="" target="blank">富士通：ARM对我们来说有最好的软件生态系统</a></li> <li><a href="http://server.zhiding.cn/server/2016/0630/3079938.shtml" title="" target="blank">OpenPOWER:协同创新的大家庭</a></li></ul><ul class="qu_lies"> <li><a href="http://server.zhiding.cn/server/2013/1015/2992376.shtml" title="" target="blank">IBM x86服务器结合HANA大数据解决方案</a></li> <li><a href="http://server.zhiding.cn/server/2013/0608/2163230.shtml" title="" target="blank">中型企业云平台之选 IBM高端x86服务器优势解读</a></li> <li><a href="http://server.zhiding.cn/special/IBM_HEX" title="" target="blank">易云新能力 注入行业新活力</a></li> <li><a href="http://server.zhiding.cn/server/2013/0517/2159825.shtml" title="" target="blank">构建云平台 IBM高端x86服务器技术优势解析</a></li> <li><a href="http://server.zhiding.cn/server/2013/0227/2146075.shtml" title="" target="blank">云计算需构建虚拟化基础  IT建设应注重数据分析</a></li></ul></div></div></div>
+						<div class="clear20"></div>
+						<div class="qu_llpns"></div>
+					</div>
+				</div>
+        
+        <div class="clear"></div>
+    </div>
+    <div class="qu_right">
+    		    <!-- search zhding -->
+	    <form id="search" class="siteSearch" action="http://s.zhiding.cn/search.php?" onsubmit="Omniture.trackSearchSubmit(this, $(this).find('[name=word]').val());">
+        <fieldset class="box">
+          <!--input获得焦点是，加上CLASS名："cls"-->
+          <input type="text" class="ser" placeholder="Search 至顶网" tabindex="1" name="word" value="">
+          <input type="hidden" name="s" value="13431525355703578451">
+	  <input type="hidden" name="nsid" value="0">
+          <input type="submit" class="bn" value=" ">
+          <div class="clear"></div>
+        </fieldset>
+      </form>
+        	 
+	    <div class="log">
+    <div class="qu_vips"><a target="_blank" href="//www.zhiding.cn/vip">VIP专区</a></div>
+    <div class="vip_login vip">
+        <span>VIP用户</span>
+        <div class="qu_login loginvip">
+            <ul>
+                <li><a href="//www.zhiding.cn/vip/register">注册</a></li>
+                <li><a href="//www.zhiding.cn/vip/login">登录</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="vip_login">
+        <span>普通用户</span>
+        <div class="qu_login comment">
+            <ul>
+                <li><a href="//www.zhiding.cn/user/register">注册</a></li>
+                <li><a href="//www.zhiding.cn/user/login">登录</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+         
+<div class="clear30"></div>
+         <div class="ads300"> 
+        	<a href="javascript:void(0);" class="ad_hover_href"></a><!--server_article_1_pip --><div>
+<div id="AD8814" style="width:330px;height:215px;text-align:center;float:none;"><a href="http://www.ppthub.com.cn/" target="_blank"><img width="330" height="215" src="http://am.zhiding.cn/www/images/202204/default_ads_PPTHub330l_0402.jpg" alt="" border="0"></a></div>
+</div> 
+        </div>
+<div class="clear30"></div>
+             
+             <div class="qu_dings">
+    <div class="qu_tit">邮件订阅</div>
+    <p class="qu_jies">如果您非常迫切的想了解IT领域最新产品与技术信息，那么订阅至顶网技术邮件将是您的最佳途径之一。</p>
+    <form action="//www.zhiding.cn/user/my" target="_blank" method="get"><input type="text" placeholder="Enter your email address" class="qu_inp" value="" id="email" name="email"><input type="submit" class="qu_bis" value="现在订阅"></form>
+</div>
+<div class="clear20"></div>
+
+         
+        <div class="qu_tit02">重磅专题</div><ul class="qu_lists">                <li >
+                    <a href="//www.zhiding.cn/special/WIC_2019citycloud" target="_blank" title="城市云与城市智能发展峰会" >
+                            <img alt="城市云与城市智能发展峰会"  src="//img.zhiding.cn/5/498/liEFkXBmtSuB2_140.jpg" width="73px" />
+                        <p>城市云与城市智能发展峰会</p>
+                    </a>
+                     <div class="clear"></div>
+                </li>                <li >
+                    <a href="//www.zhiding.cn/special/IT_summary_2013" target="_blank" title="ZDNet 2013年回顾与2014年展望专题" >
+                            <img alt="ZDNet 2013年回顾与2014年展望专题"  src="//img.zhiding.cn/2/367/liFI5GW9eWeZU.jpg" width="73px" />
+                        <p>ZDNet 2013年回顾与2014年展望专题</p>
+                    </a>
+                     <div class="clear"></div>
+                </li></ul><div class="clear20"></div>
+        	
+        <div class="qu_tit02">往期文章</div><div class="qu_qihix"><div><ul class="qu_lies" style="display:block;"><li><a href="http://server.zhiding.cn/server/2013/1014/2992358.shtml" title="针锋相对 分析ARM与X86服务器的那些事儿" target="_blank">针锋相对 分析ARM与X86服务器的那些事儿</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992347.shtml" title="云计算运维管理的十六大功能" target="_blank">云计算运维管理的十六大功能</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992346.shtml" title="软件定义的架构可重塑计算资源" target="_blank">软件定义的架构可重塑计算资源</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992342.shtml" title="四大厂商云性能基准测试 Dimension Data夺冠" target="_blank">四大厂商云性能基准测试 Dimension Data夺冠</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992337.shtml" title="Twitter数据流可预测流感爆发" target="_blank">Twitter数据流可预测流感爆发</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992334.shtml" title="细说VMware与OpenStack的爱恨纠葛" target="_blank">细说VMware与OpenStack的爱恨纠葛</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992331.shtml" title="云托管桌面的优势：为什么要部署DaaS？" target="_blank">云托管桌面的优势：为什么要部署DaaS？</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992314.shtml" title="微软高管：企业级云服务需具备三要素" target="_blank">微软高管：企业级云服务需具备三要素</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992288.shtml" title="UCloud与Testin建移动互联网云服务平台" target="_blank">UCloud与Testin建移动互联网云服务平台</a></li><li><a href="http://server.zhiding.cn/server/2013/1014/2992283.shtml" title="路线之争：企业级桌面云的未来在哪？" target="_blank">路线之争：企业级桌面云的未来在哪？</a></li></ul></div></div><div class="clear20"></div>
+<div class="qu_tit02">最新文章</div><div class="qu_qihix"><div><ul class="qu_lies" style="display:block;"><li><a href="//soft.zhiding.cn/software_zone/2024/1223/3162100.shtml" title="SUSE发布2025年技术趋势预测" target="_blank">SUSE发布2025年技术趋势预测</a></li><li><a href="//cio.zhiding.cn/cio/2024/1223/3162099.shtml" title="Avnet CIO：以一种实用的方式驾驭云和AI" target="_blank">Avnet CIO：以一种实用的方式驾驭云和AI</a></li><li><a href="//cio.zhiding.cn/cio/2024/1223/3162098.shtml" title="金融服务公司Discover CIO：混合云之旅正在初见成效" target="_blank">金融服务公司Discover CIO：混合云之旅正在初见成效</a></li><li><a href="//soft.zhiding.cn/software_zone/2024/1223/3162097.shtml" title="AI科技新应用：以全新方式助力医生获取专业知识" target="_blank">AI科技新应用：以全新方式助力医生获取专业知识</a></li><li><a href="//www.zhiding.cn/zdnet/2024/1223/3162096.shtml" title="IBM Instana: AI赋能智能运维方案" target="_blank">IBM Instana: AI赋能智能运维方案</a></li><li><a href="//www.zhiding.cn/zdnet/2024/1223/3162095.shtml" title="IBM AI 赋能的资产管理解决方案（Maximo Application Suite)" target="_blank">IBM AI 赋能的资产管理解决方案（Maximo Application Suite)</a></li><li><a href="//www.zhiding.cn/zdnet/2024/1223/3162094.shtml" title="IBM 高性能计算平台软件方案 - IBM LSF+IBM Storage Scale+IBM Storage Ceph" target="_blank">IBM 高性能计算平台软件方案 - IBM LSF+IBM Storage Scale+IBM Storage Ceph</a></li><li><a href="//www.zhiding.cn/zdnet/2024/1223/3162080.shtml" title="团结引擎" target="_blank">团结引擎</a></li><li><a href="//insights.zhiding.cn/2024/1223/3162079.shtml" title="至顶智库 | 从诺贝尔物理学奖到Geoffrey Hinton传奇人生" target="_blank">至顶智库 | 从诺贝尔物理学奖到Geoffrey Hinton传奇人生</a></li><li><a href="//www.zhiding.cn/zdnet/2024/1223/3162078.shtml" title="ETAP全新电力数字孪生平台" target="_blank">ETAP全新电力数字孪生平台</a></li></ul></div></div><div class="clear20"></div>
+           
+   <div class="clear20"></div>
+       
+    </div>
+    <div class="clear20"></div>
+    
+</div>
+<div class="qu_footer">
+	<div class="qu_main">
+        <h2 class="ib02">业界热点:</h2>
+        <div id="tab_kw1" class="qu_pot"><a href="https://www.zhiding.cn/files/klist-0-336422-1.htm" target="_blank" title="数字化转型">数字化转型</a><a href="https://www.zhiding.cn/files/klist-0-349552-1.htm" target="_blank" title="东数西算">东数西算</a><a href="https://www.zhiding.cn/files/klist-0-342022-1.htm" target="_blank" title="自动驾驶">自动驾驶</a><a href="https://www.zhiding.cn/files/klist-0-337724-1.htm" target="_blank" title="智能制造">智能制造</a><a href="https://www.zhiding.cn/files/klist-0-328132-1.htm" target="_blank" title="云计算">云计算</a><a href="https://www.zhiding.cn/files/klist-0-349196-1.htm" target="_blank" title="元宇宙">元宇宙</a><a href="https://www.zhiding.cn/files/klist-0-349469-1.htm" target="_blank" title="虚拟人">虚拟人</a><a href="https://www.zhiding.cn/files/klist-0-330716-1.htm" target="_blank" title="物联网">物联网</a><a href="https://www.zhiding.cn/files/klist-0-349632-1.htm" target="_blank" title="算力网络">算力网络</a><a href="https://www.zhiding.cn/files/klist-0-347831-1.htm" target="_blank" title="数字孪生">数字孪生</a><a href="https://www.zhiding.cn/files/klist-0-327861-1.htm" target="_blank" title="人工智能">人工智能</a><a href="https://www.zhiding.cn/files/klist-0-340036-1.htm" target="_blank" title="区块链">区块链</a><a href="https://www.zhiding.cn/files/klist-0-292731-1.htm" target="_blank" title="开源">开源</a><a href="https://www.zhiding.cn/files/klist-0-328109-1.htm" target="_blank" title="大数据">大数据</a></div>
+        <div class="clear20"></div>
+     
+
+
+<ul class="qu_lis45">
+    <li class="fir"><a href="http://www.zhiding.cn/i/zdnet/div/contact.shtml">联系我们</a></li>
+    <li><a href="http://www.zhiding.cn/i/zdnet/div/site_nav.shtml">网站导航</a></li>
+    <li><a href="http://www.zhiding.cn/i/zdnet/div/introd.shtml">网站简介</a></li>
+    <li><a href="http://www.zhiding.cn/i/zdnet/div/work.shtml">招聘信息</a></li>
+    <li><a href="http://www.zhiding.cn/i/zdnet/div/privacy.shtml">至顶网服务协议</a></li>
+    <li><a href="http://www.zhiding.cn/i/zdnet/div/agreement.shtml">隐私权声明</a></li>
+    <li class="end"><a href="http://www.zhiding.cn/i/zdnet/div/faw.shtml">法律投诉声明</a></li>
+    <div class="clear"></div>
+</ul>
+<div class="qu_copy">北京第二十六维信息技术有限公司（至顶网）版权所有. 京ICP备15039648号-7 京ICP证161336号  <img border="0" src=" http://icon.zhiding.cn/beian/icon.png" >京公网安备 11010802021500号</div>
+</div>
+</div>
+<div style="display: none;">
+    <script language="javascript" src="//pv.zhiding.cn/js/pv.js"></script>
+</div>
+
+<script>
+jQuery(function($){
+        var sel = $('.sel').val();
+        title_nav(sel);
+    });
+</script>
+
+</body>
+</html>

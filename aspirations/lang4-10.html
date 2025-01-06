@@ -1,0 +1,958 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>川大附小学班主任邓新靖推行&ldquo;以孝治班&rdquo; - 《弟子规》交流 - 和谐网【和谐中国网】传播和谐 文明中国Hxzg.Net		</title>
+		<meta name="keywords" content="推行,小学,孩子,家长,邓新靖,学生,老师,时间,委会,提高" />
+		<meta name="description" content="关键词：小学班主任 以孝治班 弟子规 [提要] 学生课桌前张贴着节" />
+		<link rel="stylesheet" href="/images/css/master2017.css" />
+		<!--全网通用样式-->
+		<link rel="stylesheet" href="/images/css/2017public-tyHB.css" />
+		<!--全网通用头部底部样式-->
+		<link rel="stylesheet" href="/images/css/2017public-tyyc.css" />
+		<!--右侧-->
+		<script src="http://img.hxzg.net/images/js/public-jquery-1.9.1.min.js" type="text/javascript">
+		</script>
+		<!--JQ库文件-->
+		<script src="http://img.hxzg.net/images/js/jquery.superslide.tab.2.1.1.js" type="text/javascript">
+		</script>
+		<!--顶部及大图轮播-->
+		<script>
+			$(function() {
+				var winW = $(window).width();
+				if (winW <= 768) {
+					document.querySelector('html').style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+				}
+			})
+		</script>
+	</head>
+
+	<body>
+		<!--S 头部-->
+		<div class="box-inner">
+			<div id="date" style="width:1200px; margin:0 auto;">
+				<div class="date-top">
+					<div class="dateleft yahei">
+						<script>
+							var CalendarData = new Array(20);
+							var madd = new Array(12);
+							var TheDate = new Date();
+							var tgString = "甲乙丙丁戊己庚辛壬癸";
+							var dzString = "子丑寅卯辰巳午未申酉戌亥";
+							var numString = "一二三四五六七八九十";
+							var monString = "正二三四五六七八九十冬腊";
+							var weekString = "日一二三四五六";
+							var sx = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
+							var cYear;
+							var cMonth;
+							var cDay;
+							var cHour;
+							var cDateString;
+							var DateString;
+							var Browser = navigator.appName;
+
+							function init() {
+								CalendarData[0] = 0x41A95;
+								CalendarData[1] = 0xD4A;
+								CalendarData[2] = 0xDA5;
+								CalendarData[3] = 0x20B55;
+								CalendarData[4] = 0x56A;
+								CalendarData[5] = 0x7155B;
+								CalendarData[6] = 0x25D;
+								CalendarData[7] = 0x92D;
+								CalendarData[8] = 0x5192B;
+								CalendarData[9] = 0xA95;
+								CalendarData[10] = 0xB4A;
+								CalendarData[11] = 0x416AA;
+								CalendarData[12] = 0xAD5;
+								CalendarData[13] = 0x90AB5;
+								CalendarData[14] = 0x4BA;
+								CalendarData[15] = 0xA5B;
+								CalendarData[16] = 0x60A57;
+								CalendarData[17] = 0x52B;
+								CalendarData[18] = 0xA93;
+								CalendarData[19] = 0x40E95;
+								madd[0] = 0;
+								madd[1] = 31;
+								madd[2] = 59;
+								madd[3] = 90;
+								madd[4] = 120;
+								madd[5] = 151;
+								madd[6] = 181;
+								madd[7] = 212;
+								madd[8] = 243;
+								madd[9] = 273;
+								madd[10] = 304;
+								madd[11] = 334;
+							}
+
+							function GetBit(m, n) {
+								return (m >> n) & 1;
+							}
+
+							function e2c() {
+								var total, m, n, k;
+								var isEnd = false;
+								var tmp = TheDate.getYear();
+								if (tmp < 1900) tmp += 1900;
+								total = (tmp - 2020) * 365 +
+									Math.floor((tmp - 2020) / 4) +
+									madd[TheDate.getMonth()] +
+									TheDate.getDate() -
+									23;
+								if (TheDate.getYear() % 4 == 0 && TheDate.getMonth() > 1)
+									total++;
+								for (m = 0;; m++) {
+									k = (CalendarData[m] < 0xfff) ? 11 : 12;
+									for (n = k; n >= 0; n--) {
+										if (total <= 29 + GetBit(CalendarData[m], n)) {
+											isEnd = true;
+											break;
+										}
+										total = total - 29 - GetBit(CalendarData[m], n);
+									}
+									if (isEnd) break;
+								}
+								cYear = 2020 + m;
+								cMonth = k - n + 1;
+								cDay = total;
+								if (k == 12) {
+									if (cMonth == Math.floor(CalendarData[m] / 0x10000) + 1)
+										cMonth = 1 - cMonth;
+									if (cMonth > Math.floor(CalendarData[m] / 0x10000) + 1)
+										cMonth--;
+								}
+								cHour = Math.floor((TheDate.getHours() + 3) / 2);
+							}
+
+							function GetcDateString() {
+								var tmp = "";
+								tmp += tgString.charAt((cYear - 4) % 10);
+								//年干
+								tmp += dzString.charAt((cYear - 4) % 12);
+								//年支
+								tmp += "年";
+								tmp += " ";
+								if (cMonth < 1) {
+									tmp += "闰";
+									tmp += monString.charAt(-cMonth - 1);
+								} else
+									tmp += monString.charAt(cMonth - 1);
+								tmp += "月";
+								tmp += (cDay < 11) ? "初" : ((cDay < 20) ? "十" : ((cDay < 30) ? "廿" : "卅"));
+								if (cDay % 10 != 0 || cDay == 10)
+									tmp += numString.charAt((cDay - 1) % 10);
+								tmp += "    ";
+								cDateString = tmp;
+								return tmp;
+							}
+
+							function GetDateString() {
+								var tmp = "";
+								var t1 = TheDate.getYear();
+								if (t1 < 1900) t1 += 1900;
+								tmp += t1 +
+									"年" +
+									(TheDate.getMonth() + 1) + "月" +
+									TheDate.getDate() + "日   " +
+									"   星期" + weekString.charAt(TheDate.getDay());
+								DateString = tmp;
+								return tmp;
+							}
+							init();
+							e2c();
+							GetDateString();
+							GetcDateString();
+							document.write(DateString, " ", cDateString);
+						</script>
+					</div>
+					<div class="dateright">
+						<div class="left">
+							<dl class="yahei">
+								<script type="text/javascript" src="http://img.hxzg.net/images/js/showtab121011.js">
+								</script>
+								<!--tab切换-->
+								<!-- <dt class="libg" id="td_50_1" onclick="showtab(50,1,1)">中央宣传&nbsp;&gt;</dt> -->
+								<dd id="tab_50_1">
+									<span><a href="http://cpc.people.com.cn/" target="_blank">中国共产党新闻网</a></span>
+									<span><a href="https://www.gov.cn/" target="_blank">中央政府网</a></span>
+									<span><a href="http://www.people.com.cn/" target="_blank">人民网</a></span>
+									<span><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></span>
+									<span><a href="http://www.cctv.com/" target="_blank">央视网</a></span>
+									<span><a href="http://www.qstheory.cn/" target="_blank">求是</a></span>
+									<span><a href="http://www.xuexi.cn/" target="_blank">学习强国</a></span>
+									<span><a href="http://www.wenming.cn/" target="_blank">中国文明网</a></span>
+									<span><a href="http://www.cac.gov.cn/" target="_blank">中央网信办</a></span>
+								</dd>
+							</dl>
+						</div>
+						<!--S 搜索栏-->
+						<div class="se-R right">
+							<form name="formsearch" action="https://www.baidu.com/s" target="_blank">
+								<input id="textfield" type="text" name="q1" class="search_box" value="和谐网搜索"
+									autocomplete="off" onfocus="if (value =='和谐网搜索'){value =''}"
+									onblur="if (value ==''){value='和谐网搜索'}" />
+								<input type="hidden" name="q6" value="www.hxzg.net" />
+								<input type="submit" name="button" id="button" class="search_btn" value="" />
+							</form>
+						</div>
+						<!--E 搜索栏-->
+					</div>
+				</div>
+			</div>
+			<div class="hr_10">
+			</div>
+			<div id="header">
+				<div id="Logo">
+					<a href="/">
+					</a>
+				</div>
+				<!-- 顶部BANNER start -->
+				<div id="headergg">
+					<div id="myags">
+						<div class="foucua01">
+							<ul class="slides_item" style="position: relative; width: 818px; height: 91px;">
+								<li style="position: absolute; width: 818px; left: 0px; top: 0px; display: list-item;">
+									<img src="http://img.hxzg.net/images/index-top-20170620-sjdzk2.jpg" width="818" height="83">
+								</li>
+								<li style="position: absolute; width: 818px; left: 0px; top: 0px; display: none;">
+									<img src="http://img.hxzg.net/images/index-top-20170620-kxjzg2.jpg" width="818" height="83">
+								</li>
+							</ul>
+							<div class="num" style="display:none">
+								<ul>
+									<li class="on">1
+									</li>
+									<li class="">2
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>
+				    // 顶部及大图轮播
+				    /*鼠标移过，左右按钮显示*/
+				    $(".foucua01").hover(function(){
+				        $(this).find(".prev,.next").fadeTo("show",0.1);
+				
+				    },function(){
+				        $(this).find(".prev,.next").hide();
+				    })
+				    /*鼠标移过某个按钮 高亮显示*/
+				    $(".prev,.next").hover(function(){
+				        $(this).fadeTo("show",0.7);
+				    },function(){
+				        $(this).fadeTo("show",0.1);
+				    })
+				    $(".foucua01").slide({ titCell:".num ul" , mainCell:".slides_item" , effect:"fold", autoPlay:true, delayTime:1000 , autoPage:true,interTime:6000 });//如果不输出数字autoPage:"<li><a></a></li>"
+				    $(".foucua02").slide({ titCell:".num01 ul" , mainCell:".slides_item" , effect:"fold", autoPlay:true, delayTime:1000 , autoPage:true ,interTime:5000});//delayTime:效果速度//effect：效果的展现形式
+				    $(".foucua04").slide({ titCell:".num ul" , mainCell:".slides_item" , effect:"fold", autoPlay:true, delayTime:1000 , autoPage:true ,interTime:5000});//delayTime:效果速度//effect：效果的展现形式
+				    $(".foucua05").slide({ titCell:".num ul" , mainCell:".slides_item" , effect:"fold", autoPlay:true, delayTime:1000 , autoPage:true ,interTime:5000});
+				    $(".image-show").hide();
+				
+				    $(".image-text1").hover(function(){
+				        $(this).find(".image-show").show()
+				    },function(){
+				        $(this).find(".image-show").hide()
+				    });
+				    $(".pic-95list dl dd").hover(function(){
+				        $(this).find(".image-show").show()
+				    },function(){
+				        $(this).find(".image-show").hide()
+				    });
+				</script>
+				<!-- 顶部BANNER end -->
+				<div id="Logo_wmlm" class="bo900">
+					<div class="img">
+					</div>
+					<div class="abouts">
+						<ol>
+							<li>
+								<a target="_blank" href="http://qiye.aliyun.com/">邮 箱
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="/about.html">关于我们
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<div class="hr_15">
+			</div>
+			<!-- 导航栏 start -->
+			<div id="mainNav">
+				<div class="left">
+			        <ol>
+			            <li><a href="/politics">中央要论</a></li>
+			            <li><a href="/guoxue">和谐书院</a></li>
+			            <li><a href="/Charity">公益慈善</a></li>
+			            <li><a href="/qinqishuhua">中国收藏</a></li>
+			        </ol>
+			    </div>
+			    <div class="mid">
+			        <ol>
+			            <li><a href="/society">和谐社会</a></li>	
+			            <li><a href="/unn">和谐城市</a></li>
+			            <li><a href="/xnc">和谐村镇</a></li>	
+			            <li><a href="/comm">和谐社区</a></li>
+			            <li><a href="/mange">和谐企业</a></li>
+			            <li><a href="/art">和谐文化</a></li>
+			            <li><a href="/school">和谐校园</a></li>
+			            <li><a href="/home">和谐家庭</a></li>
+			            <li><a href="/life">和谐人生</a></li>
+			            <li><a href="/world">和谐世界</a></li>
+			        </ol>
+			    </div>
+			    <div class="mid_sub">
+			        <ol>
+			            <li><a href="/st">科教兴国</a></li>
+						<li><a href="/Woman">魅力女性</a></li>
+						<li><a href="/health">健康生活</a></li>
+			            <li><a href="/sports">奥运体育</a></li>
+						<li><a href="/tour">旅游时尚</a></li>
+						<li><a href="/hxsp">和谐视频</a></li>
+			        </ol>
+			    </div>
+			    <div class="right">
+			        <ol>
+			            <li><a href="/fortune">中外财经</a></li>
+						<li><a href="/stdt">社团动态</a></li>
+			        	<li><a href="/quality">中华名优</a></li>
+						<li><a href="/unify">台港澳侨</a></li>
+			        </ol>
+			    </div>
+			</div>
+			<!-- 导航栏 end -->
+			<div class="hr_15">
+			</div>
+		</div>
+		<!--E 头部-->
+		<!--此处放“栏目LOGO调用”-->
+		<div class="ty-dy">
+			<div class="head-line"></div>
+		</div>
+		<div class="sj-logo">
+			<div class="sj-img"><img src="http://img.hxzg.net/images/public-Nlogo2017.png" /></div>
+			<div class="sj-R"><img src="http://img.hxzg.net/images/public-Nav2017.png" /></div>
+		</div>
+		<!--END-->
+<link rel="stylesheet" href="/images/css/2017public-ptxl.css">
+<style type="text/css">
+	body,
+	td,
+	th {
+		font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体";
+	}
+</style>
+<script>
+	$(function() {
+		var winW = $(window).width();
+		if (winW <= 768) {
+			document.querySelector('html').style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+		}
+	})
+</script>
+<!--[if lt IE 9]>
+			<style>.yp-pic{display: none;}
+			.print_tex{width:150px;}.print_tex .print{width: 30px;}
+			</style>
+		<![endif]-->
+<script>
+	$(function() {
+		$('.yp-pic').click(function() {
+			$('.vid-box').show();
+			audio.play();
+		});
+		$('.yp-close').click(function() {
+			$('.vid-box').hide();
+			audio.pause();
+		});
+	})
+</script>
+<script type="text/javascript" src="/images/js/wmwgl20150907.js"></script>
+<!--生成二维码-->
+
+<div class="hr_15"></div>
+<div class="inner">
+	<div class="box_tex">
+		<div class="title">
+			<a href="/" target="_blank" title="和谐网首页" class="CurrChnlCls">和谐网首页</a>&nbsp;>
+			<a href="/thkszjy/lists_62_1.html" title="国学活动" class="CurrChnlCls">国学活动</a>
+		</div>
+		<div class="hr_20"></div>
+		<div id="title_tex">川大附小学班主任邓新靖推行&ldquo;以孝治班&rdquo;</div>
+		<div class="hr_10"></div>
+
+		<div id="time_tex"><span class="font_blue">发表时间：</span>
+			2012-09-06<span class="font_blue pad-30">来源：</span>
+		</div>
+		<div class="yp-pic">
+			<img src="/images/2017public-yp20170802-1.png" class="lx-yp1" />
+			<img src="/images/2017public-yp20170802-2.png" class="lx-yp2" />
+		</div>
+		<div class="print_tex" id="btnPrint">
+			<div class="font01">
+				<div class="zt-S"></div>
+				<div class="sml-tex">
+					<a href="javascript:void(0)">&nbsp;</a>
+				</div>
+			</div>
+			<div class="font">
+				<div class="zt-B"></div>
+				<div class="big-tex">
+					<a href="javascript:void(0)">&nbsp;</a>
+				</div>
+			</div>
+			<div class="share">
+				<div class="bdsharebuttonbox" data-tag="share_1">
+					<div class="share01"></div>
+					<div class="share02">
+						<a class="bds_more" data-cmd="more"></a>
+					</div>
+				</div>
+			</div>
+			<div class="print">
+				<div class="print-B"></div>
+				<div class="print-tex">
+					<a href="javascript:doPrint('title_tex','time_tex','tex','sj2017ewm');">&nbsp;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hr_5"></div>
+	<div class="cloum01 left">
+
+		<div id="tex" class="article">
+			<div class=TRS_Editor>
+								<div class="jianbiao">
+<h2>关键词：小学班主任 以孝治班 弟子规</h2>
+<h3><strong>[提要]</strong>学生课桌前张贴着节选《三字经》《弟子规》，每周一他们都要回家解读自己课桌上的内容；暑假作业，学生被要求每周写一篇以&ldquo;孝子在行动&rdquo;为主题的作文&hellip;&hellip;从上学期担任川大附小2008级6班的班主...</h3>
+</div>
+<!--end 简介标签--><!--内容开始-->
+<div id="context">
+<p>　　四川新闻网讯 学生课桌前张贴着节选《三字经》《弟子规》，每周一他们都要回家解读自己课桌上的内容；暑假作业，学生被要求每周写一篇以&ldquo;孝子在行动&rdquo;为主题的作文&hellip;&hellip;从上学期担任川大附小2008级6班的班主任以来，邓新靖便开始大力推行他的&ldquo;孝育&rdquo;：以孝治班，背诵《孝经》，践行《弟子规》。然而，这些举措在家长中引发争议&hellip;&hellip;</p>
+<p>　　<strong>新举措 班主任推行&ldquo;孝的教育&rdquo;</strong></p>
+<p>　　川大附小五(6)班(即2008级6班)的文化墙上，教室前方贴着&ldquo;孝亲、尊师、重道、修身&rdquo;，后方则贴着&ldquo;勤奋、自立、乐学、善思&rdquo;。这是班主任邓新靖和家委会成员最终妥协的结果。</p>
+<p>　　邓新靖，今年32岁，教龄已有13年。在从教过程中，他遇到一个&ldquo;两难问题&rdquo;，很多学生听老师话但不听家长话。2010年暑假，他听了一个&ldquo;百善孝为先&rdquo;</p>
+<p>　　的讲座，随后收集了大量有关&ldquo;孝&rdquo;的书籍潜心研读。&ldquo;人不孝亲，无以尊师；人不尊师，无以重道。&rdquo;邓新靖说，人不重道，遑论学业。在研读《孝经》等著作后，他以&ldquo;孝为根本&rdquo;的想法渐成雏形。</p>
+<p>　　去年暑假，邓新靖调到川大附小，担任2008级6班班主任兼语文老师。他向家长们阐述了他关于&ldquo;孝&rdquo;的思考。随后，他和家长、家委会商量后，家委会印制了《弟子规》《二十四孝图》《孝经》《道德经》、《三字经》、《训蒙骈句》等读物。另外，他还在早读、语文课前三分钟等时间开辟了专门的&ldquo;孝育&rdquo;时间。《二十四孝》和《孝经》是晨读暮诵，《弟子规》拆分为44份贴在课桌上。他还发放调查表，制定《孝言孝行反馈表》，让家长对孩子在家里的孝言孝行进行评价。</p>
+<p>　　<strong>引争议 家长担心荒废孩子学业</strong></p>
+<p>　　然而，这些举措在实施时并非一帆风顺。家委会主席老王透露，当时就引发很大的争议，甚至有家长想联名上书&ldquo;弹劾&rdquo;，主要原因是邓老师将很大重心放在&ldquo;孝&rdquo;上，家长担心把学生的功课荒废了。一位家长担忧，孩子可能会发现学到的东西和大环境不一样，比如吃饭&ldquo;长者先，幼者后&rdquo;，现在哪个家庭不是围绕孩子一个人转？家长老金说，邓老师布置暑假作业，要求孩子每周写一篇以&ldquo;孝子在行动&rdquo;为主题的作文，一些孩子觉得枯燥，都在应付编故事。家委会主席老王则建议&ldquo;孝育&rdquo;应在思想品德课上，不能占用正课时间。但邓新靖强调，&ldquo;都是用的零散时间&rdquo;，比如晨读时间、午休、和语文课前三分钟以及部分思想品德课。</p>
+<p>　　<strong>学生说 学了&ldquo;孝&rdquo;体谅了大人</strong></p>
+<p>　　&ldquo;其实，我的压力更大。&rdquo;邓新靖说，如果成绩不提高，很多人就会认为我只会耍花架子。他从孩子们的反馈表上看到了信心，一个叫魏毅的孩子反馈，在家里&ldquo;坐如钟，立如松、卧如弓，行如风&rdquo;受到了家长的表扬。</p>
+<p>　　邓新靖透露，班上的综合排名比他接手的时候提高了。他认为，&ldquo;亲其师，信其道&rdquo;，孩子们的向师性强，和同学融洽，教育沟通成本降低后，学习成绩自然就容易提高。学生韦家祺说，以前自己爱在长辈面前大吼大叫，现在知道对长辈说话要&ldquo;怡吾色，柔吾声&rdquo;，语文成绩也提高了。学生周煜萃表示，学了&ldquo;孝&rdquo;体谅了大人的难处。</p>
+<p>　　&ldquo;反对声渐渐少了。&rdquo;邓新靖计划，在本学期跟进《笠翁对韵》《声律启蒙》《易经》。他还打算和音乐老师合作，教孩子们一些有关孝的歌曲。不过他也遇到一些困惑，比如如何把&ldquo;孝育&rdquo;同思想品德课无缝连接。</p>
+<p>　　川大附小德育处主任王宁表示，其实&ldquo;孝&rdquo;的教育，其他老师也在做，比如感恩教育，只是邓新靖把它鲜明地提了出来，教育具有鲜明的个性和特色。经过一年的实践，2008级6班的学生有礼貌、讲文明、守规则，学习成绩也有所提高。但王宁希望，能从儿童的特点出发，根据孩子的成长规律，注意区别一些不合时代的东西，比如孩子和长辈说话要小声，要低着头退几步走出去。邓新靖的一位同事认为，邓的做法&ldquo;很有勇气&rdquo;，不过效果还有待时日。</p>
+<p style="text-align: left"><a target="_blank" href="http://www.hxzg.net/">【和谐中国网hxzg.net全民学习弟子规工作委员会&middot;和谐书院&middot;弟子规现代修订者、台湾孔子学院教授李耀君老师弟子规讲座报告预约电话010-5143 8660短信158 1010 2998《训蒙文》清&middot;康熙 李毓秀、《弟子规》清&middot;乾隆 贾存仁、《人之规》现代&middot;李耀君】</a></p>
+</div>				<!--S 分页-->
+								<!--E 分页-->
+			</div>
+		</div>
+		<div id="sj2017ewm" style="display:none;text-align:center;">
+			<div id="code">
+				<script>
+					//生成二维码
+					var qrcode = new QRCode(document.getElementById("code"), {
+						width: 200, //设置宽高;
+						height: 200
+					});
+					qrcode.makeCode('{dede:global.cfg_basehost/}{dede:field name='
+						arcurl '/}');
+				</script>
+			</div>
+		</div>
+
+		<div id="PageLink" class="pagelink_xl">
+			<script>
+				function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt) {
+					if (_nPageCount == null || _nPageCount <= 1) {
+						return;
+					}
+					var nCurrIndex = _nCurrIndex || 0;
+					if (nCurrIndex == 0)
+						document.write("1&nbsp;");
+					else
+						document.write("<a href=\"" + _sPageName + "." + _sPageExt + "\">1</a>&nbsp;");
+					for (var i = 1; i < _nPageCount; i++) {
+						if (nCurrIndex == i)
+							document.write((i + 1) + "&nbsp;");
+						else
+							document.write("<a href=\"" + _sPageName + "_" + i + "." + _sPageExt + "\">" + (i + 1) +
+								"</a>&nbsp;");
+					}
+				}
+			</script>
+
+		</div>
+		<div class="hr_20"></div>
+
+		<div class="bottom_tex">
+			<div class="editor_tex"><span class="font_blue">责任编辑：和谐中国网</span></div>
+		</div>
+
+		<div class="xggj">
+			<div class="xggj-tit">
+				<div class="xggj-a">相关稿件</div>
+				<div class="clear"></div>
+			</div>
+			<ul class="xggj-list">
+							<li>
+					<div class="xggj-p">
+						<a href="/html/62-9121.html" title="学习《弟子规》的必要性">学习《弟子规》的必要性</a>
+					</div>
+					<div class="xggj-st">(2012-06-01)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-9043.html" title="高墙内学《弟子规》 重塑灵魂做新人">高墙内学《弟子规》 重塑灵魂做新人</a>
+					</div>
+					<div class="xggj-st">(2012-05-19)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-10491.html" title="大学何以向蒙学&ldquo;取经&rdquo;（文艺点评）">大学何以向蒙学&ldquo;取经&rdquo;（文艺点评）</a>
+					</div>
+					<div class="xggj-st">(2013-08-31)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-5255.html" title="陈光荣：和谐智慧人生从《弟子规》开始">陈光荣：和谐智慧人生从《弟子规》开始</a>
+					</div>
+					<div class="xggj-st">(2010-07-09)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-11791.html" title="陕西渭南市排水公司邀请李耀君作国学教育报告">陕西渭南市排水公司邀请李耀君作国学教育报告</a>
+					</div>
+					<div class="xggj-st">(2016-04-23)</div>
+					<div class="clear"></div>
+				</li>
+							
+			</ul>
+		</div>
+
+		<div class="hr_30"></div>
+		<div class="xggj tjxw">
+			<div class="xggj-tit">
+				<div class="xggj-a">推荐新闻</div>
+				<div class="clear"></div>
+			</div>
+			<ul class="xggj-list">
+							<li>
+					<div class="xggj-p">
+						<a href="/html/62-8529.html" title="同书《明道歌》 感悟儒释道">同书《明道歌》 感悟儒释道</a>
+					</div>
+					<div class="xggj-st">(2012-01-27)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-11362.html" title="惠州市第一人民医院邀请李耀君作国学报告">惠州市第一人民医院邀请李耀君作国学报告</a>
+					</div>
+					<div class="xggj-st">(2015-04-25)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-14168.html" title="【和谐网】河北东方祥瑞通信技术公司助印《弟子规&middot;人之规》">【和谐网】河北东方祥瑞通信技术公司助印《弟子规&middot;人之规》</a>
+					</div>
+					<div class="xggj-st">(2024-07-25)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-12815.html" title="《弟子规》现代修订版&mdash;&mdash;《人之规》（图片版）">《弟子规》现代修订版&mdash;&mdash;《人之规》（图片版）</a>
+					</div>
+					<div class="xggj-st">(2018-07-09)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13419.html" title="李耀君老师国学文化活动剪影（二）">李耀君老师国学文化活动剪影（二）</a>
+					</div>
+					<div class="xggj-st">(2019-06-10)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13523.html" title="李耀君：抗疫歌曲系列歌词">李耀君：抗疫歌曲系列歌词</a>
+					</div>
+					<div class="xggj-st">(2020-03-19)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13712.html" title="中华儿女应该过&ldquo;中华母亲节&rdquo;">中华儿女应该过&ldquo;中华母亲节&rdquo;</a>
+					</div>
+					<div class="xggj-st">(2021-05-08)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13713.html" title="中国人应该过&ldquo;中华母亲节&rdquo;和&ldquo;中华父亲节&rdquo;">中国人应该过&ldquo;中华母亲节&rdquo;和&ldquo;中华父亲节&rdquo;</a>
+					</div>
+					<div class="xggj-st">(2021-05-09)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13739.html" title="《人民政协报》刊发对和谐中国网总编李耀君的专访">《人民政协报》刊发对和谐中国网总编李耀君的专访</a>
+					</div>
+					<div class="xggj-st">(2021-09-01)</div>
+					<div class="clear"></div>
+				</li>
+								<li>
+					<div class="xggj-p">
+						<a href="/html/62-13854.html" title="中国人应该过&ldquo;中华母亲节&rdquo;和&ldquo;中华父亲节&rdquo;">中国人应该过&ldquo;中华母亲节&rdquo;和&ldquo;中华父亲节&rdquo;</a>
+					</div>
+					<div class="xggj-st">(2022-06-19)</div>
+					<div class="clear"></div>
+				</li>
+							
+			</ul>
+		</div>
+	</div>
+				<div class="cloum02 right">
+				<!--此处放“通用右侧调用”-->
+				<div class="sidebar">
+					<div class="hr365">
+						<div class="hr365-t">
+							<div class="hr365-tit hr365-tit1">
+							</div>
+							<div class="hr365-r">
+							</div>
+							<div class="clear">
+							</div>
+						</div>
+						<div class="hr365-b">
+							<div class="hr365-pic">
+																<a href="/html/62-12033.html" target="_blank">
+									<img src="http://img.hxzg.net/uploads/allimg/170918/1_091P02Zb4G.jpg" alt="和谐中国艺术盛典在京举行" title="和谐中国艺术盛典在京举行" width="320" height="200">
+								</a>
+								<div class="title_bg">
+								</div>
+								<div class="hr365-p">
+									<a href="/html/62-12033.html" target="_blank">和谐中国艺术盛典在京举行</a>
+								</div>
+								    								
+							</div>
+							<div class="hr365-p1">
+																<li>
+									<a href="/html/62-8529.html" target="_blank">同书《明道歌》 感悟儒释道</a>
+								</li>
+																	<li>
+									<a href="/html/62-11362.html" target="_blank">惠州市第一人民医院邀请李耀君作国学报告</a>
+								</li>
+																	<li>
+									<a href="/html/62-14168.html" target="_blank">【和谐网】河北东方祥瑞通信技术公司助印《弟子规&middot;人之规》</a>
+								</li>
+																	<li>
+									<a href="/html/62-12815.html" target="_blank">《弟子规》现代修订版&mdash;&mdash;《人之规》（图片版）</a>
+								</li>
+																	<li>
+									<a href="/html/62-13419.html" target="_blank">李耀君老师国学文化活动剪影（二）</a>
+								</li>
+																	<li>
+									<a href="/html/62-13523.html" target="_blank">李耀君：抗疫歌曲系列歌词</a>
+								</li>
+																	
+							</div>
+						</div>
+					</div>
+					<div class="jzg">
+						<div class="hr365-t">
+							<div class="hr365-tit hr365-tit2">
+							</div>
+							<div class="clear">
+							</div>
+						</div>
+						<div class="hr_20">
+						</div>
+						<div class="jzg-box">
+							<div class="sidebarbox">
+								<div class="picbox">
+									<ul class="piclist mainlist" style="width: 1017px; left: 0px;">
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg001.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg002.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg003.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg004.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg005.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg001.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+									</ul>
+									<ul class="piclist swaplist" style="width: 1017px; left: -1017px;">
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg001.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg002.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg003.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg004.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg005.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+										<li>
+											<a>
+												<img src="/images/dzg/Dzg001.jpg" title="和谐网全民学习弟子规工作委员会合作印制人之规现代修订版弟子规" width="93" height="117">
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="og_prev" style="opacity: 0.7;">
+								</div>
+								<div class="og_next">
+								</div>
+							</div>
+							<script>
+								$(function() {
+									var widW = $('.sidebar').width();
+									$(document).ready(function(e) {
+										/***不需要自动滚动，去掉即可***/
+										time = window.setInterval(function() {
+											$('.og_next').click();
+										}, 5000);
+										/***不需要自动滚动，去掉即可***/
+										linum = $('.mainlist li').length;
+										//图片数量
+										var liW = $('.mainlist li').width() + 20;
+										w = linum * liW;
+										//ul宽度
+										$('.piclist').css('width', w + 'px');
+										//ul宽度
+										$('.swaplist').html($('.mainlist').html());
+										//复制内容
+										$('.og_next').click(function() {
+											if ($('.swaplist,.mainlist').is(':animated')) {
+												$('.swaplist,.mainlist').stop(true, true);
+											}
+											if ($('.mainlist li').length > 4) {
+												//多于4张图片
+												ml = parseInt($('.mainlist').css('left'));
+												//默认图片ul位置
+												sl = parseInt($('.swaplist').css('left'));
+												//交换图片ul位置
+												if (ml <= 0 && ml > w * -1) {
+													//默认图片显示时
+													$('.swaplist').css({
+														left: widW + 'px'
+													});
+													//交换图片放在显示区域右侧
+													$('.mainlist').animate({
+														left: ml - liW * 3 + 'px'
+													}, 'slow');
+													//默认图片滚动                
+													if (ml == (w - liW * 3) * -1) {
+														//默认图片最后一屏时
+														$('.swaplist').animate({
+															left: '0px'
+														}, 'slow');
+														//交换图片滚动
+													}
+												} else {
+													//交换图片显示时
+													$('.mainlist').css({
+														left: widW + 'px'
+													}) //默认图片放在显示区域右
+													$('.swaplist').animate({
+														left: sl - liW * 3 + 'px'
+													}, 'slow');
+													//交换图片滚动
+													if (sl == (w - liW * 3) * -1) {
+														//交换图片最后一屏时
+														$('.mainlist').animate({
+															left: '0px'
+														}, 'slow');
+														//默认图片滚动
+													}
+												}
+											}
+										})
+										$('.og_prev').click(function() {
+											if ($('.swaplist,.mainlist').is(':animated')) {
+												$('.swaplist,.mainlist').stop(true, true);
+											}
+											if ($('.mainlist li').length > 4) {
+												ml = parseInt($('.mainlist').css('left'));
+												sl = parseInt($('.swaplist').css('left'));
+												if (ml <= 0 && ml > w * -1) {
+													$('.swaplist').css({
+														left: w * -1 + 'px'
+													});
+													$('.mainlist').animate({
+														left: ml + liW * 3 + 'px'
+													}, 'slow');
+													if (ml == 0) {
+														$('.swaplist').animate({
+															left: (w - liW * 3) * -1 + 'px'
+														}, 'slow');
+													}
+												} else {
+													$('.mainlist').css({
+														left: (w - liW * 3) * -1 + 'px'
+													});
+													$('.swaplist').animate({
+														left: sl + liW * 3 + 'px'
+													}, 'slow');
+													if (sl == 0) {
+														$('.mainlist').animate({
+															left: '0px'
+														}, 'slow');
+													}
+												}
+											}
+										})
+									});
+									$(document).ready(function() {
+										$('.og_prev,.og_next').hover(function() {
+											$(this).fadeTo('fast', 1);
+										}, function() {
+											$(this).fadeTo('fast', 0.7);
+										})
+									})
+								})
+							</script>
+						</div>
+					</div>
+					<div class="hxg">
+						<div class="hr365-t">
+							<div class="hr365-tit hr365-tit6">
+							</div>
+							<div class="clear">
+							</div>
+						</div>
+						<div class="hxg-box">
+														<div class="hxg-tit bold">
+								<a>减腰秘诀---七个好习惯								</a>
+							</div>
+							<div class="hxg-p">原卫生部颁布的《中国成人超重和肥胖症预防控制指南》明确规定，男性腰围85厘米，女性腰围80厘米为腰围超标的界限。腰围增大预示肥胖，而谁都知道，肥胖是高血压、糖尿病的先遣兵。肥胖可导致高血压、糖尿? ⑿脑嗖 ?┲ⅰ⒌?已住⒐亟谘椎纫幌盗屑膊 Ｔ缭?19</div>
+															
+						</div>
+					</div>
+				</div>
+				<!--END-->
+			</div>
+</div>
+</div>
+<div class="hr_30"></div>
+<div class="hr_30"></div>
+<div class="vid-box">
+	<div class="yp-close"></div>
+	<audio controls id="audio" style="margin:0 auto;">
+		<source src="" type="audio/mp3">
+	</audio>
+
+</div>
+<script type="text/javascript" src="/images/js/sharelist.js"></script>
+<script type="text/javascript" src="/images/js/New2017zt-print.js"></script>
+
+<script>
+	$(function() {
+		$('.ten-box-tit1').hover(function() {
+			var index = $(this).index('.ten-box-tit1');
+			$('.ten-box-tit1').removeClass('box-bg');
+			$('.ten-box-tit1').eq(index).addClass('box-bg');
+			$('.ten-box2').hide();
+			$('.ten-box2').eq(index).show();
+		});
+		var winW = $(window).width();
+		var b = (winW - 300) / 2 - 22;
+		$('.yp-close').css({
+			right: b + 'px'
+		})
+
+	})
+
+//判断是否有无音频
+	$(function() {
+		var src1 = $('#audio source').attr('src');
+		if(src1 == '') {
+			$('.yp-pic').hide();
+		}
+	})
+</script>
+<!--S 底部-->
+		<footer id="footer">
+			<div class="bottom">
+				<div class="about">
+					<div class="main">
+						<a target="_blank" href="/about.html">关于我们</a> &nbsp;|&nbsp;
+						<a target="_blank" href="/copyright.html">版权声明</a> &nbsp;|&nbsp;
+						<a target="_blank" href="/contact.html">联系方式</a>
+					</div>
+					<div class="ft-cp">和谐中国网出品</div>
+				</div>
+				<div class="copyright font3">
+					<div class="main">
+						<div class="copyright_box left">
+							<li>版权所有 和谐网(和谐中国网)Hxzg.net 法律顾问：王振玉 杨矿生 崔莉</li>
+							<li>中国互联网协会CHINARANK.ORG.CN重点支持单位</li>
+							<li>
+								<a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2023003307号</a>&nbsp;&nbsp;违法和不良信息举报电话：(010)88050176
+							</li>
+						</div>
+						<div style="display:none">
+							<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b23f72c201b6c2f627196965979026d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+<!--E 底部-->

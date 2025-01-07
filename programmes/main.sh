@@ -5,6 +5,10 @@
 # Par exemple, ./main.sh lang2.txt lang2
 # Faire attention à ce que le script soit exécutable.
 
+# VERIFICATION POUR L'OS
+## C'est pour gérér le système d'exploitation macos qui ne gère pas tout comme linux sur la ligne 95-97
+MAC="Darwin"
+
 # RENDRE DES SCRIPTS EXTERIEURE EXECUTABLE
 chmod +x ./get_concordance.sh
 
@@ -87,7 +91,14 @@ do
     code_http=$(curl -s -I -L -w "%{http_code}" -o /dev/null $line) # extracts the http code
     if [[ "$code_http" -eq 200 ]]
     then
-        encodage=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
+
+        if [[ "$(uname)" == "$MAC" ]]
+        then
+            encodage=$(curl -s -I -L "$line" | grep -i "charset=" | cut -d'=' -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
+        else
+            encodage=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
+        fi
+
         aspiration="../aspirations/$base-$url_numero.html"
         contenu_html=$(curl -s -L "$line")
 

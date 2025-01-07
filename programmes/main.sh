@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# NOTES
-# pour utiliser ce script
-# aller dans le repertoire programmes
-# ensuite taper dans la ligne de commande :
-# par exemple, ./main.sh "../URLs/lang2.txt" "lang2"
-# faire attention que le script est executable
+# NOTE
+# Pour utiliser ce script allez dans le répertoire "programmes"
+# Ensuite, tapez dans la ligne de commande :
+# Par exemple, ./main.sh lang2.txt lang2
+# Faire attention à ce que le script soit exécutable.
 
 # RENDRE DES SCRIPTS EXTERIEURE EXECUTABLE
 chmod +x ./get_concordance.sh
@@ -78,51 +77,40 @@ echo "<!DOCTYPE html>
             <th>Concordance</th>
          </tr>"
 
-count=0
+url_numero=0
 while read -r line
 do
-    ((count++))
+    ((url_numero++))
 
     echo "Traitement de $line" >&2
 
-    # entete=$(curl -s -I -L "$line") # HTTP Header Request -> gets the server response. Server response is stored in this variable.
-    # code_http=$(echo "$entete" | head -n 1 | cut -d' ' -f2) # extracts the http code
     code_http=$(curl -s -I -L -w "%{http_code}" -o /dev/null $line) # extracts the http code
-    # if [[ "200" == "$code_http" ]]
     if [[ "$code_http" -eq 200 ]]
     then
-        # encodage=$(echo "$entete" | grep -i "charset=" | cut -d'=' -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
-        encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
-        aspiration="../aspirations/$base-$count.html"
+        encodage=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tr -d '[:space:]' | tr '[:lower:]' '[:upper:]')
+        aspiration="../aspirations/$base-$url_numero.html"
         contenu_html=$(curl -s -L "$line")
-        echo "$contenu_html" > "$aspiration"
-        echo "✓ Aspiration sauvegardée pour ligne $count" >&2
 
         # DANS LE CAS OÙ L'ENCODAGE N'EST PAS PRESENT DANS L'APPEL HTTP
-        # ON CHERCHE DANS LA BALISE META DANS LE FICHIER QUI CONTIENT L'INFO HTML DE LA PAGE
+        # ON CHERCHE DANS LA BALISE META DANS LE CONTENU OÙ L'INFO HTML DE LA PAGE EST STOCKÉ
         if [[ -z "$encodage" ]]
         then
-            encodage=$(grep -i "<meta.*charset" "$aspiration" | sed -E 's/.*charset="?([^";>]*)[";>].*/\1/' | tr '[:lower:]' '[:upper:]')
+            encodage=$(grep -i "<meta.*charset" "$contenu_html" | sed -E 's/.*charset="?([^";>]*)[";>].*/\1/' | tr '[:lower:]' '[:upper:]')
         fi
 
-        # DANS LE CAS OÙ IL N'EST PAS ENCORE PRESENT ON CONTINUE À TRAITER LA SUIVANTE URL.
-        if [[ -z "$encodage" ]]
-        then
-            echo "Encodage non trouvé pour $line. Continuation..." >&2
-            ((count--))
-            continue
-        elif [[ "$encodage" != "UTF-8" ]]
+        # DANS LE CAS OÙ CE N'EST PAS DE l'UTF-8, ON LE CONVERTIT EN UTF-8
+        if [[ "$encodage" != "UTF-8" ]]
         then
             echo "$contenu_html" | iconv -f "$encodage" -t UTF-8 > "$aspiration"
-            echo "✓ Aspiration sauvegardée pour ligne $count (Encodage converti de $encodage à UTF-8)" >&2
+            echo "✓ Aspiration sauvegardée pour ligne $url_numero (Encodage converti de $encodage à UTF-8)" >&2
             encodage="UTF-8"
         else
             echo "$contenu_html" > "$aspiration"
-            echo "✓ Aspiration sauvegardée pour ligne $count (Encodage: UTF-8)" >&2
+            echo "✓ Aspiration sauvegardée pour ligne $url_numero (Encodage: UTF-8)" >&2
         fi
 
         # DUMP TEXT CONTENT
-        dump_text="../dumps-text/$base-$count.txt"
+        dump_text="../dumps-text/$base-$url_numero.txt"
         if [[ "$base" == "lang4" ]]
         then
             contenu_dump=$(lynx -dump -nolist -assume_charset=GB18030 -display_charset=UTF-8 "$aspiration")
@@ -132,35 +120,33 @@ do
 
         # CLEAN DUMP TEXT
         # DEFINITION DU INFO TEXTUELLE QU'ON VEUT SUPRIMMER
-        iframe="/^IFRAME/d"
+        iframe="/IFRAME:/d"
         button="/(BUTTON)/d"
         mot_entre_brackets="/\[.*\]/d"
-        links="/^http/d"
+        links="/http/d"
         navigation="s/^[[:space:]]*//; /^(\*|\+) ([^ ]+ ){0,2}[^ ]*$/d"
 
         cleaned_contenu_dump=$(echo "$contenu_dump" | sed -E -e "$iframe" -e "$button" -e "$mot_entre_brackets" -e "$links" -e "$navigation")
         echo "$cleaned_contenu_dump" > "$dump_text"
-        echo "✓ Dump text créé pour ligne $count" >&2
-
+        echo "✓ Dump text créé pour ligne $url_numero" >&2
 
         # OCCURRENCES
-        # occurrences=$(echo "$cleaned_contenu_dump" | grep -o -i -E "$mot_pattern" | wc -l)
         occurrences=$(grep -o -i -E "$mot_pattern" <<< "$cleaned_contenu_dump" | wc -l)
 
         # CONTEXT EXTRACTION
-        contexte="../contextes/$base-$count.txt"
+        contexte="../contextes/$base-$url_numero.txt"
         contenu_contexte=$(echo "$cleaned_contenu_dump" | grep -i -E "$mot_pattern")
         echo "$contenu_contexte" > "$contexte"
-        echo "✓ Contexte extrait pour ligne $count ($occurrences occurrences trouvées)" >&2
+        echo "✓ Contexte extrait pour ligne $url_numero ($occurrences occurrences trouvées)" >&2
 
         # CONCORDANCE GENERATION
-        concordance="../concordances/$base-$count.html"
+        concordance="../concordances/$base-$url_numero.html"
         contenu_concordance=$(echo "$contenu_contexte" | ./get_concordance.sh "$mot_a_rechercher" "$base")
         echo "$contenu_concordance" > "$concordance"
-        echo "✓ Concordance générée pour ligne $count" >&2
+        echo "✓ Concordance générée pour ligne $url_numero" >&2
 
         echo "                <tr>
-                    <td>$count</td>
+                    <td>$url_numero</td>
                     <td><a href=\"$line\" target=\"_blank\">$line</a></td>
                     <td>$code_http</td>
                     <td>$encodage</td>
@@ -170,12 +156,14 @@ do
                     <td><a href=\"$contexte\">contexte</a></td>
                     <td><a href=\"$concordance\">concordance</a></td>
                 </tr>"
-        echo "✓ Traitement complet pour ligne $count: $line" >&2
+        echo "✓ Traitement complet pour ligne $url_numero: $line" >&2
+
+    # SI L'URL NE RETOURNE PAS UN CODE HTTP 200, IGNORER ET AJOUTER UNE LIGNE AVEC 'INDISPONIBLE'
     else
-        echo "✗ Échec du traitement pour ligne $count: $line" >&2
+        echo "✗ Échec du traitement pour ligne $url_numero: $line" >&2
 
         echo "                 <tr>
-                    <td>$count</td>
+                    <td>$url_numero</td>
                     <td>$line</td>
                     <td>Indisponible</td>
                     <td>Indisponible</td>
@@ -186,7 +174,7 @@ do
                     <td>Indisponible</td>
                 </tr>"
     fi
-done <"$fichier_urls"
+done <"../URLs/$fichier_urls"
 
 echo "    </table>
    </div>

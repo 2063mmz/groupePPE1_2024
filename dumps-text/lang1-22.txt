@@ -1,0 +1,381 @@
+   contenu principal
+   (BUTTON) Accueil France Info
+      Rechercher une actualité Recherche
+     
+      Direct TV TV
+      Direct radio Radio
+      Le live Live
+     
+      (BUTTON) Services
+           Newsletters (Nouvelle fenêtre)
+           Météo (Nouvelle fenêtre)
+           Jeux (Nouvelle fenêtre)
+           Scolarité
+     
+      (BUTTON) Mon franceinfo
+           Transparence
+           Nous contacter
+           Se connecter
+           S'inscrire
+      Accueil culture
+     
+      (BUTTON) Menu culture
+     
+      Noël et fêtes de fin d'année
+     
+      franceinfo
+   France Info culture France Info culture (BUTTON)
+      franceinfo
+      Accueil culture
+   En ce moment
+      Noël et fêtes de fin d'année
+   Rubriques
+      (BUTTON) Musique
+      (BUTTON) Cinéma
+      (BUTTON) Séries
+      (BUTTON) Arts-Expos
+      (BUTTON) Spectacles
+      (BUTTON) Livres
+      (BUTTON) BD
+      (BUTTON) Mode
+      (BUTTON) Patrimoine
+      Jeux vidéo
+      Direct tvTV
+      Direct radioRadio
+      Le liveLive
+      (BUTTON) Services
+      (BUTTON) Mon franceinfo
+   Recevez l'essentiel de l'actualité et restez à jour avec nos newsletters
+   découvrir nos newsletters (Nouvelle fenêtre)
+   Continuez votre exploration
+      France 3 régions (nouvelle fenêtre)France 3 régions
+      Outremer la 1ère (nouvelle fenêtre)Outremer la 1ère
+      (BUTTON) france TVfrance TV
+      (BUTTON) radio franceradio france
+   (BUTTON) Services Services
+      Newsletters (nouvelle fenêtre)Newsletters
+      Météo (nouvelle fenêtre)Météo
+      Jeux (nouvelle fenêtre)Jeux
+      Scolarité
+   (BUTTON) Mon franceinfo Mon franceinfo
+      Transparence
+      Nous contacter
+      Se connecter
+      S'inscrire
+   (BUTTON) Musique Musique
+   voir toute l'actu Musique
+      Pop
+      Rock
+      Rap
+      Electro
+      Jazz
+      Soul
+      Chanson française
+      Classique
+      Opéra
+      Eurovision 2023
+      Fête de la musique 2024
+      Johnny Hallyday
+      Michael Jackson
+      Rock en Seine 2024
+      Vieilles Charrues
+      Les Eurockéennes
+      Lollapalooza
+      Jazz à Vienne
+      Hellfest
+      Festival Interceltique de Lorient
+      Le Printemps de Bourges 2022
+      Main Square festival 2018
+      Les Francofolies
+      Festivals d'été
+   (BUTTON) Cinéma Cinéma
+   voir toute l'actu Cinéma
+      Sorties de films
+      Documentaires
+      Films d'animation
+      Films pour enfants
+      Festival de Cannes 2023
+      Festival de Deauville
+      Festival d'Annecy
+      Festival de Berlin
+      Oscars 2024
+      César 2024
+      Golden Globes
+      Meilleurs films
+      Gérard Depardieu
+      Mort de Jean-Paul Belmondo
+      Alain Delon
+      Catherine Deneuve
+      Fabrice Luchini
+      Brigitte Bardot
+      Clint Eastwood
+      Catherine Frot
+      Angelina Jolie
+      James Bond
+      Jean-Louis Trintignant
+      Agnès Varda
+   (BUTTON) Séries Séries
+   voir toute l'actu Séries
+      Netflix
+      Emmy Awards
+      "Game of Thrones"
+      Télévision
+   (BUTTON) Arts-Expos Arts-Expos
+   voir toute l'actu Arts-Expos
+      Peinture
+      Art contemporain
+      Sculpture
+      Photographie
+      Street Art
+      Architecture
+      Design
+      Meilleures expositions
+      Musée du Louvre
+      FIAC
+      Grand Palais
+      Musée d'Orsay
+      Centre Pompidou
+      Fondation Louis Vuitton
+      Mucem
+      Pablo Picasso
+      Banksy
+   (BUTTON) Spectacles Spectacles
+   voir toute l'actu Spectacles
+      Théâtre
+      Humour
+      Danse
+      Comédies musicales
+      Cirque
+      Les Molières
+      Comédie-Française
+      Opéra Garnier
+   (BUTTON) Livres Livres
+   voir toute l'actu Livres
+      Romans
+      Livres pour enfants
+      Essais/Histoire
+      Beaux livres
+      Meilleurs livres
+      Festival du livre de Paris 2024
+      La rentrée littéraire
+      Prix littéraires
+      Harry Potter
+      Houellebecq
+      Patrick Modiano
+      J. M. G. Le Clezio
+      Pierre Lemaitre
+      Joël Dicker
+      Guillaume Musso
+      Michel Bussi
+      Elena Ferrante
+      J. K. Rowling
+      Stephen King
+      Christine Angot
+   (BUTTON) BD BD
+   voir toute l'actu BD
+      Comics
+      Mangas
+      Franco-belge
+      Romans graphiques
+      Festival de BD d'Angoulême
+      Riad Sattouf
+      Jacques Tardi
+      Sempé
+      Uderzo
+      Joann Sfar
+      Hergé
+      Goscinny
+   (BUTTON) Mode Mode
+   voir toute l'actu Mode
+      Street wear
+      Créateurs
+      Fashion Week
+      Haute couture
+      Balenciaga
+      Yves Saint Laurent
+      Mort de Karl Lagerfeld
+      Jean Paul Gaultier
+      Chanel
+      Christian Dior
+      Balmain
+      Musée des arts décoratifs
+   (BUTTON) Patrimoine Patrimoine
+   voir toute l'actu Patrimoine
+      Histoire
+      Archéologie
+      Journées du patrimoine
+      Loto du patrimoine
+      Francophonie
+      Chateau de Versailles
+      Cuisine et Gastronomie
+   (BUTTON) france TV france TV
+   france TV (Nouvelle fenêtre)
+      France 2 (nouvelle fenêtre)France 2
+      France 3 (nouvelle fenêtre)France 3
+      France 4 (nouvelle fenêtre)France 4
+      France 5 (nouvelle fenêtre)France 5
+      Lumni (nouvelle fenêtre)Lumni
+      Okoo (nouvelle fenêtre)Okoo
+      France tv & vous (nouvelle fenêtre)France tv & vous
+      France tv le club (nouvelle fenêtre)France tv le club
+      France tv lab (nouvelle fenêtre)France tv lab
+      Les Médiateurs (nouvelle fenêtre)Les Médiateurs
+   (BUTTON) radio france radio france
+   radio france (Nouvelle fenêtre)
+      France Inter (nouvelle fenêtre)France Inter
+      France Bleu (nouvelle fenêtre)France Bleu
+      France Culture (nouvelle fenêtre)France Culture
+      France Musique (nouvelle fenêtre)France Musique
+      Fip (nouvelle fenêtre)Fip
+      Mouv' (nouvelle fenêtre)Mouv'
+      Maison de la Radio et de la Musique (nouvelle fenêtre)Maison de la Radio et de la Musique
+      La Médiatrice (nouvelle fenêtre)La Médiatrice
+   Flash info
+   (BUTTON) Fermer la notification
+   lire l'article
+Gastronomie : la douceur et la rondeur de la fourme d'Ambert
+   Publié le 16/11/2024 15:00
+   Temps de lecture : 1min - vidéo : 4min
+   Gastronomie : la douceur et la rondeur de la fourme d'Ambert Gastronomie : la douceur et la rondeur de la fourme d'Ambert Gastronomie : la douceur et la rondeur de la fourme d'Ambert (France
+   2)
+   Article rédigé par France 2 - B. Sidibé, L. Germain, C. Pary, F. Fontaine, M. Jannet
+   France Télévisions
+   JT de 13h
+   Édition du samedi 16 novembre 2024
+   À ne pas confondre avec le Roquefort, la fourme d'Ambert est un fromage crémeux et persillé, particulièrement difficile à fabriquer. Reportage dans le Puy-de-Dôme.
+   Avec sa pâte persillée au goût subtil, la fourme d’Ambert surprend par sa douceur. Elle est fabriquée avec du lait de vaches, qui pâturent à plus de 600 mètres à Ambert (Puy-de-Dôme). C’est
+   l’altitude minimale pour respecter l’appellation d’origine contrôlée. Dans la ferme des Rodary, les 85 vaches laitières vont et viennent à leur guise, nuit et jour. Une attention particulière
+   est portée à leur nourriture. "On est à 80% d’herbe sèche, ou pâturée à la période estivale", explique Patrick Rotary. Les vaches se font masser le dos et sont traitées à la demande.
+L’un des fromages les plus difficiles à fabriquer
+   Avec le lait, Gwenaëlle Rodary fabrique une fourme d’Ambert fermière. Il faut transformer la matière première en milliers de petits dés, une étape longue et fastidieuse. "C’est l’un des
+   fromages les plus difficiles à fabriquer", assure-t-elle. Depuis dix ans, sa fourme est la seule fabriquée à Ambert.
+   Thierry Chelle est l’un des restaurateurs qui vient régulièrement lui acheter des fourmes. Dans son établissement, il lui donne un petit accent auvergnat au risotto, un classique italien,
+   accompagné d’un filet de chapon farci à la fourme.
+   Retrouvez l'intégralité du reportage dans la vidéo ci-dessus
+   Image d'illustration de comversation Image d'illustration de comversation
+   Lancez la conversation
+   commenter
+   Partager : l’article sur les réseaux sociaux
+      (BUTTON) Partagez sur twitter (nouvel onglet) (Nouvelle fenêtre)
+      (BUTTON) Partagez sur whatsApp (nouvel onglet) (Nouvelle fenêtre)
+      (BUTTON) Partagez sur facebook (nouvel onglet) (Nouvelle fenêtre)
+      (BUTTON) Partagez par email (Nouvelle fenêtre)
+      (BUTTON) Partagez (Nouvelle fenêtre)
+   les mots-clés associés à cet article
+      Cuisine et Gastronomie
+      Culture
+   Les temps forts de l'émission
+   (BUTTON) passer cette liste
+   (BUTTON) Afficher les liens précédents (BUTTON) Afficher les liens suivants
+      Leïla Kaddour (FRANCE 2) Leïla Kaddour (FRANCE 2) video video
+       JT de 13h du samedi 16 novembre 2024
+       Présenté par Leïla Kaddour
+       Diffusé le 16/11 20min
+      Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ? (France 2) Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ? (France 2)
+       video video : Vidéo
+       : Vidéo
+       Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ?
+      Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et Vladimir Poutine (France 2) Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et
+       Vladimir Poutine (France 2) video video
+       Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et Vladimir Poutine
+      Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges (France 2) Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges
+       (France 2) video video : Vidéo
+       : Vidéo
+       Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges
+      Enchères : un dinosaure géant en vente dans les Yvelines (France 2) Enchères : un dinosaure géant en vente dans les Yvelines (France 2) video video
+       Enchères : un dinosaure géant en vente dans les Yvelines
+      Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture (France 2) Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture
+       (France 2) video video
+       Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture
+      Procès des assistants parlementaires du FN : la riposte de Marine Le Pen (France 2) Procès des assistants parlementaires du FN : la riposte de Marine Le Pen (France 2) video video
+       Procès des assistants parlementaires du FN : la riposte de Marine Le Pen
+      Eurovision Junior : Titouan, le candidat français, est prêt pour le concours (France 2) Eurovision Junior : Titouan, le candidat français, est prêt pour le concours (France 2) video video
+       : Vidéo
+       : Vidéo
+       Eurovision Junior : Titouan, le candidat français, est prêt pour le concours
+   L’équipe du JT
+   L'équipe de la semaine
+      Présenté par
+       Julian Bugier
+      Chef de rédaction
+       Thomas Horeau
+      Chef de rédaction adjoint
+       Régis Poullain, Catherine Raymond, Charles-Henri Carlier
+      Responsable d’édition
+       -
+      Journaliste
+       -
+      Joker
+       Maya Lauqué
+   L'équipe du week-end
+      Présenté par
+       Leila Kaddour
+      Chef de rédaction
+       Philippe Denis
+      Chef de rédaction adjoint
+       Arnaud Comte, Willy Gouville, Margaux Manière
+      Responsable d’édition
+       -
+      Journaliste
+       -
+      Joker
+       Julien Benedetto
+   Le médiateur de l'info France Télévisions
+   Adressez vos remarques à Jérôme Cathala
+   contactez-nous ! (Nouvelle fenêtre)
+   contenus sponsorisés
+   Lancez la conversation
+   Connectez-vous à votre compte franceinfo pour commenter.
+   (BUTTON) se connecter (BUTTON) créer votre compte
+   Découvrez l’application France Info
+   Toute l’actu en direct et en continu, où et quand vous voulez.
+      Sauvegardez vos articles à lire plus tard
+      Recevez les alertes uniquement sur ce qui vous intéresse
+      Télécharger dans l'App Store Télécharger dans l'App Store
+      Disponible sur Google Play Disponible sur Google Play
+   Télécharger l'application (Nouvelle fenêtre)
+    1. Accueil
+    2. Culture
+    3. Cuisine et Gastronomie
+   Abonnement Newsletter
+   :toute l’actu dès 7h30
+   Votre adresse e-mail
+   
+   (BUTTON) s'inscrire
+   Merci ! Votre inscription est bien prise en compte.
+   France Télévisions utilise votre adresse e-mail afin de vous adresser des newsletters.
+   Pour exercer vos droits, contactez-nous.
+   Notre politique de confidentialité
+   Suivez-nous sur les réseaux sociaux :
+      France Info sur Facebook (Nouvelle fenêtre)
+      France Info sur X, anciennement Twitter (Nouvelle fenêtre)
+      France Info sur Instagram (Nouvelle fenêtre)
+      France Info sur Youtube (Nouvelle fenêtre)
+      France Info sur Tiktok (Nouvelle fenêtre)
+   Accueil France Info
+   Suivez l'actualité en direct :
+      le live
+      direct tv
+      direct radio
+   Retrouvez aussi
+   La météo Les jeux
+      Politique de confidentialité (Nouvelle fenêtre)
+      CGU et mentions légales
+      Gérer mes traceurs
+      Plan du site
+      Qui sommes-nous ?
+      Nous contacter
+      Charte déontologique
+      Charte du Live
+      Assistant vocal
+      Devenir annonceur (Nouvelle fenêtre)
+      Recrutement (Nouvelle fenêtre)
+   L’application France Info
+   (BUTTON) Fermer la notification
+   Tout France Info, et bien plus. Sauvegardez vos articles à lire plus tard et filtrer l’actualité qui vous intéresse
+   Télécharger l’application (Nouvelle fenêtre)
+   (BUTTON) Fermer la fenêtre d’activation des notifications France Info
+   Activez les notifications franceinfo et ne manquez rien de l’actualité
+   Vous pouvez changer d’avis à tout moment dans les réglages de votre navigateur.
+   (BUTTON) plus tard
+   (BUTTON) activer

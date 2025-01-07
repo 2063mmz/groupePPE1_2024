@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+
+
+
+<!--[if lt IE 8 ]><html class="no-js ie lt-ie10 lt-ie9 lt-ie8" dir="ltr" lang="es"><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie10 lt-ie9" dir="ltr" lang="es"><![endif]-->
+<!--[if IE 9]><html class="no-js ie lt-ie10" dir="ltr" lang="es"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js modern" dir="ltr" lang="es"><!--<![endif]-->
+
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/assets/images/Favicon_144x144.png">
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="robots" content="noyaca">
+<meta name="referrer" content="no-referrer-when-downgrade">
+        
+
+
+  <link rel="preconnect" href=//sonyglobal.akamaized.net crossorigin>
+
+
+
+
+
+        <link rel="stylesheet" href="https://www.sony.co.uk/campaign/GLOBAL/flowplayer/flowplayer.css"/>
+
+        <script src='https://www.sony.co.uk/campaign/GLOBAL/flowplayer/flowplayer.min.js'></script>
+        <script src='https://www.sony.co.uk/campaign/GLOBAL/flowplayer/plugins/hls.min.js'></script>
+        <script src='https://www.sony.co.uk/campaign/GLOBAL/flowplayer/plugins/subtitles.min.js'></script>
+        <script src='https://www.sony.co.uk/campaign/GLOBAL/flowplayer/plugins/keyboard.min.js'></script>
+        
+        <script>
+             var userConsentRequired = false
+             var allowCookieOperationsForFav = false;
+             var allowCookieOperationsForRVP = false;
+             var allowYoutubeVideos = false;            
+             (function(){
+                 var locale = "es_EC";
+                 var allowedCategories = ["all", "sony-platform"];
+                 var allowedNewCategories = ["all","functional"];
+                 var intersects = function (arr1, arr2) {
+                     for (var i = 0; i < arr1.length; i++) {
+                         if (arr2.indexOf(arr1[i]) >= 0) return true;
+                     }
+                     return false;
+                 };
+                 function triggerCustomEvent(event_name) {
+                     var event = document.createEvent('Event');
+                     event.initEvent(event_name, true, true);
+                     document.dispatchEvent(event);
+                 }
+                 if(userConsentRequired) {
+                     document.addEventListener("consent_given", function (e) {
+                        var consent_cat = e.detail.categories.split(",");
+                        var rvp_key = 'gwt_recently_viewed_products_' + locale;
+                        
+                         if(parseInt(e.detail.version) < parseInt("20221201")){ 
+                            allowYoutubeVideos = true;
+                            if (intersects(consent_cat, allowedCategories)) {
+                                allowCookieOperationsForFav = true;
+                                allowCookieOperationsForRVP = true;
+                            }
+                            if (consent_cat.indexOf("gwt_favorite_products") > -1) {
+                                allowCookieOperationsForFav = true;
+                            }
+                            if (consent_cat.indexOf(rvp_key) > -1) {
+                                allowCookieOperationsForRVP = true;
+                            }
+                            
+                        }else {
+                            if (intersects(consent_cat, allowedNewCategories)) {
+                                allowCookieOperationsForFav = true;
+                                allowCookieOperationsForRVP = true;
+                                allowYoutubeVideos = true
+                            }
+                            if(consent_cat.indexOf("sony-platform") > -1){
+                                allowCookieOperationsForFav = true;
+                                allowCookieOperationsForRVP = true;
+                            }
+                            if(consent_cat.indexOf("youtube") > -1){
+                                allowYoutubeVideos = true
+                            }
+                        }
+
+                        if(allowCookieOperationsForFav || allowCookieOperationsForRVP || allowYoutubeVideos){
+                            triggerCustomEvent("consent_received");
+                        } else {
+                            triggerCustomEvent("consent_rejected");
+                        }
+                    });
+                 }
+             })();
+        </script>
+        
+
+
+
+    <script >
+            var deviceType = (window.innerWidth > 480 && window.innerWidth < 769) ? {isTablet: true} : (window.innerWidth > 768 ? {isDesktop: true} : {isPhone: true});
+            var loadSSTFontForMobile    =  true,
+                loadSSTFontForTablet    =  true,
+                loadSSTFontForDesktop   =  true,
+                loadSSTFontMaster       =  false;
+
+            window.shouldLoadSSTFonts   = loadSSTFontMaster &&
+                                          ((deviceType.isTablet  && loadSSTFontForTablet)
+                                        || (deviceType.isPhone   && loadSSTFontForMobile)
+                                        || (deviceType.isDesktop && loadSSTFontForDesktop));
+
+            var fontType = (function(){
+                var supportsWoff2 = (function( win ){
+                    if( !( "FontFace" in win ) )  return false;
+                    var f = new win.FontFace( 't', 'url(data:application/font-woff2;charset=utf-8;base64,) format("woff2")', {});
+                    f.load().catch(function() {});
+                    return f.status == 'loading';
+                })( this );
+
+                function requiresTTF(){
+                    return navigator.userAgent.toLowerCase().match(/android|vita|playstation/g) !== null;
+                }
+
+                if (supportsWoff2) {
+                    return ".woff2";
+                }
+                else if(requiresTTF()){
+                    return ".ttf";
+                }
+                else {
+                    return ".woff";
+                }
+            })();
+
+            function loadFont(fontFamily, url) {
+                var font = new FontFace(fontFamily,  "url('" + url + fontType + "')");
+                font.load();
+                document.fonts.add(font);
+            }
+
+            if("FontFace" in window) {
+                if(window.shouldLoadSSTFonts) {
+                    loadFont("SST W01 Roman",  "/static-assets/fonts/shf/v31/latinextended/fonts/SSTW02Roman");
+                    loadFont("SST W01 Medium",  "/static-assets/fonts/shf/v31/latinextended/fonts/SSTW02Medium");
+                }
+                
+                loadFont('Sony-System-Icons', '/static-assets/fonts/shf/icons/system/v23/Sony-System-Icons');
+                
+            } else {
+                var str = [];
+                if(window.shouldLoadSSTFonts) {
+                    str.push("%3Clink rel='stylesheet' href='/static-assets/fonts/shf/v31/latinextended/base.css'%3E");
+                }
+                
+                    str.push("%3Clink rel='stylesheet' href='" + '/static-assets/fonts/shf/icons/system/v23/Sony-System-Icons.css' + "'%3E");
+                
+                document.write(decodeURIComponent(str.join('')));
+            }
+
+
+    </script>
+
+    
+    <script >
+        if(window.shouldLoadSSTFonts) {
+            document.write("<meta class='deferred-css' data-href='/static-assets/fonts/shf/v31/latinextended/extra.css'>");
+        }
+    </script >
+
+
+        
+
+
+
+        
+            <link href='//www.sony.com/static-assets/css/ltr/common-cc584f863a41486240d51ef0f008c80d.css' media='all' rel='stylesheet' type='text/css' />
+            <link href='//www.sony.com/static-assets/css/ltr/component-b6c03362f875a87e1ce1c9ac6af43c91.css' media='all' rel='stylesheet' type='text/css' />
+            <link href='//www.sony.com/static-assets/css/ltr/app_common-7d7e57bd7847565a1e9cc4676deb4edf.css' media='all' rel='stylesheet' type='text/css' />
+            <link href='//www.sony.com/static-assets/css/ltr/_page/out_of_flow-9a488cb8931a892346546bf6c22f780d.css' media='all' rel='stylesheet' type='text/css' />
+            
+            <!--[if lte IE 9]>
+            <link href='//www.sony.com/static-assets/css/ltr/_page/editorials-1ddc94ac090b44c727f5743a711112a3.css' media='screen' rel='stylesheet' type='text/css' />
+            <link href='//www.sony.com/static-assets/css/ltr/_page/lteie9-3edb90b7e63f280b02bfd684a92cd64d.css' media='screen' rel='stylesheet' type='text/css' />
+            <![endif]-->
+        
+    
+
+
+
+
+
+        
+    
+
+
+
+        <meta name="analytics-app_versions-pdp" content="master_336"><meta name="analytics-app_versions-ui" content="master_116"><meta name="analytics-app_versions-siteconfigs" content="master_775"><meta name="analytics-app_versions-language_pack" content="master_897"><meta name="analytics-version" content="master_336-master_116"><meta name="analytics-page-template" content="out_of_flow"><meta name="analytics-page-template_revision" content="Page-OOFM-Sony_Design-en_GL-2017-11"><meta name="analytics-page-language" content="es"><meta name="analytics-page-country_region" content="EC"><meta name="analytics-page-omniture_rsid" content="sonygwt-eu-prod"><meta name="analytics-page-section" content="glb"><meta name="analytics-page-brand" content="GWT"><meta name="analytics-page-origin" content="server"><meta name="gwt:pagetype" content="out_of_flow"><meta name="analytics-page-name" content="out_of_flow:Page-OOFM-Sony_Design-en_GL-2017-11"><meta property="sony:twitter_text"><meta property="sony:language" content="es"><meta property="sony:twitter_via" content=""><link rel="canonical" href="https://www.sony.com.ec/electronics/diseno-calidad"><meta name="analytics-product-category2" content="tvs"><meta name="analytics-product-category1" content="tv-home-cinema"><title>Dise&ntilde;o de televisores Sony | Ventana a la vida | Minimalismo suave | Sony Ecuador</title><meta name="twitter:title" content="Dise&ntilde;o de televisores Sony | Ventana a la vida | Minimalismo suave"><meta name="gwt-search-title" content="Dise&ntilde;o de televisores Sony | Ventana a la vida | Minimalismo suave"><meta name="og:description" content="Disfruta del minimalismo suave del atemporal dise&ntilde;o de los televisores Sony. Nuestros estilizados televisores se convierten sin esfuerzo en parte de tu hogar."><meta name="og:title" content="Dise&ntilde;o de televisores Sony | Ventana a la vida | Minimalismo suave"><meta name="description" content="Disfruta del minimalismo suave del atemporal dise&ntilde;o de los televisores Sony. Nuestros estilizados televisores se convierten sin esfuerzo en parte de tu hogar."><meta name="twitter:description" content="Disfruta del minimalismo suave del atemporal dise&ntilde;o de los televisores Sony. Nuestros estilizados televisores se convierten sin esfuerzo en parte de tu hogar."><meta itemprop="name" content="Dise&ntilde;o de televisores Sony | Ventana a la vida | Minimalismo suave"><meta name="gwt:masterid" content="urn:sony:page:99926669340747536158283115"><meta name="og:image" content="//www.sony.com.ec/image/cefa119bca4582e8744f96ff760f7220?fmt=png-alpha&wid=1200"><meta itemprop="image" content="//www.sony.com.ec/image/cefa119bca4582e8744f96ff760f7220?fmt=png-alpha&wid=1200">
+
+        
+
+<link rel="shortcut icon" href='//www.sony.com.ec/static-assets/images/Favicon_144x144.png'>
+<link rel="apple-touch-icon" href='//www.sony.com.ec/static-assets/images/apple-touch-icon-57x57.png'>
+<link rel="apple-touch-icon" sizes="72x72" href='//www.sony.com.ec/static-assets/images/apple-touch-icon-72x72.png'>
+<link rel="apple-touch-icon" sizes="114x114" href='//www.sony.com.ec/static-assets/images/apple-touch-icon-114x114.png'>
+
+        <script>
+            window.imagePlaceholder = "//www.sony.com/image/placeholder?fmt=png-alpha";
+            window.imageSpeedTestUrl = "//www.sony.com/image/speedtest?fmt=png";
+            window.fontBeaconCallUrl = "/static-assets/fonts/t/1.css?apiType=css&amp;projectid=2f9c337f-0594-48e7-899e-7b595b9b9840";
+            window.onload = function() {
+                window.dispatchEvent(new CustomEvent('window:loaded'));
+            };
+            // functions for AB Testing (will be executed from Optimizely only.
+            window.changeImageUrls=function(t){for(var e="data-src-",r="-highres",n=0,i=t.length;i>n;n++){var u=t[n],a=document.querySelector("#"+u.selector);if(a)for(var o in u.urls){var l=u.urls[o],s=e+o,c=e+o+r;a.setAttribute(s,l+"?"+a.getAttribute(s).split("?")[1]),a.setAttribute(c,l+"?"+a.getAttribute(c).split("?")[1])}}};
+            window.canRunExperiment=function(t){for(var e=0;e<t.length;e++){var r=document.querySelector("#"+t[e]);if(!r||r.getAttribute("data-hasloaded"))return!1}return!0};
+        </script>
+
+        
+
+        
+
+        
+
+        
+            <script src='//www.sony.com/static-assets/javascripts/iQ-c377294e87446a97ba9164e55258bf48.js'></script>
+        
+
+        
+            
+
+    <script src='//www.sony.com/static-assets/javascripts/analyticsWithJquery-acf034e9a14c5f421f31a268cb7fbc51.js'></script>
+
+        
+
+        
+
+        
+            
+                
+
+    <script  type="text/javascript" src="https://tags.tiqcdn.com/utag/sony-marketing/latin/prod/utag.sync.js" ></script>
+
+
+                
+
+    <script type="text/javascript">var utag_data = {website_platform: "global:gwt"}</script>
+
+
+            
+        
+
+        <!--[if lt IE 9]>
+        <script src='//www.sony.com/static-assets/javascripts/html5shiv-262bb88879efaaf75c74154fe0308952.js'></script>
+        <script src='//www.sony.com/static-assets/javascripts/lte-ie8-a401e65c202a3de0b31b5b3ab2e54ee7.js'></script>
+        <script src='//www.sony.com/static-assets/javascripts/nwmatcher-1.3.0-1919424467845a45756fb39d982a8f41.js'></script>
+        <script src='//www.sony.com/static-assets/javascripts/selectivizr-1.0.3b-bc7ccbf287ce42445f00f12e3bd5227c.js'></script>
+        <![endif]-->
+        <noscript>
+            <link href='//www.sony.com/static-assets/css/ltr/noscript-27d140cf184ea3d01b0b29e60f2c6b53.css' media='all' rel='stylesheet' type='text/css' />
+        </noscript>
+        
+
+    </head>
+    
+    <body lang="es" data-locale="es_EC" data-user-consent-required="false"
+          data-render-progressive="false" class="ltr"
+          data-show-global-modal="false" data-campaign-source-param="src">
+    
+
+
+        
+            
+                
+<script type="text/javascript">
+        (function (a, b, c, d) {
+            a = "https://tags.tiqcdn.com/utag/sony-marketing/latin/prod/utag.js";
+            b = document;
+            c = "script";
+            d = b.createElement(c);
+            d.src = a;
+            d.type = "text/java" + c;
+            d.async = true;
+            
+            
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+</script>
+            
+        
+
+        
+
+        
+        <div id="page-wrap-outer" class="page-wrap-outer">
+            <div id="page-wrap-inner" class="page-wrap-inner">
+                <div class="area preview-master-area">
+                    
+                </div>
+                <header class="area header" aria-label="header">
+                    
+<div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="navigation" data-lv2="header_gwx"></div>
+
+    
+    
+    
+    
+    
+    
+   
+    
+    
+
+    
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+    
+    
+    
+
+
+
+
+<div>
+    <div>
+
+    
+    <div id="container-b3ff693b49">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="globalHeader sonyGlobalHeader aem-GridColumn aem-GridColumn--default--12">
+    
+
+
+
+
+
+
+
+
+  
+    <link rel="stylesheet" href="https://www.sony.com.ec/etc.clientlibs/sony/global/clientlibs/clientlib-shffonts-latinextended.afcac2e4c8f8e4441c070672adfaab0484b54e038bd0d830a78076eb21f6efb14e276f75c323434b33529c454dd9c2739ef0c57970592996f11f17a34ebfeef5.css" type="text/css"/>
+  
+  
+  
+  
+  
+
+
+
+	<div>
+
+
+<geo-filter-component aem-labels='{"datacomponenttype":"geofilter", "datacomponentid":"geofilter-Global header--root_globalheader_copy_co","interactionTypeInPageLink":"in-page-click","interactionTypeNavigationLink":"navigation-click","ariaLabelClose": "","ariaLabelLink": "","enableGeoFilter":"false"}' aem-endpoints='{"getGeoFilterUrl": "https://www.sony.com/campaign/GLOBAL/geofilter/config/en_US/", "getGeoFilterMethod" : "GET", "getGeoFilterFlag": "default"}'></geo-filter-component>
+<global-header-component aem-labels='{"searchHistory": "Historial de búsqueda", "clearHistory": "Borrar historial", "products": "Productos", "support": "Asistencia", "searchPlace": "Buscar"}'>
+
+   <link rel="stylesheet" href="https://www.sony.com.ec/etc.clientlibs/sony/global/clientlibs/clientlib-shf.afcac2e4c8f8e4441c070672adfaab0484b54e038bd0d830a78076eb21f6efb14e276f75c323434b33529c454dd9c2739ef0c57970592996f11f17a34ebfeef5.css" type="text/css"/>
+
+	
+	
+	<div class="gwx-sony-header">
+	<header class="component GlobalHeader js-product-compare-plain-view">
+		<div class="component-content" data-componenttype="global_header" data-componentid="global_header-Global header--root_globalheader_copy_co">
+			<div class="GlobalHeader__Inner">
+                
+				
+					<div class="GlobalHeader__Logo">
+						
+							<a href="https://www.sony.com.ec/" tabindex="0" role="link" class="js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click">
+						
+						
+						<img src="https://sony.scene7.com/is/content/sonyglobalsolutions/sony-logo?$S7Product$" alt="Sony"/> </a>
+					</div>
+				
+				<div class="GlobalHeader__RegionalItems">
+				
+					<div class="GlobalHeader__RegionalItem">
+						<div class="GlobalHeaderCrm" data-account-api-url="https://www.sony.com.ec/cliente/gwtCustomerInfo" data-account-api-response-type="json" data-greeting-text="Hola {ACCOUNT_NAME}!" data-default-username="My sony" data-login-enabled-locale='true' data-account-name-placeholder="{ACCOUNT_NAME}">
+							<div>
+								<button type="button" class="GlobalHeaderCrm__Opener js-datalayer-action-event" aria-expanded="false" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="My Sony"> <span class="GlobalHeaderCrm__Badge -isHidden"></span>
+									<div class="GlobalHeader__SvgIconContainer"> <span class="GlobalHeader__SvgIcon Icon -account" role="img" aria-label="My Sony"></span> </div> <span class="GlobalHeaderCrm__OpenerLabel js-username">
+									My Sony
+									</span> </button>
+							</div>
+							<div class="GlobalHeaderCrm__Content">
+								<div class="GlobalHeaderCrm__ContentInner">
+									<div class="GlobalHeaderCrm__Greeting -isHidden js-greetingText"></div>
+									<div class="GlobalHeaderCrm__SignUp js-notLoggedIn">
+										
+										<a href="https://www.sony.com.ec/cliente" tabindex="0" role="link" class="GlobalHeaderCrm__SignUpButton js-signin-input js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Inicio de sesión" data-check-return-uri="false"> <span class="Icon -account"></span>Inicio de sesión</a>
+										
+										
+									</div>
+									
+											
+											 
+											  <ul class="GlobalHeaderCrm__Menu">
+												<li class="GlobalHeaderCrm__MenuItem">
+													
+														<a href="https://www.sony.com.ec/cliente/login" tabindex="0" role="link" target="_parent" class="GlobalHeaderCrm__MenuItemLink js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Datos De Mi Cuenta">
+															 <span class="GlobalHeaderCrm__MenuItemText">Datos De Mi Cuenta</span></a>
+													
+													
+												</li>
+												</ul>
+											
+									  
+									
+									
+									<form target="_parent" method="POST" action="https://www.sony.com.ec/cliente/doCustomerLogout?logoutAction=logout">
+								
+								
+									<input name="returnUri" class="js-signout-input" type="hidden" value=""/>
+										<button type="submit" class="GlobalHeaderCrm__BottomLink -isHidden js-signOutButton js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Cierre de sesión">Cierre de sesión</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="GlobalHeader__RegionalItem js-global-header-favorite -isHidden">
+						<div class="GlobalHeaderFavorite">
+							<a href="https://www.sony.com.ec/my-favorites" tabindex="0" role="link" aria-label="Mis favorito" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="favorite"> <span class="GlobalHeaderFavorite__Badge js-favourites-badge -isHidden"></span>
+								<div class="GlobalHeader__SvgIconContainer"> <span class="GlobalHeader__SvgIcon Icon -favorite" role="img" aria-label="Mis favorito"></span> </div>
+							</a>
+						</div>
+					</div>
+					
+
+					
+						
+							<div class="GlobalHeader__RegionalItem js-global-header-cart -isHidden" data-cart-api-url="https://store.sony.com.ec/checkout/#/cart" data-cart-api-method="GET">
+								<div class="GlobalHeaderCart">
+									
+									
+										<a href="https://store.sony.com.ec/checkout/#/cart" tabindex="0" role="link" aria-label="Carro de la compra" target="_parent" class="js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="cart"> <span class="GlobalHeaderCart__Badge -isHidden"></span>
+											<div class="GlobalHeader__SvgIconContainer"> <span class="GlobalHeader__SvgIcon Icon -cart" role="img" aria-label="Carro de la compra"></span> </div>
+										</a>
+									
+								</div>
+							</div>
+						
+						
+					
+					<div class="GlobalHeader__RegionalItem">
+						<div class="GlobalHeaderSearch">
+							<button type="button" class="GlobalHeaderSearch__Opener js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click">
+								<div class="GlobalHeader__SvgIconContainer"> <span class="GlobalHeader__SvgIcon Icon -search" role="img" aria-label="Buscar"></span> </div>
+							</button>
+							<div class="GlobalHeaderSearch__Content">
+								<div class="GlobalHeaderSearch__ContentInner">
+									<form class="GlobalHeaderSearch__Form">
+										<div class="GlobalHeaderSearch__Input js-search-api" data-search-type-ahead-method="GET" data-search-page-target="https://www.sony.com.ec/search">
+											<input title="search" placeholder="Buscar" aria-label="Buscar"/>
+											<button class="GlobalHeaderSearch__SearchButton js-datalayer-action-event" title="search" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="search"> <span class="GlobalHeaderSearch__SearchIcon Icon -search" aria-label="Buscar"></span> </button>
+										</div>
+										<div class="GlobalHeaderSearch__Result">
+											<div class="js-SearchHistoryAvailable -isHidden" data-search-history-url="https://www.sony.com.ec/search">
+												<div class="GlobalHeaderSearch__ResultHeader">
+													<p class="GlobalHeaderSearch__ResultHeading"> Historial de búsqueda</p>
+													<button class="GlobalHeaderSearch__ResultHeadingClear js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Borrar historial"> Borrar historial</button>
+												</div>
+												<ul class="GlobalHeaderSearch__History"> </ul>
+											</div>
+											<div class="js-SearchResultMarketingResponse -isHidden">
+												<div class="GlobalHeaderSearch__ResultHeader">
+													<p class="GlobalHeaderSearch__ResultHeading"> Productos</p>
+												</div>
+												<ul class="GlobalHeaderSearch__Products" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="search" data-marketingvariable-search-result-category="Productos"> </ul>
+											</div>
+											<div class="js-SearchResultSupportResponse -isHidden">
+												<div class="GlobalHeaderSearch__ResultHeader">
+													<p class="GlobalHeaderSearch__ResultHeading"> Asistencia</p>
+												</div>
+												<ul class="GlobalHeaderSearch__Support" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="search" data-marketingvariable-search-result-category="Asistencia"> </ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="GlobalHeaderNavi">
+					<button type="button" class="GlobalHeaderNavi__NavOpener js-datalayer-action-event" aria-label="Menú principal" aria-controls="Menú principal" aria-expanded="false" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="nav opener"> </button>
+				
+				
+					<div class="GlobalHeaderNavi__Nav">
+						<div class="GlobalHeaderNavi__NavInner">
+							<div class="GlobalHeaderNavi__NavList">
+								<div class="GlobalHeaderNavi__NavListInner">
+									<ul class="GlobalHeaderNavi__NavLv1List">
+										
+											
+												<li class="GlobalHeaderNavi__NavLv1Item">
+													
+													
+													
+														<button type="button" class="GlobalHeaderNavi__NavLv1Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="GNavLv2-0" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Productos">Productos</button>
+														<ul class="GlobalHeaderNavi__NavLv2List" id="GNavLv2-0">
+															<li class="GlobalHeaderNavi__NavLv2Item">
+																<button type="button" class="GlobalHeaderNavi__NavLv2Header js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Productos">Productos</button>
+															</li>
+															
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-0" data-marketingvariable-search-term="Televisiones y Teatro en Casa" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Televisiones y Teatro en Casa">Televisiones y Teatro en Casa</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-0">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Televisiones y Teatro en Casa">Televisiones y Teatro en Casa</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/bravia" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Televisores">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/TV_65_A80K_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Televisores"> Televisores </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/home-theatre-sound-bars" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Home Theatre y barras de sonido">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/HT-SB-category-icon-20221202?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Home Theatre y barras de sonido"> Home Theatre y barras de sonido </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/blu-ray-disc-dvd-players" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Reproductores de Blu-ray Disc™ y DVD">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS_blu-ray_BDP-S6700_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Reproductores de Blu-ray Disc™ y DVD"> Reproductores de Blu-ray Disc™ y DVD </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-1" data-marketingvariable-search-term="Audio" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Audio">Audio</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-1">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Audio">Audio</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/headphones" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Audífonos">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/Headphones-category-icon-20221202?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Audífonos"> Audífonos </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/walkman" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="reproductor de audio portátil">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS_portable_audio_NW-ZX500_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="reproductor de audio portátil"> reproductor de audio portátil </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/high-resolution-audio" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Audio de Alta Resolución">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS_high-resolution-audio_TA-ZH1ES_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Audio de Alta Resolución"> Audio de Alta Resolución </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/wireless-speakers" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Parlantes inalámbricos">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="/content/dam/sony/contents/global/common/all-products/v-s/wireless-speakers/XG2_standard_main_003_rev2.png"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Parlantes inalámbricos"> Parlantes inalámbricos </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/electronics/360-reality-audio" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="360 Reality Audio">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/360-RA-category-icon-20221202?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="360 Reality Audio"> 360 Reality Audio </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/audio-systems" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Equipos de sonido y minicomponentes">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS-audio-systems_PS-LX310BT_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Equipos de sonido y minicomponentes"> Equipos de sonido y minicomponentes </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/audio-components" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Componentes de audio">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS-audio-component_PS-LX310BT_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Componentes de audio"> Componentes de audio </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/digital-voice-recorders" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Grabadoras de voz digitales">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS_digital-recorders_ICD-UX570_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Grabadoras de voz digitales"> Grabadoras de voz digitales </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/boomboxes-radios-portable-cd-players" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Reproductores de Música Boom Box">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/VandS_boombox_XDR_S41D_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Reproductores de Música Boom Box"> Reproductores de Música Boom Box </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/home-theatre-sound-bars" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Televisores y Home Theatre">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/HT-SB-category-icon-20221202?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Televisores y Home Theatre"> Televisores y Home Theatre </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-2" data-marketingvariable-search-term="Accesorios de juegos" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Accesorios de juegos">Accesorios de juegos</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-2">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Accesorios de juegos">Accesorios de juegos</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/gaming-gear" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Accesorios de juegos">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/Gaming_gear_756x756_V2?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Accesorios de juegos"> Accesorios de juegos </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-3" data-marketingvariable-search-term="Cámaras" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Cámaras">Cámaras</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-3">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Cámaras">Cámaras</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/interchangeable-lens-cameras" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Cámaras de lente intercambiable">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Interchangeable-lens%20Cameras_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Cámaras de lente intercambiable"> Cámaras de lente intercambiable </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/lenses" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Lentes">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Lenses-SDK_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Lentes"> Lentes </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/compact-cameras" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Cámaras compactas">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Compact%20Cameras_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Cámaras compactas"> Cámaras compactas </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/vlog-cameras" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Cámaras vlogging">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/MicrosoftTeams-image-1?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Cámaras vlogging"> Cámaras vlogging </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/handycam" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Videocámaras Handycam®">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Handycam-Camcorders_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Videocámaras Handycam®"> Videocámaras Handycam® </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/action-cam" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Action Cam">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Action_cam_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Action Cam"> Action Cam </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/electronics/gama-de-cine" tabindex="0" role="link" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Cámaras de Cine">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_cinema-line-cameras_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Cámaras de Cine"> Cámaras de Cine </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/camera-accessories" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Accesorios para cámaras">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_camera-accessories_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Accesorios para cámaras"> Accesorios para cámaras </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-4" data-marketingvariable-search-term="Servicio en la nube" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Servicio en la nube">Servicio en la nube</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-4">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Servicio en la nube">Servicio en la nube</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/electronics/creators-cloud" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Creators’ Cloud ">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_clouds%20_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Creators’ Cloud "> Creators’ Cloud  </div>
+																								</a>
+																							</li>
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/camera-remote-sdk" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Camera Remote SDK">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_camera-remote-SDK_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Camera Remote SDK"> Camera Remote SDK </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-5" data-marketingvariable-search-term="Car audio | Equipos de sonido para carros y entornos acuáticos" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Car audio | Equipos de sonido para carros y entornos acuáticos">Car audio | Equipos de sonido para carros y entornos acuáticos</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-5">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Car audio | Equipos de sonido para carros y entornos acuáticos">Car audio | Equipos de sonido para carros y entornos acuáticos</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/car-audio" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Car audio | Equipos de sonido para carros y entornos acuáticos">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="/content/dam/sony/contents/global/common/all-products/v-s/car-audio/CarAudio_Category_Icon_UPDATED-20240222-132648.png"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Car audio | Equipos de sonido para carros y entornos acuáticos"> Car audio | Equipos de sonido para carros y entornos acuáticos </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																		
+																		
+																			<button type="button" class="GlobalHeaderNavi__NavLv2Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="headerCategory-6" data-marketingvariable-search-term="Multimedia, almacenamiento y cables" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Multimedia, almacenamiento y cables">Multimedia, almacenamiento y cables</button>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-6">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<button type="button" class="GlobalHeaderNavi__NavProductsHeader js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Multimedia, almacenamiento y cables">Multimedia, almacenamiento y cables</button>
+																					</li>
+																					
+																						
+																							<li class="GlobalHeaderNavi__NavProductItem">
+																								<a href="https://www.sony.com.ec/memory-cards-storage-cables" tabindex="0" role="link" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" class="js-datalayer-action-event" data-actionable-item-value="Tarjetas de memoria y SSD">
+																									<div class="GlobalHeaderNavi__NavProductImage"> <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/DI_Memory-Cards-Storage-Cables%20_756x756?$S7Product$&fmt=png-alpha"/> </div>
+																									<div class="GlobalHeaderNavi__NavProductLabel" data-marketingvariable-search-result-category="Tarjetas de memoria y SSD"> Tarjetas de memoria y SSD </div>
+																								</a>
+																							</li>
+																						
+																					
+																				</ul>
+																			</div>
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.com.ec/all-products" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Todos los Productos"> <span>Todos los Productos</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-7">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Todos los Productos"> <span>Todos los Productos</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://pro.sony/ls_EC/home?cmp=gwt-top_menu_see_pro_products" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Productos y soluciones profesionales"> <span>Productos y soluciones profesionales</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-8">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Productos y soluciones profesionales"> <span>Productos y soluciones profesionales</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+												<li class="GlobalHeaderNavi__NavLv1Item">
+													
+														<a href="http://store.sony.com.ec/?cpint=gwt_header_store" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv1Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Tienda"> <span>Tienda</span> </a>
+													
+													
+													
+												</li>
+											
+												<li class="GlobalHeaderNavi__NavLv1Item">
+													
+														<a href="https://www.playstation.com/es-ec?" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv1Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="PlayStation"> <span>PlayStation</span> </a>
+													
+													
+													
+												</li>
+											
+												<li class="GlobalHeaderNavi__NavLv1Item">
+													
+														<a href="http://esupport.sony.com/LA/p/index.pl" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv1Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Soporte"> <span>Soporte</span> </a>
+													
+													
+													
+												</li>
+											
+												<li class="GlobalHeaderNavi__NavLv1Item">
+													
+													
+													
+														<button type="button" class="GlobalHeaderNavi__NavLv1Label GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" aria-controls="GNavLv2-4" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Sony y el medio ambiente">Sony y el medio ambiente</button>
+														<ul class="GlobalHeaderNavi__NavLv2List" id="GNavLv2-4">
+															<li class="GlobalHeaderNavi__NavLv2Item">
+																<button type="button" class="GlobalHeaderNavi__NavLv2Header js-datalayer-action-event" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="in-page-click" data-actionable-item-value="Sony y el medio ambiente">Sony y el medio ambiente</button>
+															</li>
+															
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.com/en/" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Group Site"> <span>Sony Group Site</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-0">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Group Site"> <span>Sony Group Site</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.com/en/SonyInfo/design/?s_tc=sd_top_wtss&cpint=SONYSITES_SECONDARYVISUAL_WWWSONYDESIGN_6832" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Design"> <span>Sony Design</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-1">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Design"> <span>Sony Design</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://pro.sony?cmp=gwt-" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Professional"> <span>Sony Professional</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-2">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Professional"> <span>Sony Professional</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.playstation.com/es-mx/?smcid=gwo" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="PlayStation"> <span>PlayStation</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-3">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="PlayStation"> <span>PlayStation</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.com.ec/eco/act-together" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sostenibilidad"> <span>Sostenibilidad</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-4">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sostenibilidad"> <span>Sostenibilidad</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.cl/electronics/eco/desarrollo-sustentable" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Entorno"> <span>Entorno</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-5">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Entorno"> <span>Entorno</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sony.com.ec/sustainability-accessibility" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Accesibilidad"> <span>Accesibilidad</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-6">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Accesibilidad"> <span>Accesibilidad</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sonypictures.net/" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_parent" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Pictures"> <span>Sony Pictures</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-7">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Pictures"> <span>Sony Pictures</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+																	<li class="GlobalHeaderNavi__NavLv2Item">
+																		
+																			<a href="https://www.sonymusiclatin.com/" tabindex="0" role="link" class="GlobalHeaderNavi__NavLv2Link GlobalHeaderNavi__NavLv1Link js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Music"> <span>Sony Music</span></a>
+																			<div class="GlobalHeaderNavi__NavProducts" id="headerCategory-8">
+																				<ul class="GlobalHeaderNavi__NavProductList">
+																					<li class="GlobalHeaderNavi__NavProductListHeader">
+																						<a class="GlobalHeaderNavi__NavLv2Link js-datalayer-action-event" tabindex="0" role="link" data-interaction-componenttype="global_header" data-interaction-componentid="global_header-Global header--root_globalheader_copy_co" data-interactiontype="navigation-click" data-actionable-item-value="Sony Music"> <span>Sony Music</span> </a>
+																					</li>
+																				</ul>
+																			</div>
+																		
+																		
+																		
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="GlobalHeader__Bg"></div>
+		</div>
+	</header>
+	</div>
+	
+
+</global-header-component>
+</div>
+
+
+<script>
+    if (window.aemConfig === undefined) {
+        window.aemConfig = {};
+    }
+    window.aemConfig.ecToggle = {
+        isOpenAPIReady : true,
+        isECPhase3Enabled : false,
+        isECLocale : false,
+        isOpenAPIApplicable : false
+    };
+	window.aemConfig.energyLabel = {
+	  labelIconMappings: {
+		"A": {
+		  label: "Clasificación A",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_aright.svg",
+		  text: "",
+		},
+		"B": {
+		  label: "Clasificación B",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_bright.svg",
+		  text: "",
+		},
+		"C": {
+		  label: "Clasificación C",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_cright.svg",
+		  text: "",
+		},
+		"D": {
+		  label: "Clasificación D",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_dright.svg",
+		  text: "",
+		},"E": {
+		  label: "Clasificación E",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_eright.svg",
+		  text: "",
+		},
+		"F": {
+		  label: "Clasificación F",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_fright.svg",
+		  text: "",
+		},
+		"G": {
+		  label: "Clasificación G",
+		  icon: "/content/dam/sony/contents/energylabelicons/icn-eco_gright.svg",
+		  text: "",
+		},
+		"energyGuide": {
+		  label: "Guía de energía",
+		  icon: "/content/dam/sony/contents/energylabelicons/EnergyGuide.png",
+		  text: "",
+		}
+	  },
+	  colorMappings: {
+		other: {
+		  backgroundColor: "#00a641",
+		  textColor: "#FFFFFF"
+		},
+		sea: {
+		  backgroundColor: "#2a328e",
+		  textColor: "#FFFFFF"
+		},
+		europe: {
+		  backgroundColors: {
+			"Athreeplus|Athreeplus": "#00a641",
+			"Athreeplus|Atwoplus": "#51b848",
+			"Athreeplus|Aplus": "#bed730",
+			"Athreeplus|A": "#fff200",
+			"Athreeplus|B": "#fdb813",
+			"Athreeplus|C": "#f37021",
+			"Athreeplus|D": "#ed1c24",
+			"Atwoplus|Atwoplus": "#00a641",
+			"Atwoplus|Aplus": "#51b848",
+			"Atwoplus|A": "#bed730",
+			"Atwoplus|B": "#fff200",
+			"Atwoplus|C": "#fdb813",
+			"Atwoplus|D": "#f37021",
+			"Atwoplus|E": "#ed1c24",
+			"Aplus|Aplus": "#00a641",
+			"Aplus|A": "#51b848",
+			"Aplus|B": "#bed730",
+			"Aplus|C": "#fff200",
+			"Aplus|D": "#fdb813",
+			"Aplus|E": "#f37021",
+			"Aplus|F": "#ed1c24",
+		  },
+		  textColor: "#FFFFFF"
+		},
+	  },
+	};
+	window.aemConfig.colorHexCodeMapping = {
+	  ID_01_Red: 'EF2F33',
+	  ID_02_Pink: 'F660A9',
+	  ID_03_Orange: 'FA752D',
+	  ID_04_Yellow: 'EBAB3D',
+	  ID_05_Gold: 'EBAB3D',
+	  ID_06_Green: 'B6DA0C',
+	  ID_07_Blue: '33C8E0',
+	  ID_085_mediumBlue: '0000CD',
+	  ID_08_Navy: '293D54',
+	  ID_09_Purple: '913F99',
+	  ID_10_Cream: 'F4F0CB',
+	  ID_11_White: 'FFFFFF',
+	  ID_125_lightBrown: 'C98A45',
+	  ID_12_Brown: '685642',
+	  ID_13_Gray: '4F6B85',
+	  ID_14_Silver: 'C3C3DA',
+	  ID_15_Black: '1F2024',
+	  ID_20_lightBlue: 'ADDBFF',
+	  ID_21_lightPink: 'FFC7E4',
+	  ID_140_Ecru: 'C2B280',
+	  ID_150_EcruWhiteNew: 'FFFFFF',
+	  ID_105_EarthBlue: '6699CC',
+	  ID_130_PlatinumSilver: 'CFCAC1',
+	  ID_104: '2C2D65'
+	};
+
+	window.aemConfig.buyButton = {
+	  displayBuyButton: 'true',
+	  hideWheretoBuyButton: 'false',
+	  priceDominateFlag: 'true',
+	  ecUrlLocale: "//store.sony.com.ec/${?product.mainModelSlug}/p?lid=66754dbb-a881-4897-a32d-e77045059d17",
+	  dealerLocatorUrl: "//store.sony.com.ec/${?product.mainModelSlug}/p?lid=66754dbb-a881-4897-a32d-e77045059d17",
+	  notifyMeUrlLocale: "",
+	  ecUrlLocaleStatic: "",
+	  dealerLocatorUrlStatic: "",
+	  notifyMeUrlLocaleStatic: "",
+	  whereToBuyLabel: "Dónde comprar",
+	  availableSoonLabel: "Disponible pronto",
+	  notifyMeLabel: "Notificarme",
+	  openInNewTab: 'false',
+	  isArchived: "true",
+	  publishStatusOfTransitionPage: '',
+	  displayTextAboveBuyButton: 'false',
+	  textForWhereToBuy: "",
+	  textForNotifyMe: "",
+	  whereToBuyLabelEN: "Dónde comprar",
+	  availableSoonLabelEN: "Disponible pronto",
+	  notifyMeLabelEN: "Notificarme"
+	};
+
+	window.aemConfig.contentBase = "/content/experience-fragments/sony/sola/ec/es-ec/Header/master";
+    window.aemConfig.apiTimeoutMillisecs = 20000;
+    window.aemConfig.isGeolocationEnabled = 'true';
+    window.aemConfig.geoLocationCookieExpirationTime = 20000;
+    window.aemConfig.maxMiniCartCount = 99;
+    window.aemConfig.maxMiniCartDisplay = '99+';
+    window.aemConfig.showMiniCart = true;
+    window.aemConfig.showFavoriteIcon = true;
+    window.aemConfig.enableEcSearchRedirection = false;
+    window.aemConfig.ecSearchRedirectionUrl = "";
+    window.aemConfig.enableSapHybrisApiButton = 'false';
+    window.aemConfig.siteId ="";
+    window.aemConfig.locale = "es_EC";
+    window.aemConfig.geofilterUS = {
+        geoLocationUSCookieExpiration: 2147483647,
+        headline: "",
+        subHeadline: "",
+        configuredCountryIcon: "",
+        configuredCountryLinkLabel: "",
+        configuredCountryCode: "EC",
+        configuredCountryLinkDestination: "",
+        usIcon: " https://www.sony.com/campaign/GLOBAL/geofilter/flags/US.png",
+        usLinkLabel: "United States",
+        usLinkDestination: " https://electronics.sony.com/",
+        usCountryCode: "US"
+    };
+	window.aemConfig.d2c = {
+  		  platform: "",
+		  openSearchBaseURL: "",
+		  openAPIBaseURL: "",
+		  d2cAPIBaseURL: "",
+		  d2cSiteId: "",
+		  learnMoreLoadsD2CPDP: false,
+		  d2cAPIDefaultParams: "",
+		  d2cPlatformCartURL: "",
+  		  d2cPlatformCheckoutURL: ""
+	};
+	window.aemConfig.pricebuyendpoints = {
+		displayPrice: 'true',
+		displaySecondaryPrice: 'false',
+		secondaryCurrencyCode: '',
+		displayPriceSpecTable: 'true',
+		currencySymbolPosition: 'true',
+		fractionDigit: '1',
+		spaceInBetween: 'true',
+		priceRRP: '         ',
+		priceTax: '          ',
+		priceprefix: 'Desde',
+		priceSuffix: '',
+		noPriceAvailable: '',
+		locale: 'es_EC',
+		priceFootnote: 'Price_Footnote_01',
+		currencyCode: '',
+		currencyCodeWithIsoFormat: 'USD',
+		groupingSeparator: '',
+		decimalSeparator: ',',
+		getPriceAndBuyUrl: "/bin/pricebuy.json",
+		getPriceAndBuyMethod: "POST"
+
+	};
+</script>
+
+	<script>
+		window.aemConfig.isSharedHeader = true;
+	</script>
+
+<gwx-app></gwx-app>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+                </header>
+                <div class="area">
+                    
+<div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="" data-lv2=""></div>
+<noscript><section id="js_disabled_default" class="js_disabled container" aria-label="New section"><div class="alert alert-large"><div class="container alert-inner"><div class="grid no-grid-at-767 relative"><div class="span8 m-span1"><div class="title msg js-disabled"><p class="t1">¡Vaya!</p><p>Por lo visto JavaScript está deshabilitado en el explorador. Para obtener el máximo partido de la visita a Sony.es, cambia la configuración para permitir la ejecución de JavaScript.</p></div></div></div></div></div></section></noscript>
+                </div>
+                <div class="area body" id="page-main-content" role="main">
+                    
+<div class="visuallyhidden moduleTags" data-name="Pri-Tout-OOFM-Sony_Design-es_EC-2017-11-M01-sonydesign" data-mastername="Pri-Tout-OOFM-Sony_Design-en_GL-2017-11-M01-sonydesign" data-lv1="primary" data-lv2="tout"></div>
+<section id="primary_tout_1761400441021505322572060" class="primary-tout gwt-module flexible-tout box-bottom-mobile" aria-label="Primary Tout Section"><div class="hero-image" data-tablet-height="420" data-phone-height="420" data-desktop-height="640"><div data-src-phone-highres="//www.sony.com.ec/image/b503ecbb22bc4305b730a3675cc7b487?fmt=pjpeg&amp;wid=1000&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9" data-iq-on-demand data-src-desktop="//www.sony.com.ec/image/56a1d16972a33d19b010906c1e160a6d?fmt=pjpeg&amp;wid=2000&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9" data-src-tablet-highres="//www.sony.com.ec/image/cefa119bca4582e8744f96ff760f7220?fmt=pjpeg&amp;wid=2000&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9" data-id="img_56a1d16972a33d19b010906c1e160a6d" data-src-phone="//www.sony.com.ec/image/b503ecbb22bc4305b730a3675cc7b487?fmt=pjpeg&amp;wid=500&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9" title="Filosof&iacute;a de dise&ntilde;o de Sony" class="image-module hero-img fade iq-img no-fade" data-src-tablet="//www.sony.com.ec/image/cefa119bca4582e8744f96ff760f7220?fmt=pjpeg&amp;wid=1000&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9" data-src-desktop-highres="//www.sony.com.ec/image/56a1d16972a33d19b010906c1e160a6d?fmt=pjpeg&amp;wid=4000&amp;bgcolor=F1F5F9&amp;bgc=F1F5F9"></div></div></section><script type="text/javascript">(function(e,t,i,n){function r(e){if(t.mark)t.mark(e)}function a(e){return t.getEntriesByName?t.getEntriesByName(e):[]}function o(t){w=t.getAttribute("data-src-"+c+p)+"&qlt="+Math.round(N*_),w=w.replace("fmt=jpeg","fmt=pjpeg"),t.style.backgroundImage="url("+w+")",e.setTimeout(function(){t.className+=" shown"},300)}function l(){if(!f){switch(m=i&&i.getItem("iqjs")&&JSON.parse(i.getItem("iqjs")).bw||"High",u=e.devicePixelRatio>1&&("VeryHigh"==m||"High"==m),p=u?"-highres":"",_=u?.5:1,c=e.innerWidth>480&&e.innerWidth<769?"tablet":e.innerWidth>768?"desktop":"phone",m){case"VeryLow":N=60;break;case"Low":N=70}if(!a(b).length)r(b);if(o(s[0]),!a(x).length){var t=n.createElement("img");t.setAttribute("src",w),t.onload=function(){r(x)}}f=!0}}function h(t){var i=t.parentNode.parentNode,n=.75*e.innerHeight,r=i.className,a=r.indexOf("product-intro-plate")>=0,o=r.indexOf("flexible-tout")>=0,l=r.indexOf("title-plate")>=0,h=(e.innerWidth-980)/5,d=0;if(d=a?Math.min(720,n,560+h):Math.min(640,n,520+h),e.innerWidth>980&&!o&&!l)t.style.height=Math.round(d)+"px";if(l)t.style.height=Math.max(i.offsetHeight,i.querySelectorAll(".inner .box")[0].offsetHeight)+"px";if(o)t.style.height=t.parentNode.getAttribute("data-"+c+"-height")+"px"}var d="primary_tout_1761400441021505322572060",g=" .hero-image .iq-img",f=!1;if("")d="";d=d.replace(/[-!"#$%&'()*+,.\/:;<=>?@\[\\\]^`{|}~]/g,"\\$&");var s=n.querySelectorAll(""==d?g:"#"+d+g);if(!s.length)return!1;var c,m,u,p,_,w,N=85,b="mark_hero_image_loading",x="mark_hero_image_loaded";if(h(s[0]),!e.GWT_AB_TESTING)l();else e.addEventListener("pt:ab_testing_init",l),e.addEventListener("window:loaded",l)})(window,window.performance||{},window.localStorage,document);</script>
+<div class="visuallyhidden moduleTags" data-name="E-Img-OOFM-Sony_Design-es_EC-2017-11-M02-sliceliving" data-mastername="E-Img-OOFM-Sony_Design-en_GL-2017-11-M02-sliceliving" data-lv1="editorial" data-lv2="image"></div>
+<section style="background-size: cover;background-repeat: no-repeat;background-position: center center;background-color: #F1F5f9;" id="editorial_image_176155559627436102256998" class="editorial gwt-module textonly white editorial_image group-top" aria-label="New section"><div class="container"><div class="grid  dark-text-trans-box no-grid-at-767"><div class="span8 offset2 box center"><div class="copy"><p class="t6 editorial-subhead js-editorial-subhead">Ventana a la vida, 2018</p></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Img-OOFM-Sony_Design-es_EC-2017-11-M03-softminimalism" data-mastername="E-Img-OOFM-Sony_Design-en_GL-2017-11-M03-softminimalism" data-lv1="editorial" data-lv2="image"></div>
+<section style="background-size: cover;background-repeat: no-repeat;background-position: center center;background-color: #F1F5f9;" id="editorial_image_1761517964878767322548952" class="editorial gwt-module textonly white editorial_image group-bottom" aria-label="New section"><div class="container"><div class="grid  dark-text-trans-box no-grid-at-767"><div class="span8 offset2 box center"><div class="copy"><div class="t2 editorial-headline js-editorial-headline">Minimalismo suave</div></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Hot-OOFM-Sony_Design-es_EC-2017-11-M05-conceptsoft" data-mastername="E-Hot-OOFM-Sony_Design-en_GL-2017-11-M05-conceptsoft" data-lv1="editorial" data-lv2="hotspots"></div>
+<section id="editorial_hotspots_1761606205527553722544581" class="editorial gwt-module full-inner editorial_hotspots" aria-label="New section"><div class="container submodule"><div class="hotspot-module "><div data-src-phone-highres="//www.sony.com.ec/image/9320f75ab25fe38e350af6254636b56a?fmt=png-alpha&amp;wid=960" data-src-desktop="//www.sony.com.ec/image/104809a3957532a7145643f77e371a27?fmt=png-alpha&amp;wid=1440" data-src-tablet-highres="//www.sony.com.ec/image/d9fe4d0490c0b3c7eea14621aeed325a?fmt=png-alpha&amp;wid=1440" data-id="img_104809a3957532a7145643f77e371a27" data-src-phone="//www.sony.com.ec/image/9320f75ab25fe38e350af6254636b56a?fmt=png-alpha&amp;wid=480" title="El concepto de minimalismo suave" class=" hotspot-instance hotspot-module track-by-background image-module  iq-img" data-src-tablet="//www.sony.com.ec/image/d9fe4d0490c0b3c7eea14621aeed325a?fmt=png-alpha&amp;wid=720" data-src-desktop-highres="//www.sony.com.ec/image/104809a3957532a7145643f77e371a27?fmt=png-alpha&amp;wid=2880"><div class="hotspot-modal modal hide fade" role="dialog" aria-labelledby="hotspot-modal-title" tabindex="-1" aria-hidden="true"><div class="container"><div class="modal-inner"><div class="modal-body slim-grid">...</div></div></div></div><div class="hspot-underlay hidden"><div class="hspot-global-details-main hidden"></div></div><div class="hspot-global-details-overlay hidden eh-transparent"></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Img-OOFM-Sony_Design-es_EC-2017-11-M06-occupyingspace" data-mastername="E-Img-OOFM-Sony_Design-en_GL-2017-11-M06-occupyingspace" data-lv1="editorial" data-lv2="image"></div>
+<section id="editorial_image_1761480204536243722549976" class="editorial gwt-module textonly white editorial_image" aria-label="New section"><div class="container"><div class="grid  dark-text-trans-box no-grid-at-767"><div class="span8 offset2 box left"><div class="copy"><div class="t2 editorial-headline js-editorial-headline">El espacio entre la armonía y el énfasis</div><p class="p2  editorial-body-copy js-editorial-body-copy">Cuando los diseñadores buscan formas de armonizar los televisores con los salones, una obra de arte puede servir de inspiración. Las obras de arte y esculturas consiguen ser habitantes naturales del espacio a pesar de incorporar atributos visuales que llaman la atención. Combinando los elementos de "armonía" y "énfasis", dos características aparentemente incongruentes, el arte llena los espacios con tonos únicos que transmiten comodidad y lujo. El concepto "minimalismo suave" se centra en unir lo discreto y lo llamativo en el diseño de un televisor como objeto real.</p></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Vid-OOFM-Sony_Design-es_EC-2018-05-M01-textless" data-mastername="E-Vid-OOFM-Sony_Design-en_GL-2018-05-M01-textless" data-lv1="editorial" data-lv2="video"></div>
+<section id="editorial_video_135576433157006945250052" class="editorial gwt-module full  group-middle" aria-label="New section"><div class="container submodule"><div class="video-bg-overlay"></div><div data-config="{&quot;overlay&quot;:false,&quot;playerVars&quot;:{&quot;autohide&quot;:1,&quot;origin&quot;:&quot;//www.sony.com.ec&quot;,&quot;modestbranding&quot;:1,&quot;enablejsapi&quot;:1,&quot;showinfo&quot;:0,&quot;wmode&quot;:&quot;transparent&quot;,&quot;controls&quot;:&quot;1&quot;,&quot;rel&quot;:0,&quot;hl&quot;:&quot;es&quot;,&quot;cc_load_policy&quot;:0},&quot;width&quot;:&quot;100%&quot;,&quot;videoId&quot;:&quot;UtYIwC9vDS8&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Sony_Design-2018-05-M01-textless&quot;,&quot;videoUrl&quot;:&quot;//www.youtube.com/watch?v=UtYIwC9vDS8&quot;,&quot;youtubeVideoImage&quot;:&quot;https://img.youtube.com/vi/UtYIwC9vDS8/maxresdefault.jpg&quot;}" data-module-player="sony-youtube-player" class="sony-video bnw-module sony-youtube-player player"><div class="overlay"><div class="overlay-inner"></div></div><div class="video-container"><div data-id="sonyplayer-UtYIwC9vDS8" title="video player" class="sonyplayer-placeholder " data-all="{&quot;_id&quot;:&quot;urn:sony:media:video_family:999831077378061193112958&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Sony_Design-2018-05-M01-textless&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Sony_Design-2018-05-M01-textless&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/07_Televisions_and_Home_Cinema/2018/FY18-Design&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999831077378061193112958&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20180703092337&quot;,&quot;readyForLive&quot;:&quot;Yes&quot;,&quot;youtubePlaceholderImageURL&quot;:&quot;https://img.youtube.com/vi/UtYIwC9vDS8/maxresdefault.jpg&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;UtYIwC9vDS8&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1533020831112,&quot;updatedAt&quot;:1692801380369,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}"></div></div><div class="warning-label-container visuallyhidden"><div class="warning-label-title"><p class="t2">Acepta las cookies de YouTube para ver este video</p></div><div class="warning-label-text"><p>Accede a las preferencias de cookies a continuación y asegúrate de activar las cookies de YouTube en la sección "Funcional".      </p></div><div class="manage-cookies-button"> <button data-id="manage-cookies-button">Gestionar cookies </button></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Img-OOFM-Sony_Design-es_EC-2017-11-M10-easyto" data-mastername="E-Img-OOFM-Sony_Design-en_GL-2017-11-M10-easyto" data-lv1="editorial" data-lv2="image"></div>
+<section id="editorial_image_1761418524231093722579905" class="editorial gwt-module textonly white editorial_image" aria-label="New section"><div class="container"><div class="grid  dark-text-trans-box no-grid-at-767"><div class="span8 offset2 box left"><div class="copy"><div class="t2 editorial-headline js-editorial-headline">De trato fácil: una cualidad importante para las personas y los televisores</div><p class="p2  editorial-body-copy js-editorial-body-copy">Si los televisores pudieran encontrar ese equilibrio, la gente tendría más configuraciones para elegir y esa libertad ayudaría a integrarlos más en la vida diaria. Para materializar esa intimidad, el diseño de un televisor debe ser cálido. Es difícil sentirse cómodo con una persona distante o restringida. Lo mismo se aplica a los televisores: aunque los diseños minimalistas pueden ser básicos para sumergirse en la experiencia visual, existe el riesgo de crear diseños que parezcan fríos e inorgánicos si la filosofía minimalista se lleva al extremo.<br><br>Esa es la premisa del concepto de "minimalismo suave", un enfoque que utiliza detalles suaves, materiales y texturas atractivos, y tonos cálidos, para acabar con la frialdad del diseño minimalista. ¿El resultado? Un televisor que asombra encendido, eliminando elementos superfluos para maximizar el poder de la experiencia visual, pero que se integra sin esfuerzo en su entorno cuando está apagado, armonizando con el espacio como una obra de arte. Vivimos en una época en la que la sencillez y la comodidad son más importantes que nunca. En este contexto, el "minimalismo suave" es la nueva encarnación de lo que puede ser un televisor.</p></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="E-Hot-OOFM-Sony_Design-es_EC-2017-11-M11-hownew" data-mastername="E-Hot-OOFM-Sony_Design-en_GL-2017-11-M11-hownew" data-lv1="editorial" data-lv2="hotspots"></div>
+<section id="editorial_hotspots_1761424706364467122530449" class="editorial gwt-module full-inner editorial_hotspots outerspace-bottom" aria-label="New section"><div class="container submodule"><div class="hotspot-module "><div data-src-phone-highres="//www.sony.com.ec/image/0628a36fa9e670d7f64ae291471093c9?fmt=png-alpha&amp;wid=960" data-src-desktop="//www.sony.com.ec/image/b1c41cec9237c5a620b67a54778d6390?fmt=png-alpha&amp;wid=1440" data-src-tablet-highres="//www.sony.com.ec/image/c9df2d976cf30d7db3ccc9e849792777?fmt=png-alpha&amp;wid=1440" data-id="img_b1c41cec9237c5a620b67a54778d6390" data-src-phone="//www.sony.com.ec/image/0628a36fa9e670d7f64ae291471093c9?fmt=png-alpha&amp;wid=480" title="Tako, jefe de direcci&oacute;n art&iacute;stica" class=" hotspot-instance hotspot-module track-by-background image-module  iq-img" data-src-tablet="//www.sony.com.ec/image/c9df2d976cf30d7db3ccc9e849792777?fmt=png-alpha&amp;wid=720" data-src-desktop-highres="//www.sony.com.ec/image/b1c41cec9237c5a620b67a54778d6390?fmt=png-alpha&amp;wid=2880"><div class="hotspot-modal modal hide fade" role="dialog" aria-labelledby="hotspot-modal-title" tabindex="-1" aria-hidden="true"><div class="container"><div class="modal-inner"><div class="modal-body slim-grid">...</div></div></div></div><div class="hspot-underlay hidden"><div class="hspot-global-details-main hidden"></div></div><div class="hspot-global-details-overlay hidden eh-transparent"></div></div></div></div><div class="container inner dark-text-trans-box"><div class="grid no-grid-at-767"><div class="span6  left"><div class="table-center-wrap"><div class="table-center"><div class="box left"><div class="copy"><div class="t3-bold editorial-headline js-editorial-headline">Cómo la antinomia puede generar nuevo valor</div><p class="p3  editorial-body-copy js-editorial-body-copy">Siempre intentamos buscar nuevas experiencias y nuevo valor en la antonimia, lo contradictorio, los elementos paradójicos del diseño. El "minimalismo suave" propone básicamente un "blanco negro". Por un lado, tiene una presencia visual enfática, pero por otro se integra en los espacios con el tímido aspecto de un sistema de video. El objetivo era desarrollar un televisor que ofreciera equilibrio entre estas dos dimensiones y se adaptara a los estilos de vida actuales.<br><br>Tako, director artístico</p></div></div></div></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="One-Tout-OOFM-SonyDesign-es_EC-2017-11-M27-feelthebeauty" data-mastername="One-Tout-OOFM-SonyDesign-en_GL-2017-11-M27-feelthebeauty" data-lv1="secondary" data-lv2="only_sony_carousel"></div>
+
+<div class="visuallyhidden moduleTags" data-name="One-Tout-OOFM-Sony_Design-es_EC-2017-11-M33-seehow" data-mastername="One-Tout-OOFM-Sony_Design-en_GL-2017-11-M33-seehow" data-lv1="secondary" data-lv2="only_sony_carousel"></div>
+<section id="urn:sony:module:one_sony_tout_carousel:999266693407452557772888298" class="gwt-module sony-carousel-container one-sony-tout-container  outerspace-bottom" aria-label="Carousel"><div class="container st-header"><div class="grid"><p class="l1">MIRA CÓMO SONY CONVIERTE LA TV EN ALGO EMOCIONANTE</p></div></div><div class="container"><div class="one-sony-carousel secondary-tout"><div class="st-container" data-paddle-translation-previous="Anterior" data-paddle-translation-next="Siguiente"><div class="st-container-inner" data-selected-tout="0"><div class="st-content"><div class="st-grid gwt-module"><div class="st-item span4 content-4 "><article style=""><a class="primary-link parent-level-link" tabindex="0" style="" data-id="" href="//www.sony.com.ec/electronics/master-series?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT01-MASTERSERIES" title="" data-new-win="no" target="_self"><div class="st-item-content dark-text-light-panel align-left-bottom content-4  "><div class=""><div class="headline st-headline t4 "><span class="primary-link labelOnly "><span>Realidad en estado puro</span><span class=""><i class="fi fonticon-10-chevron-sm l-o-d" aria-hidden="true"></i></span></span></div></div></div></a><div data-src-phone-highres="//www.sony.com.ec/image/4bc3e9923ca62ce94cae717ee37dfdd8?fmt=png-alpha&amp;wid=828" data-src-desktop="//www.sony.com.ec/image/13e9a16d46041710c5eb085ada012d97?fmt=png-alpha&amp;wid=377" data-src-tablet-highres="//www.sony.com.ec/image/5598daa9d077db6b86816ac20b37b4c2?fmt=png-alpha&amp;wid=1324" data-id="img_13e9a16d46041710c5eb085ada012d97" data-src-phone="//www.sony.com.ec/image/4bc3e9923ca62ce94cae717ee37dfdd8?fmt=png-alpha&amp;wid=414" title="MASTER Series" class="span4 st-image" data-src-tablet="//www.sony.com.ec/image/5598daa9d077db6b86816ac20b37b4c2?fmt=png-alpha&amp;wid=662" data-src-desktop-highres="//www.sony.com.ec/image/13e9a16d46041710c5eb085ada012d97?fmt=png-alpha&amp;wid=754"></div></article><div></div><div class="visuallyhidden gallery-data-item" data-mastername="Sec-Tout-OOFM-Sony_Design-en_GL-2018-05-M01-seehow-Tout01-masterseries" data-type="secondary_tout" data-layout="promo" data-url="//www.sony.com.ec/electronics/master-series?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT01-MASTERSERIES" data-name="Sec-Tout-OOFM-Sony_Design-es_EC-2018-05-M01-seehow-Tout01-masterseries"></div></div><div class="st-item span4 content-4 "><article style=""><a class="primary-link parent-level-link" tabindex="0" style="" data-id="" href="//www.sony.com.ec/electronics/calidad-imagen?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT02-PICTUREQUALITY" title="" data-new-win="no" target="_self"><div class="st-item-content dark-text-light-panel align-left-bottom content-4  "><div class=""><div class="headline st-headline t4 "><span class="primary-link labelOnly "><span>Conoce tecnologías de imagen únicas</span><span class=""><i class="fi fonticon-10-chevron-sm l-o-d" aria-hidden="true"></i></span></span></div></div></div></a><div data-src-phone-highres="//www.sony.com.ec/image/177ad388aecf1ea0575c307258c65c1a?fmt=png-alpha&amp;wid=828" data-src-desktop="//www.sony.com.ec/image/347ccec83ccdd50fb6d4e061e427c384?fmt=png-alpha&amp;wid=377" data-src-tablet-highres="//www.sony.com.ec/image/e96a5073750243f83b4bb27cc5b7069a?fmt=png-alpha&amp;wid=1324" data-id="img_347ccec83ccdd50fb6d4e061e427c384" data-src-phone="//www.sony.com.ec/image/177ad388aecf1ea0575c307258c65c1a?fmt=png-alpha&amp;wid=414" title="Calidad de imagen" class="span4 st-image" data-src-tablet="//www.sony.com.ec/image/e96a5073750243f83b4bb27cc5b7069a?fmt=png-alpha&amp;wid=662" data-src-desktop-highres="//www.sony.com.ec/image/347ccec83ccdd50fb6d4e061e427c384?fmt=png-alpha&amp;wid=754"></div></article><div></div><div class="visuallyhidden gallery-data-item" data-mastername="Sec-Tout-OOFM-Sony_Design-en_GL-2018-05-M01-seehow-Tout02-picturequality" data-type="secondary_tout" data-layout="promo" data-url="//www.sony.com.ec/electronics/calidad-imagen?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT02-PICTUREQUALITY" data-name="Sec-Tout-OOFM-Sony_Design-es_EC-2018-05-M01-seehow-Tout02-picturequality"></div></div><div class="st-item span4 content-4 "><article style=""><a class="primary-link parent-level-link" tabindex="0" style="" data-id="" href="//www.sony.com.ec/electronics/calidad-sonido?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT04-SOUNDQUALITY" title="" data-new-win="no" target="_self"><div class="st-item-content dark-text-light-panel align-left-bottom content-4  "><div class=""><div class="headline st-headline t4 "><span class="primary-link labelOnly "><span>Información tecnologías de sonido </span><span class=""><i class="fi fonticon-10-chevron-sm l-o-d" aria-hidden="true"></i></span></span></div></div></div></a><div data-src-phone-highres="//www.sony.com.ec/image/43a0f52fde86723086f40a7fb5e4acf8?fmt=png-alpha&amp;wid=828" data-src-desktop="//www.sony.com.ec/image/5b908a9664efb269a2ef6b3adbc0551d?fmt=png-alpha&amp;wid=377" data-src-tablet-highres="//www.sony.com.ec/image/959401bb232f30bd6c93393414d25095?fmt=png-alpha&amp;wid=1324" data-id="img_5b908a9664efb269a2ef6b3adbc0551d" data-src-phone="//www.sony.com.ec/image/43a0f52fde86723086f40a7fb5e4acf8?fmt=png-alpha&amp;wid=414" title="Calidad de sonido" class="span4 st-image" data-src-tablet="//www.sony.com.ec/image/959401bb232f30bd6c93393414d25095?fmt=png-alpha&amp;wid=662" data-src-desktop-highres="//www.sony.com.ec/image/5b908a9664efb269a2ef6b3adbc0551d?fmt=png-alpha&amp;wid=754"></div></article><div></div><div class="visuallyhidden gallery-data-item" data-mastername="Sec-Tout-OOFM-Sony_Design-en_GL-2018-05-M01-seehow-Tout04-soundquality" data-type="secondary_tout" data-layout="promo" data-url="//www.sony.com.ec/electronics/calidad-sonido?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT04-SOUNDQUALITY" data-name="Sec-Tout-OOFM-Sony_Design-es_EC-2018-05-M01-seehow-Tout04-soundquality"></div></div><div class="st-item span4 content-4 "><article style=""><a class="primary-link parent-level-link" tabindex="0" style="" data-id="" href="//www.sony.com.ec/electronics/smart-tv-funciones-aplicaciones-e-internet?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT05-ENTERTAINMENT" title="" data-new-win="no" target="_self"><div class="st-item-content dark-text-light-panel align-left-bottom content-4  "><div class=""><div class="headline st-headline t4 "><span class="primary-link labelOnly "><span>Nuevos mundos de entretenimiento</span><span class=""><i class="fi fonticon-10-chevron-sm l-o-d" aria-hidden="true"></i></span></span></div></div></div></a><div data-src-phone-highres="//www.sony.com.ec/image/3b26e9dc90909d0aaba41218ecb51c8e?fmt=png-alpha&amp;wid=828" data-src-desktop="//www.sony.com.ec/image/d3188355110ffe22b873fa17c83f91b3?fmt=png-alpha&amp;wid=377" data-src-tablet-highres="//www.sony.com.ec/image/072699fb2fddbc37c977473aa528876a?fmt=png-alpha&amp;wid=1324" data-id="img_d3188355110ffe22b873fa17c83f91b3" data-src-phone="//www.sony.com.ec/image/3b26e9dc90909d0aaba41218ecb51c8e?fmt=png-alpha&amp;wid=414" title="Entretenimiento" class="span4 st-image" data-src-tablet="//www.sony.com.ec/image/072699fb2fddbc37c977473aa528876a?fmt=png-alpha&amp;wid=662" data-src-desktop-highres="//www.sony.com.ec/image/d3188355110ffe22b873fa17c83f91b3?fmt=png-alpha&amp;wid=754"></div></article><div></div><div class="visuallyhidden gallery-data-item" data-mastername="Sec-Tout-OOFM-Sony_Design-en_GL-2018-05-M01-seehow-Tout05-entertainment" data-type="secondary_tout" data-layout="promo" data-url="//www.sony.com.ec/electronics/smart-tv-funciones-aplicaciones-e-internet?cpint=SG_OUT_OF_FLOW_SEC-TOUT-OOFM-SONY_DESIGN-EN_GL-2018-05-M01-SEEHOW-TOUT05-ENTERTAINMENT" data-name="Sec-Tout-OOFM-Sony_Design-es_EC-2018-05-M01-seehow-Tout05-entertainment"></div></div></div></div></div></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="navigation" data-lv2="recently_viewed"></div>
+<section id="recently_viewed_default" class="rv-module" aria-label="Art&iacute;culos consultados recientemente"><div class="container"><div class="grid hidden"><div class="l1 rv-title">Artículos consultados recientemente</div></div></div><div class="m-container"><div class="sony-carousel-wrapper"><div class="sony-carousel"></div></div></div></section>
+                </div>
+                <nav class="scroll-to-top container full-bleed opacity0">
+                    <a href="#" role="button" aria-label="Volver arriba" >
+                        <span class="aria-icon fonticon-10-back-to-top" ></span>
+                    </a>
+                </nav>
+                <footer class="area footer">
+                    
+<div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="navigation" data-lv2="footnotes"></div>
+<section data-enable-footnote-tooltip="true" data-pricing-disclaimer="Precio sugerido al p&uacute;blico por el fabricante y de car&aacute;cter referencial al d&iacute;a. Incluye IVA. Precio no incluye cargos adicionales por flete y/o descuentos promocionales. El precio final ser&aacute; mostrado al hacer clic en el bot&oacute;n de comprar o bien en store.sony.com.ec" id="footnotes" class="footnotes-wrapper container full-bleed-no-max m-full-bleed " data-label="Footnote"><div class="p3"><a class="container" aria-expanded="false" href="javascript:;"><div class="grid">Notas a pie de p&aacute;gina<i class="fi fonticon-10-arrowhead-down" aria-hidden="true"></i></div></a></div><div class="list hidden-by-default"><div class="container"><div class="grid"><ol><li class="p3"><span class="num">1</span><span class="note">Las especificaciones y las funciones est&aacute;n sujetas a cambios sin previo aviso.</span></li><li class="p3"><span class="num">2</span><span class="note">La palabra Bluetooth&reg; y sus logotipos son marcas comerciales registradas propiedad de Bluetooth SIG, Inc. y cualquier uso de estas marcas por parte de Sony Group Corporation y sus subsidiarias se efect&uacute;a bajo licencia.</span></li></ol></div></div></div></section>
+<div class="visuallyhidden moduleTags" data-name="" data-mastername="" data-lv1="navigation" data-lv2="footer_gwx"></div>
+
+    
+    
+    
+    
+    
+    
+   
+    
+    
+
+    
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+    
+    
+    
+
+
+
+
+<div>
+    <div>
+
+    
+    <div id="container-17de838bdf">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="globalFooter aem-GridColumn aem-GridColumn--default--12">
+    
+
+
+   
+      <div>
+   
+   
+
+
+
+
+    
+   <div class="gwx-sony-footer">
+	 <footer class="component GlobalFooter js-product-compare-plain-view">
+      <div class="component-content" data-componenttype="global_footer" data-componentid="global_footer-Footer--root_globalfooter_copy">
+         <div class="GlobalFooter__Main">
+            <div class="GlobalFooter__Inner">
+               <div class="GlobalFooter__MainContents">
+                
+                  <div class="GlobalFooter__MainItem">
+                     <div class="GlobalFooter__MainItemHeader">
+                        <button class="GlobalFooter__MainItemButton js-datalayer-action-event -onlySmallScreen" role="button" data-actionable-item-value="Busca un Distribuidor">
+                           <span class="GlobalFooter__MainItemButtonInner">Busca un Distribuidor</span>
+                        </button>
+                        <h3 class="GlobalFooter__MainItemButton js-datalayer-action-event -ignoreSmallScreen" data-actionable-item-value="Busca un Distribuidor">
+                           <span class="GlobalFooter__MainItemButtonInner">Busca un Distribuidor</span>
+                        </h3>
+                     </div>
+                     <div class="GlobalFooter__MainItemBody">
+                        <div class="GlobalFooter__MainItemBodyInner">
+                           <div class="GlobalFooter__Search">
+						   
+                              <form class="GlobalFooter__SearchForm" data-url-info="https://www.sony.com.ec/corporate/EC/dondecomprar/dondecomprar.html?loc=">
+                        <input type="text" class="GlobalFooter__SearchFormInput" placeholder="Ubicaci"/>
+                        <span class="GlobalFooter__SearchFormIcon Icon -globe"></span>
+                        <button type="button" class="GlobalFooter__SearchFormSubmit js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Buscar">Buscar</button>
+                      </form>
+					  
+                              <div class="GlobalFooter__SearchHelp">
+							  <ul class="GlobalFooter_SearchHelpLinkList">
+                                 
+                                     <li>
+                                       <a href="https://www.sony.com.ec/corporate/EC/dondecomprar/dondecomprar.html?loc=" tabindex="0" role="link" target="_parent" class="GlobalFooter__SearchHelpLink js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Tiendas y Distribuidores">Tiendas y Distribuidores</a>
+                                    </li>
+                                 
+								 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                   
+                  <div class="GlobalFooter__MainItem">
+                     <div class="GlobalFooter__MainItemHeader">
+                        <button class="GlobalFooter__MainItemButton js-datalayer-action-event -onlySmallScreen" role="button" data-actionable-item-value="Comunidad">
+                           <span class="GlobalFooter__MainItemButtonInner">Comunidad</span>
+                        </button>
+                        <h3 class="GlobalFooter__MainItemButton js-datalayer-action-event -ignoreSmallScreen" data-actionable-item-value="Comunidad">
+                           <span class="GlobalFooter__MainItemButtonInner">Comunidad</span>
+                        </h3>
+                     </div>
+                     <div class="GlobalFooter__MainItemBody">
+                        <div class="GlobalFooter__MainItemBodyInner">
+                           <ul class="GlobalFooter__ListMenu">
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="https://www.facebook.com/comunidadalpha" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Comunidad Alpha">Comunidad Alpha</a>
+                                 </li>
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="http://blog.latam.playstation.com/?smcid=gwo" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Blog PlayStation">Blog PlayStation</a>
+                                 </li>
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="https://store.sony.com.ec/centro-de-ayuda?cpint=gwt-footer" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Ayuda con Mi Producto">Ayuda con Mi Producto</a>
+                                 </li>
+                              
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  
+                   
+                  <div class="GlobalFooter__MainItem">
+                     <div class="GlobalFooter__MainItemHeader">
+                        <button class="GlobalFooter__MainItemButton js-datalayer-action-event -onlySmallScreen" role="button" data-actionable-item-value="Noticias e Información">
+                           <span class="GlobalFooter__MainItemButtonInner">Noticias e Información</span>
+                        </button>
+                        <h3 class="GlobalFooter__MainItemButton js-datalayer-action-event -ignoreSmallScreen" data-actionable-item-value="Noticias e Información">
+                           <span class="GlobalFooter__MainItemButtonInner">Noticias e Información</span>
+                        </h3>
+                     </div>
+                     <div class="GlobalFooter__MainItemBody">
+                        <div class="GlobalFooter__MainItemBodyInner">
+                           <ul class="GlobalFooter__ListMenu">
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="http://www.sony-latin.com/corporate/SOLA/acerca/infocorporativa/datoscorporativos.html" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Información Corporativa">Información Corporativa</a>
+                                 </li>
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="http://www.sony-latin.com/corporate/SOLA/acerca/centrodeprensa/comunicados.html" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Centro de Prensa">Centro de Prensa</a>
+                                 </li>
+                              
+                                 <li class="GlobalFooterListMenuItem">
+                                    <a href="http://www.sony.net/SonyInfo/csr/SonyEnvironment/es-la/" tabindex="0" role="link" target="_blank" class="GlobalFooterListMenuItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Sony y el Medio Ambiente">Sony y el Medio Ambiente</a>
+                                 </li>
+                              
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  
+                   
+               </div>
+            </div>
+         </div>
+         <div class="GlobalFooter__Second">
+            <div class="GlobalFooter__Inner">
+               <div class="GlobalFooter__SecondContents">
+                  <div class="GlobalFooter__CountryRegion">
+                     <div class="GlobalFooter__CountryRegionInner">
+                        <a href="https://www.sony.com.ec/locale-selector" tabindex="0" role="link" class="GlobalFooter__CountryRegionLink js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Ecuador">
+                        <span class="GlobalFooter__CountryRegionText">Ecuador</span>
+                        </a>
+                        
+                     </div>
+                  </div>
+                  <div class="GlobalFooter__SecondNav">
+                     <ul class="GlobalFooter__SecondLinkList">
+                        
+                           <li class="GlobalFooterSecondLinkListItem">
+                              <a href="https://pro.sony?cmp=gwt-" tabindex="0" role="link" target="_blank" class="GlobalFooterSecondLinkListItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Productos &amp; soluciones profesionales">Productos &amp; soluciones profesionales</a>
+                           </li>
+                        
+                           <li class="GlobalFooterSecondLinkListItem">
+                              <a href="https://la.esupport.sony.com/support/s/contact-email?language=es" tabindex="0" role="link" target="_blank" class="GlobalFooterSecondLinkListItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Contacto">Contacto</a>
+                           </li>
+                        
+                     </ul>
+                     <div class="GlobalFooterSns">
+                        
+                           <div class="GlobalFooterSnsItem">
+						   <script>						   						   
+						   </script>
+                              <div class="GlobalFooterSnsItem__Container">
+                                 <button type="button" class="GlobalFooterSnsItem__Button js-triggerTooltip js-datalayer-action-event" onmouseout="this.style.backgroundColor='#3c3c42'" onMouseOver="this.style.backgroundColor='#1877F2'" data-target="GlobalFooterSnsItem_Targetvisítanos en facebook" aria-label="visítanos en facebook" data-actionable-item-value="Únete a nosotros en Facebook">
+                                 
+								  <span class="Icon">
+        <img src="https://sony.scene7.com/is/content/sonyglobalsolutions/footer-sns-facebook?$globalFooter$" alt="Facebook" class="GlobalFooter__SharePopupLogo"/>
+      </span>
+                                 </button>
+                                 <div id="GlobalFooterSnsItem_Targetvisítanos en facebook" class="GlobalFooterSnsItem__Tooltip">
+                                    <div class="Tooltip__Dialog">
+                                       <div class="GlobalFooterSnsItem__TooltipInner">
+                                          <div class="GlobalFooterSnsItem__TooltipContent">
+                                             <h2 class="GlobalFooterSnsItem__TooltipHeading">Únete a nosotros en Facebook</h2>
+                                             <div class="GlobalFooterSnsItem__TooltipBody">
+											  <p class="GlobalFooterSnsItem__SharePopupWidget -visítanos en facebook">
+												<div class="fb-like fb_iframe_widget" data-action="like" data-facebook-locale="es_LA" data-href="https://www.facebook.com/sonyamericalatina" data-layout="button_count" data-share="false" data-show-faces="false"><span style="vertical-align: bottom;width: 130.0px;height: 28.0px;"><iframe data-testid="fb:like Facebook Social Plugin" frameborder="0" src="https://www.facebook.com/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df36e93a0f14277%26domain%3Dwww.sony.com.ec%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.sony.com.ec%252Ff3dbc303abf98f8%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fsonyamericalatina&amp;layout=button_count&amp;locale=es_LA&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: none;visibility: visible;width: 130.0px;height: 28.0px;" title="fb:like Facebook Social Plugin"></iframe></span></div>
+											</p>
+                                                <p class="GlobalFooterSnsItem__TooltipBadgeWrapper">
+                                                   <a href="https://www.facebook.com/sonyamericalatina" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipBadgeLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en Facebook">
+                                                   
+                                                   </a>
+                                                </p>
+                                                
+                                                <p class="GlobalFooterSnsItem__TooltipText">
+                                                   <a href="https://www.facebook.com/sonyamericalatina" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en Facebook">Visítanos en Facebook</a>
+                                                </p>
+                                                
+                                             </div>
+                                             <div class="GlobalFooterSnsItem__TooltipPointer Tooltip__Arrow"></div>
+                                             <button type="button" class="GlobalFooterSnsItem__TooltipCloseButton Tooltip__CloseButton js-triggerTooltip js-datalayer-action-event" data-target="GlobalFooterSnsItem_Targetvisítanos en facebook" data-actionable-item-value="close">
+                                             <span class="Icon -close GlobalFooterSnsItem__TooltipCloseIcon"></span>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        
+                           <div class="GlobalFooterSnsItem">
+						   <script>						   						   
+						   </script>
+                              <div class="GlobalFooterSnsItem__Container">
+                                 <button type="button" class="GlobalFooterSnsItem__Button js-triggerTooltip js-datalayer-action-event" onmouseout="this.style.backgroundColor='#3c3c42'" onMouseOver="this.style.backgroundColor='#1D9BF0'" data-target="GlobalFooterSnsItem_Targetvisítanos en twitter" aria-label="visítanos en twitter" data-actionable-item-value="Síguenos en Twitter">
+                                 
+								  <span class="Icon">
+        <img src="https://sony.scene7.com/is/content/sonyglobalsolutions/footer-sns-twitter?$globalFooter$" alt="Twitter" class="GlobalFooter__SharePopupLogo"/>
+      </span>
+                                 </button>
+                                 <div id="GlobalFooterSnsItem_Targetvisítanos en twitter" class="GlobalFooterSnsItem__Tooltip">
+                                    <div class="Tooltip__Dialog">
+                                       <div class="GlobalFooterSnsItem__TooltipInner">
+                                          <div class="GlobalFooterSnsItem__TooltipContent">
+                                             <h2 class="GlobalFooterSnsItem__TooltipHeading">Síguenos en Twitter</h2>
+                                             <div class="GlobalFooterSnsItem__TooltipBody">
+											  <p class="GlobalFooterSnsItem__SharePopupWidget -visítanos en twitter">
+												<div class="btn-o" data-scribe="component:button" style="width: 0.0px;"><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.sony.com.ec%2F&amp;ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&amp;text=Explora%20los%20%C3%BAltimos%20productos%20y%20tecnolog%C3%ADas%20desde%20www.sony.com.ec&amp;url=www.sony.com.ec" class="btn" id="b"><i></i><span class="label" id="l">Twittear</span></a></div>
+											</p>
+                                                <p class="GlobalFooterSnsItem__TooltipBadgeWrapper">
+                                                   <a href="https://www.twitter.com/sonylatin" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipBadgeLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en Twitter">
+                                                   
+                                                   </a>
+                                                </p>
+                                                
+                                                <p class="GlobalFooterSnsItem__TooltipText">
+                                                   <a href="https://www.twitter.com/sonylatin" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en Twitter">Visítanos en Twitter</a>
+                                                </p>
+                                                
+                                             </div>
+                                             <div class="GlobalFooterSnsItem__TooltipPointer Tooltip__Arrow"></div>
+                                             <button type="button" class="GlobalFooterSnsItem__TooltipCloseButton Tooltip__CloseButton js-triggerTooltip js-datalayer-action-event" data-target="GlobalFooterSnsItem_Targetvisítanos en twitter" data-actionable-item-value="close">
+                                             <span class="Icon -close GlobalFooterSnsItem__TooltipCloseIcon"></span>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        
+                           <div class="GlobalFooterSnsItem">
+						   <script>						   						   
+						   </script>
+                              <div class="GlobalFooterSnsItem__Container">
+                                 <button type="button" class="GlobalFooterSnsItem__Button js-triggerTooltip js-datalayer-action-event" onmouseout="this.style.backgroundColor='#3c3c42'" onMouseOver="this.style.backgroundColor='#ff0000'" data-target="GlobalFooterSnsItem_Targetvisítanos en youtube" aria-label="visítanos en youtube" data-actionable-item-value="Suscríbete en YouTube">
+                                 
+								  <span class="Icon">
+        <img src="https://sony.scene7.com/is/content/sonyglobalsolutions/footer-sns-youtube?$globalFooter$" alt="YouTube" class="GlobalFooter__SharePopupLogo"/>
+      </span>
+                                 </button>
+                                 <div id="GlobalFooterSnsItem_Targetvisítanos en youtube" class="GlobalFooterSnsItem__Tooltip">
+                                    <div class="Tooltip__Dialog">
+                                       <div class="GlobalFooterSnsItem__TooltipInner">
+                                          <div class="GlobalFooterSnsItem__TooltipContent">
+                                             <h2 class="GlobalFooterSnsItem__TooltipHeading">Suscríbete en YouTube</h2>
+                                             <div class="GlobalFooterSnsItem__TooltipBody">
+											  <p class="GlobalFooterSnsItem__SharePopupWidget -visítanos en youtube">
+												<div id="___ytsubscribe_0" style="text-indent: 0.0px;margin: 0.0px;padding: 0.0px;background: transparent;border-style: none;float: none;line-height: normal;font-size: 1.0px;vertical-align: baseline;width: 450.0px;height: 24.0px;"><iframe data-gapiattached="true" frameborder="0" id="I0_1651803215529" src="https://www.youtube.com/subscribe_embed?usegapi=1&amp;channel=sonylatin&amp;theme=dark&amp;count=default&amp;layout=default&amp;hl=es_EC&amp;origin=https%3A%2F%2Fwww.sony.com.ec&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.5EzdJRYYqVI.O%2Fd%3D1%2Frs%3DAHpOoo_YkgRfk9NA-tU81xmKmFrifcc8Yg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1651803215529&amp;_gfid=I0_1651803215529&amp;parent=https%3A%2F%2Fwww.sony.com.ec&amp;pfname=&amp;rpctoken=91740452" style="position: static;top: 0.0px;width: 450.0px;margin: 0.0px;border-style: none;left: 0.0px;visibility: visible;height: 24.0px;"></iframe></div>
+											</p>
+                                                <p class="GlobalFooterSnsItem__TooltipBadgeWrapper">
+                                                   <a href="https://www.youtube.com/sonylatin" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipBadgeLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en YouTube">
+                                                   
+                                                   </a>
+                                                </p>
+                                                
+                                                <p class="GlobalFooterSnsItem__TooltipText">
+                                                   <a href="https://www.youtube.com/sonylatin" tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="Visítanos en YouTube">Visítanos en YouTube</a>
+                                                </p>
+                                                
+                                             </div>
+                                             <div class="GlobalFooterSnsItem__TooltipPointer Tooltip__Arrow"></div>
+                                             <button type="button" class="GlobalFooterSnsItem__TooltipCloseButton Tooltip__CloseButton js-triggerTooltip js-datalayer-action-event" data-target="GlobalFooterSnsItem_Targetvisítanos en youtube" data-actionable-item-value="close">
+                                             <span class="Icon -close GlobalFooterSnsItem__TooltipCloseIcon"></span>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        
+                           <div class="GlobalFooterSnsItem">
+						   <script>						   						   
+						   </script>
+                              <div class="GlobalFooterSnsItem__Container">
+                                 <button type="button" class="GlobalFooterSnsItem__Button js-triggerTooltip js-datalayer-action-event" onmouseout="this.style.backgroundColor='#3c3c42'" onMouseOver="this.style.backgroundColor='#507da2'" data-target="GlobalFooterSnsItem_Target" data-actionable-item-value="Síguenos en Instagram">
+                                 
+								  <span class="Icon">
+        <img src="https://sony.scene7.com/is/content/sonyglobalsolutions/footer-sns-instagram?$globalFooter$" alt="Instagram" class="GlobalFooter__SharePopupLogo"/>
+      </span>
+                                 </button>
+                                 <div id="GlobalFooterSnsItem_Target" class="GlobalFooterSnsItem__Tooltip">
+                                    <div class="Tooltip__Dialog">
+                                       <div class="GlobalFooterSnsItem__TooltipInner">
+                                          <div class="GlobalFooterSnsItem__TooltipContent">
+                                             <h2 class="GlobalFooterSnsItem__TooltipHeading">Síguenos en Instagram</h2>
+                                             <div class="GlobalFooterSnsItem__TooltipBody">
+											  <p class="GlobalFooterSnsItem__SharePopupWidget -">
+												<a class="btn insta" href="https://www.instagram.com/sonylatin/" target="_blank">Venos en Instagram</a>
+											</p>
+                                                <p class="GlobalFooterSnsItem__TooltipBadgeWrapper">
+                                                   <a tabindex="0" role="link" class="GlobalFooterSnsItem__TooltipBadgeLink js-datalayer-action-event" target="_blank" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click">
+                                                   
+                                                   </a>
+                                                </p>
+                                                
+                                             </div>
+                                             <div class="GlobalFooterSnsItem__TooltipPointer Tooltip__Arrow"></div>
+                                             <button type="button" class="GlobalFooterSnsItem__TooltipCloseButton Tooltip__CloseButton js-triggerTooltip js-datalayer-action-event" data-target="GlobalFooterSnsItem_Target" data-actionable-item-value="close">
+                                             <span class="Icon -close GlobalFooterSnsItem__TooltipCloseIcon"></span>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+		 
+         <div class="GlobalFooter__Meta">
+            <hr class="Border"/>
+            <div class="GlobalFooter__MetaWrapper">
+               <div class="GlobalFooter__MetaInner">
+                  <div class="GlobalFooter__About">
+                     
+                        <ul class="GlobalFooter__MetaLinkList">
+                           
+                              <li class="GlobalFooterMetaLinkListItem">
+                                 
+                                    <a style="color:;" tabindex="0" role="link" href="https://www.sony.com.ec/corporate/EC/legal/maspoliticadeprivacidad.html" target="_blank" class="GlobalFooterMetaLinkListItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC">POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC</a>
+                                    
+                                 
+                                 
+                              </li>
+                           
+                              <li class="GlobalFooterMetaLinkListItem">
+                                 
+                                    <a style="color:;" tabindex="0" role="link" href="https://www.sony.com.ec/corporate/EC/legal/derechosreservados.html" target="_blank" class="GlobalFooterMetaLinkListItem__Link js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click" data-actionable-item-value="© 2023 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.">© 2023 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.</a>
+                                    
+                                 
+                                 
+                              </li>
+                           
+                        </ul>
+                     
+                  </div>
+                  <p class="GlobalFooter__Brand">
+                     <a href="https://www.sony.com/en/" target="_blank" tabindex="0" role="link" class="GlobalFooter__BrandLink js-datalayer-action-event" data-interaction-componenttype="global_footer" data-interaction-componentid="global_footer-Footer--root_globalfooter_copy" data-interactiontype="navigation-click">
+                        
+                           <img src="https://www.sony.com.ec/etc.clientlibs/sony/global/clientlibs/clientlib-shf/resources/assets/img/GlobalFooter/EN_Grouplink_White.png" alt="Sony Group Portal Site" class="GlobalFooter__BrandLinkImageBase"/>
+                           <img src="https://www.sony.com.ec/etc.clientlibs/sony/global/clientlibs/clientlib-shf/resources/assets/img/GlobalFooter/EN_GroupLink_White_hover.png" alt="Sony Group Portal Site" class="GlobalFooter__BrandLinkImageHover"/>
+                        
+                        
+                     </a>
+                  </p>
+                  <p class="GlobalFooter__Copyright"></p>
+                  
+               </div>
+               <div class="GlobalFooter__MetaInner__Payments">
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</div>
+  
+
+    
+    
+</div>
+
+    
+	<script src="https://www.sony.com.ec/etc.clientlibs/sony/global/clientlibs/clientlib-shf.9cc58530a303c1b9a0ed9880c04a7239197da74ee95ffc6443de30752f16e1dcfeb7558d3804e052d8397da94383fc08272ce9686255c4438ea4e3561bfc8311.js"></script>
+
+
+   
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+                </footer>
+                
+                    <div class="area unsupported_browsers">
+                        
+                    </div>
+                
+            </div>
+        </div>
+
+        
+        
+
+
+
+
+    <script src='//www.sony.com/static-assets/javascripts/commonLibs-ac017a1058829c78d7a7bf2ac8149d4c.js'></script>
+    <script src='//www.sony.com/static-assets/javascripts/app-a0065d8e21e57f1fab6a34a579a0fdba.js'></script>
+
+    
+
+    
+
+    <script src='//www.sony.com/static-assets/javascripts/page/out_of_flow-c7704a841b49c2826fa89c3edf00bb08.js'></script>
+  
+
+
+    
+  
+
+
+        
+
+
+        
+    <script type="text/javascript"  src="/4fgAHf/qO_/u8m/CpCPeQ/V59rtQJQXXNkQ1/JWAdSyID/JmhtB/1QDIkA"></script></body>
+</html>

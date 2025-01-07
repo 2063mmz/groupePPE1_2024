@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="theme-color" content="#95c391"/>
+
+	    <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+    <script type="text/javascript" async>
+        (function() {
+            var host = 'generationvoyage.fr';
+            var element = document.createElement('script');
+            var firstScript = document.getElementsByTagName('script')[0];
+            var url = 'https://cmp.inmobi.com'
+                .concat('/choice/', 'CY9fQZg9c-rvQ', '/', host, '/choice.js?tag_version=V3');
+            var uspTries = 0;
+            var uspTriesLimit = 3;
+            element.async = true;
+            element.type = 'text/javascript';
+            element.src = url;
+
+            firstScript.parentNode.insertBefore(element, firstScript);
+
+            function makeStub() {
+                var TCF_LOCATOR_NAME = '__tcfapiLocator';
+                var queue = [];
+                var win = window;
+                var cmpFrame;
+
+                function addFrame() {
+                    var doc = win.document;
+                    var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                    if (!otherCMP) {
+                        if (doc.body) {
+                            var iframe = doc.createElement('iframe');
+
+                            iframe.style.cssText = 'display:none';
+                            iframe.name = TCF_LOCATOR_NAME;
+                            doc.body.appendChild(iframe);
+                        } else {
+                            setTimeout(addFrame, 5);
+                        }
+                    }
+                    return !otherCMP;
+                }
+
+                function tcfAPIHandler() {
+                    var gdprApplies;
+                    var args = arguments;
+
+                    if (!args.length) {
+                        return queue;
+                    } else if (args[0] === 'setGdprApplies') {
+                        if (
+                            args.length > 3 &&
+                            args[2] === 2 &&
+                            typeof args[3] === 'boolean'
+                        ) {
+                            gdprApplies = args[3];
+                            if (typeof args[2] === 'function') {
+                                args[2]('set', true);
+                            }
+                        }
+                    } else if (args[0] === 'ping') {
+                        var retr = {
+                            gdprApplies: gdprApplies,
+                            cmpLoaded: false,
+                            cmpStatus: 'stub'
+                        };
+
+                        if (typeof args[2] === 'function') {
+                            args[2](retr);
+                        }
+                    } else {
+                        if(args[0] === 'init' && typeof args[3] === 'object') {
+                            args[3] = Object.assign(args[3], { tag_version: 'V3' });
+                        }
+                        queue.push(args);
+                    }
+                }
+
+                function postMessageEventHandler(event) {
+                    var msgIsString = typeof event.data === 'string';
+                    var json = {};
+
+                    try {
+                        if (msgIsString) {
+                            json = JSON.parse(event.data);
+                        } else {
+                            json = event.data;
+                        }
+                    } catch (ignore) {}
+
+                    var payload = json.__tcfapiCall;
+
+                    if (payload) {
+                        window.__tcfapi(
+                            payload.command,
+                            payload.version,
+                            function(retValue, success) {
+                                var returnMsg = {
+                                    __tcfapiReturn: {
+                                        returnValue: retValue,
+                                        success: success,
+                                        callId: payload.callId
+                                    }
+                                };
+                                if (msgIsString) {
+                                    returnMsg = JSON.stringify(returnMsg);
+                                }
+                                if (event && event.source && event.source.postMessage) {
+                                    event.source.postMessage(returnMsg, '*');
+                                }
+                            },
+                            payload.parameter
+                        );
+                    }
+                }
+
+                while (win) {
+                    try {
+                        if (win.frames[TCF_LOCATOR_NAME]) {
+                            cmpFrame = win;
+                            break;
+                        }
+                    } catch (ignore) {}
+
+                    if (win === window.top) {
+                        break;
+                    }
+                    win = win.parent;
+                }
+                if (!cmpFrame) {
+                    addFrame();
+                    win.__tcfapi = tcfAPIHandler;
+                    win.addEventListener('message', postMessageEventHandler, false);
+                }
+            };
+
+            makeStub();
+
+            var uspStubFunction = function() {
+                var arg = arguments;
+                if (typeof window.__uspapi !== uspStubFunction) {
+                    setTimeout(function() {
+                        if (typeof window.__uspapi !== 'undefined') {
+                            window.__uspapi.apply(window.__uspapi, arg);
+                        }
+                    }, 500);
+                }
+            };
+
+            var checkIfUspIsReady = function() {
+                uspTries++;
+                if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                    console.warn('USP is not accessible');
+                } else {
+                    clearInterval(uspInterval);
+                }
+            };
+
+            if (typeof window.__uspapi === 'undefined') {
+                window.__uspapi = uspStubFunction;
+                var uspInterval = setInterval(checkIfUspIsReady, 6000);
+            }
+        })();
+    </script>
+    <!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+
+    <script>
+        window.dataLayer = window.dataLayer || []
+        window.dataLayer.push({
+            'category_post': 'news',
+            'advertisement': {
+                'env': 'production',
+                'brand': {
+                    'name': 'Generation Voyage',
+                    'abbr': 'genv',
+                    'domain': 'generationvoyage.fr',
+                    'subdomain': 'www',
+                    'isPrisma': false
+                },
+                'page': {
+                    'path': window.location.pathname,
+                    'pageType': 'Article',
+                    'pageCategory': 'Autres',
+                    'title': 'Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !',
+                    'keywords': ["france","provence-alpes-cote d&rsquo;azur",""],
+                }
+            },
+        });
+        window.dataLayer.push({
+            'device': 'desktop',
+            'id_post': '249611',
+            'Title': 'Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !',
+            'Ville_GV': '',
+            'Region_GV': 'provence-alpes-cote d&rsquo;azur',
+            'Pays_GV': 'france',
+            'Location_GV': "france, provence-alpes-cote d&rsquo;azur, ",
+            'URL': 'https://generationvoyage.fr/vaison-la-romaine-vaucluse/',
+            'cat': '',
+            'cat_inspi': '',
+            'sponsos': '',
+            'tag': '',
+            'auteur': 'sandra.p',
+            'affi_label': '',
+            'affi_url': '',
+            'custom_location': '',
+            'date_publication': '08-12-2024',
+            'date_modification': '27-11-2024',
+        });
+        window.coreAds = window.coreAds || {}
+        window.coreAds.queue = window.coreAds.queue || []
+    </script>
+    
+                <script>
+            window.dataLayer.push({
+                'isLogued': false,
+            });
+        </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T8CFMX6');</script>
+    <!-- End Google Tag Manager -->
+
+    
+    <link id="favicon" rel="shortcut icon" href="https://generationvoyage.fr/icon-gv-32.png" sizes="16x16 32x32 48x48" type="image/png" />
+    <link rel="icon" href="https://generationvoyage.fr/icon-gv-256.png" sizes="256x256" type="image/png" />
+    <link rel="apple-touch-icon-precomposed" href="https://generationvoyage.fr/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="https://generationvoyage.fr/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://generationvoyage.fr/apple-touch-icon-120x120.png" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2" />
+    <title>Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Generation Voyage Flux principal" href="https://generationvoyage.fr/feed/" />
+    <meta name="p:domain_verify" content="9a3908f32a11473095db9da57551303a" />
+    <meta name="gv-version" content="v2.13.0" />
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v24.1 (Yoast SEO v24.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Vous rêvez d’un lieu où histoire et beauté se rencontrent en parfaite harmonie ? Laissez-vous séduire par ce village unique !" />
+	<link rel="canonical" href="https://generationvoyage.fr/vaison-la-romaine-vaucluse/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !" />
+	<meta property="og:description" content="Vous rêvez d’un lieu où histoire et beauté se rencontrent en parfaite harmonie ? Continuez votre lecture et laissez-vous séduire par les trésors de" />
+	<meta property="og:url" content="https://generationvoyage.fr/vaison-la-romaine-vaucluse/" />
+	<meta property="og:site_name" content="GenerationVoyage" />
+	<meta property="article:publisher" content="https://www.facebook.com/toolito.voyage" />
+	<meta property="article:published_time" content="2024-12-08T07:49:40+00:00" />
+	<meta property="article:modified_time" content="2024-11-26T23:50:07+00:00" />
+	<meta property="og:image" content="https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1707" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Sandra Petricevic" />
+	<meta name="twitter:label1" content="Écrit par" />
+	<meta name="twitter:data1" content="Sandra Petricevic" />
+	<meta name="twitter:label2" content="Durée de lecture estimée" />
+	<meta name="twitter:data2" content="5 minutes" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<meta name="sentry-trace" content="36ddc69f47fb4f1ab86ccb59ac542bd9-79fe9658269a48d8-0" />
+<meta name="traceparent" content="00-36ddc69f47fb4f1ab86ccb59ac542bd9-79fe9658269a48d8-00" />
+<meta name="baggage" content="sentry-trace_id=36ddc69f47fb4f1ab86ccb59ac542bd9,sentry-sample_rate=0.01,sentry-transaction=%2F%7Bname%7D,sentry-public_key=2974c6a458ab4130a6ee9faae7277111,sentry-release=v2.13.0,sentry-environment=production,sentry-sampled=false" />
+<link rel='shortlink' href='https://generationvoyage.fr/?p=249611' />
+
+        <script>
+        var flex_TypeDevice = 'desktop';
+    </script>
+
+
+    <link rel='preload' fetchpriority='high' as='image' href='https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-630x420.jpg.webp' imagesizes='(max-width: 2560px) 100vw, 2560px' imagesrcset='https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-scaled.jpg.webp 2560w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-285x190.jpg.webp 285w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-630x420.jpg.webp 630w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-768x512.jpg.webp 768w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-1536x1024.jpg.webp 1536w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-2048x1365.jpg.webp 2048w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-755x503.jpg.webp 755w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-1000x667.jpg.webp 1000w' type='image/webp'>    <link rel="dns-prefetch" href="//cdn.generationvoyage.fr/">
+    <link rel="preconnect" href="https://cmp.inmobi.com">
+    <link rel="preconnect" href="https://cdn.generationvoyage.fr" />
+
+
+    <link rel="stylesheet" id="critical-toolito-css" href="https://generationvoyage.fr/wp-content/themes/toolito/dist/critical.991a45067038e3a9985b429d7dbf9322.css" type="text/css" media="screen" />
+    <link rel="preload" href="https://generationvoyage.fr/css/fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://generationvoyage.fr/css/fonts/Brixton/BrixtonTC-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="stylesheet" id="main-toolito-css" href="https://generationvoyage.fr/wp-content/themes/toolito/dist/style.36d0d5ef643c1fdaf4f9f224a8c68014.css" type="text/css" media="screen" />
+        <link rel="stylesheet" id="app-toolito-css" href="https://generationvoyage.fr/wp-content/themes/toolito/dist/app.815cfa999b0462d7c2943cbb92529ff7.css" type="text/css" media="screen" />
+    
+<meta name="generator" content="WP Rocket 3.17.4" data-wpr-features="wpr_desktop wpr_dns_prefetch" /></head>
+
+
+<body class="headervoyage single single-post single-format-standard td-blog-travel single_template_7 wpb-js-composer js-comp-ver-4.11.2 vc_responsive td-animation-stack-type0 td-full-layout td-js-loaded" x-data="app" x-init>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8CFMX6"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div data-rocket-location-hash="4624a48a8344e3ccc7541371d72671a1" id="googleTapContainer" style="display: none">
+    <div data-rocket-location-hash="1b59afb1570dcc2df09c1573d3e4fe0e" class="form-group form-group-checkbox">
+        <input name="newsletterOK" type="checkbox" value="oui" id="newsletterOK">
+        <label for="newsletterOK">Reçois aussi les coups de cœur de la communauté</label>
+    </div>
+</div>
+
+
+<div data-rocket-location-hash="d7fc68b0ddb3842666e9c3f18eff1b19" class="nav-header-container">
+    <nav class="nav-header ontop" x-data="Nav">
+        <div class="content-form">
+            <div class="logo-content td-logo-sticky">
+                <a href="https://generationvoyage.fr">
+                    <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo_green.svg"
+                         loading="eager" data-no-lazy="1" width="170" height="45"
+                         data-retina="https://generationvoyage.fr/wp-content/themes/toolito/img/logo_green.svg"
+                         alt="Logo Generation Voyage">
+                </a>
+
+            </div>
+                            <form class="" action="/" method="get"  x-on:keyup.escape.window="closeSearch" x-on:submit="searchPost">
+                    <div class="input-group">
+                        <input x-model="dataSearch" x-on:click="searchPost" @keyup="searchPost" name='s' type="text" placeholder="Corse, Occitanie, Suède...">
+                        <button type="submit" title="Rechercher des articles">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.3668 26.3668C26.7165 26.0171 26.7165 25.4502 26.3668 25.1005L21.3244 20.058C20.9696 19.7033 20.9407 19.1443 21.1886 18.7082C21.7228 17.7683 22.0251 16.6796 22.0251 15.5126C22.0251 11.9126 19.1126 9 15.5126 9C11.9126 9 9 11.9126 9 15.5126C9 19.1126 11.9126 22.0251 15.5126 22.0251C16.6706 22.0251 17.7608 21.7201 18.7118 21.1814C19.1456 20.9357 19.7005 20.9668 20.0531 21.3194L25.1005 26.3668C25.4502 26.7165 26.0171 26.7165 26.3668 26.3668ZM10.809 15.5126C10.809 12.9256 12.9256 10.809 15.5126 10.809C18.0995 10.809 20.2161 12.9256 20.2161 15.5126C20.2161 18.0995 18.0995 20.2161 15.5126 20.2161C12.9256 20.2161 10.809 18.0995 10.809 15.5126Z" fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="results" x-cloak x-show="show" x-on:click.outside="show = false" style="display: none">
+                        <template x-for="item in data">
+                            <a x-on:click="clickResult($event, item.link)" :href="item.link" class="type" :class="{'post': !item.guide, 'page': item.guide}">
+                                <div class="img-content">
+                                    <img :src="item.image" alt="">
+                                </div>
+                                <div class="content">
+                                    <template x-if="item.taxonomies[0]">
+                                        <div class="tags"  x-text="item.taxonomies[0].name"></div>
+                                    </template>
+                                    <template x-if="item.guide">
+                                        <div class="tilo">Guide</div>
+                                    </template>
+                                    <span class="title" x-text="item.post_title"></span>
+
+                                </div>
+                            </a>
+                        </template>
+                        <template x-if="empty">
+                            <div class="error">
+                                Aucun résultats pour la recherche : "<strong x-text="dataSearch"></strong>"
+                            </div>
+                        </template>
+                    </div>
+                </form>
+                    </div>
+        <ul class="item-menu">
+            <li>
+                <a href="/visiter/" title="Activités">Activités</a>
+            </li>
+            <li>
+                <a class="dropdown-tools" href="/outils-voyageur/" title="Outils">Outils</a>
+            </li>
+            <li>
+                <a href="/qui-sommes-nous/" title="Qui sommes-nous ?">Qui sommes-nous ?</a>
+            </li>
+
+                            <li class="account-icon">
+                    <button x-on:click.prevent="isLoginShow = true; open = false" title="Se connecter">
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.9968 6.87641C7.89792 6.87641 9.435 5.33933 9.435 3.4382C9.435 1.53708 7.89792 0 5.9968 0C4.09567 0 2.55859 1.53708 2.55859 3.4382C2.55859 5.33933 4.09567 6.87641 5.9968 6.87641ZM5.9968 1.34831C7.14286 1.34831 8.08668 2.29214 8.08668 3.4382C8.08668 4.58427 7.14286 5.52809 5.9968 5.52809C4.85073 5.52809 3.90691 4.58427 3.90691 3.4382C3.90691 2.29214 4.85073 1.34831 5.9968 1.34831Z"
+                                  fill="white"/>
+                            <path d="M6 7.48291C2.92408 7.48291 0.374222 9.82098 0.0376706 12.8099C-0.00399035 13.1799 0.30183 13.4829 0.674157 13.4829C1.04648 13.4829 1.34317 13.1793 1.39689 12.8109C1.72427 10.5655 3.66633 8.83122 6 8.83122C8.33367 8.83122 10.2757 10.5655 10.6031 12.8109C10.6568 13.1793 10.9535 13.4829 11.3258 13.4829C11.6982 13.4829 12.004 13.1799 11.9623 12.8099C11.6258 9.82098 9.07592 7.48291 6 7.48291Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                </li>
+                                </ul>
+        <div x-cloak x-show="open" class="nav-mobile-open">
+            <div class="top-mobile">
+                <div class="logo-content">
+                    <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo-black.svg"
+                         loading="lazy" data-no-lazy="1" width="170" height="44"
+                         data-retina="https://generationvoyage.fr/wp-content/themes/toolito/img/logo-black.svg"
+                         alt="Logo Generation Voyage">
+                </div>
+                <div class="nav-icon-menu nav-icon-menu-close" x-on:click.prevent="open = false">
+                    <svg width="36px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="menu-mobile-content">
+                <ul>
+                    <li>
+                        <a href="/visiter/" title="Toutes les destinations">Toutes les destinations</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-tools" href=/outils-voyageur/ title="Outils du voyageur">Outils du voyageur </a>
+                    </li>
+                    <li>
+                        <a href="/qui-sommes-nous/" title="Qui sommes-nous ?">Qui sommes-nous ?</a>
+                    </li>
+                    <li>
+                        <a href="/newsletter/" title="Newsletter">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="/contact/" title="Contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="signin">
+                                            <a x-on:click.prevent="isLoginShow = true; open = false" href="/profil/" title="Se connecter">
+                            <svg width="21" height="21" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.9968 6.87641C7.89792 6.87641 9.435 5.33933 9.435 3.4382C9.435 1.53708 7.89792 0 5.9968 0C4.09567 0 2.55859 1.53708 2.55859 3.4382C2.55859 5.33933 4.09567 6.87641 5.9968 6.87641ZM5.9968 1.34831C7.14286 1.34831 8.08668 2.29214 8.08668 3.4382C8.08668 4.58427 7.14286 5.52809 5.9968 5.52809C4.85073 5.52809 3.90691 4.58427 3.90691 3.4382C3.90691 2.29214 4.85073 1.34831 5.9968 1.34831Z"
+                                      fill="black"/>
+                                <path d="M6 7.48291C2.92408 7.48291 0.374222 9.82098 0.0376706 12.8099C-0.00399035 13.1799 0.30183 13.4829 0.674157 13.4829C1.04648 13.4829 1.34317 13.1793 1.39689 12.8109C1.72427 10.5655 3.66633 8.83122 6 8.83122C8.33367 8.83122 10.2757 10.5655 10.6031 12.8109C10.6568 13.1793 10.9535 13.4829 11.3258 13.4829C11.6982 13.4829 12.004 13.1799 11.9623 12.8099C11.6258 9.82098 9.07592 7.48291 6 7.48291Z"
+                                      fill="black"/>
+                            </svg>
+                            Se connecter</a>
+                    
+                </div>
+                <div class="social">
+                    <p>
+                        Suivez-nous sur les réseaux
+                    </p>
+                    <a href="https://www.instagram.com/generation_voyage/" target="_blank"><img width="15" height="15" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/instagram.svg" alt="Logo Instagram"></a>
+                    <a href="https://www.linkedin.com/company/generationvoyage/" target="_blank"><img width="15" height="15" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/linkedin.svg" alt="Logo Linkedin"></a>
+                    <a href="https://www.facebook.com/generationvoyage/" target="_blank"><img width="9" height="17" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/facebook.svg" alt="Logo Facebook"></a>
+                    <a href="https://www.pinterest.fr/generation_voyage/" target="_blank"><img width="13" height="17" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/pinterest.svg" alt="Logo Pinterest"></a>
+                    <a href="https://www.youtube.com/@generationvoyage" target="_blank"><img width="19" height="17" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/youtube-footer.svg" alt="Logo Youtube"></a>
+
+                </div>
+            </div>
+        </div>
+        <div x-cloak x-show="search" :class="{'full':show}" class="search-mobile-open">
+            <div class="top-mobile">
+                <div class="title">
+                    Votre prochaine destination
+                </div>
+                <div class="nav-icon-menu" x-on:click.prevent="closeSearch">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </div>
+            </div>
+            <form class="" action="/" method="get">
+                <div class="input-group">
+                    <input x-model="dataSearch" @keyup="searchPost" name='s' type="text" placeholder="Corse, Occitanie, Suède...">
+                    <button type="submit" title="Rechercher des articles">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.3668 26.3668C26.7165 26.0171 26.7165 25.4502 26.3668 25.1005L21.3244 20.058C20.9696 19.7033 20.9407 19.1443 21.1886 18.7082C21.7228 17.7683 22.0251 16.6796 22.0251 15.5126C22.0251 11.9126 19.1126 9 15.5126 9C11.9126 9 9 11.9126 9 15.5126C9 19.1126 11.9126 22.0251 15.5126 22.0251C16.6706 22.0251 17.7608 21.7201 18.7118 21.1814C19.1456 20.9357 19.7005 20.9668 20.0531 21.3194L25.1005 26.3668C25.4502 26.7165 26.0171 26.7165 26.3668 26.3668ZM10.809 15.5126C10.809 12.9256 12.9256 10.809 15.5126 10.809C18.0995 10.809 20.2161 12.9256 20.2161 15.5126C20.2161 18.0995 18.0995 20.2161 15.5126 20.2161C12.9256 20.2161 10.809 18.0995 10.809 15.5126Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="results" x-cloak x-show="show" >
+                    <template x-for="item in data">
+                        <a :href="item.link" class="type" :class="{'post': !item.guide, 'page': item.guide}">
+                            <div class="img-content">
+                                <img :src="item.image" alt="">
+                            </div>
+                            <div class="content">
+                                <template x-if="item.taxonomies[0]">
+                                    <div class="tags"  x-text="item.taxonomies[0].name"></div>
+                                </template>
+                                <template x-if="item.guide">
+                                    <div class="tilo">Guide</div>
+                                </template>
+                                <span class="title" x-text="item.post_title"></span>
+
+                            </div>
+                        </a>
+                    </template>
+                    <template x-if="empty">
+                        <div class="error">
+                            Aucun résultats pour la recherche : "<strong x-text="dataSearch"></strong>"
+                        </div>
+                    </template>
+                </div>
+            </form>
+        </div>
+        <div class="icon-content">
+                            <div class="nav-icon-menu" x-on:click.prevent="search = true">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="18" cy="18" r="18" fill="#C6502E"/>
+                        <path d="M26.3668 26.3668C26.7165 26.0171 26.7165 25.4502 26.3668 25.1005L21.3244 20.058C20.9696 19.7033 20.9407 19.1443 21.1886 18.7082C21.7228 17.7683 22.0251 16.6796 22.0251 15.5126C22.0251 11.9126 19.1126 9 15.5126 9C11.9126 9 9 11.9126 9 15.5126C9 19.1126 11.9126 22.0251 15.5126 22.0251C16.6706 22.0251 17.7608 21.7201 18.7118 21.1814C19.1456 20.9357 19.7005 20.9668 20.0531 21.3194L25.1005 26.3668C25.4502 26.7165 26.0171 26.7165 26.3668 26.3668ZM10.809 15.5126C10.809 12.9256 12.9256 10.809 15.5126 10.809C18.0995 10.809 20.2161 12.9256 20.2161 15.5126C20.2161 18.0995 18.0995 20.2161 15.5126 20.2161C12.9256 20.2161 10.809 18.0995 10.809 15.5126Z" fill="white"/>
+                    </svg>
+                </div>
+                        <div class="nav-icon-menu" x-on:click.prevent="open = true">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </div>
+        </div>
+    </nav>
+</div>
+            <script>
+                dataLayer.push({
+                    'event': 'noMainButton'
+                });
+            </script>
+                    <article data-rocket-location-hash="7c0823243e7672e0c97c301def9efc91" class="entry-article" itemscope itemtype="http://schema.org/NewsArticle">
+                                    <div class="ads-core-placer" id="Banniere-Haute_601a7e933e292"
+                             data-ads-core='{"device": "tablet, desktop", "type":"Banniere-Haute"}'></div>
+                                    <div role="main"
+                 id="main-content">
+                <div data-rocket-location-hash="4b3d339ee348086505f39adc5009b494" class="containertableflex">
+                    <div class="tableflex1">
+                        <div class="postcontent">
+                            <div class="entry">
+                                <header class="td-post-title">
+                                    <div class="breadcrumbs-container">
+                                                                                            <p id="breadcrumbs">
+                                                        <span>
+                                                                                                                            <span class="breadcrumb_first">
+                                                                    <a href="https://generationvoyage.fr/visiter/"
+                                                                       class="click_breadcrumbs click_breadcrumbs_tout">
+                                                                        <span>Monde</span><span
+                                                                                class="bread_bracket">></span>
+                                                                    </a>
+                                                                </span>
+                                                                                                                            <span class="breadcrumb_middle">
+                                                                <a href="https://generationvoyage.fr/visiter/france/"
+                                                                   class="click_breadcrumbs click_breadcrumbs_pays">
+                                                                    <span>France</span><span
+                                                                            class="bread_bracket">></span>
+                                                                </a>
+                                                            </span>
+                                                            <span class="breadcrumb_end">
+                                                                <a href="https://generationvoyage.fr/visiter/france/provence-alpes-cote-azur/"
+                                                                   class="click_breadcrumbs click_breadcrumbs_region">
+                                                                    <span>Provence-Alpes-Côte d&rsquo;Azur</span>
+                                                                </a>
+                                                            </span>
+                                                        </span>
+                                                    </p>
+                                                                                        </div>
+                                    
+
+
+    <div class="subnav">
+        <a href="https://generationvoyage.fr/visiter/france/provence-alpes-cote-azur/" class="">Voir le guide Provence-Alpes-Côte d&rsquo;Azur <svg xmlns="http://www.w3.org/2000/svg" width="26px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+        </a>
+    </div>
+
+
+                                                                        <div class="trop_design">
+                                        <div class="titlearticle"><h1 class="entry-title">Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !</h1>
+                                            <div class="formcontainer_news">
+                                                <div class="formhomecontainer form_home_sans">
+                                                    <img width="755" height="503" src="https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-755x503.jpg" class="attachment-large-article size-large-article wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-755x503.jpg 755w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-285x190.jpg 285w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-630x420.jpg 630w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-768x512.jpg 768w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-1536x1024.jpg 1536w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-2048x1365.jpg 2048w, https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-1000x667.jpg 1000w" sizes="(max-width: 755px) 100vw, 755px" />                                                </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="td-module-meta-info">
+                                        <div class="writer">
+                                            <div class="td-post-author-name">Par <a
+                                                        href="https://generationvoyage.fr/author/sandra-p/">Sandra Petricevic</a>
+                                            </div>
+                                            <span class="td-post-date">
+                                            <time class="entry-date updated td-module-date"
+                                                  datetime="2024-12-08T09:49:40+02:00">Le 08 décembre, 2024                                            </time>
+                                                <span>Temps de lecture: 3 minutes</span>
+                                        </span>
+                                        </div>
+                                        
+                                        <div class="container-fav-share"
+                                             x-data='Favoris(249611,false, {"Title":"Ce village du Vaucluse \u00e0 la douceur proven\u00e7ale est le t\u00e9moin des splendeurs et des secrets de l\u2019Empire romain !","Ville_GV":"","Region_GV":"Provence-Alpes-C\u00f4te d&rsquo;Azur","Pays_GV":"France","tag":""})'
+                                             x-init="check" @favoris.window="set($event.detail)">
+                                            <div class="comments-container">
+                                                                                                    <a href="#respond">Écrire un commentaire</a>
+                                                                                            </div>
+                                            <div class="content-btn">
+                                                <div>
+                                                    <a title="Contact" class="typeform-share button_comment"
+                                                       target="_blank"
+                                                       href="/contact/">
+                                                        <svg width="20px" height="20px"
+                                                             xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="white">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                  d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"/>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                                <div class="share">
+                                                    <div class="share-btn" x-data="{dropdownMenuShare:false}">
+                                                        <button @click="dropdownMenuShare = ! dropdownMenuShare">
+                                                            <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/share.svg"
+                                                                 width="18px" height="18px" loading="lazy"
+                                                                 alt="share icon">
+                                                        </button>
+                                                        <div x-show="dropdownMenuShare"
+                                                             @click.away="dropdownMenuShare = false" x-cloak
+                                                             class="dropdown-menu">
+                                                            <span>Partager sur :</span>
+                                                            <div>
+                                                                <a target="_blank"
+                                                                   href="https://www.facebook.com/share.php?u=https://generationvoyage.fr/vaison-la-romaine-vaucluse/?utm_source=facebook%26utm_medium=share"
+                                                                   title="Facebook">
+                                                                    <svg height="16px"
+                                                                         xmlns="http://www.w3.org/2000/svg"
+                                                                         viewBox="0 0 320 512">
+                                                                        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+                                                                    </svg>
+                                                                </a>
+                                                                <a target="_blank"
+                                                                   href="https://pinterest.com/pin/create/link/?url=https://generationvoyage.fr/vaison-la-romaine-vaucluse/?utm_source=pinterest%26utm_medium=share&description=Ce%20village%20du%20Vaucluse%20%C3%A0%20la%20douceur%20proven%C3%A7ale%20est%20le%20t%C3%A9moin%20des%20splendeurs%20et%20des%20secrets%20de%20l%E2%80%99Empire%20romain%20%21&media=https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-755x503.jpg"
+                                                                   title="Pinterest">
+                                                                    <svg height="16px"
+                                                                         xmlns="http://www.w3.org/2000/svg"
+                                                                         viewBox="0 0 496 512">
+                                                                        <path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/>
+                                                                    </svg>
+                                                                </a>
+                                                                <a target="_blank"
+                                                                   href="https://www.linkedin.com/sharing/share-offsite/?url=https://generationvoyage.fr/vaison-la-romaine-vaucluse/"
+                                                                   title="Linkedin">
+                                                                    <svg height="16px"
+                                                                         xmlns="http://www.w3.org/2000/svg"
+                                                                         viewBox="0 0 448 512">
+                                                                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                                                                    </svg>
+                                                                </a>
+                                                                <a href="#" x-on:click="copyLink">
+                                                                    <svg class="copy-link"
+                                                                         xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                         viewBox="0 0 24 24" stroke-width="1.5"
+                                                                         stroke="currentColor" width="20px"
+                                                                         height="20px">
+                                                                        <path stroke-linecap="round"
+                                                                              stroke-linejoin="round"
+                                                                              d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div x-data="{dropdownMenu: false}" class="dropdown-container">
+                                                                                                            <button title="Ajouter au favoris" x-show="!isMyFavorite.step"
+                                                                x-on:click="isRegisterShow = true;registerFrom = 'bookmark';addToCookie(249611)"
+                                                                class="addBookmark">
+                                                            <span class="addBookmark-ArtId249611">
+                                                                <svg width="20" height="18" viewBox="0 0 20 18"
+                                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M18.3304 1.68187C17.2073 0.560623 15.7433 0 14.2592 0C12.7952 0 11.3312 0.560623 10.2081 1.68187L10.0075 1.90211L9.78691 1.68187C8.66383 0.560623 7.1998 0 5.73577 0C4.27175 0 2.80772 0.560623 1.68463 1.68187C-0.561544 3.92436 -0.561544 7.56841 1.68463 9.8109L2.1459 10.2714L9.76686 17.8999C9.82702 17.96 9.9273 18 10.0075 18C10.1078 18 10.188 17.96 10.2482 17.8999L17.8691 10.2714L18.3304 9.8109C20.5565 7.56841 20.5565 3.92436 18.3304 1.68187ZM17.1873 8.66963L16.726 9.13014L10.0075 15.8576L3.26899 9.13014L2.80772 8.66963C1.20331 7.04783 1.20331 4.42492 2.80772 2.82314C3.58987 2.04227 4.63274 1.60178 5.73577 1.60178H5.75583C6.85886 1.60178 7.88168 2.04227 8.66383 2.82314L8.88443 3.04338L10.0276 4.18465L11.1707 3.04338L11.3713 2.84316C12.1334 2.04227 13.1562 1.60178 14.2592 1.60178C15.3622 1.60178 16.4051 2.02225 17.1672 2.80311C18.7917 4.42492 18.7917 7.04783 17.1873 8.66963Z"
+                                                                          fill="white"/>
+                                                                </svg>
+                                                            </span>
+                                                        </button>
+                                                                                                        <button title="Retirer des favoris" x-cloak
+                                                            x-show="isMyFavorite.step"
+                                                            @click="removeToFavorite()" class="removeBookmark">
+                                                        <span class="removeBookmark-ArtId249611">
+                                                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                   <path d="M18.33,1.682C17.207,0.561 15.743,0 14.259,0C12.795,0 11.331,0.561 10.208,1.682L10.008,1.902L9.787,1.682C8.664,0.561 7.2,0 5.736,0C4.272,0 2.808,0.561 1.685,1.682C-0.562,3.924 -0.562,7.568 1.685,9.811L2.146,10.271L9.767,17.9C9.827,17.96 9.927,18 10.008,18C10.108,18 10.188,17.96 10.248,17.9L17.869,10.271L18.33,9.811C20.557,7.568 20.557,3.924 18.33,1.682Z"
+                                                                         style="fill:white;fill-rule:nonzero;"/>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </header>
+                                <div itemprop="articleBody" class="p402_premium">
+                                    <p class="intro">Vous r&ecirc;vez d&rsquo;un lieu o&ugrave; histoire et beaut&eacute; se rencontrent en parfaite harmonie ? Continuez votre lecture et laissez-vous s&eacute;duire par les tr&eacute;sors de Vaison-la-Romaine, une destination qui ne cesse d&rsquo;&eacute;merveiller.</p><nav id="sommaire-article" class="sommaire_desktop"><span class="sommaire">Sommaire</span><ul><li><a href="#dcouverte-de-vaison-la-romaine" class="title_lvl3">D&eacute;couverte de Vaison-la-Romaine</a></li><li><a href="#les-vestiges-romains-un-voyage-dans-lantiquit" class="title_lvl3">Les vestiges romains, un voyage dans l&rsquo;Antiquit&eacute;</a></li><li><a href="#le-charme-du-moyen-ge" class="title_lvl3">Le charme du Moyen-&Acirc;ge</a></li><li><a href="#une-douceur-de-vivre-typiquement-provenale" class="title_lvl3">Une douceur de vivre typiquement proven&ccedil;ale</a></li></ul></nav>
+<p>Plongez dans le r&eacute;cit d&rsquo;un lieu o&ugrave; l&rsquo;histoire et la beaut&eacute; se rencontrent dans un ballet spectaculaire. Vaison-la-Romaine, &eacute;crin proven&ccedil;al, nous invite &agrave; un voyage &agrave; travers le temps, m&ecirc;lant ruines antiques, patrimoine m&eacute;di&eacute;val et douceur de vivre. Laissez-vous guider &agrave; travers ses ruelles et vestiges pour une exp&eacute;rience riche et pittoresque.</p><div id="div-ad-pave-haut2-desktop" class="ads-core-placer" data-ads-core='{"device": "tablet, desktop", "type":"Pave-Haut2-Desktop"}'></div><div class="textcontainer2 textcontainer-yarpp">
+    <span class="textcontainer2_title">&Agrave; lire aussi sur le guide Provence-Alpes-C&ocirc;te d'Azur :</span>
+    <ul>
+		            <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-vaucluse-faire-voir/">Les 13 choses incontournables &agrave; faire dans le Vaucluse</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-paca-faire-voir/">Les 26 choses incontournables &agrave; faire en PACA</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-bouches-du-rhone-faire-voir/">Les 12 choses incontournables &agrave; faire dans les Bouches-du-Rh&ocirc;ne</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-alpes-maritimes-faire-voir/">Les 18 choses incontournables &agrave; faire dans les Alpes-Maritimes</a></li>
+		        </ul>
+</div>
+
+<h2 id="dcouverte-de-vaison-la-romaine">D&eacute;couverte de Vaison-la-Romaine</h2>
+<div id="attachment_105136" style="width: 1010px" class="wp-caption alignnone"><img decoding="async" aria-describedby="caption-attachment-105136" src="https://cdn.generationvoyage.fr/2020/06/mar-5.jpg" alt="Balade autour de Marseille : Vaison-la-Romaine" width="1000" height="667" class="size-full wp-image-105136" srcset="https://cdn.generationvoyage.fr/2020/06/mar-5.jpg 1000w, https://cdn.generationvoyage.fr/2020/06/mar-5-285x190.jpg 285w, https://cdn.generationvoyage.fr/2020/06/mar-5-630x420.jpg 630w, https://cdn.generationvoyage.fr/2020/06/mar-5-768x512.jpg 768w, https://cdn.generationvoyage.fr/2020/06/mar-5-755x504.jpg 755w" sizes="(max-width: 1000px) 100vw, 1000px"/><p id="caption-attachment-105136" class="wp-caption-text">Cr&eacute;dit photo : Shutterstock &#8211; JeniFoto</p></div>
+<p>Vaison-la-Romaine, situ&eacute;e dans le d&eacute;partement de Vaucluse,<strong> est un joyau de la Provence qui fascine par la richesse de son patrimoine historique,</strong> ses paysages enchanteurs et son atmosph&egrave;re empreinte de charme. Connu pour ses vestiges romains remarquablement pr&eacute;serv&eacute;s, le village m&ecirc;le histoire, art et traditions pour offrir une exp&eacute;rience inoubliable &agrave; ses visiteurs.</p>
+<p>C&rsquo;est <strong>une ville divis&eacute;e entre histoire et modernit&eacute;. </strong>En effet, Vaison-la-Romaine est travers&eacute;e par l&rsquo;Ouv&egrave;ze, un cours d&rsquo;eau qui s&eacute;pare la ville en deux parties distinctes. La rive droite abrite le centre moderne et commer&ccedil;ant, tandis que la rive gauche conserve l&rsquo;atmosph&egrave;re m&eacute;di&eacute;vale et les vestiges antiques. Ce contraste fait la singularit&eacute; de Vaison-la-Romaine et offre un v&eacute;ritable voyage &agrave; travers le temps.</p>
+<h2 id="les-vestiges-romains-un-voyage-dans-lantiquit">Les vestiges romains, un voyage dans l&rsquo;Antiquit&eacute;</h2>
+<div id="attachment_107851" style="width: 1010px" class="wp-caption alignnone"><img decoding="async" aria-describedby="caption-attachment-107851" src="https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine.jpg" alt="Vaison La Romaine" width="1000" height="667" class="size-full wp-image-107851" srcset="https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine.jpg 1000w, https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine-285x190.jpg 285w, https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine-630x420.jpg 630w, https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine-768x512.jpg 768w, https://cdn.generationvoyage.fr/2020/07/Vaison-La-Romaine-755x504.jpg 755w" sizes="(max-width: 1000px) 100vw, 1000px"/><p id="caption-attachment-107851" class="wp-caption-text">Cr&eacute;dit photo : Shutterstock &#8211; trabantos</p></div>
+<p>La ville de Vaison-la-Romaine est dot&eacute;e d&rsquo;un <strong>patrimoine gallo-romain exceptionnel</strong>. D&rsquo;ailleurs, Vaison-la-Romaine doit son nom &agrave; l&rsquo;importance de ses vestiges romains, consid&eacute;r&eacute;s comme parmi les plus impressionnants de France. Les sites de Puymin et de La Villasse r&eacute;v&egrave;lent l&rsquo;organisation de la vie urbaine &agrave; l&rsquo;&eacute;poque romaine. On peut y admirer des rues pav&eacute;es, des thermes, des villas luxueuses avec leurs mosa&iuml;ques bien conserv&eacute;es, ainsi qu&rsquo;un th&eacute;&acirc;tre antique qui pouvait accueillir jusqu&rsquo;&agrave; 6 000 spectateurs.</p>
+<p>Le pont romain, qui enjambe l&rsquo;Ouv&egrave;ze, <strong>est un autre symbole de la ville.</strong> Cet ouvrage impressionnant, encore utilis&eacute; aujourd&rsquo;hui, t&eacute;moigne de la ma&icirc;trise technique des ing&eacute;nieurs romains. R&eacute;sistant aux si&egrave;cles et aux crues, il constitue un lien embl&eacute;matique entre pass&eacute; et pr&eacute;sent. Ces lieux offrent une plong&eacute;e fascinante dans la vie quotidienne des Gallo-Romains, entre raffinement et ing&eacute;niosit&eacute; architecturale. Ainsi, visiter les sites tels que la Villasse ou le Puymin est une immersion garantie dans le pass&eacute;.</p>
+<h2 id="le-charme-du-moyen-ge">Le charme du Moyen-&Acirc;ge</h2>
+<p>Au-del&agrave; de l&rsquo;&acirc;ge d&rsquo;or romain, <strong>la ville se pare &eacute;galement d&rsquo;un patrimoine m&eacute;di&eacute;val remarquable.</strong> Perch&eacute;e sur une colline, la cit&eacute; m&eacute;di&eacute;vale de Vaison-la-Romaine domine la ville moderne. Ses ruelles pav&eacute;es et escarp&eacute;es, ses maisons en pierre et ses passages vo&ucirc;t&eacute;s transportent les visiteurs dans une autre &eacute;poque. Au sommet, les ruines du ch&acirc;teau comtal offrent une vue imprenable sur la vall&eacute;e et les vignobles environnants.</p>
+<p>L&rsquo;&eacute;glise cath&eacute;drale Sainte-Marie-de-l&rsquo;Assomption est <strong>une &eacute;glise romane,</strong> situ&eacute;e dans la Haute Ville. C&rsquo;est un autre tr&eacute;sor architectural. Son int&eacute;rieur sobre et son emplacement paisible font de cette cath&eacute;drale un lieu de recueillement et d&rsquo;admiration pour les amateurs d&rsquo;art m&eacute;di&eacute;val.</p>
+<p>La Cath&eacute;drale Notre-Dame de Nazareth quant &agrave; elle <strong>d&eacute;montre avec &eacute;clat la finesse architecturale de l&rsquo;&eacute;poque.</strong> C&rsquo;est ici que l&rsquo;on ressent pleinement <strong>l&rsquo;&acirc;me de Vaison-la-Romaine</strong>, entre histoire et l&eacute;gendes.</p><div class="textcontainer2 textcontainer-yarpp">
+    <span class="textcontainer2_title">À lire aussi sur le guide Provence-Alpes-Côte d'Azur :</span>
+    <ul>
+		            <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/balade-bateau-paca/">Découvrir la région PACA : les dix meilleurs spots en bateau</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-var-faire-var/">Les 22 choses incontournables à faire dans le Var</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/visiter-alpes-de-haute-provence-faire-voir/">Les 14 choses incontournables à faire dans les Alpes-de-Haute-Provence</a></li>
+		                <li><a class="liensarticle article yarpp sc" href="https://generationvoyage.fr/camping-car-drome-provencale/">La Drôme Provençale en camping-car : conseils, aires, itinéraires</a></li>
+		        </ul>
+</div>
+
+<h2 id="une-douceur-de-vivre-typiquement-provenale">Une douceur de vivre typiquement proven&ccedil;ale</h2>
+<p>Vaison-la-Romaine est &eacute;galement synonyme de <strong>relaxation et de joie de vivre</strong>. Les march&eacute;s color&eacute;s regorgent de produits du terroir, invitant &agrave; la gourmandise et au partage. C&rsquo;est &eacute;galement un haut lieu de culture et d&rsquo;art. Chaque ann&eacute;e, la ville accueille des festivals, des expositions et des &eacute;v&eacute;nements qui mettent en valeur son patrimoine. Parmi les plus connus figure le Festival de Vaison-la-Romaine, qui propose des spectacles vari&eacute;s dans le th&eacute;&acirc;tre antique, alliant pass&eacute; et modernit&eacute;. Les galeries d&rsquo;art et les ateliers d&rsquo;artisans du centre-ville moderne offrent &eacute;galement une facette contemporaine de la cr&eacute;ativit&eacute; locale.</p>
+<p>Les vignobles environnants et les <strong>restaurants de qualit&eacute;</strong> refl&egrave;tent l&rsquo;excellence gastronomique de la r&eacute;gion. La gastronomie est un art de vivre &agrave; Vaison-la-Romaine. Les march&eacute;s locaux regorgent de produits du terroir, tels que le miel, l&rsquo;huile d&rsquo;olive, les herbes de Provence et les vins des C&ocirc;tes-du-Rh&ocirc;ne. Les restaurants de la ville proposent une cuisine authentique, mettant en valeur les saveurs m&eacute;diterran&eacute;ennes. L&rsquo;art de vivre proven&ccedil;al se d&eacute;guste sans mod&eacute;ration, au rythme des cigales et sous le soleil g&eacute;n&eacute;reux.</p>
+<div class="textcontainer2">
+<span class="soush3">En r&eacute;sum&eacute;</span>
+<ul>
+<li>Un patrimoine riche entre ruines romaines et m&eacute;di&eacute;vales.</li>
+<li>L&rsquo;immersion dans l&rsquo;histoire le long des ruelles sinueuses.</li>
+<li>La douceur de vivre proven&ccedil;ale, entre march&eacute;s et vignobles.</li>
+</ul>
+</div>                                </div>
+                                <div class="clear"></div>
+                                                            </div>
+                            <footer>
+                                <link itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage"
+                                      href="https://generationvoyage.fr/vaison-la-romaine-vaucluse/" id="https://generationvoyage.fr/vaison-la-romaine-vaucluse/"/>
+                                <span style="display: none;" itemprop="publisher" itemscope
+                                      itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="GenerationVoyage">
+                                    <span style="display: none;" itemprop="logo" itemscope
+                                          itemtype="https://schema.org/ImageObject">
+                                        <meta itemprop="url"
+                                              content="https://generationvoyage.fr/wp-content/themes/toolito/img/logo/logo-generation-voyage.png">
+                                        <meta itemprop="width" content="1584">
+                                        <meta itemprop="height" content="410">
+                                    </span>
+                                </span>
+                                <meta itemprop="headline" content="Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !">
+                                <meta itemprop="description"
+                                      content="Vous rêvez d’un lieu où histoire et beauté se rencontrent en parfaite harmonie ? Laissez-vous séduire par ce village unique !">
+                                <span style="display: none;" itemprop="image" itemscope
+                                      itemtype="https://schema.org/ImageObject">
+                                    <meta itemprop="url" content="https://cdn.generationvoyage.fr/2024/11/Pont-Romain-Vaison-la-Romaine-2-755x503.jpg">
+                                                                        <meta itemprop="width" content="755">
+                                    <meta itemprop="height" content="503">
+                                </span>
+                                <meta itemprop="datePublished" content="2024-12-08T09:49:40+02:00">
+                                <meta itemprop="dateModified"
+                                      content="2024-11-27T01:50:07+02:00">
+                                <script type="application/ld+json">
+                                    {
+                                        "@context": "http://schema.org",
+                                        "@type": "BreadcrumbList",
+                                        "itemListElement":
+                                        [
+                                                                                        {
+                                                        "@type": "ListItem",
+                                                        "position": 1,
+                                                        "item":
+                                                        {
+                                                            "@id": "https://generationvoyage.fr/visiter/",
+                                                            "name": "Guides"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@type": "ListItem",
+                                                        "position": 2,
+                                                        "item":
+                                                        {
+                                                            "@id": "https://generationvoyage.fr/visiter/france/",
+                                                            "name": "France"
+                                                        }
+                                                    },
+                                                                                                            {
+                                                            "@type": "ListItem",
+                                                            "position": 3,
+                                                            "item":
+                                                            {
+                                                                "@id": "https://generationvoyage.fr/visiter/france/provence-alpes-cote-azur/",
+                                                                "name": "Provence-Alpes-Côte d&rsquo;Azur"
+                                                            }
+                                                        },
+                                                                                                            {
+                                                        "@type": "ListItem",
+                                                        "position": 4,
+                                                        "item":
+                                                        {
+                                                            "@id": "https://generationvoyage.fr/vaison-la-romaine-vaucluse/",
+                                                            "name": "Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs et des secrets de l’Empire romain !"
+                                                        }
+                                                    }
+                                                                                        ]
+                                }
+                                </script>
+                            </footer>
+                        </div>
+                        <span class="main_block_bottom_title">Plus d'inspiration</span>
+                                                <div class="clear"></div>
+                        <div class="main_block_bottom">
+                            <div class='yarpp yarpp-related yarpp-related-shortcode yarpp-template-yarpp-template-custom'>
+
+
+
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/visiter-parc-national-mercantour/' title='Visiter le Parc National du Mercantour : guide complet' class="liensarticle article recommended_link_image">
+                <img width="300" height="169" src="https://cdn.generationvoyage.fr/2020/05/mercantour-300x169.jpg" class="attachment-medium size-medium wp-post-image" alt="Le Parc National du Mercantour" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/05/mercantour-300x169.jpg 300w, https://cdn.generationvoyage.fr/2020/05/mercantour-630x354.jpg 630w, https://cdn.generationvoyage.fr/2020/05/mercantour-768x432.jpg 768w, https://cdn.generationvoyage.fr/2020/05/mercantour-755x424.jpg 755w, https://cdn.generationvoyage.fr/2020/05/mercantour.jpg 2000w" sizes="(max-width: 300px) 100vw, 300px" />                <div>
+                                            <span class="tags">S'évader</span>
+                                        <span class="titleinner">Visiter le Parc National du Mercantour : guide complet</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/campings-provence-alpes-cote-dazur/' title='Les 13 meilleurs campings en Provence-Alpes-Côte d&rsquo;Azur' class="liensarticle article recommended_link_image">
+                <img width="253" height="190" src="https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-253x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Saint Aygulf Plage" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-253x190.jpg 253w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-630x473.jpg 630w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-200x150.jpg 200w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-768x576.jpg 768w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-1536x1152.jpg 1536w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-755x566.jpg 755w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9-1000x750.jpg 1000w, https://cdn.generationvoyage.fr/2022/03/camping-provence-alpes-cote-azur-9.jpg 1920w" sizes="(max-width: 253px) 100vw, 253px" />                <div>
+                                            <span class="tags">Se loger</span>
+                                        <span class="titleinner">Les 13 meilleurs campings en Provence-Alpes-Côte d&rsquo;Azur</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/visiter-hautes-alpes-faire-voir/' title='Les 17 choses incontournables à faire dans les Hautes-Alpes' class="liensarticle article recommended_link_image">
+                <img width="287" height="190" src="https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA-287x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Vue pittoresque des Hautes-Alpes avec montagnes et ciel bleu" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA-287x190.jpg 287w, https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA-630x417.jpg 630w, https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA-768x509.jpg 768w, https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA-755x500.jpg 755w, https://cdn.generationvoyage.fr/2020/08/Hautes-Alpes-IMEA.jpg 1280w" sizes="(max-width: 287px) 100vw, 287px" />                <div>
+                                            <span class="tags">Activités</span>
+                                        <span class="titleinner">Les 17 choses incontournables à faire dans les Hautes-Alpes</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/trois-jours-en-provence-occitane/' title='Carnet de voyage : trois jours en Provence Occitane' class="liensarticle article recommended_link_image">
+                <img width="300" height="138" src="https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-300x138.jpg" class="attachment-medium size-medium wp-post-image" alt="Visite de la Provence Occitane" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-300x138.jpg 300w, https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-630x291.jpg 630w, https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-768x354.jpg 768w, https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-1536x709.jpg 1536w, https://cdn.generationvoyage.fr/2020/07/Sans-titre-22-755x348.jpg 755w, https://cdn.generationvoyage.fr/2020/07/Sans-titre-22.jpg 1950w" sizes="(max-width: 300px) 100vw, 300px" />                <div>
+                                            <span class="tags">Se laisser guider</span>
+                                        <span class="titleinner">Carnet de voyage : trois jours en Provence Occitane</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/camping-var/' title='Les 12 meilleurs campings dans le Var' class="liensarticle article recommended_link_image">
+                <img width="253" height="190" src="https://cdn.generationvoyage.fr/2022/03/camping-var-5-253x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Camping Var : Camping de l&#039;Ile d&#039;Or" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2022/03/camping-var-5-253x190.jpg 253w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-630x473.jpg 630w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-200x150.jpg 200w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-768x576.jpg 768w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-1536x1152.jpg 1536w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-755x566.jpg 755w, https://cdn.generationvoyage.fr/2022/03/camping-var-5-1000x750.jpg 1000w, https://cdn.generationvoyage.fr/2022/03/camping-var-5.jpg 1920w" sizes="(max-width: 253px) 100vw, 253px" />                <div>
+                                            <span class="tags">Se loger</span>
+                                        <span class="titleinner">Les 12 meilleurs campings dans le Var</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/gorbio-village-alpes-maritimes/' title='Ce village médiéval des Alpes-Maritimes perché à 350 mètres d&rsquo;altitude abrite l’un des plus vieux arbres de France !' class="liensarticle article recommended_link_image">
+                <img width="285" height="190" src="https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-285x190.jpeg" class="attachment-medium size-medium wp-post-image" alt="Village médiéval de Gorbio dans les Alpes-Maritimes avec ruelles pavées et maisons historiques en pierre" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-285x190.jpeg 285w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-630x420.jpeg 630w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-768x512.jpeg 768w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-1536x1024.jpeg 1536w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-755x503.jpeg 755w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre-1000x667.jpeg 1000w, https://cdn.generationvoyage.fr/2024/11/Village-medieval-de-Gorbio-dans-les-Alpes-Maritimes-avec-ruelles-pavees-et-maisons-historiques-en-pierre.jpeg 1999w" sizes="(max-width: 285px) 100vw, 285px" />                <div>
+                                            <span class="tags"></span>
+                                        <span class="titleinner">Ce village médiéval des Alpes-Maritimes perché à 350 mètres d&rsquo;altitude abrite l’un des plus vieux arbres de France !</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/visiter-saint-jean-cap-ferrat-faire-voir/' title='Les 18 choses incontournables à faire à Saint-Jean-Cap-Ferrat' class="liensarticle article recommended_link_image">
+                <img width="285" height="190" src="https://cdn.generationvoyage.fr/2022/04/plageferrat1-285x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Plage des Fosses" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2022/04/plageferrat1-285x190.jpg 285w, https://cdn.generationvoyage.fr/2022/04/plageferrat1-630x420.jpg 630w, https://cdn.generationvoyage.fr/2022/04/plageferrat1-768x512.jpg 768w, https://cdn.generationvoyage.fr/2022/04/plageferrat1-1536x1025.jpg 1536w, https://cdn.generationvoyage.fr/2022/04/plageferrat1-755x504.jpg 755w, https://cdn.generationvoyage.fr/2022/04/plageferrat1-1000x667.jpg 1000w, https://cdn.generationvoyage.fr/2022/04/plageferrat1.jpg 2000w" sizes="(max-width: 285px) 100vw, 285px" />                <div>
+                                            <span class="tags">Activités</span>
+                                        <span class="titleinner">Les 18 choses incontournables à faire à Saint-Jean-Cap-Ferrat</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/randonnees-vaucluse/' title='Les 10 plus belles randonnées à faire dans le Vaucluse' class="liensarticle article recommended_link_image">
+                <img width="253" height="190" src="https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-253x190.jpg" class="attachment-medium size-medium wp-post-image" alt="randonnees-vaucluse" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-253x190.jpg 253w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-630x473.jpg 630w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-200x150.jpg 200w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-768x576.jpg 768w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-1536x1152.jpg 1536w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse-755x566.jpg 755w, https://cdn.generationvoyage.fr/2021/05/randonnees-vaucluse.jpg 2048w" sizes="(max-width: 253px) 100vw, 253px" />                <div>
+                                            <span class="tags">Se bouger</span>
+                                        <span class="titleinner">Les 10 plus belles randonnées à faire dans le Vaucluse</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/hotels-piscine-var/' title='Les 7 meilleurs hôtels avec piscine dans le Var' class="liensarticle article recommended_link_image">
+                <img width="300" height="152" src="https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-300x152.jpeg" class="attachment-medium size-medium wp-post-image" alt="L&#039;Hôtel &amp; Spa du Castellet" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-300x152.jpeg 300w, https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-630x320.jpeg 630w, https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-768x390.jpeg 768w, https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-755x383.jpeg 755w, https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet-1000x508.jpeg 1000w, https://cdn.generationvoyage.fr/2023/12/LHotel-Spa-du-Castellet.jpeg 1199w" sizes="(max-width: 300px) 100vw, 300px" />                <div>
+                                            <span class="tags">Se loger</span>
+                                        <span class="titleinner">Les 7 meilleurs hôtels avec piscine dans le Var</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/visiter-porquerolles-faire-voir/' title='Visiter Porquerolles : les 11 choses incontournables à faire sur l&rsquo;île' class="liensarticle article recommended_link_image">
+                <img width="300" height="150" src="https://cdn.generationvoyage.fr/2020/05/porquerolles-300x150.jpg" class="attachment-medium size-medium wp-post-image" alt="Porquerolles" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/05/porquerolles-300x150.jpg 300w, https://cdn.generationvoyage.fr/2020/05/porquerolles-630x315.jpg 630w, https://cdn.generationvoyage.fr/2020/05/porquerolles-768x384.jpg 768w, https://cdn.generationvoyage.fr/2020/05/porquerolles-755x378.jpg 755w, https://cdn.generationvoyage.fr/2020/05/porquerolles.jpg 2000w" sizes="(max-width: 300px) 100vw, 300px" />                <div>
+                                            <span class="tags">Activités</span>
+                                        <span class="titleinner">Visiter Porquerolles : les 11 choses incontournables à faire sur l&rsquo;île</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/vacances-sportives-paca-meilleures-locations/' title='Vacances sportives PACA : les 10 meilleures locations pour un séjour qui décoiffe' class="liensarticle article recommended_link_image">
+                <img width="285" height="190" src="https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1-285x190.jpg" class="attachment-medium size-medium wp-post-image" alt="logement-sportihome-2" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1-285x190.jpg 285w, https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1-630x420.jpg 630w, https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1-768x512.jpg 768w, https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1-755x503.jpg 755w, https://cdn.generationvoyage.fr/2022/03/logement-sportihome-2-1.jpg 1280w" sizes="(max-width: 285px) 100vw, 285px" />                <div>
+                                            <span class="tags">Se loger</span>
+                                        <span class="titleinner">Vacances sportives PACA : les 10 meilleures locations pour un séjour qui décoiffe</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/camping-car-vaucluse/' title='Le Vaucluse en Camping-Car : conseils, aires, itinéraires' class="liensarticle article recommended_link_image">
+                <img width="287" height="190" src="https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA-287x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Vue aérienne Luberon" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA-287x190.jpg 287w, https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA-630x417.jpg 630w, https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA-768x508.jpg 768w, https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA-755x500.jpg 755w, https://cdn.generationvoyage.fr/2020/07/Luberon-IMEA.jpg 2000w" sizes="(max-width: 287px) 100vw, 287px" />                <div>
+                                            <span class="tags">Se laisser guider</span>
+                                        <span class="titleinner">Le Vaucluse en Camping-Car : conseils, aires, itinéraires</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/visiter-saint-raphael-faire-voir/' title='Les 11 choses incontournables à faire à Saint-Raphaël' class="liensarticle article recommended_link_image">
+                <img width="285" height="190" src="https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680-285x190.jpg" class="attachment-medium size-medium wp-post-image" alt="Saint-Raphaël" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680-285x190.jpg 285w, https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680-630x420.jpg 630w, https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680-768x512.jpg 768w, https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680-755x504.jpg 755w, https://cdn.generationvoyage.fr/2020/08/shutterstock_1184039680.jpg 2000w" sizes="(max-width: 285px) 100vw, 285px" />                <div>
+                                            <span class="tags">Activités</span>
+                                        <span class="titleinner">Les 11 choses incontournables à faire à Saint-Raphaël</span>
+                </div>
+            </a>
+        </div>
+	        <div class="main-bottom">
+            <a href='https://generationvoyage.fr/vtt-alpes/' title='Les 7 endroits où faire du VTT dans les Alpes' class="liensarticle article recommended_link_image">
+                <img width="285" height="190" src="https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-285x190.jpg" class="attachment-medium size-medium wp-post-image" alt="VTT alpes" decoding="async" loading="lazy" srcset="https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-285x190.jpg 285w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-630x420.jpg 630w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-768x512.jpg 768w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-1536x1025.jpg 1536w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-755x504.jpg 755w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages-1000x667.jpg 1000w, https://cdn.generationvoyage.fr/2019/09/vtt-dans-les-alpes-cycliste-homme-regarde-paysages.jpg 2000w" sizes="(max-width: 285px) 100vw, 285px" />                <div>
+                                            <span class="tags">Se bouger</span>
+                                        <span class="titleinner">Les 7 endroits où faire du VTT dans les Alpes</span>
+                </div>
+            </a>
+        </div>
+</div>
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="author_bloc">
+                            <img loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/bg-author.jpg.webp"
+                                 width="700px" height="400px" alt="cover background">
+                            <div class="content_bloc">
+                                            <img class="photo" loading="lazy" src="https://secure.gravatar.com/avatar/fef4cb1c46062e80411b849f286d495a?s=70&d=blank&r=g"  alt="avatar" width="70" height="70" />
+                                            <div class="content">
+                                    <div class="name">
+                                        <a href="https://generationvoyage.fr/author/sandra-p/" class="vcard author" rel="author"
+                                           itemprop="url">
+                                            <span class="fn"
+                                                  itemprop="name">Par Sandra Petricevic</span>
+                                        </a>
+                                        <div class="listing-social">
+                                                                                            <a target="_blank" href="https://twitter.com/sandrapp7"
+                                                   title="Twitter">
+                                                    <svg height="16px" xmlns="http://www.w3.org/2000/svg"
+                                                         viewBox="0 0 512 512">
+                                                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                                                    </svg>
+                                                </a>
+                                                                                            <a target="_blank" href="https://www.linkedin.com/in/sandra-petricevic-7203696b/" title="Linkedin">
+                                                    <svg height="16px" xmlns="http://www.w3.org/2000/svg"
+                                                         viewBox="0 0 448 512">
+                                                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                                                    </svg>
+                                                </a>
+                                                                                            <a target="_blank" href="https://www.instagram.com/sandrapp7/" title="Instagram">
+                                                    <svg height="16px" xmlns="http://www.w3.org/2000/svg"
+                                                         viewBox="0 0 448 512">
+                                                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                                    </svg>
+                                                </a>
+                                                                                    </div>
+                                    </div>
+                                    <div class="description">
+                                        <div itemprop="description">
+                                            <p>Parisienne d'origine Serbe, ma double culture m'a très tôt ouverte sur le monde. Ancienne journaliste, je suis une aventurière et une exploratrice dans l'âme. Voyager, découvrir de nouveaux pays, explorer des villes fascinantes et rencontrer des personnes inspirantes sont des expériences qui enrichissent mon horizon et nourrissent ma curiosité. Chaque voyage est pour moi une occasion d'apprendre et de grandir, tout en élargissant ma vision du monde. Vision que je partage avec vous ici !</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="join">Generation Voyage grandit — <a title="Rejoins l’équipe"
+                                                                              href="https://partenaires.generationvoyage.fr/devenir-freelance-generation-voyage/"
+                                                                              target="_blank">Rejoins l’équipe</a></span>
+                        </div>
+
+                        <div class="comment-count">0 Commentaire(s)</div>
+                                 <div class="clear"></div>
+         	<div id="respond" class="comment-respond">
+		<span id="reply-title" class="h4 comment-reply-title">Laisser un commentaire <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vaison-la-romaine-vaucluse/#respond" style="display:none;">Annuler le commentaire</a></small></span><form action="https://generationvoyage.fr/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="input-form" id="respond-comment"><textarea name="comment" id="comment" cols="58" rows="10" tabindex="0" aria-required="true" placeholder="Votre commentaire..."></textarea></p><p class="input-form2 form-nom"><input placeholder="Nom" id="author"  name="author" type="text" value="" size="30" /></p>
+<p class="input-form2 form-mail"><input placeholder="Adresse mail" id="email" name="email" type="text" value="" size="30" /></p>
+<p class="input-form2 form-url"><input placeholder="Site web" id="url" name="url" type="text" value="" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Envoyer le commentaire" /> <input type='hidden' name='comment_post_ID' value='249611' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ebab8f6334" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="245"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+                    </div><!--END .tableflex1 -->
+                    <div class="tableflex2">
+    
+                            <div class="topresasidebar" id="topbooker">
+
+                                            <div id="div-ad-pave-haut" class="ads-core-placer"
+                             data-ads-core='{"device": "tablet, desktop", "type":"Pave-Haut"}'></div>
+                                    </div>
+                        <span id="limitscroll"></span>
+
+        
+    
+                    </div><!--END .containertableflex -->
+                <div class="clear"></div>
+            </div><!--END #main-content -->
+        </article>
+
+        
+
+            <div data-rocket-location-hash="ccfdc56b9fe14fdbcc4411372758d0fd" class="footer_new">
+    <div class="td-footer-bottom-full container-home">
+        <div class="">
+            <div class="td-pb-row">
+                <div class="">
+                    <aside class="footer-logo-wrap">
+                        <img loading="lazy" src="/wp-content/themes/toolito/img/logo/gv_213_color.svg" width="180" height="46" title="Generation Voyage Logo white" alt="Logo Generation Voyage" />
+                        <p>Depuis 2013, Generation Voyage fait découvrir des expériences mémorables et aide ses utilisateurs à les vivre.</p>
+                    </aside>
+                </div>
+                <div class="">
+                    <aside class="footer-text-wrap">
+                        <ul>
+                            <li><a href="/qui-sommes-nous/" title="Qui sommes nous ?" class="lien_menu_footer">Qui sommes nous ?</a></li>
+                            <li><a href="/recrutement/" target="_blank" title="Carrière" class="lien_menu_footer">Recrutement</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="">
+                    <aside class="footer-text-wrap">
+                        <ul>
+                            <li><a href="/partenariats/" title="Publicité" class="lien_menu_footer">Partenariats/Publicité</a></li>
+                            <li><a href="/tableau-destination/" title="Baromètre des destinations" class="lien_menu_footer">Baromètre des destinations</a></li>
+                            <li><a href="/contact/" title="Contact" class="lien_menu_footer">Contact</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="">
+                    <aside class="footer-social-wrap td-social-style-2">
+                        <div class="title-footer">
+                            <span>Suivez-nous sur les réseaux</span>
+                        </div>
+                        <span class="td-social-icon-wrap">
+                           <a href="https://www.instagram.com/generation_voyage/" title="Instagram" target="_blank">
+                               <img width="15" height="15" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/instagram.svg" alt="Logo Instagram">
+                           </a>
+                        </span>
+                        <span class="td-social-icon-wrap">
+                            <a target="_blank" href="https://www.linkedin.com/company/generationvoyage/" title="Linkedin" >
+                                <img width="15" height="15" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/linkedin.svg" alt="Logo Linkedin">
+                            </a>
+                        </span>
+                        <span class="td-social-icon-wrap">
+                            <a target="_blank" href="https://www.facebook.com/generationvoyage/" title="Facebook">
+                                <img width="9" height="17" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/facebook.svg" alt="Logo Facebook">
+                            </a>
+                        </span>
+                        <span class="td-social-icon-wrap">
+                            <a target="_blank" href="https://www.pinterest.fr/generation_voyage/" title="Pinterest" >
+                                <img width="13" height="17" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/pinterest.svg" alt="Logo Pinterest">
+                            </a>
+                        </span>
+                        <span class="td-social-icon-wrap">
+                            <a target="_blank" href="https://www.youtube.com/@generationvoyage" title="Youtube">
+                                <img width="19" height="15" loading="lazy" src="https://generationvoyage.fr/wp-content/themes/toolito/img/youtube-footer.svg" alt="Logo Youtube">
+                            </a>
+                        </span>
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+                
+
+
+        <div id="">
+            <div id="footer">
+                <div id="footer_text">
+                    <div class="footer_bottom_center">
+                        © 2013-2025 <strong class="load-more">Generation Voyage</strong> Tous droits réservés - <a href="/conditions-generales-utilisation/" class="underline">CGU</a> - <a href="/charte-de-confidentialite/" class="underline">Mentions légales</a> - Fait avec <span class="emoticon_rouge">❤</span> à Montpellier par <a class="underline" href="https://gctech.company" target="_blank">GC TECH</a>
+                         - v2.13.0                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+        <link rel='stylesheet' id='yarppRelatedCss-css' href='https://generationvoyage.fr/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.11' type='text/css' media='all' />
+<script type="text/javascript" src="https://generationvoyage.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-footer-js"></script>
+<script type="text/javascript" src="https://generationvoyage.fr/wp-includes/js/comment-reply.min.js?ver=6.6.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script defer type="text/javascript" src="https://generationvoyage.fr/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1733210944" id="akismet-frontend-js"></script>
+            <script async src='https://generationvoyage.fr/wp-content/themes/toolito/dist/script-desktop.12d087891e8bdd4cdc8754bdfd8ad042.js'></script>
+        </div>
+        <div data-rocket-location-hash="90fa1f74aa5c8d3736d5b80a42c218d7" id="popupNewsletter" class="popupNewsletter d-none">
+<span id="closePopupNewsletter" class="closePopup close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </span>
+            <div class="content">
+
+                <div>
+                    <img src="https://generationvoyage.fr/wp-content/themes/toolito/images/illustration-newsletter.jpg" loading="lazy" width="270px" height="488px" alt="Image newsletter popup - Génération Voyage">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        Nos dernières inspirations et actualités voyage
+                    </div>
+                    <p class="description">
+                        Chaque jour, recevez un article d'inspiration voyage dans votre boîte mail
+                    </p>
+                    <form id="formPopupNewsletter" action="" x-on:submit.prevent="submit">
+                        <div class="input-form">
+                            <input id="emailPopupNewsletter" type="email" required placeholder="Mon adresse mail">
+                        </div>
+                        <div>
+                            <input type="submit" class="btn-primary" value="Je m'abonne, c'est gratuit">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    
+<script>
+    let ApiNonce = "4b5281c536";
+</script>
+
+
+<div x-data="Notifications" class="toastContainer" @setnotification.window="add($event.detail)">
+    <template x-for="notice of notices" :key="notice.id">
+        <div class="ToatsNotifications" :class="notice.type" x-show="notice.show" x-on:click="remove(notice.id)" x-transition>
+            <div class="d-flex align-items-center gap-10">
+                <span class="picto">
+                    <svg x-cloak x-show="notice.type === 'info'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="">
+                        <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                    </svg>
+                    <svg x-cloak x-show="notice.type === 'error'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <span x-text="notice.text"></span>
+            </div>
+            <span class="closeNotificaton close" x-on:click="remove(notice.id)">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </span>
+        </div>
+    </template>
+</div>
+<div data-rocket-location-hash="c8490a521c5eadfab07587b79a8338a9" x-show="isLoginShow" x-cloak class="popupAccount loginPopup" x-data="loginPopup">
+    <div class="content" @click.outside="isLoginShow = false">
+        <span class="closePopup close" x-on:click="isLoginShow = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </span>
+        <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo/logotype.png.webp" class="mx-auto" width="38" height="38" alt="Generation Voyage Logo">
+        <form action="" @submit.prevent="submitLogin()">
+            <span class="title">
+                Se connecter
+            </span>
+            
+            <div class="form-group">
+                <label for="">
+                    Email ou nom d’utilisateur                </label>
+                <input :class="{'error-border':error}" type="text" required x-model="email" placeholder="Email ou nom d’utilisateur">
+            </div>
+            <div class="form-group">
+                <label for="">
+                    Mot de passe                </label>
+                <input :class="{'error-border':error}" type="password" x-model="password" required placeholder="Mot de passe">
+                <a class="forgotPassword" href="#" x-on:click.prevent="isResetPasswordShow = true; isLoginShow = false">Mot de passe oublié ?</a>
+            </div>
+            <div class="form-group" x-show="error">
+                <p class="error-field" x-text="error"></p>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="signin btn-primary">
+                    <svg x-cloak x-show="loading" class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>Connexion
+                </button>
+            </div>
+            <p>
+                Pas encore de compte ? <a class="signup-redirect" href="#" x-on:click.prevent="isLoginShow = false; isRegisterShow = true;registerFrom = 'menu'">Créer un compte ici</a>
+            </p>
+        </form>
+    </div>
+</div>
+<div x-show="isSetNewPasswordShow" x-cloak  class="popupAccount setNewPasswordPopup" x-data="setNewPassword">
+    <div class="content" @click.outside="isSetNewPasswordShow = false">
+        <span class="closePopup" x-on:click="isSetNewPasswordShow = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </span>
+        <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo/logotype.png.webp" class="mx-auto" width="38" height="38" alt="Generation Voyage Logo">
+        <form action="" @submit.prevent="submitNewPassword()">
+            <span class="title">
+                Réinitialiser votre mot de passe
+            </span>
+            <div class="form-group">
+                <label for="">
+                    Nouveau mot de passe                </label>
+                <input :class="{'error-border':error}" type="password" required x-model="password" placeholder="Mot de passe">
+            </div>
+            <div class="form-group">
+                <label for="">
+                    Confirmation du nouveau mot de passe                </label>
+                <input :class="{'error-border':error}" type="password" x-model="confirmPassword" required placeholder="Mot de passe">
+            </div>
+            <div class="form-group" x-show="error">
+                <p class="error-field" x-text="error"></p>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn-primary" value="Enregistrer">
+            </div>
+            <p>
+                <a href="#" x-on:click.prevent="isSetNewPasswordShow = false; isRegisterShow = true;registerFrom = 'menu'">Créer un compte</a> | <a href="#" x-on:click.prevent="isSetNewPasswordShow = false; isLoginShow = true">Se connecter</a>
+            </p>
+        </form>
+    </div>
+</div>
+<div x-show="isResetPasswordShow" x-cloak  class="popupAccount resetPasswordPopup" x-data="resetPassword">
+    <div class="content" @click.outside="isResetPasswordShow = false">
+        <span class="closePopup" x-on:click="isResetPasswordShow = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </span>
+        <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo/logotype.png.webp" class="mx-auto" width="38" height="38" alt="Generation Voyage Logo">
+        <form action="" @submit.prevent="submitReset()">
+            <span class="title">
+                Réinitialiser votre mot de passe
+            </span>
+            <div class="form-group">
+                <label for="">
+                    E-mail                </label>
+                <input :class="{'error-border':error,'success-border':valid,'validated':valid}" type="text" required x-model="email" placeholder="E-mail">
+                <small :class="{'error-field':error,'success-field':valid}" x-show="message" x-text="message"></small>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn-primary" value="Réinitialiser">
+            </div>
+            <p>
+                <a href="#" x-on:click.prevent="isResetPasswordShow = false; isRegisterShow = true;registerFrom = 'menu'">Créer un compte</a> | <a href="#" x-on:click.prevent="isResetPasswordShow = false; isLoginShow = true">Se connecter</a>
+            </p>
+        </form>
+    </div>
+</div>
+<div x-show="isRegisterShow" x-cloak  class="popupAccount registerPopup" x-data="registerPopup">
+    <div class="content" @click.outside="isRegisterShow = false, closePopup()">
+        <span class="closePopup close" x-on:click="isRegisterShow = false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </span>
+        <img src="https://generationvoyage.fr/wp-content/themes/toolito/img/logo/logotype.png.webp" class="mx-auto" width="38" height="38" alt="Generation Voyage Logo">
+        <form @submit.prevent="submitRegister()">
+            <template x-if="step1 === true">
+                <div  class="step1Register">
+                    <template x-if="pro">
+                        <span class="title">Créez un compte pro pour accéder aux données GenerationVoyage</span>
+                    </template>
+                    <template x-if="registerFrom === 'menu' && !pro">
+                        <span class="title">Créez un compte pour retrouver vos listes d'articles favoris</span>
+                    </template>
+                    <template x-if="registerFrom === 'bookmark'">
+                        <span class="title">
+                            Pour sauvegarder un article dans votre liste, créez un compte.
+                        </span>
+                    </template>
+                    <template x-if="registerFrom === 'votes'">
+                        <span class="title">
+                            Pour voter, créez un compte.
+                        </span>
+                    </template>
+                    <template x-if="!pro">
+                    <div class="form-group form-group-checkbox">
+                        <input type="checkbox" class="optin-newsletter" x-model="newsletter" id="newletterRegister">
+                        <label for="newletterRegister">
+                            Je veux recevoir par emails les meilleures expériences à vivre.
+                            Pas de spams promis.
+                        </label>
+                    </div>
+                    </template>
+                    <div class="form-group">
+                        <label for="">
+                            E-mail                        </label>
+                        <input :class="{'error-border':errorEmail, 'validated':emailValid}" type="email" x-model="email" placeholder="E-mail">
+                        <small class="error-field" x-text="errorEmail"></small>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary signup-step-1" x-on:click.prevent="checkEmailExist()">
+                            <svg x-cloak x-show="loading" class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>Continuer
+                        </button>
+                    </div>
+                    <div>
+                        <p>
+                            Déjà un compte ? <a href="#" class="login-redirect" x-on:click.prevent="isLoginShow = true; isRegisterShow = false">Se connecter</a>
+                        </p>
+                    </div>
+                </div>
+            </template>
+            <template x-if="step2 === true">
+                <div class="step2Register">
+                    <span class="title">
+                        Choisissez un nom d’utilisateur et un mot de passe
+                    </span>
+                    <div class="form-group">
+                        <label for="">
+                            Nom d'utilisateur                        </label>
+                        <input :class="{'error-border':errorUsername, 'validated':usernameValid}" x-on:input.debounce="checkUserExist" type="text" x-model="username" required placeholder="Nom d'utilisateur">
+                        <small class="error-field" x-text="errorUsername"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="">
+                            Mot de passe                        </label>
+                        <input :class="{'error-border':errorPassword, 'validated':passwordValid}" type="password" minlength="8" x-model="password" required placeholder="Mot de passe">
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            En cliquant sur Créer un compte, vous acceptez les <a target="_blank" href="https://generationvoyage.fr/conditions-generales-utilisation/">Conditions générales d'utilisation</a> et vous reconnaisez  avoir pris connaissance de la
+                            <a target="_blank" href="https://generationvoyage.fr/charte-de-confidentialite/">politique de confidentialité</a> de Generation Voyage.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary signup" value="Connexion">
+                            <svg x-cloak x-show="loading" class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>Créer un compte
+                        </button>
+                    </div>
+                    <a href="#" class="back" x-on:click.prevent="step1=true; step2=false">Retour</a>
+                </div>
+            </template>
+        </form>
+    </div>
+</div>
+
+    <script>
+        const autoLoadDuration = 3; //In Seconds
+        const eventList = ["keydown", "mousemove", "wheel", "touchmove", "touchstart", "touchend"];
+        const autoLoadTimeout = setTimeout(runScripts, autoLoadDuration * 1000);
+
+        eventList.forEach(function(event) {
+            window.addEventListener(event, triggerScripts, { passive: true })
+        });
+
+        function triggerScripts() {
+            runScripts();
+            clearTimeout(autoLoadTimeout);
+            eventList.forEach(function(event) {
+                window.removeEventListener(event, triggerScripts, { passive: true });
+            });
+        }
+
+        function runScripts() {
+            document.querySelectorAll("script[delay]").forEach(function(scriptTag) {
+                scriptTag.setAttribute("src", scriptTag.getAttribute("delay"));
+            });
+        }
+    </script>
+<link rel="stylesheet" href="https://generationvoyage.fr/wp-content/themes/toolito/dist/doyoogo.779c6073e211df4690a7ab1b2ad7d776.css?ver=1.0"><script type="text/javascript" delay="https://generationvoyage.fr/wp-content/themes/toolito/dist/doyoogo.4570c6896ed96d8749623dece1f5ad31.js?ver=1.0" async></script>
+<script  src="https://generationvoyage.fr/wp-content/themes/toolito/dist/app.ee4c332ec068ed8418de31d58c345cd1.js"></script>
+<script>
+    console.log(`
+
+                  .....
+             .:-----------:
+           .------:::::------
+          :----:         :---:
+         .----             .
+         :---:        .......
+         :----      -----------
+          ----:     .::::-----:
+           ----:         -----
+           .----:       -----
+             ----:     -----
+              ----:   ----:
+               :----:----.
+                .-------
+                 .-----
+                   .:.
+
+
+`)
+</script>
+<script>console.log("On recrute en dev, growth & produit : https://bit.ly/gctech-recrute")</script>
+
+
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/generationvoyage.fr\/wp-admin\/admin-ajax.php","nonce":"e7390d0b02","url":"https:\/\/generationvoyage.fr\/vaison-la-romaine-vaucluse","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src='https://generationvoyage.fr/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

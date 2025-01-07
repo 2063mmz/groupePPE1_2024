@@ -1,28 +1,28 @@
    #Flux d'actualité Déco
-   (BUTTON) Fermer la modale de partage
+   Fermer la modale de partage
    Partager
-      (BUTTON) Partager sur facebook
-      (BUTTON) Partager sur twitter
-      (BUTTON) Partager sur pinterest
-      (BUTTON) Partager sur whatsapp
-      (BUTTON) Partager sur email
-      (BUTTON) Partager sur sms
-   (BUTTON) Ouvrir le menu principal Elle Décoration
+      Partager sur facebook
+      Partager sur twitter
+      Partager sur pinterest
+      Partager sur whatsapp
+      Partager sur email
+      Partager sur sms
+   Ouvrir le menu principal Elle Décoration
       Lien vers réseau social mail
       Lien vers réseau social facebook
       Lien vers réseau social twitter
       Lien vers réseau social pinterest
       Lien vers réseau social instagram
       Lien vers réseau social tiktok
-   Je me connecte (BUTTON) (BUTTON) Sauvegarder Sauvegardé Je m'abonne
-   (BUTTON) Ouvrir le menu principal Elle Décoration
+   Je me connecte Sauvegarder Sauvegardé Je m'abonne
+   Ouvrir le menu principal Elle Décoration
    Je m'abonne
-   (BUTTON) Ouvrir le modal de recherche
-   (BUTTON) Fermer le modal de recherche
+   Ouvrir le modal de recherche
+   Fermer le modal de recherche
    Rechercher sur ELLE
-    (BUTTON) Lancer la recherche
-   Elle Décoration (BUTTON) Fermer menu burger
-   Se connecter (BUTTON) Rechercher sur le site
+    Lancer la recherche
+   Elle Décoration Fermer menu burger
+   Se connecter Rechercher sur le site
       Retour vers ELLE.fr
       avant/après
       Petits espaces
@@ -126,9 +126,9 @@
       Elle
       Déco
       News & tendances
-      (BUTTON) Partager sur facebook
-      (BUTTON) Partager sur twitter
-      (BUTTON) Partager sur pinterest
+      Partager sur facebook
+      Partager sur twitter
+      Partager sur pinterest
 #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
    Publié le 02 janvier 2025 à 9h27
    15 Voir la galerie
@@ -139,11 +139,11 @@
      
      
       15
-   (BUTTON) Sauvegarder Sauvegardé
+   Sauvegarder Sauvegardé
    Lire dans l'app
    Idées à picorer, nouvelles tendances à adopter ou spot déco à découvrir, les #ELLEdécoCrush de janvier font la part belle au cocooning.
    15 Voir la galerie
-   (BUTTON) Fermer la modal de la galerie
+   Fermer la modal de la galerie
    #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
    La folie des fêtes de fin d’année vient tout juste de s’achever. Il est temps de ranger décorations, guirlandes et autres sapins de Noël pour retrouver une maison dépourvue d’artifices
    festifs, mais pas dénuée de joie ou de petits plaisirs. Le passage à 2025 est l’occasion de faire rimer Nouvel An avec renouveau déco. À l’aide de simples changements, on peut faire la
@@ -194,6 +194,10 @@ Des nouveautés 2025 pour un intérieur cool et cocooning
       Cocooning
 Toute l'actu Déco
      
+   Immobilier : reconnaître un bien difficile à la revente
+       Édition abonnées
+       Immobilier : reconnaître un bien difficile à la revente
+     
    Zara Home présente sa gamme enfants, voici notre sélection coup de cœur
        Zara Home présente sa gamme enfants, voici notre sélection coup de cœur
      
@@ -205,9 +209,6 @@ Toute l'actu Déco
      
    On veut un intérieur jaune, la couleur phare de 2025
        On veut un intérieur jaune, la couleur phare de 2025
-     
-   Des meubles gain de place pour gagner des mètres carrés
-       Des meubles gain de place pour gagner des mètres carrés
    Toutes les infos Déco
 À lire également
      
@@ -255,7 +256,7 @@ Les  populaires News & tendances
        Linge de maison : pourquoi il vaut mieux l’acheter en janvier ?
    Teaser promo
    Pinterest ELLE Décoration Lien abonnement déco
-   (BUTTON)
+  
    Haut de page
    Elle Décoration
 Suivez-nous
@@ -273,7 +274,7 @@ Contacts
       Nos RSS
       Mentions légales et CGU
       Données personnelles et cookies
-      (BUTTON) Gérer mes cookies
+      Gérer mes cookies
       Conditions Générales de Vente
       Foire aux Questions
       Le groupe CMI France

@@ -1,13 +1,13 @@
    #alternate alternate
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-WQWG44D
    
-   (BUTTON) précédent
+   précédent
    
    À lire fermer
       Vous devez vous connecter pour afficher vos articles sauvegardés
-   ()
-   ( )
-   ( )
+  
+  
+  
    MENU
    précédent
    Ouest-France
@@ -47,7 +47,7 @@
       Annonces Annonces
    chercher
    Abonnez-vous
-   (BUTTON) Rechercher ma commune
+   Rechercher ma commune
       Bretagne
       Rennes
       Saint-Malo
@@ -151,22 +151,22 @@ Pontorson. Notre-Dame : une rentrée en douceur
    L’équipe pédagogique.
    L’équipe pédagogique.
    L’équipe pédagogique.  OUEST-FRANCE
-   (BUTTON) fermer
+   fermer
       L’équipe pédagogique. L’équipe pédagogique.  OUEST-FRANCE
    Ouest-France
    Publié le 16/05/2020 à 06h00
    Abonnez-vous
-   (BUTTON) Lire plus tard
-   (BUTTON) Partager
-      (BUTTON) FacebookFacebook
-      (BUTTON) BlueSkyBlueSky
-      (BUTTON) FlipboardFlipboard
-      (BUTTON) linkedinLinkedIn
+   Lire plus tard
+   Partager
+      FacebookFacebook
+      BlueSkyBlueSky
+      FlipboardFlipboard
+      linkedinLinkedIn
    Newsletter Avranches
    Chaque matin, recevez toute l’information de Avranches et de ses environs avec Ouest-France
    Merci de saisir votre adresse e-mail
    
-   (BUTTON) OK
+   OK
    Votre e-mail, avec votre consentement, est utilisé par Ouest-France pour recevoir notre newsletter. En savoir plus.
    Lundi, c’est en toute sérénité que l’équipe pédagogique et d’encadrement de l’école Notre-Dame s’est réunie pour vérifier la bonne mise en place du nouveau mode d’accueil des élèves.
    Cette reprise particulière était très attendue par toute l’équipe. En amont, un gros travail avait été engagé pour mener à bien l’après confinement. « C’est un travail collégial que nous
@@ -181,11 +181,11 @@ Pontorson. Notre-Dame : une rentrée en douceur
    Christine Courteille se dit « satisfaite d’accueillir 85 % de mon effectif. Mon seul regret est de ne pouvoir offrir, pour ce dernier trimestre, toutes les sorties prévues au programme ».
    Contact : tél. 06 45 92 97 28.
       Pontorson
-   (BUTTON) gauche (BUTTON) droite
+   gauche droite
    logo illustration
    Un morceau d'Histoire à conserver pour toujours
    Les Unes historiques Ouest-France : trouvez la vôtre !
-   (BUTTON) Ça m'intéresse
+   Ça m'intéresse
    En continu
       Une
       Pontorson
@@ -250,7 +250,7 @@ Pontorson. Notre-Dame : une rentrée en douceur
    02/01 #Pontorson
    Voir tous les événements
    Les tops articles sur : Pontorson
-   Jérôme Carnet (2e à droite), et sa compagne Mimi, entourés de leur équipage, Julie, Greg, Juliette, Julien, Nicolas dans les nouveaux locaux.
+   Jérôme Carnet, et sa compagne Mimi, entourés de leur équipage, Julie, Greg, Juliette, Julien, Nicolas dans les nouveaux locaux.
    En douze ans, à Pontorson, la poissonnerie de cet ancien marin-pêcheur est passée de 40 m² à 200 m2  bloqué
    30/12
    La baie du Mont-Saint-Michel peut s’avérer dangereuse pour les promeneurs imprudents.
@@ -266,7 +266,7 @@ Pontorson. Notre-Dame : une rentrée en douceur
    des véhicules à Granville.
    Tempête Darragh. Jusqu’à 159 km/h… Les fortes rafales de vent ont balayé la Normandie, ce samedi
    07/12
-   (BUTTON) Voir plusVoir moins
+   Voir plusVoir moins
    Régions
    Sport
    Ouest-France
@@ -283,7 +283,7 @@ Pontorson. Notre-Dame : une rentrée en douceur
    Newsletter Avranches
    Merci de saisir votre adresse e-mail
    
-   (BUTTON) Ok
+   Ok
    Votre e-mail, avec votre consentement, est utilisé par Ouest-France pour recevoir notre newsletter. En savoir plus.
    Sites d'actualité
       Ouest-France
@@ -331,7 +331,7 @@ Pontorson. Notre-Dame : une rentrée en douceur
       © Ouest-France
       Logo ACPM OJD
    fermer
-   (BUTTON) déplier
-   (BUTTON) Reculer (BUTTON) lecture pause (BUTTON) Avancer
+   déplier
+   Reculer lecture pause Avancer
    00:00 00:00
-   (BUTTON) fermer
+   fermer

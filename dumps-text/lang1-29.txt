@@ -3,11 +3,11 @@
    Passer au contenu principal
    Culture
    S'abonner
-   (BUTTON) Mon profil
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
+   Mon profil
+  
+  
+  
+  
    Menu
       Musique
       Écrans
@@ -17,10 +17,10 @@
       Art
       Culture en bref
       Agenda
-   (BUTTON)
-   24 heures (BUTTON)
+  
+   24 heures
    
-   (BUTTON)
+  
       Accès rapide
            Dernières nouvelles
            E-paper
@@ -30,7 +30,7 @@
            Aide et contact
       Sujets et thèmes du moment
            La une
-           Vaud & Régions (BUTTON)
+           Vaud & Régions
                o Politique locale
                o Ma commune
                o Lausanne & Région
@@ -41,23 +41,23 @@
                o L'actu en dessins
                o Faits divers
                o Agenda
-           Suisse (BUTTON)
+           Suisse
                o Votations
                o Suisse romande
                o Faits divers
-           Monde (BUTTON)
+           Monde
                o Élections américaines
                o Ukraine
                o Israël/Hamas
                o Faits divers
            Économie
            À votre service
-           Sports (BUTTON)
+           Sports
                o Sport vaudois
                o Football vaudois
                o LHC
                o LS / SLO
-           Culture (BUTTON)
+           Culture
                o Musique
                o Écrans
                o Livres
@@ -65,11 +65,11 @@
                o Société
                o Art
                o Agenda
-           Opinion (BUTTON)
+           Opinion
                o Éditorial
                o Réflexions
                o Courrier des lecteurs
-           Gastronomie (BUTTON)
+           Gastronomie
                o Produits
                o Recettes
                o Les vins
@@ -77,7 +77,7 @@
            Familles
            Santé
            Portraits
-           Savoirs (BUTTON)
+           Savoirs
                o Histoire
                o Voyages
                o Technologie
@@ -88,7 +88,7 @@
            People
            Podcasts
       Autres publications
-           Le Matin Dimanche (BUTTON)
+           Le Matin Dimanche
                o E-paper LMD
                o Abonnements
                o Impressum
@@ -100,23 +100,23 @@
            Décès
            Agenda
            Cercle des lecteurs
-           Publicité (BUTTON)
+           Publicité
                o Marketplace
                o Données médias
                o Points annonces
                o 24 emploi
                o Immo
                o Suppléments
-           A propos (BUTTON)
+           A propos
                o Emplois
       Aide et contact
       Impressum
       CGV
       Politique de confidentialité
-      (BUTTON) Choix de consentement
-   (BUTTON)
-   (BUTTON)
-   24 heures (BUTTON)
+      Choix de consentement
+  
+  
+   24 heures
    Se connecter
    Vous n'avez pas d'abonnement actifSoutenez le journalisme de qualité, proche de chez vous. Obtenez un accès à tous les contenus.S'abonner
    Vers Page abo
@@ -128,11 +128,11 @@ Marie Robert: «Il faut redonner de la puissance à la douceur»
    Dans son nouveau livre, la philosophe explore les ressorts du réconfort comme antidote au chagrin. Ou comment assouvir notre urgent besoin de tendresse.
    Fabienne Rosset
    Fabienne Rosset
-   Publié: 25.11.2024, 09h24Mis à jour il y a 8 heures
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   La philosophe et autrice Marie Robert croit dans le pouvoir du réconfort. (BUTTON)
+   Publié: 25.11.2024, 09h24Mis à jour il y a 14 heures
+  
+  
+  
+   La philosophe et autrice Marie Robert croit dans le pouvoir du réconfort.
    La philosophe et autrice Marie Robert croit dans le pouvoir du réconfort.
    FLAMMARION/ROBERTO FRANKENBERG
    Abonnez-vous dès maintenant et profitez de la fonction de lecture audio.
@@ -147,7 +147,7 @@ Marie Robert: «Il faut redonner de la puissance à la douceur»
    Redonner du sens à nos vies avec la philosophie. C’est le mantra de Marie Robert, enseignante et fondatrice de quatre écoles en France, créatrice de podcasts, autrice à succès (ndlr: «Le
    voyage de Pénélope»; «Descartes pour les jours de doute»; «Kant, tu ne sais plus quoi faire, il reste la philo»), et qui nourrit le compte Instagram Philosophyissexy, suivi par plus de
    200’000 personnes. Depuis neuf ans, la professeure de philosophie y publie chaque jour une pensée qu’elle partage avec celles et ceux qui ont envie d’alimenter la réflexion et l’échange. Dans
-   son nouveau livre, Le miracle du réconfort (Éd. Flammarion/Versilio), elle explore davantage encore son souhait de créer du lien.
+   son nouveau livre, Le miracle du réconfort, elle explore davantage encore son souhait de créer du lien.
    Marie Robert, vous écrivez que d’aussi loin que vous vous en souvenez, vous avez toujours voulu être philosophe du réconfort. D’où cela vient-il?
    J’ai toujours eu la conviction que ce qui nous caractérise en tant qu’êtres humains, c’est qu’on a tous un chagrin à raconter. C’est peut-être ce qui nous relie le plus, quels que soient
    notre culture, notre âge, notre origine. À des degrés différents, bien sûr. La philosophie a une prétention à l’universalité et ce qui avait d’universel pour moi, c’était le chagrin. Depuis
@@ -163,7 +163,7 @@ Marie Robert: «Il faut redonner de la puissance à la douceur»
    Le contenu qui place des cookies supplémentaires est affiché ici.
    À ce stade, vous trouverez des contenus externes supplémentaires. Si vous acceptez que des cookies soient placés par des fournisseurs externes et que des données personnelles soient ainsi
    transmises à ces derniers, vous devez autoriser tous les cookies et afficher directement le contenu externe.
-   (BUTTON) Autoriser les cookies (BUTTON) Plus d'infos
+   Autoriser les cookies Plus d'infos
    Vous dites que ce livre est un tremplin pour raviver nos joies, en observant ce qui, autour de nous, en vaut encore la peine. N’est-ce pas de plus en plus difficile à faire vu l’actualité?
    C’est pour ça que je trouve de plus en plus urgent de le faire. On est assaillis par l’anxiété, par un schéma d’inquiétude généralisé. J’ai écrit ce livre entre le 7 octobre, soit les
    attentats en Israël, et les élections législatives en France en juillet dernier. Étrangement, je trouvais que ça devenait une urgence de traiter du réconfort. Je me disais que si j’écoutais
@@ -181,109 +181,109 @@ Marie Robert: «Il faut redonner de la puissance à la douceur»
    montrer qu’il y a d’autres manières d’en faire. C’est une invitation à réfléchir, à s’arrêter, à décortiquer un peu différemment le quotidien. Le plus fascinant, c’est de voir comment les
    gens se l’approprient. Il y a un espace pour. C’est ce que je veux montrer à travers mon travail. Je permets simplement d’ouvrir cette porte-là. On voit à quel point les gens ont besoin
    d’être reliés, de réfléchir, d’avoir du temps moins structuré pour penser au lieu d’être dans la performance ou de crouler sous l’anxiété. On est capables de tout ça.
-   À lire: «Le miracle du réconfort», Marie Robert (Éd. Flammarion/Versilio)
+   À lire: «Le miracle du réconfort», Marie Robert
    Newsletter
    «Dernières nouvelles»
    Vous voulez rester au top de l’info? «24 heures» vous propose deux rendez-vous par jour, directement dans votre boîte e-mail. Pour ne rien rater de ce qui se passe dans votre Canton, en
    Suisse ou dans le monde.
    Autres newsletters
-   (BUTTON) Se connecter
+   Se connecter
    Fabienne Rosset est journaliste depuis 2003, pour le magazine Femina et Le Matin Dimanche. Elle couvre les sujets société, et plus particulièrement les thèmes de la santé et de la
    psychologie.Plus d'infos
    Vous avez trouvé une erreur?Merci de nous la signaler.
-   (BUTTON) 0 commentaires
+   0 commentaires
 Actualité
    Plus
+   AboChêne-BougeriesÀ Chêne-Bougeries, un carnotzet secret découvert à la caserne des pompiers
+   Camion de pompiers devant la caserne de Chêne-Bougeries avec des portes de garage rouges marquées ’Service du Feu’.
+   46
+    
+   AboCoûts de la LAMalFaut-il des «primes aînés»? Le débat est explosif
+   Une personne âgée marchant avec des cannes dans un couloir lumineux du centre de soins « Beim Goldknapp » à Erpeldange-sur-Sûre.
+   157
+    
+   AboUrbanisme lausannoisLes TL s’opposent au projet de nouvelle place de la Gare
+   Place publique animée avec des arbres et des passants, près d’un bâtiment moderne et de terrasses de café.
+   35
+    
+   Politique américaineIntimidation et provocation, Trump n’a pas changé de ton diplomatique
+   Donald Trump lors d’un rassemblement de campagne à Pittsburgh, avec des pancartes colorées en arrière-plan.
+   19
+    
    Brigandage à GlandUn McDonald’s braqué à l’arme blanche
    Logo de McDonald’s sur la façade d’un bâtiment, symbolisant un incident de vol à Gland.
-   (BUTTON)
-   Rencontre inattendueUn lynx a été aperçu dans un jardin lausannois
-   Un lynx marche dans un jardin, entouré de buissons et arbres, avec une table en bois à l’avant-plan.
-   13
-     (BUTTON)
-   AboBlocage psychologiqueL’angoisse des toilettes sème l’embarras au travail
-   Toilettes blanches dans des cabines d’un sanitaire public avec un sol en carreaux noir et blanc.
-   69
-     (BUTTON)
-   Modération sur les réseauxMeta met fin à son programme de fact-checking aux États-Unis
-   Illustration montrant Mark Zuckerberg, PDG de Meta, et un téléphone affichant la page de téléchargement de l’application Facebook, Washington, DC, le 7 janvier 2025.
-   (BUTTON)
-   AboAlimentation et écologieLe Japon promeut la viande de baleine, quoi qu'il en coûte
-   Le président de Kyodo Senpaku, Hideki Tokoro, parle aux médias à côté d’une télévision montrant une chasse à la baleine, lors d’une boutique éphémère à Tokyo.
-   18
-     (BUTTON)
-   Justice rendue à LausanneLe «pervers de Vidy» filmait sous les portes des toilettes
-   Vue ombragée d’une plage à Vidy, Lausanne, montrant des personnes profitant du soleil près du lac le 18 mai 2022.
-   6
-     (BUTTON)
-   LiveGuerre en Ukraine
-   L’armée ukrainienne dit mener des «opérations de combat» à Koursk
-   Un char russe détruit à l’extérieur de la ville de Sudzha, sous contrôle ukrainien, dans la région de Koursk.
-   Vers le Ticker
-   786
-     (BUTTON)
+   1
+    
+   AboSoins à domicileVaud n’est pas convaincu par le salariat des proches aidants
+   Mains d’une fille tenant celles de sa mère âgée, symbolisant le soutien et le soin des personnes âgées.
+   2
+    
+   Décès de Jacques MacquatLe père du Jardin japonais d’Yverdon n’est plus
+   Homme portant un chapeau noir et une écharpe bleue, devant un jardin japonais avec une fontaine, à Yverdon.
+   2
+    
    AboMon animal et moiChez Paulina, «Mystic» règne sur une ménagerie peu banale
    Une femme souriante avec un chat sphinx sur l’épaule, posant contre un fond bleu à La Tour-de-Peilz.
    4
-     (BUTTON)
+    
 La rédaction vous propose
    Plus
-   AboDix ans après «Charlie Hebdo»Coco, dessinatrice rescapée: «Nous sommes des survivants. Soudés. À vie»
-   Dessinatrice française Corinne Rey, alias Coco, posant lors d’une séance photo à Paris, le 17 mars 2021.
+   AboDu hockey aux paillettesComment la Vaudoise aréna joue les transformistes pour Gymotion
+   Lausanne, 30 mars 2022, Reportage à la Vaudoise Aréna, pour son premier grand spectacle. Gad Elmaleh pour son nouveau spectacle "D'Ailleurs". ©Florian Cella
+   3
+    
+   Justice rendue à LausanneLe «pervers de Vidy» filmait sous les portes des toilettes
+   Vue ombragée d’une plage à Vidy, Lausanne, montrant des personnes profitant du soleil près du lac le 18 mai 2022.
    8
-     (BUTTON)
-   AboL’entreprise fête ses 100 ansCe que le patron de la Migros veut faire en 2025
-   Un homme en chemise bleue et lunettes gesticule lors d’une interview dans les bureaux de Migros à Limmatplatz, Zurich.
-   143
-     (BUTTON)
-   AboJackpot à la TuilièreLe Lausanne-Sport a gagné 10 millions de valeur durant l’automne
-   Joueurs du FC Lausanne-Sport célébrant leur victoire contre Yverdon Sport FC en Swiss Super League au Stade Municipal d’Yverdon-les-Bains, le 29 octobre 2024.
-   15
-     (BUTTON)
+    
+   AboProcès à LausanneDe l’erreur à la faute, un médecin face à ses lourdes responsabilités
+   Salle de tribunal à Montbenon, Lausanne, avec des fenêtres hautes et des chaises en bois vides, photographiée en mars 2022.
+   22
+    
    PodcastPodcast santé «Entre Parenthèses»Movember, la santé au masculin: le cancer de la prostate
    Une discussion panel sur la sensibilisation au cancer de la prostate, avec cinq personnes assises en cercle dans une salle de conférence, avec des bannières de sensibilisation et de la
    Tribune de Genève.
-   (BUTTON)
-   Perspectives marchés«L’euro va reculer à 0,85 contre le franc en 2025»
-   Anton Walter Sussland en pull bleu à Crans-Montana, souriant, avec un arrière-plan naturel de forêt.
-   89
-     (BUTTON)
-   AboFortune envolée à GenèveComment l’héritier mal-aimé d’Hermès a perdu ses milliards
-   Nicolas Puech, héritier de la marque de luxe Hermès, et son gestionnaire de fortune Eric Freymond, entourés de bâtiments et de documents bancaires.
-   37
-     (BUTTON)
+  
+   Politique sur la RivieraLe syndic de Vevey est atteint d’une neuropathie rare
+   Yvan Luccarini, syndic de Vevey, est de retour aux commandes de la Ville.
+   9
+    
+   AboDix ans après «Charlie Hebdo»Coco, dessinatrice rescapée: «Nous sommes des survivants. Soudés. À vie»
+   Dessinatrice française Corinne Rey, alias Coco, posant lors d’une séance photo à Paris, le 17 mars 2021.
+   9
+    
 Dans la même rubrique
    Plus
    AboCélébrité lausannoiseLa troublante histoire conjugale derrière le visage de Jocelyne Wildenstein, la «femme chat»
    Portrait de Jocelyne Wildenstein lors d’une exposition à New York en 2015, connue pour ses chirurgies esthétiques.
-   18
-     (BUTTON)
+   20
+    
    AboLutte d’hier et d’aujourd’huiJacques Fasel alimente encore le feu de la révolte
    Film autour du feu un film de Laura Cazador & Amanda Cortés
    4
-     (BUTTON)
+    
    Fan de sériesStreaming: on regarde quoi cette semaine? Nos repérages
    Groupe de personnes marchant en tenant des objets, habillées de manière décontractée sur un chemin pavé entre deux bâtiments.
-   (BUTTON)
+  
    AboNouveauté au cinémaAlmodóvar au pays d’Edward Hopper
    LA CHAMBRE D'À CÔTÉ Réalisation: Pedro Almodóvar Acteurs Julianne Moore Tilda Swinton John Turturro Alessandro Nivola
    2
-     (BUTTON)
+    
    AboPortrait musicalSCH, nouveau boss du rap français
    Le rappeur français SCH sur scène lors des Francofolies de La Rochelle, le 15 juillet 2022, vêtu d’une tenue à motifs et portant des lunettes de soleil.
-   (BUTTON)
+  
    Cinéma«Emilia Perez» et la diversité stars des Golden Globes
    Les acteurs Adriana Paz, Edgar Ramirez, Selena Gomez, le réalisateur Jacques Audiard, Karla Sofia Gascon, et Zoe Saldana posent avec le prix pour ’Emilia Perez’ aux Golden Globes 2025.
    2
-     (BUTTON)
-   (BUTTON)
+    
+  
    24 heures
       Impressum
       CGV
       Politique de confidentialité
       Contact
       FAQ
-   (BUTTON) Tous les Médias de Tamedia
+   Tous les Médias de Tamedia
    Journaux
       24 heures
       Basler Zeitung

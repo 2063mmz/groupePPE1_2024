@@ -1,5 +1,5 @@
-   #L'Œil d'Olivier » Flux L'Œil d'Olivier » Flux des commentaires L'Œil d'Olivier » Rêche de Myriam Gourfink, un éloge de la douceur Flux des commentaires JSON oEmbed (JSON) oEmbed (XML)
-    (BUTTON)
+   #L'Œil d'Olivier » Flux L'Œil d'Olivier » Flux des commentaires L'Œil d'Olivier » Rêche de Myriam Gourfink, un éloge de la douceur Flux des commentaires JSON oEmbed oEmbed
+   
 Suggestions
      
      
@@ -136,7 +136,7 @@ Laisser un commentaire
    Administrateur : Samuel Gleyze-Esteban
       Mentions Légales
       Partenaires
-    (BUTTON)
+   
       Critiques
       Aperçus
       Reprises

@@ -1,38 +1,38 @@
-   #jhm » En janvier, une reprise des rendez-vous locaux en douceur  Flux des commentaires JSON oEmbed (JSON) oEmbed (XML)
-   (BUTTON)
+   #jhm » En janvier, une reprise des rendez-vous locaux en douceur  Flux des commentaires JSON oEmbed oEmbed
+  
    Connexion à
    Vous êtes nouveau sur jhm ? Inscrivez-vous
     Identifiant ou e-mail
     Mot de passe
-   (BUTTON) Mot de passe perdu ?  Se souvenir de moi
-   (Se connecter) Se connecter
+   Mot de passe perdu ?  Se souvenir de moi
+   Se connecter
    ou
    Connectez-vous à partir de vos réseaux sociaux :
-   (BUTTON)
+  
    Rejoignez aujourd'hui !
    Vous êtes un membre du jhm ? Connectez-vous
     Prénom
     Nom
     E-mail
     Mot de passe
-   (BUTTON) 
+   
    Vos données personnelles seront utilisées pour vous accompagner au cours de votre visite du site web, gérer l’accès à votre compte, et pour d’autres raisons décrites dans notre Politique de
    confidentialité.
-   Votre mot de passe doit être composé d'au moins 8 caractères comprenant au moins une majuscule, une minuscule, un chiffre, et un caractère spécial ( @ \ #  $ ! % ^ &  = -  ).
-   (S’enregistrer) S’enregistrer (BUTTON) Retour à l'authentification
+   Votre mot de passe doit être composé d'au moins 8 caractères comprenant au moins une majuscule, une minuscule, un chiffre, et un caractère spécial.
+   S’enregistrer Retour à l'authentification
    ou
    Créez votre compte à partir de vos réseaux sociaux :
-   (BUTTON)
+  
    Information sur votre équipe
     Nom de l'équipe
    3 Nombre de membres de l'équipe
-   (Souscrire) Souscrire
-   (BUTTON)
+   Souscrire
+  
    Mot de passe oublié
    Vous êtes nouveau sur jhm ? Inscrivez-vous
    Mot de passe perdu ? Veuillez saisir votre identifiant ou votre adresse e-mail. Vous recevrez un lien par e-mail pour créer un nouveau mot de passe.
     Identifiant ou e-mail
-   (Réinitialisation du mot de passe) Réinitialisation du mot de passe (BUTTON) Retour à l'authentification
+   Réinitialisation du mot de passe Retour à l'authentification
    ou
    Connectez-vous à partir de vos réseaux sociaux :
    Quotidien Publicité Évènements
@@ -46,8 +46,8 @@
    Cette fonctionnalité devrait arriver prochainement
    Logo jhm
    Boutique S'abonner
-   (BUTTON) (BUTTON)
-   (BUTTON) (BUTTON)
+  
+  
    Fil d'info
    Saint-Dizier
    Chaumont
@@ -82,17 +82,17 @@
    Recrutement
    Cette fonctionnalité devrait arriver prochainement
    Index égalité H/F
-   (BUTTON) Mode clair (BUTTON) Mode sombre
+   Mode clair Mode sombre
    Fil d'info
-   (BUTTON)
-   Esprit, es-tu (encore) là ? – L’édito de Christophe Bonnefoy
+  
+   Le sabreur sans peur – L’édito de Patrice Chabanet
+   Il était parvenu aux portes du pouvoir mais avait raté la dernière marche. Jean-Marie Le Pen avait sans doute conquis ce qu’il y a de plus préci...
+   22:18
+   Esprit, es-tu là ? – L’édito de Christophe Bonnefoy
    Déjà dix ans. Seulement dix ans… Une journée noire qui semble s’être déroulée hier et qu’on a tous encore en mémoire, presque minute par minute. Mais ...
-   21:55
-   En veux-tu, en voilà – l’édito de Patrice Chabanet
-   Les habitants de Mayotte vont finir par croire au père Noël. Après la visite de plusieurs escadrons de ministres pour constater de visu l’ampleu...
-   05 Jan 2025 à 19:39
-   Commentaires (0)
-   (BUTTON)
+   06 Jan 2025 à 21:55
+   Commentaires
+  
    Vous devez être connecté à votre compte jhm pour pouvoir commenter cet article.
    Créer un compte Se connecter
    S'abonner
@@ -107,7 +107,7 @@
    Jukebox
    Oscars
    Trophées
-   (BUTTON)
+  
    Connexion
    Société
 En janvier, une reprise des rendez-vous locaux en douceur
@@ -116,7 +116,7 @@ En janvier, une reprise des rendez-vous locaux en douceur
    3 janvier 2025
    2 janvier 2025 à 20h35
    Saint-Dizier
-   Comme le veut la coutume, ce mois de janvier sera marqué par les vœux du maire. (Photo archives jhm quotidien)
+   Comme le veut la coutume, ce mois de janvier sera marqué par les vœux du maire.
      
      
      
@@ -142,11 +142,16 @@ En janvier, une reprise des rendez-vous locaux en douceur
    Enfin, les spectacles proposés dans le cadre d’Humours d’hivers s’enchaîneront. Ainsi, défileront sur les planches des Fuseaux, les comédiens de la pièce « Un léger doute » de Stéphane de
    Groodt, ceux de « Coscoletto », mais aussi Pierre Richard, Jeanfi Janssens, Olivier de Benoist et Nawell Madani. Un retour en douceur au train-train quotidien.
    Tags : Animations
-   (BUTTON) Voir les commentaires (0)
+   Voir les commentaires
    Partager :
    Rédaction Rédacteur jhm
    Dominique Lemoine
 Sur le même sujet...
+   Recensement
+   Bourmont
+   Recensement
+   Société
+   Le recensement de la population de Vrécourt se déroulera du jeudi 16 janvier au samedi 15 février. Marie-Claire Malbranche a été désignée agent recenseur.
    Charlie Hebdo
    Chaumont, Langres, Saint-Dizier
    La jeunesse haut-marnaise est Charlie, et le prouve en kiosque
@@ -157,11 +162,6 @@ Sur le même sujet...
    Recensement de la population
    Société
    La population de la commune doit être recensée en 2025. La campagne va débuter à partir du 16 janvier. Nadine Guyot a été nommée agent recenseur. Elle transmettra aux habitants(...)
-   Saint-Dizier
-   On parle de Saint-Dizier
-   Société
-   Fin de partie L’annonce est tombée dans la soirée du vendredi 3 janvier. Dans une story Instagram, publiée par la page « Sapeurs pompiers de France », organisatrice du championnat de France
-   des(...)
    Logo jhm
    Le jhm est le média de référence en Haute-Marne. Il se décompose en plusieurs activités : jhm quotidien, son journal papier et numérique, jhm publicité, destinée aux annonceurs et jhm
    évènement pour l’organisation de manifestations sportives et culturelles.

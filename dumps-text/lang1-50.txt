@@ -1,8 +1,8 @@
    IFRAME: //www.googletagmanager.com/ns.html?id=GTM-57BMPX
      
-   (BUTTON) Inscription
-   (BUTTON) Connexion
-   (BUTTON) Magicmaman.com, le site web des futures mamans et jeunes parents
+   Inscription
+   Connexion
+   Magicmaman.com, le site web des futures mamans et jeunes parents
    Je m'abonne
    2,99 € / mois
    Abonnez-vous à l'offre 100% digitale magicmaman pour du contenu exclusif
@@ -10,16 +10,16 @@
    Gratuit
    Consultez la version gratuite sur ordinateur, tablette ou smartphone
    je lis en ligne
-   (BUTTON)
+  
    Recherche sur magicmaman.com
-   (BUTTON)
+  
     OK
    Connectez-vous
-   (BUTTON)
+  
    Vous avez déjà un compte
    
    
-   (BUTTON) Mot de passe oublié
+   Mot de passe oublié
     Se souvenir de moi
    OK
    Vous n'avez pas encore de compte
@@ -89,14 +89,14 @@
    Cyri Féraud commence l'année en douceur avec son fils Tim : adorable photo
    Par Mélodie Capronnier
    Publié le 03/01/2025 à 09:39
-   Cyril Féraud photo fils Tim Nouvel An (BUTTON) Ajouter aux favoris (BUTTON) Abaca Press
-   (BUTTON)
+   Cyril Féraud photo fils Tim Nouvel An Ajouter aux favoris Abaca Press
+  
    Écouter cet article
    Cette fonctionnalité utilise une voix synthétique générée par ordinateur. Des erreurs de prononciation ou de ton sont possibles
    2 minutes de lecture
-   (BUTTON) Copier le lien
+   Copier le lien
    Cyril Féraud a entamé l'année 2025 sur un petit nuage. L'animateur dévoile un nouveau cliché de son petit garçon, et ça nous fait fondre.
-   (BUTTON) Sommaire
+   Sommaire
       Cyril Féraud partage une photo avec son fils
    Après les rétrospectives, les vœux. Les messages de bonne année fleurissent sur les réseaux sociaux depuis quelques jours, et Cyril Féraud n'a pas manqué de se prêter à l'exercice.
    L'animateur fait partie des célébrités qui ont eu un enfant en 2024, puisqu'il a annoncé la naissance de son fils prénommé Tim en juillet dernier. L'arrivée de son petit garçon a été
@@ -108,19 +108,19 @@ Cyril Féraud partage une photo avec son fils
    Vidéo du jour :
    Dans la légende de ce tendre cliché, Cyril Féraud adresse ses meilleurs vœux pour l'année à venir à sa communauté. "Que 2025 soit remplie de belles surprises, d'amour, de sérénité, et d'une
    santé au top pour vous tous et ceux qui vous sont cher", déclare le papa de Tim. De son côté, il sera bien occupé avec les émissions qu'il présente, notamment deux quotidiennes, Tout le monde
-   veut prendre sa place (France 2) et Duels en famille (France 3). Mais son petit garçon passera toujours en premier : "Aujourd'hui, ma priorité, c'est mon fils. Toute une partie de ma loge a
+   veut prendre sa place et Duels en famille. Mais son petit garçon passera toujours en premier : "Aujourd'hui, ma priorité, c'est mon fils. Toute une partie de ma loge a
    d'ailleurs été aménagée pour lui. Entre deux sessions de tournage, j’ai la chance de pouvoir lui faire un câlin, lui donner le biberon ou changer sa couche", expliquait-il fin décembre à
    Télé-Loisirs.
    Lire aussi
-      Ils ont eu un bébé en 2024 (ou l'attendent pour 2025) : qui sont les nouveaux parents people ?
+      Ils ont eu un bébé en 2024 : qui sont les nouveaux parents people ?
       Papas people, papas poules !
-   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+  
    La Newsletter Bébé
    Ça y est Bébé est arrivé ! Alimentation, sommeil, santé... cette newsletter est votre meilleur allié pour assurer pendant les premières années.
     Valider S'abonner
    Derniers articles
    Sofia Essaïdi maman : elle dévoile une exceptionnelle photo de son petit garçon
-   Denitsa Ikonomova se dévoile sans filtre et évoque ses nuits (courtes) de maman
+   Denitsa Ikonomova se dévoile sans filtre et évoque ses nuits de maman
    Angelina Jolie et sa fille Zahara, duo complice et inséparable sur le tapis rouge
    Plus de People
    Stromae : Coralie Barbier dévoile de rares photos de leur fils avec le chanteur
@@ -130,7 +130,7 @@ Cyril Féraud partage une photo avec son fils
    Plus d'Actualités People
    Britney Spears dévoile de nouvelles photos de son fils en partageant son admiration
    Julien Doré, papa très attentif : il dévoile une nouvelle photo de son fils
-   Ils ont eu un bébé en 2024 (ou l'attendent pour 2025) : qui sont les nouveaux parents people ?
+   Ils ont eu un bébé en 2024 : qui sont les nouveaux parents people ?
    Nadège Lacroix : le prénom de son fils est un hommage à une personne chère
    Kim Kardashian partage des photos avec ses quatre enfants, ils ont sacrément grandi !
    Vianney, papa comblé : il partage de rares vidéos de son petit garçon, Edgar
@@ -139,7 +139,7 @@ Cyril Féraud partage une photo avec son fils
    Camille Combal papa : sa compagne partage d'amusantes photos de leur fils PioStromae : Coralie Barbier dévoile de rares photos de leur fils avec le chanteurVianney, papa comblé : il partage
    de rares vidéos de son petit garçon, EdgarJulien Doré, papa très attentif : il dévoile une nouvelle photo de son filsAdriana Karembeu, maman comblée, dévoile le visage de son bébé pour la
    1ère foisAlexandra Rosenfeld et Hugo Clément : leur fille Jim fête ses 5 ans !
-   (BUTTON)
+  
    2,99 € / mois
    Je m'abonne
    Inscrivez-vous à la newsletter

@@ -1,25 +1,25 @@
    #alternate alternate SudOuest : rss actualités
    IFRAME: //www.googletagmanager.com/ns.html?id=GTM-NG4RXS
-   (BUTTON) (BUTTON) La chaîne
+   La chaîne
    Mon compteS'identifierS'abonnerJournal
-   (BUTTON) RechercherLa chaîne
+   RechercherLa chaîne
    JournalS'identifierMon compte
    Ma communeActualité  DéclicLa sélection  Faits diversSport  Loisirs  Services  Étudiant  Annonces
-   ()
+  
       International
       Politique
       Economie
       Environnement
       Santé
       Société
-   ( )
+  
       Sélection du jour
       Edition du soir
       Premium
       Bonne humeur
       Insolite
       Le vrai du faux
-   ( )
+  
       Tout le sport
       Football
       Rugby
@@ -32,7 +32,7 @@
       Hockey
       Résultats
       Vendée Globe
-   ( )
+  
       Culture
       Diverto TV
       Gastronomie
@@ -42,7 +42,7 @@
       Tourisme
       Vin
       Auto-moto
-   ( )
+  
       Archives
       Club abonnés
       Jeux
@@ -52,7 +52,7 @@
       Shopping
       Contenus partenaires
       Boutique
-   ( )
+  
       Accueil
       Lycée
       Examens
@@ -62,12 +62,12 @@
       Résultats bac
       Résultats brevet
       Séries TV
-   ( )
+  
       Avis de décès
       Emploi
       Immobilier
       Légales
-   (BUTTON)
+  
    Sélectionnez votre commune
    
    Suggestions
@@ -75,7 +75,7 @@
    '
    Sud Ouest
    Toute l'actualité de votre région en continu sur notre application
-   (BUTTON) Voir
+   Voir
 Météo : une perturbation, de la douceur et un coup de vent sur le nord-ouest de la France pour commencer 2025
     Lecture 1 min
    Accueil Environnement Météo
@@ -138,8 +138,8 @@ Fin de semaine froide et à nouveau perturbée
    Connexion
    Devenez premium
    Toutes les rubriques
-   (BUTTON) Fermer
-    (BUTTON) (BUTTON)
+   Fermer
+   
    Communes
       Explorer📍
       Bordeaux
@@ -248,11 +248,11 @@ Vous avez choisi de refuser les cookies
    Lire les règles de modération de sudouest.fr
    
    
-   (BUTTON) Réagir
+   Réagir
    Signaler un commentaire
    Merci de nous décrire précisément ce qui vous paraît illégal dans ce message.
    
    
    
    
-   (BUTTON) Signaler
+   Signaler

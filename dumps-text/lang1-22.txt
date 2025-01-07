@@ -1,68 +1,68 @@
    contenu principal
-   (BUTTON) Accueil France Info
+   Accueil France Info
       Rechercher une actualité Recherche
      
       Direct TV TV
       Direct radio Radio
       Le live Live
      
-      (BUTTON) Services
-           Newsletters (Nouvelle fenêtre)
-           Météo (Nouvelle fenêtre)
-           Jeux (Nouvelle fenêtre)
+      Services
+           Newsletters
+           Météo
+           Jeux
            Scolarité
      
-      (BUTTON) Mon franceinfo
+      Mon franceinfo
            Transparence
            Nous contacter
            Se connecter
            S'inscrire
       Accueil culture
      
-      (BUTTON) Menu culture
+      Menu culture
      
       Noël et fêtes de fin d'année
      
       franceinfo
-   France Info culture France Info culture (BUTTON)
+   France Info culture France Info culture
       franceinfo
       Accueil culture
    En ce moment
       Noël et fêtes de fin d'année
    Rubriques
-      (BUTTON) Musique
-      (BUTTON) Cinéma
-      (BUTTON) Séries
-      (BUTTON) Arts-Expos
-      (BUTTON) Spectacles
-      (BUTTON) Livres
-      (BUTTON) BD
-      (BUTTON) Mode
-      (BUTTON) Patrimoine
+      Musique
+      Cinéma
+      Séries
+      Arts-Expos
+      Spectacles
+      Livres
+      BD
+      Mode
+      Patrimoine
       Jeux vidéo
       Direct tvTV
       Direct radioRadio
       Le liveLive
-      (BUTTON) Services
-      (BUTTON) Mon franceinfo
+      Services
+      Mon franceinfo
    Recevez l'essentiel de l'actualité et restez à jour avec nos newsletters
-   découvrir nos newsletters (Nouvelle fenêtre)
+   découvrir nos newsletters
    Continuez votre exploration
-      France 3 régions (nouvelle fenêtre)France 3 régions
-      Outremer la 1ère (nouvelle fenêtre)Outremer la 1ère
-      (BUTTON) france TVfrance TV
-      (BUTTON) radio franceradio france
-   (BUTTON) Services Services
-      Newsletters (nouvelle fenêtre)Newsletters
-      Météo (nouvelle fenêtre)Météo
-      Jeux (nouvelle fenêtre)Jeux
+      France 3 régionsFrance 3 régions
+      Outremer la 1èreOutremer la 1ère
+      france TVfrance TV
+      radio franceradio france
+   Services Services
+      NewslettersNewsletters
+      MétéoMétéo
+      JeuxJeux
       Scolarité
-   (BUTTON) Mon franceinfo Mon franceinfo
+   Mon franceinfo Mon franceinfo
       Transparence
       Nous contacter
       Se connecter
       S'inscrire
-   (BUTTON) Musique Musique
+   Musique Musique
    voir toute l'actu Musique
       Pop
       Rock
@@ -88,7 +88,7 @@
       Main Square festival 2018
       Les Francofolies
       Festivals d'été
-   (BUTTON) Cinéma Cinéma
+   Cinéma Cinéma
    voir toute l'actu Cinéma
       Sorties de films
       Documentaires
@@ -114,13 +114,13 @@
       James Bond
       Jean-Louis Trintignant
       Agnès Varda
-   (BUTTON) Séries Séries
+   Séries Séries
    voir toute l'actu Séries
       Netflix
       Emmy Awards
       "Game of Thrones"
       Télévision
-   (BUTTON) Arts-Expos Arts-Expos
+   Arts-Expos Arts-Expos
    voir toute l'actu Arts-Expos
       Peinture
       Art contemporain
@@ -139,7 +139,7 @@
       Mucem
       Pablo Picasso
       Banksy
-   (BUTTON) Spectacles Spectacles
+   Spectacles Spectacles
    voir toute l'actu Spectacles
       Théâtre
       Humour
@@ -149,7 +149,7 @@
       Les Molières
       Comédie-Française
       Opéra Garnier
-   (BUTTON) Livres Livres
+   Livres Livres
    voir toute l'actu Livres
       Romans
       Livres pour enfants
@@ -171,7 +171,7 @@
       J. K. Rowling
       Stephen King
       Christine Angot
-   (BUTTON) BD BD
+   BD BD
    voir toute l'actu BD
       Comics
       Mangas
@@ -185,7 +185,7 @@
       Joann Sfar
       Hergé
       Goscinny
-   (BUTTON) Mode Mode
+   Mode Mode
    voir toute l'actu Mode
       Street wear
       Créateurs
@@ -199,7 +199,7 @@
       Christian Dior
       Balmain
       Musée des arts décoratifs
-   (BUTTON) Patrimoine Patrimoine
+   Patrimoine Patrimoine
    voir toute l'actu Patrimoine
       Histoire
       Archéologie
@@ -208,30 +208,30 @@
       Francophonie
       Chateau de Versailles
       Cuisine et Gastronomie
-   (BUTTON) france TV france TV
-   france TV (Nouvelle fenêtre)
-      France 2 (nouvelle fenêtre)France 2
-      France 3 (nouvelle fenêtre)France 3
-      France 4 (nouvelle fenêtre)France 4
-      France 5 (nouvelle fenêtre)France 5
-      Lumni (nouvelle fenêtre)Lumni
-      Okoo (nouvelle fenêtre)Okoo
-      France tv & vous (nouvelle fenêtre)France tv & vous
-      France tv le club (nouvelle fenêtre)France tv le club
-      France tv lab (nouvelle fenêtre)France tv lab
-      Les Médiateurs (nouvelle fenêtre)Les Médiateurs
-   (BUTTON) radio france radio france
-   radio france (Nouvelle fenêtre)
-      France Inter (nouvelle fenêtre)France Inter
-      France Bleu (nouvelle fenêtre)France Bleu
-      France Culture (nouvelle fenêtre)France Culture
-      France Musique (nouvelle fenêtre)France Musique
-      Fip (nouvelle fenêtre)Fip
-      Mouv' (nouvelle fenêtre)Mouv'
-      Maison de la Radio et de la Musique (nouvelle fenêtre)Maison de la Radio et de la Musique
-      La Médiatrice (nouvelle fenêtre)La Médiatrice
+   france TV france TV
+   france TV
+      France 2France 2
+      France 3France 3
+      France 4France 4
+      France 5France 5
+      LumniLumni
+      OkooOkoo
+      France tv & vousFrance tv & vous
+      France tv le clubFrance tv le club
+      France tv labFrance tv lab
+      Les MédiateursLes Médiateurs
+   radio france radio france
+   radio france
+      France InterFrance Inter
+      France BleuFrance Bleu
+      France CultureFrance Culture
+      France MusiqueFrance Musique
+      FipFip
+      Mouv'Mouv'
+      Maison de la Radio et de la MusiqueMaison de la Radio et de la Musique
+      La MédiatriceLa Médiatrice
    Flash info
-   (BUTTON) Fermer la notification
+   Fermer la notification
    lire l'article
 Gastronomie : la douceur et la rondeur de la fourme d'Ambert
    Publié le 16/11/2024 15:00
@@ -243,7 +243,7 @@ Gastronomie : la douceur et la rondeur de la fourme d'Ambert
    JT de 13h
    Édition du samedi 16 novembre 2024
    À ne pas confondre avec le Roquefort, la fourme d'Ambert est un fromage crémeux et persillé, particulièrement difficile à fabriquer. Reportage dans le Puy-de-Dôme.
-   Avec sa pâte persillée au goût subtil, la fourme d’Ambert surprend par sa douceur. Elle est fabriquée avec du lait de vaches, qui pâturent à plus de 600 mètres à Ambert (Puy-de-Dôme). C’est
+   Avec sa pâte persillée au goût subtil, la fourme d’Ambert surprend par sa douceur. Elle est fabriquée avec du lait de vaches, qui pâturent à plus de 600 mètres à Ambert. C’est
    l’altitude minimale pour respecter l’appellation d’origine contrôlée. Dans la ferme des Rodary, les 85 vaches laitières vont et viennent à leur guise, nuit et jour. Une attention particulière
    est portée à leur nourriture. "On est à 80% d’herbe sèche, ou pâturée à la période estivale", explique Patrick Rotary. Les vaches se font masser le dos et sont traitées à la demande.
 L’un des fromages les plus difficiles à fabriquer
@@ -256,40 +256,40 @@ L’un des fromages les plus difficiles à fabriquer
    Lancez la conversation
    commenter
    Partager : l’article sur les réseaux sociaux
-      (BUTTON) Partagez sur twitter (nouvel onglet) (Nouvelle fenêtre)
-      (BUTTON) Partagez sur whatsApp (nouvel onglet) (Nouvelle fenêtre)
-      (BUTTON) Partagez sur facebook (nouvel onglet) (Nouvelle fenêtre)
-      (BUTTON) Partagez par email (Nouvelle fenêtre)
-      (BUTTON) Partagez (Nouvelle fenêtre)
+      Partagez sur twitter
+      Partagez sur whatsApp
+      Partagez sur facebook
+      Partagez par email
+      Partagez
    les mots-clés associés à cet article
       Cuisine et Gastronomie
       Culture
    Les temps forts de l'émission
-   (BUTTON) passer cette liste
-   (BUTTON) Afficher les liens précédents (BUTTON) Afficher les liens suivants
-      Leïla Kaddour (FRANCE 2) Leïla Kaddour (FRANCE 2) video video
+   passer cette liste
+   Afficher les liens précédents Afficher les liens suivants
+      Leïla Kaddour Leïla Kaddour video video
        JT de 13h du samedi 16 novembre 2024
        Présenté par Leïla Kaddour
        Diffusé le 16/11 20min
-      Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ? (France 2) Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ? (France 2)
+      Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ? Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ?
        video video : Vidéo
        : Vidéo
        Prix de l’immobilier : quelles conséquences après la hausse des frais de notaire ?
-      Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et Vladimir Poutine (France 2) Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et
-       Vladimir Poutine (France 2) video video
+      Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et Vladimir Poutine Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et
+       Vladimir Poutine video video
        Guerre en Ukraine : polémique après une reprise de contact entre Olaf Scholz et Vladimir Poutine
-      Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges (France 2) Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges
-       (France 2) video video : Vidéo
+      Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges
+       video video : Vidéo
        : Vidéo
        Haute-Vienne : hommage à Jean-Marc Chatard, le cycliste tué par un chauffard à Limoges
-      Enchères : un dinosaure géant en vente dans les Yvelines (France 2) Enchères : un dinosaure géant en vente dans les Yvelines (France 2) video video
+      Enchères : un dinosaure géant en vente dans les Yvelines Enchères : un dinosaure géant en vente dans les Yvelines video video
        Enchères : un dinosaure géant en vente dans les Yvelines
-      Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture (France 2) Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture
-       (France 2) video video
+      Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture
+       video video
        Notre-Dame de Paris : dernières retouches aux tenues des prêtres avant la réouverture
-      Procès des assistants parlementaires du FN : la riposte de Marine Le Pen (France 2) Procès des assistants parlementaires du FN : la riposte de Marine Le Pen (France 2) video video
+      Procès des assistants parlementaires du FN : la riposte de Marine Le Pen Procès des assistants parlementaires du FN : la riposte de Marine Le Pen video video
        Procès des assistants parlementaires du FN : la riposte de Marine Le Pen
-      Eurovision Junior : Titouan, le candidat français, est prêt pour le concours (France 2) Eurovision Junior : Titouan, le candidat français, est prêt pour le concours (France 2) video video
+      Eurovision Junior : Titouan, le candidat français, est prêt pour le concours Eurovision Junior : Titouan, le candidat français, est prêt pour le concours video video
        : Vidéo
        : Vidéo
        Eurovision Junior : Titouan, le candidat français, est prêt pour le concours
@@ -322,18 +322,18 @@ L’un des fromages les plus difficiles à fabriquer
        Julien Benedetto
    Le médiateur de l'info France Télévisions
    Adressez vos remarques à Jérôme Cathala
-   contactez-nous ! (Nouvelle fenêtre)
+   contactez-nous !
    contenus sponsorisés
    Lancez la conversation
    Connectez-vous à votre compte franceinfo pour commenter.
-   (BUTTON) se connecter (BUTTON) créer votre compte
+   se connecter créer votre compte
    Découvrez l’application France Info
    Toute l’actu en direct et en continu, où et quand vous voulez.
       Sauvegardez vos articles à lire plus tard
       Recevez les alertes uniquement sur ce qui vous intéresse
       Télécharger dans l'App Store Télécharger dans l'App Store
       Disponible sur Google Play Disponible sur Google Play
-   Télécharger l'application (Nouvelle fenêtre)
+   Télécharger l'application
     1. Accueil
     2. Culture
     3. Cuisine et Gastronomie
@@ -341,17 +341,17 @@ L’un des fromages les plus difficiles à fabriquer
    :toute l’actu dès 7h30
    Votre adresse e-mail
    
-   (BUTTON) s'inscrire
+   s'inscrire
    Merci ! Votre inscription est bien prise en compte.
    France Télévisions utilise votre adresse e-mail afin de vous adresser des newsletters.
    Pour exercer vos droits, contactez-nous.
    Notre politique de confidentialité
    Suivez-nous sur les réseaux sociaux :
-      France Info sur Facebook (Nouvelle fenêtre)
-      France Info sur X, anciennement Twitter (Nouvelle fenêtre)
-      France Info sur Instagram (Nouvelle fenêtre)
-      France Info sur Youtube (Nouvelle fenêtre)
-      France Info sur Tiktok (Nouvelle fenêtre)
+      France Info sur Facebook
+      France Info sur X, anciennement Twitter
+      France Info sur Instagram
+      France Info sur Youtube
+      France Info sur Tiktok
    Accueil France Info
    Suivez l'actualité en direct :
       le live
@@ -359,7 +359,7 @@ L’un des fromages les plus difficiles à fabriquer
       direct radio
    Retrouvez aussi
    La météo Les jeux
-      Politique de confidentialité (Nouvelle fenêtre)
+      Politique de confidentialité
       CGU et mentions légales
       Gérer mes traceurs
       Plan du site
@@ -368,14 +368,14 @@ L’un des fromages les plus difficiles à fabriquer
       Charte déontologique
       Charte du Live
       Assistant vocal
-      Devenir annonceur (Nouvelle fenêtre)
-      Recrutement (Nouvelle fenêtre)
+      Devenir annonceur
+      Recrutement
    L’application France Info
-   (BUTTON) Fermer la notification
+   Fermer la notification
    Tout France Info, et bien plus. Sauvegardez vos articles à lire plus tard et filtrer l’actualité qui vous intéresse
-   Télécharger l’application (Nouvelle fenêtre)
-   (BUTTON) Fermer la fenêtre d’activation des notifications France Info
+   Télécharger l’application
+   Fermer la fenêtre d’activation des notifications France Info
    Activez les notifications franceinfo et ne manquez rien de l’actualité
    Vous pouvez changer d’avis à tout moment dans les réglages de votre navigateur.
-   (BUTTON) plus tard
-   (BUTTON) activer
+   plus tard
+   activer

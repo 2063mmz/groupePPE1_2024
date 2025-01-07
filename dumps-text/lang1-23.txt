@@ -1,17 +1,17 @@
    #Flux RSS pour capital.fr
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-WKQXL3P
    Aller au contenu
-   (BUTTON)
+  
    Menu
    Visuel du magazine Capital Lire le magazine
    Capital 1^er site économique de France
-   (BUTTON) Avatar Me connecter Je m'abonne
-      (BUTTON) Mon profil
+   Avatar Me connecter Je m'abonne
+      Mon profil
       Mes préférences de communication
       Mes articles sauvegardés
       Mes sujets suivis
       Mes magazines
-      (BUTTON) Déconnexion
+      Déconnexion
    Newsletters Podcasts Vidéos
       Fil d'infos
       Économie et Société
@@ -26,7 +26,7 @@
       Lifestyle
       2025 : ce qui change
       Pionnières du business
-    (BUTTON) Rechercher sur le site
+    Rechercher sur le site
    Fil d'infos
       Économie et Société
       Business
@@ -47,20 +47,20 @@ Arrêt maladie : cette solution pour reprendre le travail en douceur séduit de 
    En 2023, l'Assurance Maladie a versé près de 10,2 milliards d'euros d'indemnités au titre des arrêts maladie. Les dépenses liées au mi-temps thérapeutique, qui ne cesse d’attirer davantage de
    travailleurs, explosent depuis la crise sanitaire.
    © POLE ECO / Freepik
-   (BUTTON)
+  
    Charlotte Rousset
    Par Charlotte Rousset Journaliste au pôle serviciel de Capital.fr dans les rubriques emploi, droit du travail, actualités générales Publié le 17/12/2024 à 18h00, modifié le 18/12/2024 à 23h07
-      (BUTTON) Sauvegarder (BUTTON) Sauvegardé
-      (BUTTON) Partager
-           (BUTTON) Partager cet article sur Facebook
-           (BUTTON) Partager cet article sur X
-           (BUTTON) Partager cet article sur Linkedin
-           (BUTTON) Copier le lien dans le presse-papier https://www.capital.
+      Sauvegarder Sauvegardé
+      Partager
+           Partager cet article sur Facebook
+           Partager cet article sur X
+           Partager cet article sur Linkedin
+           Copier le lien dans le presse-papier https://www.capital.
             Copier le lien Lien copié
    Recevoir les alertes Arrêt maladie
-   Le temps partiel thérapeutique (TPT), plus communément appelé «mi-temps thérapeutique», séduit de plus en plus de Français en convalescence. C’est le constat dressé par la Direction de la
-   recherche, des études, de l’évaluation et des statistiques (Drees) dans son dernier rapport publié le 13 décembre. Pour rappel, ce dispositif permet de reprendre le travail de manière
-   progressive pendant un arrêt maladie, tout en continuant de percevoir des indemnités journalières (IJ). Contrairement à ce que son nom suggère, le TPT ne se limite pas à un mi-temps strict,
+   Le temps partiel thérapeutique, plus communément appelé «mi-temps thérapeutique», séduit de plus en plus de Français en convalescence. C’est le constat dressé par la Direction de la
+   recherche, des études, de l’évaluation et des statistiques dans son dernier rapport publié le 13 décembre. Pour rappel, ce dispositif permet de reprendre le travail de manière
+   progressive pendant un arrêt maladie, tout en continuant de percevoir des indemnités journalières. Contrairement à ce que son nom suggère, le TPT ne se limite pas à un mi-temps strict,
    l’activité pouvant varier de 50% à 90% du temps de travail habituel.
    C’est le choix qu’a fait Garance. Cette francilienne a bénéficié du TPT pendant deux ans, après un problème de santé : «Cela m'a permis d'avoir des horaires adaptés pour mes soins le matin,
    tout en gardant un pied dans l'entreprise l'après-midi.» Un compromis gagnant-gagnant : le salarié reprend son activité en douceur tout en restant rémunéré, et l’employeur conserve un
@@ -71,11 +71,11 @@ Arrêt maladie : cette solution pour reprendre le travail en douceur séduit de 
    environ 220 000 en 2023. Plusieurs raisons à cet engouement : d’abord, l’essor du télétravail pendant la crise sanitaire, qui a rendu le mi-temps plus accessible pour les métiers de bureau.
    Mais aussi plusieurs assouplissements intervenus avant le Covid qui ont facilité l’accès au temps partiel thérapeutique. Et qui dit plus de bénéficiaires, dit mécaniquement une facture plus
    salée pour l’Assurance maladie. En 2023, les dépenses liées au mi-temps thérapeutique ont ainsi atteint 792,9 millions d’euros, contre 514,7 millions en 2019. En clair, en seulement quatre
-   ans, la note a bondi de moitié (54%), soit une hausse annuelle moyenne de 11,4%. Pour autant, le coût du mi-temps thérapeutique reste relativement limité pour la Sécurité sociale : il ne
+   ans, la note a bondi de moitié, soit une hausse annuelle moyenne de 11,4%. Pour autant, le coût du mi-temps thérapeutique reste relativement limité pour la Sécurité sociale : il ne
    représentait que 7,8% des 10,2 milliards d’euros d’indemnités journalières versées en 2023.
 Le mi-temps thérapeutique, une piste d’économies ?
    Loin de creuser à lui seul le fameux «trou de la Sécu», ce dispositif pourrait même permettre de le combler. Dans les Echos en septembre dernier, Thomas Fâtome, directeur général de la Caisse
-   nationale d’assurance maladie (Cnam), plaidait pour un recours accru à ce dispositif afin de réduire la facture des arrêts maladie. Pour ce faire, la Cnam envisage de «contacter tous les
+   nationale d’assurance maladie, plaidait pour un recours accru à ce dispositif afin de réduire la facture des arrêts maladie. Pour ce faire, la Cnam envisage de «contacter tous les
    assurés qui ont un arrêt de plus de dix-huit mois pour faire le point sur leur situation, afin de voir si leur arrêt est justifié, s’il y a une reprise d’activité enclenchée, et discuter
    éventuellement de la mise en place d’un mi-temps thérapeutique quand la situation le permet». Une manière de faire revenir à l’emploi ces travailleurs en arrêt maladie longue durée… Et de
    partager la note avec leur employeur.
@@ -160,12 +160,12 @@ Pour aller plus loin
    le premier mois puis 3,90€/mois sans engagement
    J'en profite
    Connexion à Prisma Connect
-   (BUTTON) Fermer
+   Fermer
       Conditions générales d'utilisation
       Charte pour la protection des données
       Publicité
       La rédaction
-      (BUTTON) Paramétrez vos cookies
+      Paramétrez vos cookies
       Mentions légales
       Demande d’utilisation de nos contenus
       Contact

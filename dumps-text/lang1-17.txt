@@ -30,9 +30,9 @@
       Bourse
      
    Votre carte bancaire arrive à expiration. Cliquez ici pour la mettre à jour et continuer à profiter de votre abonnement.
-   Mettre à jour (BUTTON)
+   Mettre à jour
    Votre carte bancaire a expiré. Sans action de votre part, votre abonnement risque d’être interrompu et vous perdrez tous vos avantages.
-   Mettre à jour (BUTTON)
+   Mettre à jour
       Accueil
       Actu
       Société
@@ -51,7 +51,7 @@ Garage Pruvost : un redémarrage en douceur !
    Deux mois de fermeture de l’atelier de réparation, une vente quasi nulle de carburant, aucune vente de véhicule… Georges Pruvost explique "qu’il a épuisé toute sa trésorerie pendant la
    période de confinement. Aujourd’hui, on redémarre tout doucement, j’ai revendu ma première voiture hier et j’étais content", confie-t-il.
    Le garage est ouvert uniquement le matin, les clients prennent rendez-vous et des mesures draconiennes ont été mises en place pour respecter les règles imposées par l’état pour faire face à
-   la pandémie. "Un véhicule (ainsi que sa clef) qui vient en réparation devra impérativement être désinfecté à l’arrivée et avant la reprise par son propriétaire. Je ne pense pas que le retour
+   la pandémie. "Un véhicule qui vient en réparation devra impérativement être désinfecté à l’arrivée et avant la reprise par son propriétaire. Je ne pense pas que le retour
    à la normale se fera avant plusieurs mois, nous redémarrons en douceur", a conclu le garagiste rochefortais qui reste optimiste.
     Cet article est réservé aux abonnés
    Accédez immédiatement à cet article
@@ -66,7 +66,7 @@ Garage Pruvost : un redémarrage en douceur !
    Accédez immédiatement
    à cet article à partir de
    2,49€/mois
-   (BUTTON)
+  
    Déjà abonné(e) ? Connectez-vous
    
     Contenus illimités
@@ -96,15 +96,15 @@ Garage Pruvost : un redémarrage en douceur !
       3 Automobile. "Il n’y a plus d’argent sur les marchés européens" : Luca de Meo prévoit une hausse de 40 % de la voiture électrique en 2030
       4 Disparitions. Elle avait disparu en promenant son chien : Justine, 24 ans, retrouvée morte dans une bassine agricole, à côté d’un renard
       5 Disparitions. Disparitions inquiétantes : Magali et son fils de 8 ans, Naël, devaient se rendre à la montagne et ne donnent plus signe de vie
-      1 Justice. "Je suis tombée au front" : la justice administrative reconnaît le lien entre la maladie de Virginie et sa vaccination contre le Covid
+      1 Attentat à Charlie Hebdo. Dix ans après Charlie Hebdo et l'Hyper Cacher, la France rend hommage aux victimes des terribles attentats de janvier 2015
       2 Monde. Affaire Stormy Daniels : Donald Trump connaîtra sa peine dix jours avant son entrée à la Maison Blanche
       3 Sécurité. "Les personnes dangereuses sont mieux ici que dehors" : le préfet de l’Hérault en visite au CRA de Sète le soir du Réveillon
    À lire aussi de Société
-      1 Société. "Dix ans déjà…" une centaine de personnes réunies à Nîmes pour commémorer les attentats de Charlie Hebdo et de l’Hyper Cacher
-      2 Insolite. Interpellé pour avoir dérobé… 4 kg de truffes sur une exploitation du Gard grâce à son chien truffier
-      3 Social. Ligne Béziers-Neussargues : les cheminots de Béziers reconduisent la grève demain, mercredi 8 janvier
-      4 Urbanisme. L’ancien parking des halles, dans le centre-ville d’Agde, est en cours de destruction
-      5 Fêtes et festivals. "Mettre en avant les talents humoristiques de notre région" : #C, cette téléréalité gardoise aux airs de tremplin du Festival du rire
+      1 Société. Période de soldes ou pas, des boutiques ne tiennent que "grâce aux habitués" dans le centre-ville de Bagnols-sur-Cèze
+      2 Commerce. "Venir directement en boutique permet de faire travailler les petits commerces", les boutiques bagnolaises sont optimistes pour les soldes
+      3 Faits divers. Cinq Gardois, dont quatre mineurs, interpellés pour possession de stupéfiants
+      4 Faits divers. Le corps d’une femme retrouvé à demi calciné dans un cabanon d’une propriété du Gard
+      5 Société. "Dix ans déjà…" une centaine de personnes réunies à Nîmes pour commémorer les attentats de Charlie Hebdo et de l’Hyper Cacher
    
    À lire aussi de Rochefort-du-Gard
       1 Danse. Des cours de danse animés avec passion et énergie

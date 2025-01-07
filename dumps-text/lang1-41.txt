@@ -171,7 +171,7 @@ Musique : Airelle Besson, Louis Chedid… Cinq albums pour finir l’année tout
    américaine, The Old Country : ce chant d’exil écrit en 1923 est interprété avec une belle précision vocale et une sobriété instrumentale bienvenue.
    Witchcraft, de Shades, un CD Les ptits cailloux du chemin/Inouïes Distribution 19 €
 ► Pierre Génisson, clarinettiste langoureux
-   En 2023, Pierre Génisson honorait Mozart, en interprétant le Concerto pour clarinette de l’auteur de La Flûte enchantée dans son disque Mozart 1791 (Erato). Le brillant clarinettiste, dont le
+   En 2023, Pierre Génisson honorait Mozart, en interprétant le Concerto pour clarinette de l’auteur de La Flûte enchantée dans son disque Mozart 1791. Le brillant clarinettiste, dont le
    répertoire englobe le classique, la musique contemporaine, le jazz, le folk et le klezmer, a également travaillé en 2017 sur un album consacré à Benny Goodman, le « roi du swing ». À cette
    occasion, il collaborait pour la première fois avec le pianiste, chef d’orchestre et compositeur Bruno Fontaine, comme lui ancien élève du Conservatoire de Paris. Les deux musiciens se
    retrouvent avec de prestigieux invités pour un album qu’ils ont souhaité « intime et relaxant ».
@@ -189,7 +189,7 @@ Musique : Airelle Besson, Louis Chedid… Cinq albums pour finir l’année tout
    À lire aussiMatthieu Chedid et Thibault Cauvin : « Que nos deux guitares n’en fassent qu’une ! »
    Son nouveau disque Rêveur, Rêveur s’inscrit dans la veine de ces chansons tendres et profondes qui parlent de nous autant que de lui. Un tube à la mélodie fluide, Les Battements du cœur ouvre
    et referme ce disque qui porte également Je suis là, une réconfortante ballade, ou encore Mon âme et moi, au tempo dansant. Louis Chedid s’est entouré de talents, dont trois membres de la
-   famille, Emma et Anna (Nach) dans les chœurs, Matthieu (-M-) à la guitare et au banjo. Il choisit une fois de plus la ligne claire pour accompagner son temps.
+   famille, Emma et Anna dans les chœurs, Matthieu à la guitare et au banjo. Il choisit une fois de plus la ligne claire pour accompagner son temps.
    IFRAME: https://www.youtube.com/embed/QQy4biRB9PA?feature=oembed
    Rêveur, Rêveur, de Louis Chedid, un CD PIAS, 18 €
 ► L’hommage aux dieux de Fidel Fourneyron
@@ -234,7 +234,7 @@ Réagissez
    Le chant choral, clé de confiance et d’épanouissement pour les ados
    Le chant choral, clé de confiance et d’épanouissement pour les ados
    Voir plus d'articles
-   (BUTTON)
+  
    La Croix NUMÉRIQUE ESSENTIEL
    Footer banner mobile
    1€ le premier mois, sans engagement
@@ -248,20 +248,20 @@ Réagissez
    Footer banner desktop Footer banner desktop bubble
    À la Une
    Société
+      Justice : plusieurs influenceurs algériens arrêtés après des propos haineux sur TikTok
+      Charlie Hebdo, Montrouge, Hyper Cacher : dix ans après les attentats, la vie toujours en suspens des victimes
       Fin de vie : un urgentiste visé par une plainte pour euthanasie d’un homme porteur de trisomie 21
-      Attentats de « Charlie Hebdo » et de l’Hyper Cacher : revivez les commémorations
       PODCAST – Attentat de « Charlie Hebdo » : le mouvement « Je suis Charlie », depuis la ville des Ulis
-      Tempête Floriane : levée de la vigilance orange, encore 12 000 foyers privés d’électricité
    Monde
-      Désinformation : Meta met fin à son programme de fact-checking aux États-Unis
-      En Tunisie, la caricature en péril
-      L’Indonésie va offrir des millions de repas gratuits aux enfants et aux femmes enceintes
-      Canada : après 10 ans de Justin Trudeau, les conservateurs ultra favoris des législatives anticipées
+      Guerre en Ukraine, jour 1049 : ce qu’il faut retenir de la journée du mardi 7 janvier
+      Guerre au Proche-Orient, jour 459 : ce qu’il faut retenir de la situation du mardi 7 janvier
+      Annexion du Groenland, recours à la force contre le Canada… Trump multiplie les menaces
+      Chine : un puissant séisme fait au moins 126 morts au Tibet
    Religion
+      Rouen : une enquête ouverte après la découverte de tags antisémites à la synagogue
+      Véronique Margron : « Il était anormal qu’aucune femme n’ait ce niveau de responsabilité au Vatican »
       Entre Jean-Marie Le Pen et l’Église catholique, des relations houleuses
       De quoi la circoncision est-elle le symbole ?
-      Sous la pression du Vatican, Mgr Dominique Rey démissionne de sa charge d’évêque de Fréjus-Toulon
-      Caricatures : ce qu’en disent les trois grandes religions
    Économie
       Armement : une année record pour les exportations françaises en 2024
       SNCF : le prix des billets de TGV va augmenter de 1,5 % en 2025
@@ -291,16 +291,16 @@ L’actu à ne pas manquer
       Élections européennes 2024
       Élection présidentielle américaine 2024
       Tension Chine - États-Unis
-      Union européenne (UE)
+      Union européenne
       Organismes internationaux
       Personnalité politique
    Religion
       Pape François
       Vatican et Curie romaine
-      Synode sur la synodalité (2021/2024)
+      Synode sur la synodalité
       Santé du pape
       Démission du pape
-      Conclave (élection du pape)
+      Conclave
       Encyclique
       Fête religieuse catholique 2024
       Glossaire mots religieux
@@ -309,7 +309,7 @@ L’actu à ne pas manquer
       Dossiers spiritualité
    Économie
       Emploi et travail
-      Conjoncture (entreprise)
+      Conjoncture
       Consommation
       Pouvoir d’achat
       Inflation
@@ -334,9 +334,9 @@ L’actu à ne pas manquer
       Catastrophe et accident nucléaire
       Découverte et exploration de l'Espace
    Santé
-      Coronavirus (covid-19)
+      Coronavirus
       Cancer
-      Vaccin (vaccination)
+      Vaccin
       Épidémie et pandémie
       Drogue et addiction
       Virus
@@ -344,13 +344,13 @@ L’actu à ne pas manquer
       Sexualité
       Perturbateur endocrinien
       Corps humain
-      PMA (procréation médicalement assistée)
+      PMA
       Fin de vie
    Culture
       Livre, roman et BD
       Critique ciné, film et documentaire
       Prix littéraires 2024
-      Festival BD d'Angoulême 2024 (FIBD)
+      Festival BD d'Angoulême 2024
       Oscars 2024
       César du cinéma 2024
       Festival de Cannes 2024

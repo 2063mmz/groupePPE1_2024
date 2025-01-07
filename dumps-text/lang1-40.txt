@@ -1,19 +1,19 @@
     #Syndiquer tout le site alternate
    Rechercher :
-    (BUTTON)
+   
       EspacePresse
       Nous contacterContact
       Espace adhérent
       Accueil
-      (BUTTON)
-      (BUTTON)
-      Actualités (vous êtes ici)
+     
+     
+      Actualités
       Vos droits
       Agir
       Espace adhérent
       À propos de FO
       J’adhère maintenant !
-   (BUTTON)
+  
 Actualités
       Communiqués de FO
       Les éditoriaux du secrétaire général
@@ -42,10 +42,10 @@ Nous suivre :
       Espace Presse
       Nous contacter
       Espace adhérent
-   (BUTTON)
+  
    Trouver un contenu sur le site de Force Ouvrière ? C’est à vous :
    Rechercher :
-    (BUTTON)
+   
       Accueil
       Actualités
        La Vie devant soi : une douceur acidulée
@@ -55,7 +55,7 @@ Nous suivre :
    On ne présente plus Romain Gary, ni la fameuse anecdote qui entoure le prix Goncourt de La Vie devant soi. Pourtant, ce roman reste à découvrir à chaque génération.
    Les éditions Futuropolis nous en offrent une réédition illustrée dans laquelle les dessins de Manuel Fior apportent de la délicatesse grâce au camaïeu d’orangé et à un trait rapide, esquissé,
    qui fait penser à une photo sépia et aux souvenirs d’enfance.
-   C’est pour retrouver une certaine liberté d’expression que Romain Gary utilise un pseudonyme (Émile Ajar) afin d’écrire cette histoire et c’est un pari réussi : la façon dont Momo, le héros
+   C’est pour retrouver une certaine liberté d’expression que Romain Gary utilise un pseudonyme afin d’écrire cette histoire et c’est un pari réussi : la façon dont Momo, le héros
    du livre, s’exprime nous transporte dans son univers, mêlé d’enfance et de maturité, fantasque et réaliste, plein de personnages haut en couleur. Entre mots d’adultes entendus mais plus ou
    moins bien compris et expressions télescopées, parfois utilisées hors contexte, on découvre la vie quotidienne mais pas banale d’un enfant différent.
    C’est un livre de contraste, entre jeunesse et déchéance de l’âge, tristesse et joie de vivre, solitude et solidarité, candeur et ironie, entre le doux et l’amer. C’est une leçon d’amour
@@ -67,41 +67,42 @@ Nous suivre :
       Bande dessinée
    Partager cet article :
 Sur le même sujet
+   Idées
+﻿﻿Festival Pulp : à la Ferme, la BD à la croisée des arts
+   Pour sa 4^e édition, le Festival Pulp, montre du vendredi 21 au dimanche 23 avril, à Marne-la-Vallée, qu’il poursuit son ambition de croiser le neuvième art avec ses pairs,
+   dont cinéma et théâtre. Bref, « marier la bande dessinée aux arts de la scène et de l’image ».
    Culture
- La Planète des Riches : dans l’espace, on n’entend pas les pauvres crier
-   Des historiettes en BD sur la vie à bord d’un station-spatiale méga-luxe où les plus grandes fortunes du monde ont trouvé le moyen de littéralement ne pas être sur la même planète que le
-   commun des mortels.
-   Culture
- Au campo
-   Voilà un ouvrage qui, une fois n’est pas coutume, pourrait réconcilier les aficionados les plus puristes et les anti corrida les plus acharnés, traitant de ce sujet polémique avec humour.
-   Evénement culturel
-Terreur sur le CAC 40
-   Bandes dessinées : « Terreur sur le CAC 40 » se paye la fiole des hautes sphères
-   Culture
- La Planète des Riches. Vol. 2 : ça plane toujours pour eux
-   « La bourse et la vie », le second opus de la bande dessinée « La Planète des riches » vient de paraître. ce 6 juin. Et l’auteur a mis le booster pour ces nouvelles aventures des surfeurs
-   d’argent de l’espace, ghettoïsés dans leur bulle orbitale.
+ « Intraitable 1 et 2 »
+   Ces deux tomes d’un auteur sud-coréen constituent une plongée dans le combat syndical d’un homme face à un géant mondial français de la grande distribution dans le contexte d’une Corée
+   frappée de plein fouet par la crise financière.
+   Bande dessinée
+Le Château : du Sapin à l’Elysée
+   Vous avez-voulu voir le Quai d’Orsay ? Maintenant vous verrez l’Elysée… Après les outrances des Affaires étrangères illustrées par Christophe Blain, la vie du Château, croquée par Mathieu
+   Sapin, pourra paraître au premier abord paraître plus terne. Pourtant, cet album de BD fourmille de détails
+   Bande dessinée
+Luz : en avant la musique !
+   De Nirvana à Bashung en passant par la techno, le dessinateur de BD brosse avec « Alive » les concerts qui l’ont marqu
 Liens utiles
 Nos partenaires
-   GMF
-   OCIRP
-   Action Logement
    Macif
-   Groupe VYV
+   OCIRP
    ANCV
-   AG2R LA MONDIALE
-   Groupe Up
    Groupe Legrand
-   Technologia
-   Agefiph
-   L’Association Force Ouvrière Consommateurs
    Groupe AESIO
-   SYNCEA
+   Technologia
+   Groupe VYV
    KLESIA
+   Groupe Up
+   AG2R LA MONDIALE
+   GMF
+   Agefiph
+   Action Logement
    Malakoff Humanis
+   L’Association Force Ouvrière Consommateurs
+   SYNCEA
 force-ouvriere.fr
    Rechercher :
-    (BUTTON)
+   
       Qu’est-ce que FO ?
       Notre organisation
       Adhérer à FO
@@ -127,7 +128,7 @@ Nous suivre
 Notre Newsletter
     Je ne suis pas un robot
    Votre email
-    (BUTTON)
+   
    Veuillez laisser ce champ vide : 
    © Force Ouvrière 2025 — tous droits réservés
       Contactez FO

@@ -3,11 +3,11 @@
    ici, Aller à la page d'accueil
    Télévision
      
-   (BUTTON) Radio
+   Radio
      
-   (BUTTON) L’actu chez moi (BUTTON) Menu
-   (BUTTON)
-      (BUTTON) L’actu chez moi
+   L’actu chez moi Menu
+  
+      L’actu chez moi
       Radio musicale
       En ce moment
            Charlie Hebdo
@@ -27,8 +27,8 @@
            Recettes de saison
            Newsletters
    Mardi 7 janvier Fête des Raymond
-   (BUTTON) L’actu chez moi
-   (BUTTON) ⓘ Publicité
+   L’actu chez moi
+   ⓘ Publicité
    Société
 Moselle : des " boîtes à douceur " pour offrir un vrai noël aux plus précaires
    Moselle
@@ -47,8 +47,8 @@ Moselle : des " boîtes à douceur " pour offrir un vrai noël aux plus précair
    Céline Meriot du Secours Populaire et Julie Claude de Metz Mécènes Solidaires pour le lancement de l'opération " Boîtes à douceurs " © Radio France - Thomas Jeangeorge
    Pour offrir un vrai noël aux plus précaires.  Metz Mécènes Solidaires relance son opération " boîtes à douceurs ". C'est la cinquième édition, cette année et une vingtaine de bénévoles ont
    assemblé, ce jeudi 3 octobre, dans les locaux du Secours Populaire à Marly, les plus de 1200 cartons, vides pour le moment, qui ont été acheminés ensuite dans les entreprises, associations et
-   collectivités locales partenaires (40 en tout), où ils seront garnis de petits cadeaux.
-   (BUTTON) ⓘ Publicité
+   collectivités locales partenaires, où ils seront garnis de petits cadeaux.
+   ⓘ Publicité
    La livraison de ces boîtes à douceurs se fera juste avant les fêtes de fin d'année. Les bénéficiaires de six associations humanitaires mosellanes en profiteront avant Noël (Secours populaire,
    Secours catholique, Fondation Emmaüs, AIEM).
    Julie Glaude, la responsable de la communication de Metz Mécènes Solidaires, explique que l'opération cartonne ! il y a 2 ans, seulement 600 boîtes à douceur savaient été distribuées : " de
@@ -79,7 +79,7 @@ Sur le même sujet
    null
    Les boutiques de Metz pourront ouvrir les quatre dimanches de décembre.
 Moselle : l'info en continu
-   (BUTTON) (BUTTON)
+  
    10h45
    "On a peur pour notre maison" : un trottoir s'affaisse à Villerupt, le trou triple de taille en 48 heures
    9h02
@@ -88,148 +88,148 @@ Moselle : l'info en continu
    VIDÉO – « Avec le poids du corps, on peut tout faire » : le street workout, le sport en toute liberté
    3h56
    "Place de la Presse" : journalistes et dessinateurs à la rencontre du public
-   (BUTTON) ⓘ Publicité
+   ⓘ Publicité
    Votre radio
    Actu, musique et bonne humeur...
    Écoutez en direct la radio qui vous ressemble !
-   (BUTTON)
+  
    ici Lorraine
 Nous contacter
    Vous avez une question, une remarque, un témoignage ?
-   (BUTTON) Choisissez votre radio ici Lorraine sélectionné
-      (BUTTON) ici Alsace
-      (BUTTON) ici Armorique
-      (BUTTON) ici Auxerre
-      (BUTTON) ici Azur
-      (BUTTON) ici Béarn Bigorre
-      (BUTTON) ici Belfort-Montbéliard
-      (BUTTON) ici Berry
-      (BUTTON) ici Besançon
-      (BUTTON) ici Bourgogne
-      (BUTTON) ici Breizh Izel
-      (BUTTON) ici Champagne-Ardenne
-      (BUTTON) ici Cotentin
-      (BUTTON) ici Creuse
-      (BUTTON) ici Drôme Ardèche
-      (BUTTON) ici Elsass
-      (BUTTON) ici Gard Lozère
-      (BUTTON) ici Gascogne
-      (BUTTON) ici Gironde
-      (BUTTON) ici Hérault
-      (BUTTON) ici Isère
-      (BUTTON) ici La Rochelle
-      (BUTTON) ici Limousin
-      (BUTTON) ici Loire Océan
-      (BUTTON) ici Lorraine
-      (BUTTON) ici Maine
-      (BUTTON) ici Mayenne
-      (BUTTON) ici Nord
-      (BUTTON) ici Normandie (Calvados - Orne)
-      (BUTTON) ici Normandie (Seine-Maritime - Eure)
-      (BUTTON) ici Occitanie
-      (BUTTON) ici Orléans
-      (BUTTON) ici Paris Île-de-France
-      (BUTTON) ici Pays Basque
-      (BUTTON) ici Pays d'Auvergne
-      (BUTTON) ici Pays de Savoie
-      (BUTTON) ici Périgord
-      (BUTTON) ici Picardie
-      (BUTTON) ici Poitou
-      (BUTTON) ici Provence
-      (BUTTON) ici RCFM
-      (BUTTON) ici Roussillon
-      (BUTTON) ici Saint-Étienne Loire
-      (BUTTON) ici Sud Lorraine
-      (BUTTON) ici Touraine
-      (BUTTON) ici Vaucluse
+   Choisissez votre radio ici Lorraine sélectionné
+      ici Alsace
+      ici Armorique
+      ici Auxerre
+      ici Azur
+      ici Béarn Bigorre
+      ici Belfort-Montbéliard
+      ici Berry
+      ici Besançon
+      ici Bourgogne
+      ici Breizh Izel
+      ici Champagne-Ardenne
+      ici Cotentin
+      ici Creuse
+      ici Drôme Ardèche
+      ici Elsass
+      ici Gard Lozère
+      ici Gascogne
+      ici Gironde
+      ici Hérault
+      ici Isère
+      ici La Rochelle
+      ici Limousin
+      ici Loire Océan
+      ici Lorraine
+      ici Maine
+      ici Mayenne
+      ici Nord
+      ici Normandie
+      ici Normandie
+      ici Occitanie
+      ici Orléans
+      ici Paris Île-de-France
+      ici Pays Basque
+      ici Pays d'Auvergne
+      ici Pays de Savoie
+      ici Périgord
+      ici Picardie
+      ici Poitou
+      ici Provence
+      ici RCFM
+      ici Roussillon
+      ici Saint-Étienne Loire
+      ici Sud Lorraine
+      ici Touraine
+      ici Vaucluse
    Contacter ma radio
 Newsletter
    Retrouvez chaque soir lʼessentiel de lʼactualité du jour autour de chez vous.
-   Radio locale (obligatoire)
+   Radio locale
    
-   Adresse e-mail (obligatoire)
+   Adresse e-mail
    
    Exemple : nom@email.com
    En cliquant sur "M'abonner", j'accepte que les données recueillies par Radio France soient destinées à l'envoi par courrier électronique de contenus et d'informations relatifs aux programmes.
-   (BUTTON) Plus d'informations.
-   (BUTTON) M'abonner
+   Plus d'informations.
+   M'abonner
    Votre radio
    Actu, musique et bonne humeur...
    Écoutez en direct la radio qui vous ressemble !
-   (BUTTON)
+  
    ici Lorraine
-   (BUTTON) ⓘ Publicité
+   ⓘ Publicité
 Nous contacter
    Vous avez une question, une remarque, un témoignage ?
-   (BUTTON) Choisissez votre radio ici Lorraine sélectionné
-      (BUTTON) ici Alsace
-      (BUTTON) ici Armorique
-      (BUTTON) ici Auxerre
-      (BUTTON) ici Azur
-      (BUTTON) ici Béarn Bigorre
-      (BUTTON) ici Belfort-Montbéliard
-      (BUTTON) ici Berry
-      (BUTTON) ici Besançon
-      (BUTTON) ici Bourgogne
-      (BUTTON) ici Breizh Izel
-      (BUTTON) ici Champagne-Ardenne
-      (BUTTON) ici Cotentin
-      (BUTTON) ici Creuse
-      (BUTTON) ici Drôme Ardèche
-      (BUTTON) ici Elsass
-      (BUTTON) ici Gard Lozère
-      (BUTTON) ici Gascogne
-      (BUTTON) ici Gironde
-      (BUTTON) ici Hérault
-      (BUTTON) ici Isère
-      (BUTTON) ici La Rochelle
-      (BUTTON) ici Limousin
-      (BUTTON) ici Loire Océan
-      (BUTTON) ici Lorraine
-      (BUTTON) ici Maine
-      (BUTTON) ici Mayenne
-      (BUTTON) ici Nord
-      (BUTTON) ici Normandie (Calvados - Orne)
-      (BUTTON) ici Normandie (Seine-Maritime - Eure)
-      (BUTTON) ici Occitanie
-      (BUTTON) ici Orléans
-      (BUTTON) ici Paris Île-de-France
-      (BUTTON) ici Pays Basque
-      (BUTTON) ici Pays d'Auvergne
-      (BUTTON) ici Pays de Savoie
-      (BUTTON) ici Périgord
-      (BUTTON) ici Picardie
-      (BUTTON) ici Poitou
-      (BUTTON) ici Provence
-      (BUTTON) ici RCFM
-      (BUTTON) ici Roussillon
-      (BUTTON) ici Saint-Étienne Loire
-      (BUTTON) ici Sud Lorraine
-      (BUTTON) ici Touraine
-      (BUTTON) ici Vaucluse
+   Choisissez votre radio ici Lorraine sélectionné
+      ici Alsace
+      ici Armorique
+      ici Auxerre
+      ici Azur
+      ici Béarn Bigorre
+      ici Belfort-Montbéliard
+      ici Berry
+      ici Besançon
+      ici Bourgogne
+      ici Breizh Izel
+      ici Champagne-Ardenne
+      ici Cotentin
+      ici Creuse
+      ici Drôme Ardèche
+      ici Elsass
+      ici Gard Lozère
+      ici Gascogne
+      ici Gironde
+      ici Hérault
+      ici Isère
+      ici La Rochelle
+      ici Limousin
+      ici Loire Océan
+      ici Lorraine
+      ici Maine
+      ici Mayenne
+      ici Nord
+      ici Normandie
+      ici Normandie
+      ici Occitanie
+      ici Orléans
+      ici Paris Île-de-France
+      ici Pays Basque
+      ici Pays d'Auvergne
+      ici Pays de Savoie
+      ici Périgord
+      ici Picardie
+      ici Poitou
+      ici Provence
+      ici RCFM
+      ici Roussillon
+      ici Saint-Étienne Loire
+      ici Sud Lorraine
+      ici Touraine
+      ici Vaucluse
    Contacter ma radio
 Newsletter
    Retrouvez chaque soir lʼessentiel de lʼactualité du jour autour de chez vous.
-   Radio locale (obligatoire)
+   Radio locale
    
-   Adresse e-mail (obligatoire)
+   Adresse e-mail
    
    Exemple : nom@email.com
    En cliquant sur "M'abonner", j'accepte que les données recueillies par Radio France soient destinées à l'envoi par courrier électronique de contenus et d'informations relatifs aux programmes.
-   (BUTTON) Plus d'informations.
-   (BUTTON) M'abonner
-   (BUTTON) ⓘ Publicité
+   Plus d'informations.
+   M'abonner
+   ⓘ Publicité
     1. Accueil
     2. Grand Est
     3. Moselle
     4. Infos
     5. Société
     6. Moselle : des " boîtes à douceur " pour offrir un vrai noël aux plus précaires
-   (BUTTON) Retour en haut de page
+   Retour en haut de page
    ici
 Le média de la vie locale
    Découvrez toute l’actu près de chez vous
-   (BUTTON) Choisir ma région
+   Choisir ma région
       Auvergne-Rhône-Alpes
       Bourgogne-Franche-Comté
       Bretagne
@@ -261,7 +261,7 @@ Aide et contact
       Nous contacter
       Charte de modération
       Désabonnement push web
-      (BUTTON) Gestion des cookies
+      Gestion des cookies
       Médiatrice Radio France
       Médiateurs France Télévisions
       Communiqués de presse
@@ -286,7 +286,7 @@ Télécharger l’application mobile
       Accessibilité :  Partiellement conforme
    ici 2025 – Tous droits réservés
    undefined
-   (BUTTON)
-   (BUTTON)
+  
+  
    undefined
-   (BUTTON)
+  

@@ -16,7 +16,7 @@
    Bureaux
    Prendre rendez-vous
    Besoin d’aide?
-   (BUTTON) Ouvrir le menu Fermer le menu
+   Ouvrir le menu Fermer le menu
    Besoin d’aide?
    Clinique psychosociale de Montréal
    Accueil
@@ -32,7 +32,7 @@
    Blogue
    Bureaux
    Prendre rendez-vous
-   (BUTTON) Ouvrir le menu Fermer le menu
+   Ouvrir le menu Fermer le menu
    Accueil
    Dossier : Services
    Retour

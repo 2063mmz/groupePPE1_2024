@@ -3,11 +3,11 @@
    ici, Aller à la page d'accueil
    Télévision
      
-   (BUTTON) Radio
+   Radio
      
-   (BUTTON) L’actu chez moi (BUTTON) Menu
-   (BUTTON)
-      (BUTTON) L’actu chez moi
+   L’actu chez moi Menu
+  
+      L’actu chez moi
       Radio musicale
       En ce moment
            Mort de Jean-Marie Le Pen
@@ -27,8 +27,8 @@
            Recettes de saison
            Newsletters
    Mardi 7 janvier Fête des Raymond
-   (BUTTON) L’actu chez moi
-   (BUTTON) ⓘ Publicité
+   L’actu chez moi
+   ⓘ Publicité
    Environnement
 Douceur hivernale : en Vendée et en Loire-Atlantique, des fleurs et des chants d'oiseaux en plein mois de décembre
    Loire-Atlantique
@@ -48,7 +48,7 @@ Douceur hivernale : en Vendée et en Loire-Atlantique, des fleurs et des chants 
    Une primevère commune dans un parc de Nantes fin décembre. L'espèce n'est censée fleurir qu'à la fin de l'hiver. © Radio France - Zacharie Gaborit
    Avec les températures douces de ces derniers jours, vous voyez peut-être des plantes bourgeonner, fleurir autour de vous. Vous entendez peut-être des oiseaux qui chantent particulièrement
    fort dans les villes. La nature semble dire qu'"il n'y a plus de saisons".
-   (BUTTON) ⓘ Publicité
+   ⓘ Publicité
 En décembre, les plantes "ralentissent"
    Si le camélia est connu pour fleurir en hiver tout comme le mimosa, Joël Lemaître, pépiniériste et spécialiste du jardin à France Bleu Loire Océan, reconnaît qu'il y a en ce moment quelques
    fleurs qui apparaissent plus tôt que d'habitude. "On voit quelques petites jonquilles qui arrivent, tout dépend des secteurs géographiques et des microclimats. Il y a parfois des surprises",
@@ -61,7 +61,7 @@ Des nidifications parfois précoces
    La Loire-Atlantique et la Vendée font partie de ces départements côtiers, qui bénéficient d'un climat dit "océanique tempéré". Mais si la flore se porte bien, comment va la faune ? Le chant
    des oiseaux était particulièrement perceptible ces derniers jours en ville. "Les oiseaux pourraient nicher tôt, fin janvier ou début février. À ce moment-là, il y aurait un risque que les
    coups de froid occasionnels fassent échouer ces nidifications précoces", craint Guy Bourlès, président de la Ligue de protection des oiseaux de Loire-Atlantique. Parmi les oiseaux communs,
-   certains passereaux (moineaux, mésanges), particulièrement fragiles, peuvent ne pas résister à plusieurs nuits consécutives de températures négatives.
+   certains passereaux, particulièrement fragiles, peuvent ne pas résister à plusieurs nuits consécutives de températures négatives.
 L'exode rurale des oiseaux
    C'est notamment pour cette question de température que, paradoxalement, les oiseaux investissent de plus en plus les villes comme lieu d'habitat. "Depuis plusieurs dizaines d'année, certaines
    villes laissent davantage de place à la végétation, et n'emploient plus de pesticides. Enfin, sachant qu'il fait en moyenne 2°C de plus en ville, les oiseaux sont attirés, ce qui explique
@@ -88,7 +88,7 @@ Sur le même sujet
    null
    Un nouveau centre IVG a ouvert à la clinique Santé Atlantique de Saint-Herblain.
 Loire-Atlantique : l'info en continu
-   (BUTTON) (BUTTON)
+  
    11h35
    Quarante ans après sa mise en service, la ligne 1 du tramway de Nantes reste l'une des plus fréquentées de France
    6h00
@@ -97,148 +97,148 @@ Loire-Atlantique : l'info en continu
    Trignac perd un bout de son âme, l'une des trémies des forges va être détruite
    18h09
    Herbignac : un homme sans-abri de 65 ans meurt percuté par une voiture, la conductrice en état de choc
-   (BUTTON) ⓘ Publicité
+   ⓘ Publicité
    Votre radio
    Actu, musique et bonne humeur...
    Écoutez en direct la radio qui vous ressemble !
-   (BUTTON)
+  
    ici Loire Océan
 Nous contacter
    Vous avez une question, une remarque, un témoignage ?
-   (BUTTON) Choisissez votre radio ici Loire Océan sélectionné
-      (BUTTON) ici Alsace
-      (BUTTON) ici Armorique
-      (BUTTON) ici Auxerre
-      (BUTTON) ici Azur
-      (BUTTON) ici Béarn Bigorre
-      (BUTTON) ici Belfort-Montbéliard
-      (BUTTON) ici Berry
-      (BUTTON) ici Besançon
-      (BUTTON) ici Bourgogne
-      (BUTTON) ici Breizh Izel
-      (BUTTON) ici Champagne-Ardenne
-      (BUTTON) ici Cotentin
-      (BUTTON) ici Creuse
-      (BUTTON) ici Drôme Ardèche
-      (BUTTON) ici Elsass
-      (BUTTON) ici Gard Lozère
-      (BUTTON) ici Gascogne
-      (BUTTON) ici Gironde
-      (BUTTON) ici Hérault
-      (BUTTON) ici Isère
-      (BUTTON) ici La Rochelle
-      (BUTTON) ici Limousin
-      (BUTTON) ici Loire Océan
-      (BUTTON) ici Lorraine
-      (BUTTON) ici Maine
-      (BUTTON) ici Mayenne
-      (BUTTON) ici Nord
-      (BUTTON) ici Normandie (Calvados - Orne)
-      (BUTTON) ici Normandie (Seine-Maritime - Eure)
-      (BUTTON) ici Occitanie
-      (BUTTON) ici Orléans
-      (BUTTON) ici Paris Île-de-France
-      (BUTTON) ici Pays Basque
-      (BUTTON) ici Pays d'Auvergne
-      (BUTTON) ici Pays de Savoie
-      (BUTTON) ici Périgord
-      (BUTTON) ici Picardie
-      (BUTTON) ici Poitou
-      (BUTTON) ici Provence
-      (BUTTON) ici RCFM
-      (BUTTON) ici Roussillon
-      (BUTTON) ici Saint-Étienne Loire
-      (BUTTON) ici Sud Lorraine
-      (BUTTON) ici Touraine
-      (BUTTON) ici Vaucluse
+   Choisissez votre radio ici Loire Océan sélectionné
+      ici Alsace
+      ici Armorique
+      ici Auxerre
+      ici Azur
+      ici Béarn Bigorre
+      ici Belfort-Montbéliard
+      ici Berry
+      ici Besançon
+      ici Bourgogne
+      ici Breizh Izel
+      ici Champagne-Ardenne
+      ici Cotentin
+      ici Creuse
+      ici Drôme Ardèche
+      ici Elsass
+      ici Gard Lozère
+      ici Gascogne
+      ici Gironde
+      ici Hérault
+      ici Isère
+      ici La Rochelle
+      ici Limousin
+      ici Loire Océan
+      ici Lorraine
+      ici Maine
+      ici Mayenne
+      ici Nord
+      ici Normandie
+      ici Normandie
+      ici Occitanie
+      ici Orléans
+      ici Paris Île-de-France
+      ici Pays Basque
+      ici Pays d'Auvergne
+      ici Pays de Savoie
+      ici Périgord
+      ici Picardie
+      ici Poitou
+      ici Provence
+      ici RCFM
+      ici Roussillon
+      ici Saint-Étienne Loire
+      ici Sud Lorraine
+      ici Touraine
+      ici Vaucluse
    Contacter ma radio
 Newsletter
    Retrouvez chaque soir lʼessentiel de lʼactualité du jour autour de chez vous.
-   Radio locale (obligatoire)
+   Radio locale
    
-   Adresse e-mail (obligatoire)
+   Adresse e-mail
    
    Exemple : nom@email.com
    En cliquant sur "M'abonner", j'accepte que les données recueillies par Radio France soient destinées à l'envoi par courrier électronique de contenus et d'informations relatifs aux programmes.
-   (BUTTON) Plus d'informations.
-   (BUTTON) M'abonner
+   Plus d'informations.
+   M'abonner
    Votre radio
    Actu, musique et bonne humeur...
    Écoutez en direct la radio qui vous ressemble !
-   (BUTTON)
+  
    ici Loire Océan
-   (BUTTON) ⓘ Publicité
+   ⓘ Publicité
 Nous contacter
    Vous avez une question, une remarque, un témoignage ?
-   (BUTTON) Choisissez votre radio ici Loire Océan sélectionné
-      (BUTTON) ici Alsace
-      (BUTTON) ici Armorique
-      (BUTTON) ici Auxerre
-      (BUTTON) ici Azur
-      (BUTTON) ici Béarn Bigorre
-      (BUTTON) ici Belfort-Montbéliard
-      (BUTTON) ici Berry
-      (BUTTON) ici Besançon
-      (BUTTON) ici Bourgogne
-      (BUTTON) ici Breizh Izel
-      (BUTTON) ici Champagne-Ardenne
-      (BUTTON) ici Cotentin
-      (BUTTON) ici Creuse
-      (BUTTON) ici Drôme Ardèche
-      (BUTTON) ici Elsass
-      (BUTTON) ici Gard Lozère
-      (BUTTON) ici Gascogne
-      (BUTTON) ici Gironde
-      (BUTTON) ici Hérault
-      (BUTTON) ici Isère
-      (BUTTON) ici La Rochelle
-      (BUTTON) ici Limousin
-      (BUTTON) ici Loire Océan
-      (BUTTON) ici Lorraine
-      (BUTTON) ici Maine
-      (BUTTON) ici Mayenne
-      (BUTTON) ici Nord
-      (BUTTON) ici Normandie (Calvados - Orne)
-      (BUTTON) ici Normandie (Seine-Maritime - Eure)
-      (BUTTON) ici Occitanie
-      (BUTTON) ici Orléans
-      (BUTTON) ici Paris Île-de-France
-      (BUTTON) ici Pays Basque
-      (BUTTON) ici Pays d'Auvergne
-      (BUTTON) ici Pays de Savoie
-      (BUTTON) ici Périgord
-      (BUTTON) ici Picardie
-      (BUTTON) ici Poitou
-      (BUTTON) ici Provence
-      (BUTTON) ici RCFM
-      (BUTTON) ici Roussillon
-      (BUTTON) ici Saint-Étienne Loire
-      (BUTTON) ici Sud Lorraine
-      (BUTTON) ici Touraine
-      (BUTTON) ici Vaucluse
+   Choisissez votre radio ici Loire Océan sélectionné
+      ici Alsace
+      ici Armorique
+      ici Auxerre
+      ici Azur
+      ici Béarn Bigorre
+      ici Belfort-Montbéliard
+      ici Berry
+      ici Besançon
+      ici Bourgogne
+      ici Breizh Izel
+      ici Champagne-Ardenne
+      ici Cotentin
+      ici Creuse
+      ici Drôme Ardèche
+      ici Elsass
+      ici Gard Lozère
+      ici Gascogne
+      ici Gironde
+      ici Hérault
+      ici Isère
+      ici La Rochelle
+      ici Limousin
+      ici Loire Océan
+      ici Lorraine
+      ici Maine
+      ici Mayenne
+      ici Nord
+      ici Normandie
+      ici Normandie
+      ici Occitanie
+      ici Orléans
+      ici Paris Île-de-France
+      ici Pays Basque
+      ici Pays d'Auvergne
+      ici Pays de Savoie
+      ici Périgord
+      ici Picardie
+      ici Poitou
+      ici Provence
+      ici RCFM
+      ici Roussillon
+      ici Saint-Étienne Loire
+      ici Sud Lorraine
+      ici Touraine
+      ici Vaucluse
    Contacter ma radio
 Newsletter
    Retrouvez chaque soir lʼessentiel de lʼactualité du jour autour de chez vous.
-   Radio locale (obligatoire)
+   Radio locale
    
-   Adresse e-mail (obligatoire)
+   Adresse e-mail
    
    Exemple : nom@email.com
    En cliquant sur "M'abonner", j'accepte que les données recueillies par Radio France soient destinées à l'envoi par courrier électronique de contenus et d'informations relatifs aux programmes.
-   (BUTTON) Plus d'informations.
-   (BUTTON) M'abonner
-   (BUTTON) ⓘ Publicité
+   Plus d'informations.
+   M'abonner
+   ⓘ Publicité
     1. Accueil
     2. Pays de la Loire
     3. Loire-Atlantique
     4. Infos
     5. Environnement
     6. Douceur hivernale : en Vendée et en Loire-Atlantique, des fleurs et des chants d'oiseaux en plein mois de décembre
-   (BUTTON) Retour en haut de page
+   Retour en haut de page
    ici
 Le média de la vie locale
    Découvrez toute l’actu près de chez vous
-   (BUTTON) Choisir ma région
+   Choisir ma région
       Auvergne-Rhône-Alpes
       Bourgogne-Franche-Comté
       Bretagne
@@ -270,7 +270,7 @@ Aide et contact
       Nous contacter
       Charte de modération
       Désabonnement push web
-      (BUTTON) Gestion des cookies
+      Gestion des cookies
       Médiatrice Radio France
       Médiateurs France Télévisions
       Communiqués de presse
@@ -295,7 +295,7 @@ Télécharger l’application mobile
       Accessibilité :  Partiellement conforme
    ici 2025 – Tous droits réservés
    undefined
-   (BUTTON)
-   (BUTTON)
+  
+  
    undefined
-   (BUTTON)
+  

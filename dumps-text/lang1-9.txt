@@ -1,7 +1,7 @@
    #alternate alternate
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-WBRBHVQ
-   (BUTTON)
-   (BUTTON)
+  
+  
    Logo
    
 Tranche de vie
@@ -18,7 +18,7 @@ L’être humain a besoin de douceur
    j’étais. Des déceptions amoureuses adolescentes. Des deuils. Une dépression jamais soignée au début de l’âge adulte. Une propension génétique à l’angoisse, aux peurs qui gonflent et
    s’emballent et creusent des chemins pour mieux revenir hanter leur hôte. Une estime personnelle bringuebalante.
    Et, depuis des années, une relation amoureuse qui n’en était plus une, qui se nourrissait aux critiques et aux reproches. J’avais dit au père de mes enfants : ça me casse. Tes blâmes et ta
-   foudre verbale me brisent. Ça ne se recolle pas… Il n’était pas capable de m’aimer autrement, faut croire. (Je n’étais peut-être pas assez aimable, en étais-je venue à penser.) Juste avant
+   foudre verbale me brisent. Ça ne se recolle pas… Il n’était pas capable de m’aimer autrement, faut croire. Juste avant
    que je ne m’extirpe de cette relation, j’avais le dedans des joues qui goûtait amer. J’étais comme une plante qu’on a oublié d’arroser. Dont la sève est devenue toxique.
    L’être humain a besoin de douceur.
    Publicité
@@ -61,5 +61,5 @@ L’être humain a besoin de douceur
    Voir tout
    Publicité
    Publicité
-   (BUTTON)
-   (BUTTON) (BUTTON) Fermer
+  
+   Fermer

@@ -1,8 +1,8 @@
    #À la Une de 20minutes.fr
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-TPVF9CB
-   (BUTTON)
+  
    MenuRecherche
-   (BUTTON)
+  
    Ok 
    Calendrier de l'avent
    20 Minutes TV
@@ -85,9 +85,9 @@
    Mo Salah égale le record de buts de Thierry Henry en Premier League
    PHARAON
    Mo Salah égale le record de buts de Thierry Henry en Premier League
-   André Ayew « ému et touché » par l’ovation du Vélodrome (malgré son but)
+   André Ayew « ému et touché » par l’ovation du Vélodrome
    HOMMAGE
-   André Ayew « ému et touché » par l’ovation du Vélodrome (malgré son but)
+   André Ayew « ému et touché » par l’ovation du Vélodrome
    Tempo
    Tempo
    Food
@@ -196,8 +196,8 @@
    Jeux de chiffres
    Jeux Inclassables
    Quiz et jeux concours
-   Le mot du jour (wordle en français)
-   Le mot du jour (wordle en français)
+   Le mot du jour
+   Le mot du jour
    Mots fléchés
    Mots fléchés
    Mots croisés
@@ -244,9 +244,9 @@
    Magazine
    Programme TV
    Programme TV
-   (BUTTON)
+  
    Faites AhhhhhhhLe CHU promet des soins dentaires « sans douleur » avec un nouvel outil
-   (BUTTON)
+  
    Calendrier de l'avent
    20' TV
    Jeux
@@ -254,19 +254,19 @@
    Vidéos
    Podcasts
    En images
-   (BUTTON)
+  
    Dans l'actu
    Tempête FlorianeGuerre en UkraineCyclone à MayotteAttaque à la Nouvelle-Orléans et à Las Vegas
    Voir toutes les actus
    À la Une
-   (BUTTON)
+  
    Le direct
    Le direct
    Les  lus
    Les  partagés
    Les  commentés
    Dans l'actu
-   (BUTTON)
+  
    Actualité
    Conflit israélo-palestinienElections européennes 2024Guerre en Ukraine
    Actualité
@@ -282,7 +282,7 @@
    Les enquêtes de 20 Minutes
    Rappel de produit
    Résultats élections
-   (BUTTON)
+  
    Régions
    Régions
    Paris
@@ -296,7 +296,7 @@
    Strasbourg
    Montpellier
    Nice
-   (BUTTON)
+  
    Divertissement
    Eurovision 2025
    Divertissement
@@ -312,7 +312,7 @@
    Musique
    Loisirs
    Programme TV
-   (BUTTON)
+  
    Sport
    Euro 2024JO Paris 2024Ligue 1Roland-GarrosTour de France
    Sport
@@ -327,14 +327,14 @@
    Mercato
    Live score
    JO 2024
-   (BUTTON)
+  
    Tempo
    Tempo
    Food
    Style
    Bien-être
    Escapade
-   (BUTTON)
+  
    High-Tech
    Tik Tech
    High-Tech
@@ -348,7 +348,7 @@
    Méta
    Apple
    20 Mint
-   (BUTTON)
+  
    Planète
    Planète
    Environnement
@@ -356,7 +356,7 @@
    Animaux
    Écologie
    Météo
-   (BUTTON)
+  
    Vie Pro
    avec
    Sponsorisation Vie Pro par Actual
@@ -366,12 +366,12 @@
    Vie de bureau
    Entrepreneuriat
    Reconversion professionnelle
-   (BUTTON)
+  
    Conso
    Conso
    Nos comparatifs
    Rappel de produit
-   (BUTTON)
+  
    Guide d'achat
    Guide d'achat
    Bons plans
@@ -381,7 +381,7 @@
    Maison
    Loisirs
    Codes promo
-   (BUTTON)
+  
    Jeux
    Jeux
    Le mot du jour
@@ -412,7 +412,7 @@
    Hashi
    Crypto
    Camping
-   (BUTTON)
+  
    Services
    Services
    Journal numérique
@@ -436,13 +436,13 @@ Le MIH, cette maladie qui s’attaque aux dents des enfants et ne se soigne pas
 Manuelle ou électrique, au final quelle est la meilleure brosse à dents ?
    Le coût de la rentrée universitaire devient « insurmontable » pour la Fage
 Le coût de la rentrée universitaire devient « insurmontable » pour la Fage
-   (BUTTON)
-   (BUTTON)
+  
+  
    Actualité
    Santé
    VaccinationMédecineEuthanasieHôpitalMédecinMaladie
-   (BUTTON)
-   (BUTTON)
+  
+  
 Rennes : « Tout se passe en douceur »… Le CHU promet des soins dentaires sans douleur
    Faites Ahhhhhhh•Un nouvel outil d’anesthésie a été acquis par le CHU de Rennes, se révélant particulièrement utile pour les enfants
    Un « stylo magique » a été mis au point pour permettre une anesthésie moins douloureuse et plus rapide pour les patients des dentistes.
@@ -457,12 +457,12 @@ Rennes : « Tout se passe en douceur »… Le CHU promet des soins dentaires san
    pratique d’endormissement de la zone à traiter passe presque tout le temps par l’injection d’un produit au moyen d’une aiguille. Certains en ont la phobie. Et d’autres n’apprécient guère de
    sentir leur gencive être percée. On ne parle même pas des enfants qui en profitent pour mordre le dentiste.
    A Rennes, le CHU vient d’acquérir un nouvel outil censé permettre de réduire les douleurs et l’inconfort liés à l’anesthésie traditionnelle. Le centre de Soins dentaires du centre hospitalier
-   vient de recevoir des stylos électroniques de la gamme « QuickSleeper » (endormissement rapide en français) avec la promesse d’une anesthésie « rapide et en douceur ». Une sorte de « stylo
+   vient de recevoir des stylos électroniques de la gamme « QuickSleeper » avec la promesse d’une anesthésie « rapide et en douceur ». Une sorte de « stylo
    magique » mis au point par la société du Maine-et-Loire Dentalhitec. « Tout se passe en douceur pour réduire la douleur et le stress souvent associés à ces soins », promet l’établissement
    hospitalier. Une étude comparative publiée sur un site spécialisé confirme que la majorité des patients préfèrent cette technique.
 Moins de rendez-vous à prévoir ?
    Le site spécialisé Dentaire365 destiné aux professionnels du secteur a listé quelques avantages de ce nouvel outil : moins de stress pour le praticien, mais surtout moins d’attente, une
-   injection qui permet d’anesthésier entre une et six dents et un confort pour les enfants, avec un risque limité de morsure. En étant plus rapide (quelques secondes suffisent), l’injection
+   injection qui permet d’anesthésier entre une et six dents et un confort pour les enfants, avec un risque limité de morsure. En étant plus rapide, l’injection
    dite « intra-osseuse » est aussi plus rentable. Le nombre de rendez-vous par patient peut ainsi être réduit.
    IFRAME: https://www.ultimedia.com/deliver/generic/iframe/mdtk/01357940/zone/1/src/x30zm33/showtitle/1/
    Cette technologie financée par le fonds Nominoë qui semble ravir les praticiens. La présidente du fonds de dotation, également directrice du CHU, rappelle que l’établissement veut continuer
@@ -476,9 +476,9 @@ Un pas vers le remboursement des implants dentaires par la Sécu
 Les soins alternatifs pour les douleurs d’endométriose sont-ils remboursés ?
    Les soins alternatifs pour les douleurs d’endométriose sont-ils remboursés ?
    SantéRennesIlle-et-VilaineBretagneCHUHôpitalDentisteEnfantDouleur
-   (BUTTON)
-   (BUTTON)
-   (BUTTON) Les  lus (BUTTON) Les  lus Santé
+  
+  
+   Les  lus Les  lus Santé
    1
    Live
    live
@@ -528,8 +528,8 @@ L’extrême droite aux portes du pouvoir en Autriche
    Dix ans après les attentats à Paris, Charlie Hebdo a toujours « envie de rire »
    toujours debout
 Dix ans après les attentats à Paris, Charlie Hebdo a toujours « envie de rire »
-   (BUTTON)
-   (BUTTON)
+  
+  
    Voir plus d'articles
 Actualité
    Un homme soupçonné du meurtre au tournevis à Rennes interpellé à Marseille
@@ -556,8 +556,8 @@ Le taux du livret A va baisser aux alentours de 2,5 % en février
    Des centaines de voyageurs SNCF en carafe après le heurt d’un sanglier
    groin
 Des centaines de voyageurs SNCF en carafe après le heurt d’un sanglier
-   (BUTTON)
-   (BUTTON)
+  
+  
    Voir plus d'articles
 Divertissement
    La drag-queen The Vivienne, gagnante de « Drag Race », est morte à 32 ans
@@ -584,8 +584,8 @@ Timothée Chalamet révèle qu’il pourrait y avoir trois films sur Bob Dylan
    Révolution dans vos radios, les antennes de France Bleu changent de nom
    Rebaptisées
 Révolution dans vos radios, les antennes de France Bleu changent de nom
-   (BUTTON)
-   (BUTTON)
+  
+  
    Voir plus d'articles
 Sport
    Gasquet dit adieux à son dernier Open d’Australie après sa défaite en qualifs
@@ -594,9 +594,9 @@ Gasquet dit adieux à son dernier Open d’Australie après sa défaite en quali
    Mo Salah égale le record de buts de Thierry Henry en Premier League
    PHARAON
 Mo Salah égale le record de buts de Thierry Henry en Premier League
-   André Ayew « ému et touché » par l’ovation du Vélodrome (malgré son but)
+   André Ayew « ému et touché » par l’ovation du Vélodrome
    HOMMAGE
-André Ayew « ému et touché » par l’ovation du Vélodrome (malgré son but)
+André Ayew « ému et touché » par l’ovation du Vélodrome
    Coéquipiers en Bleu, Koné et Guendouzi s’embrouillent lors du derby romain
    CASTAGNE
 Coéquipiers en Bleu, Koné et Guendouzi s’embrouillent lors du derby romain
@@ -612,8 +612,8 @@ Encore et toujours la poisse pour Loeb, déjà à plus de 30 minutes de la tête
    A 27 ans, Alexandre Müller remporte le premier titre de sa carrière
    tennis
 A 27 ans, Alexandre Müller remporte le premier titre de sa carrière
-   (BUTTON)
-   (BUTTON)
+  
+  
    Voir plus d'articles
      
 Partenaires
@@ -647,9 +647,9 @@ Investir dans l’immobilier durable : les clés pour un placement sécurisé en
    Maison
 Rêvez d’un jardin qui ne souffre pas trop de l’hiver ? Voici le secret des haies qui persistent même s’il fait très froid
    Rêvez d’un jardin qui ne souffre pas trop de l’hiver ? Voici le secret des haies qui persistent même s’il fait très froid
-   (BUTTON)
-   (BUTTON)
-      (BUTTON)
+  
+  
+     
    Nos applications
    Découvrez l‘ensemble de nos applications 20 Minutes !
    Télécharger sur

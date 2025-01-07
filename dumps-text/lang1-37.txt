@@ -1,11 +1,11 @@
    #alternate alternate SudOuest : rss actualités
    IFRAME: //www.googletagmanager.com/ns.html?id=GTM-NG4RXS
-   (BUTTON) (BUTTON) La chaîne
+   La chaîne
    Mon compteS'identifierS'abonnerJournal
-   (BUTTON) RechercherLa chaîneLa chaîne
+   RechercherLa chaîneLa chaîne
    JournalS'identifierMon compte
    📍 Ma ville  Actualité  DéclicLa sélection  Faits diversSport  Loisirs  Étudiant  Services  Annonces
-   ()
+  
       Explorer sur la carte 📍
       Toutes les communes
       Agen
@@ -31,21 +31,21 @@
       Saintes
       Saint-Jean-de-Luz
       Villeneuve-sur-Lot
-   ( )
+  
       International
       Politique
       Economie
       Environnement
       Santé
       Société
-   ( )
+  
       Sélection du jour
       Edition du soir
       Premium
       Bonne humeur
       Insolite
       Le vrai du faux
-   ( )
+  
       Tout le sport
       Football
       Rugby
@@ -58,7 +58,7 @@
       Hockey
       Résultats
       Jeux Olympiques
-   ( )
+  
       Culture
       Diverto
       Gastronomie
@@ -68,7 +68,7 @@
       Tourisme
       Vin
       Auto-moto
-   ( )
+  
       Accueil
       Lycée
       Examens
@@ -78,7 +78,7 @@
       Résultats bac
       Résultats brevet
       Séries TV
-   ( )
+  
       Archives
       Club abonnés
       Jeux
@@ -88,12 +88,12 @@
       Bons plans
       Contenus partenaires
       Boutique
-   ( )
+  
       Avis de décès
       Emploi
       Immobilier
       Légales
-   (BUTTON)
+  
    Sélectionnez votre commune
    
    Suggestions
@@ -101,7 +101,7 @@
    '
    Sud Ouest
    Toute l'actualité de votre région en continu sur notre application
-   (BUTTON) Voir
+   Voir
 Hinx : les œuvres tout en douceur de Pawae à la médiathèque
     Lecture 1 min
    Accueil Landes Hinx
@@ -143,8 +143,8 @@ Hinx : les œuvres tout en douceur de Pawae à la médiathèque
    Connexion
    Devenez premium
    Toutes les rubriques
-   (BUTTON) Fermer
-    (BUTTON) (BUTTON)
+   Fermer
+   
    Communes
       Explorer📍
       Bordeaux
@@ -253,11 +253,11 @@ Vous avez choisi de refuser les cookies
    Lire les règles de modération de sudouest.fr
    
    
-   (BUTTON) Réagir
+   Réagir
    Signaler un commentaire
    Merci de nous décrire précisément ce qui vous paraît illégal dans ce message.
    
    
    
    
-   (BUTTON) Signaler
+   Signaler

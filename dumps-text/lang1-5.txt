@@ -1,7 +1,7 @@
     #Le Monde.fr : Clin d'œil gourmand
    Consulter
    le journal
-   (BUTTON) Navigation
+   Navigation
    Retour à la page d’accueil du Monde
    Se connecter Se connecter S’abonner
      
@@ -58,26 +58,28 @@
        Article réservé aux abonnés
        « Pour rester au sommet de la technologie mondiale, le patron de Nvidia fixe un nouvel horizon à ses ambitions, la robotique »
        Philippe Escande
+       Le président élu des Etats-Unis, Donald Trump, et le patron de X, Elon Musk, à Brownsville, le 19 novembre 2024. Le président élu des Etats-Unis, Donald Trump, et le patron de X,
+       Elon Musk, à Brownsville, le 19 novembre 2024.
        Tribune
        Article réservé aux abonnés
-       « Les crises de la dette, du climat et de l’environnement se nourrissent mutuellement pour affaiblir les pays en développement »
-       Guido Schmidt-Traub
-       Economiste
+       « Face à Elon Musk, il est temps pour l’Union européenne de défendre ses acteurs et ses valeurs »
+       Aurore Lalucq
+       Députée européenne, coprésidente de Place publique
       Vidéos
            Vidéos
            L’actualité
            Les explications
            Enquêtes vidéo
            Les mini-séries
-       Société
-       Article réservé aux abonnés
-       Attentats de « Charlie Hebdo » et de l’Hyper Cacher : le récit en vidéo des attaques terroristes de janvier 2015
        Disparitions
        Mort de Jean-Marie Le Pen : trente ans de déclarations polémiques
        Les propos du président du Front national, prononcés pour la première fois en 1987, ont durablement imprégné l’électorat du Front national. Les propos du président du Front national,
        prononcés pour la première fois en 1987, ont durablement imprégné l’électorat du Front national.
        Politique
        50 ans du FN : comment la phrase de Le Pen sur les chambres à gaz a miné sa carrière
+       Société
+       Article réservé aux abonnés
+       Attentats de « Charlie Hebdo » et de l’Hyper Cacher : le récit en vidéo des attaques terroristes de janvier 2015
        Jimmy Carter, le 23 octobre 2016. Jimmy Carter, le 23 octobre 2016.
        Disparitions
        Mort de Jimmy Carter : ce qu’il faut retenir de l’ancien président américain
@@ -106,11 +108,12 @@
        « Le gouvernement Bayrou porte la marque de l’époque : les personnalités qui y siègent comptent davantage que les organisations politiques dont elles sont issues »
        Françoise Fressoz
        Editorialiste au « Monde »
+       L’ancien premier ministre français Lionel Jospin à Paris, le 3 octobre 2023. L’ancien premier ministre français Lionel Jospin à Paris, le 3 octobre 2023.
        Tribune
        Article réservé aux abonnés
-       « Il faut replacer le Parlement au cœur de la définition de la politique nationale »
-       Dorothée Reignier
-       juriste
+       « Que serait devenue la Vᵉ République si Lionel Jospin n’avait pas été candidat à la présidentielle de 2002 ? »
+       Dominique Rousseau
+       Constitutionnaliste
       Culture
            Culture
            Cinéma
@@ -119,7 +122,7 @@
            Musiques
            Arts
            Scènes
-       Martha (Tilda Swinton) et Ingrid (Julianne Moore), dans « La Chambre d’à côté », de Pedro Almodovar. Martha (Tilda Swinton) et Ingrid (Julianne Moore), dans « La Chambre d’à côté », de
+       Martha et Ingrid, dans « La Chambre d’à côté », de Pedro Almodovar. Martha et Ingrid, dans « La Chambre d’à côté », de
        Pedro Almodovar.
        Culture
        Article réservé aux abonnés
@@ -128,11 +131,10 @@
        Le Monde des livres
        Article réservé aux abonnés
        Julie Birmant, scénariste de BD : « Il n’y a pas besoin d’être Picasso pour mélanger vie amoureuse et vie d’artiste »
-       Télévisions & Radio
-       Article réservé aux abonnés
-       #Charlie 10 ans, la mobilisation générale des médias
-       Nikki Glaser, la maîtresse de cérémonie des 82ᵉ Golden Globes, à Beverly Hills (Californie) aux Etats-Unis, le 5 janvier 2025. Nikki Glaser, la maîtresse de cérémonie des
-       82ᵉ Golden Globes, à Beverly Hills (Californie) aux Etats-Unis, le 5 janvier 2025.
+       Culture
+       « Charlie, envers et contre tout », sur France 2 : quatre mois dans l’émulation de la rédaction du journal satirique
+       Nikki Glaser, la maîtresse de cérémonie des 82ᵉ Golden Globes, à Beverly Hills aux Etats-Unis, le 5 janvier 2025. Nikki Glaser, la maîtresse de cérémonie des
+       82ᵉ Golden Globes, à Beverly Hills aux Etats-Unis, le 5 janvier 2025.
        Culture
        Le regain d’intérêt pour les Golden Globes est confirmé avec dix millions de téléspectateurs
       Le Goût du Monde
@@ -155,7 +157,7 @@
        Le Goût du Monde
        Article réservé aux abonnés
        Caroline Vaughan, fine fleur
-       Amandine Leroy, chez elle, à Ceyrat (Puy-de-Dôme), le 26 septembre 2024.  Amandine Leroy, chez elle, à Ceyrat (Puy-de-Dôme), le 26 septembre 2024.
+       Amandine Leroy, chez elle, à Ceyrat, le 26 septembre 2024.  Amandine Leroy, chez elle, à Ceyrat, le 26 septembre 2024.
        L'époque
        Article réservé aux abonnés
        « Ce cœur sur mon bras, c’est une piqûre de rappel, au cas où j’oublierais de m’aimer ! »
@@ -205,21 +207,21 @@ Billet de blog
    Anne Guillard
    Blog Clin d'oeil gourmand
    Publié le 06 septembre 2010 à 12h22
-   (BUTTON) Offrir l’article (BUTTON) Lire plus tard
-   (BUTTON) Partager
-      (BUTTON) Partager sur Messenger
-      (BUTTON) Partager sur Facebook
-      (BUTTON) Envoyer par e-mail
-      (BUTTON) Partager sur Linkedin
-      (BUTTON) Copier le lien
+   Offrir l’article Lire plus tard
+   Partager
+      Partager sur Messenger
+      Partager sur Facebook
+      Envoyer par e-mail
+      Partager sur Linkedin
+      Copier le lien
    Le caramel au beurre salé détrôné par la confiture de lait ? La rentrée est une période propice aux buzz de tous ordres, même si le buzz est un bruit que des boules Quies suffisent à faire
    taire. Mais les modes se sont emparées des pianos. Cette rentrée, cʼest le dulce de leche qui a les faveurs. Cette douceur sud-américaine tapisse le palais de sa texture onctueuse et sucrée.
-   Une boîte de lait concentré sucré, trouée en deux endroits sur son couvercle, au bain-marie pendant deux heures, et voilà le nectar qui apparaît (aussi vite quʼil disparaîtra). On peut aussi
+   Une boîte de lait concentré sucré, trouée en deux endroits sur son couvercle, au bain-marie pendant deux heures, et voilà le nectar qui apparaît. On peut aussi
    en confectionner à partir de lait de chèvre. En abuser est criminel.
    Mais le goûter nʼest pas un crime. La confiture de lait séduira les gourmand(e)s dans un banoffee pies à lʼarchitecture engageante, dans une mousse accompagnée de churros (là on frôle la
    perte de connaissance) ou encore dans un gâteau au fromage... Hum ! Difficile aussi de résister à des macarons. Bon allez, on arrête le martyre.
    PS : On pourra évidemment remplacer cette douceur par... du caramel au beurre salé.
-   Anne Guillard (Blog Clin d'oeil gourmand)
+   Anne Guillard
    L’espace des contributions est réservé aux abonnés.
    Abonnez-vous pour accéder à cet espace d’échange et contribuer à la discussion.
    S’abonner
@@ -233,19 +235,19 @@ Billet de blog
    Des leçons interactives par la rédaction pour tester vos connaissances.
    Découvrir
    Nos guides d’achat
-      Les meilleurs babyphones vidéo
-      Les meilleurs jeux de société pour adultes
-      Cinq cadeaux pour les amateurs de vélo
+      Les meilleurs transats et balancelles pour bébé
+      Vacances : six accessoires pour voyager l’esprit tranquille Vacances : 6 accessoires pour voyager l’esprit tranquille
+      Lunch box, gourdes, piles rechargeables… 6 achats pour limiter nos déchets
    Lecture du Monde en cours sur un autre appareil.
    Vous pouvez lire Le Monde sur un seul appareil à la fois
-   (BUTTON) Continuer à lire ici
+   Continuer à lire ici
    Ce message s’affichera sur l’autre appareil.
    Découvrir les offres multicomptes
-   (BUTTON) Pourquoi voyez-vous ce message ?
-      Parce qu’une autre personne (ou vous) est en train de lire Le Monde avec ce compte sur un autre appareil.
-       Vous ne pouvez lire Le Monde que sur un seul appareil à la fois (ordinateur, téléphone ou tablette).
+   Pourquoi voyez-vous ce message ?
+      Parce qu’une autre personne est en train de lire Le Monde avec ce compte sur un autre appareil.
+       Vous ne pouvez lire Le Monde que sur un seul appareil à la fois.
       Comment ne plus voir ce message ?
-       En cliquant sur «  (BUTTON) Continuer à lire ici » et en vous assurant que vous êtes la seule personne à consulter Le Monde avec ce compte.
+       En cliquant sur «  Continuer à lire ici » et en vous assurant que vous êtes la seule personne à consulter Le Monde avec ce compte.
       Que se passera-t-il si vous continuez à lire ici ?
        Ce message s’affichera sur l’autre appareil. Ce dernier restera connecté avec ce compte.
       Y a-t-il d’autres limites ?
@@ -320,14 +322,14 @@ Billet de blog
       Conditions générales
       Charte du Groupe
       Politique de confidentialité
-      Aide (FAQ)
+      Aide
   Informations légales le Monde
       Mentions légales
       Charte du Groupe
       Politique de confidentialité
       Gestion des cookies
       Conditions générales
-      Aide (FAQ)
+      Aide
    Suivez Le Monde
       Facebook
       Youtube

@@ -42,7 +42,7 @@ fi
 if [[ "$base" == "lang3" ]]
 then
     mot_a_rechercher="soft|sweet"
-    mot_pattern="\b([Ss]oft[a-z]*|[Ss]weet[a-z]*)\b" # case-insensitive to match "soft" "sweet" and their variations ("softness" ,  "sweetly")
+    mot_pattern="\b(soft[a-z]*|sweet[a-z]*)\b" # match "soft" "sweet" and their variations ("softness" ,  "sweetly")
     exec > "../tableaux/$base.html"
 fi
 

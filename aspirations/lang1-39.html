@@ -1466,7 +1466,7 @@ p.price {
         <div class="hebdo">
                         <div class="couv">
                 <a href="https://kiosque.lavie.fr" target="_blank">
-                                        <img src="https://medias.lavie.fr/api/v1/images/view/67764e814c64d136be035249/edition_hebdo/image.jpg" alt="couverture" />
+                                        <img src="https://medias.lavie.fr/api/v1/images/view/677e2f7804d15b5de76ec988/edition_hebdo/image.jpg" alt="couverture" />
                                     </a>
             </div>
                         <a class="bt-couv" href="https://kiosque.lavie.fr" target="_blank" >Lire l’hebdo</a>
@@ -1943,6 +1943,8 @@ t=""></a></div>
 
     <script type="text/javascript">
 
+        fetch('/api/article/77978/view');
+
         let url = new URL(window.location);
         let params = new URLSearchParams(window.location.search)
         let source = params.has('utm_source') ? (params.get('utm_source')) : null;
@@ -1956,18 +1958,6 @@ t=""></a></div>
             };
             const queryString = new URLSearchParams(params).toString();
             fetch('https://www.lavie.fr/api/article?'+queryString)
-
-            /*fetch('https://www.lavie.fr/article', {
-                method: 'POST',
-                body: JSON.stringify({
-                    url: url.pathname,
-                    idsv: 77978,
-                    source: source
-                }),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            })*/
                 .then(function (resp) {
                 if (!resp.ok) {
                     throw new Error("Impossible de récupérer les infos de l'articles");
@@ -2129,7 +2119,7 @@ t=""></a></div>
 	<h3 class="ss-tt">Édition de la semaine</h3>
     <div class="image">
         <a href="https://kiosque.lavie.fr/">
-                        <img src="https://medias.lavie.fr/api/v1/images/view/67764e814c64d136be035249/edition_hebdo/image.jpg" alt="couverture" />
+                        <img src="https://medias.lavie.fr/api/v1/images/view/677e2f7804d15b5de76ec988/edition_hebdo/image.jpg" alt="couverture" />
                     </a>
         <a href="https://kiosque.lavie.fr/" class="bt-rouge">Lire le magazine numérique</a>
     </div>
@@ -2265,14 +2255,44 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
         </div>
         <div class="cont-flex">
                             <article class="art-small col3">
-                                            <figure class="image"><a href="https://www.lavie.fr/actualite/jean-marie-le-pen-la-bete-noire-de-leglise-92825.php" title="Décès de Jean-Marie Le Pen : le fondateur du FN, bête noire de l’Église"><img
-                                    src="https://medias.lavie.fr/api/v1/images/view/65c4e4c1ed09bd291a3253bd/width_1000/image.jpg" alt=""></a></figure>
+                                            <figure class="image"><a href="https://www.lavie.fr/actualite/geopolitique/on-peut-vivre-ensemble-juifs-musulmans-et-chretiens-en-cisjordanie-un-collectif-interconfessionnel-defie-loccupation-97327.php" title="« On peut vivre ensemble, juifs, musulmans et chrétiens » : en Cisjordanie, un collectif interconfessionnel défie l’occupation"><img
+                                    src="https://medias.lavie.fr/api/v1/images/view/677e4fdbd95cfe11dc08be59/width_1000/image.jpg" alt=""></a></figure>
                                                                                         <span class="tt">
                             <span class="payant"></span>
-                        <a href="https://www.lavie.fr/actualite/jean-marie-le-pen-la-bete-noire-de-leglise-92825.php" title="Décès de Jean-Marie Le Pen : le fondateur du FN, bête noire de l’Église">Décès de Jean-Marie Le Pen : le fondateur du FN, bête noire de l’Église</a>
+                        <a href="https://www.lavie.fr/actualite/geopolitique/on-peut-vivre-ensemble-juifs-musulmans-et-chretiens-en-cisjordanie-un-collectif-interconfessionnel-defie-loccupation-97327.php" title="« On peut vivre ensemble, juifs, musulmans et chrétiens » : en Cisjordanie, un collectif interconfessionnel défie l’occupation">« On peut vivre ensemble, juifs, musulmans et chrétiens » : en Cisjordanie, un collectif interconfessionnel défie l’occupation</a>
         </span>
                 </article>
                                         <div class="col3">
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/actualite/societe/dix-ans-de-lattentat-contre-lhyper-cacher-le-mal-de-survivre-97492.php"
+                                                title="Dix ans de l&#039;attentat contre l&#039;Hyper Cacher : le mal de survivre"><span
+                                        class="payant"></span>Dix ans de l'attentat contre l'Hyper Cacher : le mal de survivre</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/actualite/geopolitique/al-auja-un-ruisseau-dispute-au-coeur-de-la-lutte-territoriale-en-cisjordanie-97326.php"
+                                                title="Al-Auja : un ruisseau disputé au cœur de la lutte territoriale en Cisjordanie"><span
+                                        class="payant"></span>Al-Auja : un ruisseau disputé au cœur de la lutte territoriale en Cisjordanie</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/actualite/geopolitique/la-palestine-sefface-sous-nos-yeux-en-cisjordanie-97434.php"
+                                                title="La Palestine s’efface sous nos yeux en Cisjordanie"><span
+                                        class="payant"></span>La Palestine s’efface sous nos yeux en Cisjordanie</a></span>
+                            </article>
+                        </div>
+                                    </div>
+                            <div class="col3">
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/actualite/jean-marie-le-pen-la-bete-noire-de-leglise-92825.php"
+                                                title="Décès de Jean-Marie Le Pen : le fondateur du FN, bête noire de l’Église"><span
+                                        class="payant"></span>Décès de Jean-Marie Le Pen : le fondateur du FN, bête noire de l’Église</a></span>
+                            </article>
+                        </div>
                                             <div class="liste-short">
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/actualite/sciences/les-intelligences-artificielles-ont-elles-une-personnalite-97530.php"
@@ -2284,36 +2304,6 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/actualite/geopolitique/en-argentine-les-soupes-populaires-dernier-rempart-contre-la-pauvrete-97573.php"
                                                 title="En Argentine, les soupes populaires, dernier rempart contre la pauvreté">En Argentine, les soupes populaires, dernier rempart contre la pauvreté</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/actualite/societe/au-pays-basque-la-chambre-dagriculture-alternative-fete-ses-20-ans-97563.php"
-                                                title="Au Pays basque, la chambre d’agriculture alternative fête ses 20 ans"><span
-                                        class="payant"></span>Au Pays basque, la chambre d’agriculture alternative fête ses 20 ans</a></span>
-                            </article>
-                        </div>
-                                    </div>
-                            <div class="col3">
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/actualite/geopolitique/salome-zourabichvili-je-continue-a-me-battre-pour-que-les-georgiens-puissent-realiser-leur-destin-europeen-97585.php"
-                                                title="Salomé Zourabichvili : « Je continue à me battre pour que les Géorgiens puissent réaliser leur destin européen »"><span
-                                        class="payant"></span>Salomé Zourabichvili : « Je continue à me battre pour que les Géorgiens puissent réaliser leur destin européen »</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/actualite/societe/javais-limpression-detre-devenue-quelquun-dautre-le-difficile-retour-de-conge-maternite-97404.php"
-                                                title="« J’avais l’impression d’être devenue quelqu’un d’autre » : le difficile retour de congé maternité"><span
-                                        class="payant"></span>« J’avais l’impression d’être devenue quelqu’un d’autre » : le difficile retour de congé maternité</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/actualite/sciences/conscience-animale-notre-defi-est-detendre-nos-connaissances-a-des-structures-cerebrales-radicalement-differentes-97182.php"
-                                                title="Conscience animale : « Notre défi est d’étendre nos connaissances à des structures cérébrales radicalement différentes »"><span
-                                        class="payant"></span>Conscience animale : « Notre défi est d’étendre nos connaissances à des structures cérébrales radicalement différentes »</a></span>
                             </article>
                         </div>
                                     </div>
@@ -2330,19 +2320,34 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
         </div>
         <div class="cont-flex">
                             <article class="art-small col3">
-                                            <figure class="image"><a href="https://www.lavie.fr/christianisme/eglise/apres-des-annees-de-polemiques-dominique-rey-demissionne-du-diocese-de-frejus-toulon-97611.php" title="Après des années de polémiques, Dominique Rey démissionne du diocèse de Fréjus-Toulon"><img
-                                    src="https://medias.lavie.fr/api/v1/images/view/677d311aa64ca014a603775d/width_1000/image.jpg" alt=""></a></figure>
+                                            <figure class="image"><a href="https://www.lavie.fr/ma-vie/culture/mary-sur-netflix-un-film-aux-airs-de-peplum-sur-la-mere-du-christ-97547.php" title="« Mary » sur Netflix : un film aux airs de péplum sur la mère du Christ"><img
+                                    src="https://medias.lavie.fr/api/v1/images/view/677d4158649134577c2393ec/width_1000/image.jpg" alt=""></a></figure>
                                                                                         <span class="tt">
-                        <a href="https://www.lavie.fr/christianisme/eglise/apres-des-annees-de-polemiques-dominique-rey-demissionne-du-diocese-de-frejus-toulon-97611.php" title="Après des années de polémiques, Dominique Rey démissionne du diocèse de Fréjus-Toulon">Après des années de polémiques, Dominique Rey démissionne du diocèse de Fréjus-Toulon</a>
+                        <a href="https://www.lavie.fr/ma-vie/culture/mary-sur-netflix-un-film-aux-airs-de-peplum-sur-la-mere-du-christ-97547.php" title="« Mary » sur Netflix : un film aux airs de péplum sur la mère du Christ">« Mary » sur Netflix : un film aux airs de péplum sur la mère du Christ</a>
         </span>
                 </article>
                                         <div class="col3">
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/christianisme/eglise/pour-la-premiere-fois-le-pape-nomme-une-femme-cheffe-de-dicastere-97613.php"
+                                                title="Pour la première fois, le pape nomme une femme cheffe de Dicastère"><span
+                                        class="payant"></span>Pour la première fois, le pape nomme une femme cheffe de Dicastère</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/christianisme/eglise/apres-des-annees-de-polemiques-dominique-rey-demissionne-du-diocese-de-frejus-toulon-97611.php"
+                                                title="Après des années de polémiques, Dominique Rey démissionne du diocèse de Fréjus-Toulon">Après des années de polémiques, Dominique Rey démissionne du diocèse de Fréjus-Toulon</a></span>
+                            </article>
+                        </div>
                                             <div class="liste-short">
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/christianisme/bible/les-rois-mages-personnages-entre-histoire-et-legende-85988.php"
                                                 title="Épiphanie : les Rois mages, personnages entre histoire et légende">Épiphanie : les Rois mages, personnages entre histoire et légende</a></span>
                             </article>
                         </div>
+                                    </div>
+                            <div class="col3">
                                             <div class="liste-short">
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/christianisme/eglise/il-y-a-un-besoin-urgent-de-faconner-un-socle-de-paix-mediterraneen-97531.php"
@@ -2357,25 +2362,10 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
                                         class="payant"></span>Brigitte Lips : « Vous tous qui peinez sous le poids du fardeau »</a></span>
                             </article>
                         </div>
-                                    </div>
-                            <div class="col3">
                                             <div class="liste-short">
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/christianisme/bible/meditation-biblique-les-mages-ouvrent-un-chemin-97421.php"
                                                 title="Méditation biblique : les mages ouvrent un chemin">Méditation biblique : les mages ouvrent un chemin</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/idees/debats/epiphanie-qui-etaient-les-rois-mages-8654.php"
-                                                title="Épiphanie : qui étaient les rois mages ?"><span
-                                        class="payant"></span>Épiphanie : qui étaient les rois mages ?</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/famille/maite-roche-comment-traduire-lamour-de-dieu-par-le-dessin-97068.php"
-                                                title="Maïte Roche : « Comment traduire l’Amour de Dieu par le dessin ? »">Maïte Roche : « Comment traduire l’Amour de Dieu par le dessin ? »</a></span>
                             </article>
                         </div>
                                     </div>
@@ -2392,14 +2382,34 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
         </div>
         <div class="cont-flex">
                             <article class="art-small col3">
-                                            <figure class="image"><a href="https://www.lavie.fr/idees/debats/le-dessin-de-presse-plombe-par-lepoque-97478.php" title="Dix ans après l&#039;attentat contre Charlie Hebdo, le dessin de presse plombé par l’époque"><img
-                                    src="https://medias.lavie.fr/api/v1/images/view/6772a95bd50c8c0342502cd6/width_1000/image.jpg" alt=""></a></figure>
+                                            <figure class="image"><a href="https://www.lavie.fr/idees/chroniques/semerveiller-comme-des-enfants-97574.php" title="S’émerveiller comme des enfants"><img
+                                    src="https://medias.lavie.fr/api/v1/images/view/677e348be8dca64b8d33c7b9/width_1000/image.jpg" alt=""></a></figure>
                                                                                         <span class="tt">
-                            <span class="payant"></span>
-                        <a href="https://www.lavie.fr/idees/debats/le-dessin-de-presse-plombe-par-lepoque-97478.php" title="Dix ans après l&#039;attentat contre Charlie Hebdo, le dessin de presse plombé par l’époque">Dix ans après l'attentat contre Charlie Hebdo, le dessin de presse plombé par l’époque</a>
+                        <a href="https://www.lavie.fr/idees/chroniques/semerveiller-comme-des-enfants-97574.php" title="S’émerveiller comme des enfants">S’émerveiller comme des enfants</a>
         </span>
                 </article>
                                         <div class="col3">
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/idees/chroniques/des-dettes-la-liberation-97609.php"
+                                                title="Des dettes, la libération">Des dettes, la libération</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/idees/chroniques/2025-annee-mathematique-97572.php"
+                                                title="2025, année mathématique !">2025, année mathématique !</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/idees/debats/le-dessin-de-presse-plombe-par-lepoque-97478.php"
+                                                title="Dix ans après l&#039;attentat contre Charlie Hebdo, le dessin de presse plombé par l’époque"><span
+                                        class="payant"></span>Dix ans après l'attentat contre Charlie Hebdo, le dessin de presse plombé par l’époque</a></span>
+                            </article>
+                        </div>
+                                    </div>
+                            <div class="col3">
                                             <div class="liste-short">
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/idees/debats/comment-sorganisent-la-spiritualite-et-la-resistance-des-chretiens-de-palestine-97279.php"
@@ -2418,26 +2428,6 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
                             <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/idees/chroniques/chercher-le-vrai-grain-de-ta-vie-97502.php"
                                                 title="Chercher le vrai grain de ta vie">Chercher le vrai grain de ta vie</a></span>
-                            </article>
-                        </div>
-                                    </div>
-                            <div class="col3">
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/idees/chroniques/adieu-princesses-97469.php"
-                                                title="Adieu princesses">Adieu princesses</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/idees/editos/repartir-pour-un-tour-97556.php"
-                                                title="Repartir pour un tour ?">Repartir pour un tour ?</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/idees/chroniques/croire-en-la-france-97553.php"
-                                                title="Croire en la France ?">Croire en la France ?</a></span>
                             </article>
                         </div>
                                     </div>
@@ -2463,6 +2453,26 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
                                         <div class="col3">
                                             <div class="liste-short">
                             <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/spiritualite/cecilia-dutter-laisser-respirer-la-vie-en-soi-97297.php"
+                                                title="Cécilia Dutter : Laisser respirer la vie en soi">Cécilia Dutter : Laisser respirer la vie en soi</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/culture/mary-sur-netflix-un-film-aux-airs-de-peplum-sur-la-mere-du-christ-97547.php"
+                                                title="« Mary » sur Netflix : un film aux airs de péplum sur la mère du Christ">« Mary » sur Netflix : un film aux airs de péplum sur la mère du Christ</a></span>
+                            </article>
+                        </div>
+                                            <div class="liste-short">
+                            <article class="art-short">
+                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/culture/la-fille-dun-grand-amour-les-feux-sauvages-la-chambre-da-cote-hiver-a-sokcho-nos-choix-cinema-du-8-janvier-97550.php"
+                                                title="« La Fille d’un grand amour », « les Feux sauvages », « la Chambre d’à côté », « Hiver à Sokcho » : nos choix cinéma du 8 janvier">« La Fille d’un grand amour », « les Feux sauvages », « la Chambre d’à côté », « Hiver à Sokcho » : nos choix cinéma du 8 janvier</a></span>
+                            </article>
+                        </div>
+                                    </div>
+                            <div class="col3">
+                                            <div class="liste-short">
+                            <article class="art-short">
                             <span class="tt"><a href="https://www.lavie.fr/ma-vie/famille/la-bd-loupio-monte-sur-les-planches-97576.php"
                                                 title="La BD Loupio monte sur les planches">La BD Loupio monte sur les planches</a></span>
                             </article>
@@ -2478,26 +2488,6 @@ googletag.cmd.push(function() { googletag.display('pave_haut'); });
                             <span class="tt"><a href="https://www.lavie.fr/ma-vie/culture/quand-les-paquebots-inspiraient-les-artistes-97515.php"
                                                 title="Quand les paquebots inspiraient les artistes"><span
                                         class="payant"></span>Quand les paquebots inspiraient les artistes</a></span>
-                            </article>
-                        </div>
-                                    </div>
-                            <div class="col3">
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/loisirs/chaudree-de-mais-creole-97333.php"
-                                                title="Chaudrée de maïs créole">Chaudrée de maïs créole</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/spiritualite/abc-de-la-foi-jubile-97296.php"
-                                                title="ABC de la foi : Jubilé">ABC de la foi : Jubilé</a></span>
-                            </article>
-                        </div>
-                                            <div class="liste-short">
-                            <article class="art-short">
-                            <span class="tt"><a href="https://www.lavie.fr/ma-vie/spiritualite/le-bonheur-une-ascese-de-la-bonte-97438.php"
-                                                title="Le bonheur, une ascèse de la bonté">Le bonheur, une ascèse de la bonté</a></span>
                             </article>
                         </div>
                                     </div>

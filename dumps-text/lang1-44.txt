@@ -1,8 +1,8 @@
    IFRAME: //www.googletagmanager.com/ns.html?id=GTM-MBMGZ4
      
-   Inscription
-   Connexion
-   Menu Magazine Avantages : magazine féminin, beauté, bien-être et bons plans
+   (BUTTON) Inscription
+   (BUTTON) Connexion
+   (BUTTON) Menu Magazine Avantages : magazine féminin, beauté, bien-être et bons plans
    Je m'abonne
    Jusqu'à
    -50%
@@ -14,16 +14,16 @@
    Jusqu'à 50% de réduction
    et de nombreux cadeaux
    au choix
-  
+   (BUTTON)
    Recherche sur Magazine Avantages
-  
+   (BUTTON)
     OK
    Connectez-vous
-  
+   (BUTTON)
    Vous avez déjà un compte
    
    
-   Mot de passe oublié
+   (BUTTON) Mot de passe oublié
     Se souvenir de moi
    OK
    Vous n'avez pas encore de compte
@@ -63,13 +63,13 @@ Comment adopter la couleur 'douceur de l'aube' ?
    Par Lily Sèbe
    salo nen nuance de 'douceur de l'aube'
    Voir le diaporama 30 photos
-   Ajouter aux favoris ©DuluxValentine
-  
+   (BUTTON) Ajouter aux favoris (BUTTON) ©DuluxValentine
+   (BUTTON)
    Ce gris vert est LA couleur de l'année selon Dulux Valentine. Faites le plein d'inspi et de conseils pour l'adopter dans votre déco !
-   Chaque année, plusieurs entreprises désignent leur ‘couleur de l’année’. Une teinte reflet de la société et qui s’affiche un peu partout l’année concernée. Du gros œuvre à la
+   Chaque année, plusieurs entreprises désignent leur ‘couleur de l’année’. Une teinte reflet de la société et qui s’affiche (logiquement) un peu partout l’année concernée. Du gros œuvre à la
    petite déco : elle est partout ! Nos conseils et inspirations pour l’adopter avec style.
 Douceur de l'aube : la couleur de l’année
-   A l’instar de Pantone, Dulux Valentine et Sikkens désignent aussi LA couleur de l’année. Et après le miel ambré l'an passé, pour 2020, la couleur de l'année sera
+   A l’instar de Pantone, Dulux Valentine et Sikkens (marques du groupe AkzoNobel) désignent aussi LA couleur de l’année. Et après le miel ambré l'an passé, pour 2020, la couleur de l'année sera
    'douceur de l'aube', "une nuance qui se caractérise par une atmosphère associant calme et clarté, a` l’image de l’année 2020", explique Heleen van Gent, Directrice de la cre´ation, Centre
    esthétique mondial d’AkzoNobel. Ce gris plutôt froid, plus 'gris' que le grège et moins 'vert' que le vert d'eau est une teinte froide, neutre, avec des reflets bleutés et vert. La nuance,
    qui évoque la nature, se veut inspirée "des tons apaisants d’un ciel matinal" ... et incite au retour au calme et à une volonté de clarté. Un programme qui ne serait pas pour nous déplaire en
@@ -146,7 +146,7 @@ Avec du marbre et du rose
 <3
    <a data-pin-do="embedPin" data-pin-lang="fr" data-pin-width="large" data-pin-terse="true" href="https://www.pinterest.com/pin/94294185935864638/"><script async defer
    src="//assets.pinterest.com/js/pinit.js"></script></a>
-  
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
    La quotidienne
    Retrouvez quotidiennement les meilleurs astuces, conseils et infos à ne pas louper !
     Valider S'abonner
@@ -163,9 +163,9 @@ Avec du marbre et du rose
    Comment mettre en valeur les plantes d'intérieur ?
    Maisons insolites repérées sur Pinterest
    Nos top articles
-   Mocha Mousse : comment adopter la couleur Pantone de l'année ?Un lé de papier peint pour donner du style à son intérieurChambre d'enfants, transformez son lit en cabane !DIY : fabriquer des
-   plantes vertes en papierBilly, l'iconique étagère Ikea avec laquelle on peut tout faireComment mettre en valeur un escalier ?
-  
+   Mocha Mousse : comment adopter la couleur Pantone de l'année ?Chambre d'enfants, transformez son lit en cabane !DIY : fabriquer des plantes vertes en papierComment mettre en valeur un
+   escalier ?Un lé de papier peint pour donner du style à son intérieurPour une déco tendance, faites éclater la joie
+   (BUTTON)
    Je m'abonne
    Inscrivez-vous à la newsletter
     Valider

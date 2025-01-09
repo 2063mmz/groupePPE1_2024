@@ -2,13 +2,13 @@
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-T8CFMX6
     Reçois aussi les coups de cœur de la communauté
    Logo Generation Voyage
-   
+    (BUTTON)
    Guide
    Aucun résultats pour la recherche : ""
       Activités
       Outils
       Qui sommes-nous ?
-     
+      (BUTTON)
    Logo Generation Voyage
       Toutes les destinations
       Outils du voyageur
@@ -19,7 +19,7 @@
    Suivez-nous sur les réseaux
    Logo Instagram Logo Linkedin Logo Facebook Logo Pinterest Logo Youtube
    Votre prochaine destination
-   
+    (BUTTON)
    Guide
    Aucun résultats pour la recherche : ""
    Monde> France> Provence-Alpes-Côte d’Azur
@@ -28,9 +28,9 @@ Ce village du Vaucluse à la douceur provençale est le témoin des splendeurs e
    Par Sandra Petricevic
    Le 08 décembre, 2024 Temps de lecture: 3 minutes
    Écrire un commentaire
-   share icon
+   (BUTTON) share icon
    Partager sur :
-  
+   (BUTTON) (BUTTON)
    Vous rêvez d’un lieu où histoire et beauté se rencontrent en parfaite harmonie ? Continuez votre lecture et laissez-vous séduire par les trésors de Vaison-la-Romaine, une destination qui ne
    cesse d’émerveiller.
    Sommaire
@@ -153,7 +153,7 @@ Une douceur de vivre typiquement provençale
    Generation Voyage Logo Se connecter
    Email ou nom d’utilisateur 
    Mot de passe  Mot de passe oublié ?
-   Connexion
+   (BUTTON) Connexion
    Pas encore de compte ? Créer un compte ici
    Generation Voyage Logo Réinitialiser votre mot de passe
    Nouveau mot de passe 
@@ -169,11 +169,11 @@ Une douceur de vivre typiquement provençale
    voter, créez un compte.
     Je veux recevoir par emails les meilleures expériences à vivre. Pas de spams promis.
    E-mail 
-   Continuer
+   (BUTTON) Continuer
    Déjà un compte ? Se connecter
    Choisissez un nom d’utilisateur et un mot de passe
    Nom d'utilisateur 
    Mot de passe 
    En cliquant sur Créer un compte, vous acceptez les Conditions générales d'utilisation et vous reconnaisez avoir pris connaissance de la politique de confidentialité de Generation Voyage.
-   Créer un compte
+   (Connexion) Créer un compte
    Retour

@@ -1,7 +1,7 @@
     #Le Monde.fr : Économie
    Consulter
    le journal
-   Navigation
+   (BUTTON) Navigation
    Retour à la page d’accueil du Monde
    Se connecter Se connecter S’abonner
      
@@ -9,8 +9,8 @@
       En continu
       Actualités
        En ce moment
-           Mort de Jean-Marie Le Pen
            Attentats de janvier 2015
+           Incendies
            Affaires de Sarkozy
            Guerre en Ukraine
            Guerres au Proche-Orient
@@ -48,23 +48,24 @@
            Tribunes éco
            Cities
            Le Club de l’économie
-       Économie
+       La ministre déléguée au numérique, Clara Chappaz, à la sortie du conseil des ministres, à Paris, le 8 janvier 2025. La ministre déléguée au numérique, Clara Chappaz, à la sortie du
+       conseil des ministres, à Paris, le 8 janvier 2025. Entretien
        Article réservé aux abonnés
-       Avec 1,3 % de hausse des prix sur 2024, le reflux de l’inflation se confirme en France
-       Économie
+       Attaques d’Elon Musk et de Mark Zuckerberg : « Il faut arrêter d’instrumentaliser la liberté d’expression »
+       Mark Zuckerberg, PDG de Meta, au Chase Center à San Francisco (Californie), le 10 septembre 2024. Mark Zuckerberg, PDG de Meta, au Chase Center à San Francisco (Californie), le
+       10 septembre 2024. Économie
        Article réservé aux abonnés
-       Software Heritage et Scikit-learn, ou la « bibliothèque d’Alexandrie » du code source
+       Après Musk et Bezos… Zuckerberg : la tech en ordre de marche derrière Trump
        Chronique
        Article réservé aux abonnés
-       « Pour rester au sommet de la technologie mondiale, le patron de Nvidia fixe un nouvel horizon à ses ambitions, la robotique »
+       « En cette nouvelle année 2025, près de 98 milliards d’euros devraient être reversés aux actionnaires des entreprises du CAC 40 »
        Philippe Escande
-       Le président élu des Etats-Unis, Donald Trump, et le patron de X, Elon Musk, à Brownsville, le 19 novembre 2024. Le président élu des Etats-Unis, Donald Trump, et le patron de X,
-       Elon Musk, à Brownsville, le 19 novembre 2024.
+       La photo du compte X d’Elon Musk, son propriétaire, à Bruxelles, le 7 janvier 2025. La photo du compte X d’Elon Musk, son propriétaire, à Bruxelles, le 7 janvier 2025.
        Tribune
        Article réservé aux abonnés
-       « Face à Elon Musk, il est temps pour l’Union européenne de défendre ses acteurs et ses valeurs »
-       Aurore Lalucq
-       Députée européenne, coprésidente de Place publique
+       « Pour sortir de la dépendance européenne aux Big Tech, il faut une politique numérique non alignée »
+       Cecilia Rikap
+       Economiste
       Vidéos
            Vidéos
            L’actualité
@@ -73,6 +74,9 @@
            Les mini-séries
        Disparitions
        Mort de Jean-Marie Le Pen : trente ans de déclarations polémiques
+       Pour les 80 ans du « Monde », le service vidéo vous explique ses secrets de fabrication. Pour les 80 ans du « Monde », le service vidéo vous explique ses secrets de fabrication.
+       Le Monde & Vous
+       Les secrets du « Monde » pour décrypter l’actualité en vidéo
        Les propos du président du Front national, prononcés pour la première fois en 1987, ont durablement imprégné l’électorat du Front national. Les propos du président du Front national,
        prononcés pour la première fois en 1987, ont durablement imprégné l’électorat du Front national.
        Politique
@@ -80,9 +84,6 @@
        Société
        Article réservé aux abonnés
        Attentats de « Charlie Hebdo » et de l’Hyper Cacher : le récit en vidéo des attaques terroristes de janvier 2015
-       Jimmy Carter, le 23 octobre 2016. Jimmy Carter, le 23 octobre 2016.
-       Disparitions
-       Mort de Jimmy Carter : ce qu’il faut retenir de l’ancien président américain
       Débats
            Débats
            Editoriaux
@@ -92,28 +93,24 @@
            Entretiens idées
            Analyses
            Tribunes
-       Au Capitole, après une session du Congrès pour certifier les résultats de l’élection présidentielle de 2024, le 6 janvier 2025, à Washington. Au Capitole, après une session du Congrès
-       pour certifier les résultats de l’élection présidentielle de 2024, le 6 janvier 2025, à Washington.
+       Une édition spéciale du journal satirique « Charlie Hebdo » est posée devant les anciens bureaux du journal, à Paris, le 7 janvier 2025. Une édition spéciale du journal satirique
+       « Charlie Hebdo » est posée devant les anciens bureaux du journal, à Paris, le 7 janvier 2025.
        Éditorial
-       Les Etats-Unis n’en ont pas fini avec l’assaut du Capitole
+       La laïcité, une valeur fondamentale pour la gauche
+       Des oiseaux perchés sur un cerf à Londres, en décembre 2024. Des oiseaux perchés sur un cerf à Londres, en décembre 2024. Débats
+       Article réservé aux abonnés
+       Reconnaître la sentience chez les animaux, un acte qui suscite des résistances
        Dans une école à Quimper, en Bretagne, le 2 septembre 2024. Dans une école à Quimper, en Bretagne, le 2 septembre 2024.
        Chronique
        Article réservé aux abonnés
        « Le populisme est aussi une crise de l’éducation »
        Philippe Bernard
        Editorialiste au « Monde »
-       Arrivée des ministres au premier conseil des ministres, à Paris, le 3 janvier 2025. Arrivée des ministres au premier conseil des ministres, à Paris, le 3 janvier 2025.
-       Chronique
-       Article réservé aux abonnés
-       « Le gouvernement Bayrou porte la marque de l’époque : les personnalités qui y siègent comptent davantage que les organisations politiques dont elles sont issues »
-       Françoise Fressoz
-       Editorialiste au « Monde »
-       L’ancien premier ministre français Lionel Jospin à Paris, le 3 octobre 2023. L’ancien premier ministre français Lionel Jospin à Paris, le 3 octobre 2023.
        Tribune
        Article réservé aux abonnés
-       « Que serait devenue la Vᵉ République si Lionel Jospin n’avait pas été candidat à la présidentielle de 2002 ? »
-       Dominique Rousseau
-       Constitutionnaliste
+       « La communauté internationale doit s’engager à apporter un important soutien politique et financier à la RDC »
+       Didier Cannet
+       médecin
       Culture
            Culture
            Cinéma
@@ -122,21 +119,23 @@
            Musiques
            Arts
            Scènes
-       Martha et Ingrid, dans « La Chambre d’à côté », de Pedro Almodovar. Martha et Ingrid, dans « La Chambre d’à côté », de
-       Pedro Almodovar.
        Culture
        Article réservé aux abonnés
-       Dans « La Chambre d’à côté », Pedro Almodovar filme une amitié complice au seuil de la mort
-       Julie Birmant, scénariste de bande dessinée, à Paris, le 12 décembre 2024. Julie Birmant, scénariste de bande dessinée, à Paris, le 12 décembre 2024.
-       Le Monde des livres
+       « La Clepsydre », folie baroque de Wojciech Has, revient en salle
+       Chronique
        Article réservé aux abonnés
-       Julie Birmant, scénariste de BD : « Il n’y a pas besoin d’être Picasso pour mélanger vie amoureuse et vie d’artiste »
+       « La Maison hantée », de Michèle Audin : le feuilleton littéraire de Tiphaine Samoyault
+       Tiphaine Samoyault
+       Ecrivaine et essayiste
+       A Paris, le 10 décembre 2024. A Paris, le 10 décembre 2024.
+       Économie
+       Article réservé aux abonnés
+       France Inter et Europe 1 voient leurs audiences progresser fortement
+       Sara Kathryn Bakker et Jim True-Frost, dans « Julius Caesar », de William Shakespeare, mis en scène par Arthur Nauzyciel, à Orléans, en 2009. Sara Kathryn Bakker et Jim True-Frost, dans
+       « Julius Caesar », de William Shakespeare, mis en scène par Arthur Nauzyciel, à Orléans, en 2009.
        Culture
-       « Charlie, envers et contre tout », sur France 2 : quatre mois dans l’émulation de la rédaction du journal satirique
-       Nikki Glaser, la maîtresse de cérémonie des 82ᵉ Golden Globes, à Beverly Hills aux Etats-Unis, le 5 janvier 2025. Nikki Glaser, la maîtresse de cérémonie des
-       82ᵉ Golden Globes, à Beverly Hills aux Etats-Unis, le 5 janvier 2025.
-       Culture
-       Le regain d’intérêt pour les Golden Globes est confirmé avec dix millions de téléspectateurs
+       Article réservé aux abonnés
+       A Rennes, « Julius Caesar », de Shakespeare, en miroir d’une Amérique tourmentée
       Le Goût du Monde
            Le Goût du Monde
            Le Monde passe à table
@@ -147,17 +146,18 @@
            Horlogerie & Joaillerie
            M le mag
            L’époque
-       Les recettes
-       Article réservé aux abonnés
-       Un menu détox pour débuter l’année plus léger
-       Les envies du Monde
-       Article réservé aux abonnés
-       La meilleure façon d’utiliser ces ustensiles de cuisine, du thermoplongeur à la brochette à kebab
-       Caroline Vaughan, à Tréguier, le 26 octobre 2024 Caroline Vaughan, à Tréguier, le 26 octobre 2024
+       Les lampes de la collection Colonnade, de Bold design, pour la Quincaillerie moderne. Les lampes de la collection Colonnade, de Bold design, pour la Quincaillerie moderne.
+       Le Goût du Monde
+       Studio Bold-design, le labo du beau
        Le Goût du Monde
        Article réservé aux abonnés
-       Caroline Vaughan, fine fleur
-       Amandine Leroy, chez elle, à Ceyrat, le 26 septembre 2024.  Amandine Leroy, chez elle, à Ceyrat, le 26 septembre 2024.
+       A la découverte d’Angers à l’occasion du festival Premiers Plans
+       Le créateur français Christian Lacroix, au défilé Dries Van Noten, à Paris, le 25 septembre 2019. Le créateur français Christian Lacroix, au défilé Dries Van Noten, à Paris, le
+       25 septembre 2019.
+       Économie
+       Article réservé aux abonnés
+       Christian Lacroix passe sous pavillon espagnol
+       Amandine Leroy, chez elle, à Ceyrat (Puy-de-Dôme), le 26 septembre 2024.  Amandine Leroy, chez elle, à Ceyrat (Puy-de-Dôme), le 26 septembre 2024.
        L'époque
        Article réservé aux abonnés
        « Ce cœur sur mon bras, c’est une piqûre de rappel, au cas où j’oublierais de m’aimer ! »
@@ -193,7 +193,6 @@
        Suppléments partenaires
            Tous à table pour le changement !
            Perspectives
-           Les Rencontres de la Fiscalité, les droits de succession au cœur du débat
            Gestion des cookies
       Recherche
    Cet article vous est offert
@@ -208,18 +207,18 @@ Chronique
    Après avoir frôlé les 11 cents de dollar la livre à New York à la mi-septembre, les cours du sucre ont retrouvé un peu de vigueur et sont repassés au-dessus des 15 cents, le 10 février. Une
    amélioration qui s’explique par des aléas climatiques touchant les récoltes, explique Laurence Girard, journaliste économique au « Monde ».
    Publié le 15 février 2020 à 10h15 Temps de Lecture 2 min.
-   Offrir l’article Lire plus tard
-   Partager
-      Partager sur Messenger
-      Partager sur Facebook
-      Envoyer par e-mail
-      Partager sur Linkedin
-      Copier le lien
+   (BUTTON) Offrir l’article (BUTTON) Lire plus tard
+   (BUTTON) Partager
+      (BUTTON) Partager sur Messenger
+      (BUTTON) Partager sur Facebook
+      (BUTTON) Envoyer par e-mail
+      (BUTTON) Partager sur Linkedin
+      (BUTTON) Copier le lien
    Article réservé aux abonnés
    Matières premières. La Saint-Valentin et ses rayons gorgés de confiseries roses et sucrées va-t-elle donner du baume au cœur des sucriers européens ? Un petit pic de consommation glycémique
    est toujours bon à prendre. Mais l’appétit des tourtereaux au bec sucré ne suffira pas à repeindre en rose le marché plombé de la poudre blanche.
    Lire aussi Article réservé à nos abonnés « Le sucre fond et avec lui les espoirs d’un retour rapide à meilleure fortune »
-   Lire plus tard
+   (BUTTON) Lire plus tard
    L’embellie tant attendue dépend surtout des cours mondiaux. Mi-septembre 2019, à l’heure des premiers arrachages de racines en France, le jus de betteraves était au ras des pâquerettes. Au
    point de frôler les 11 cents de dollar la livre à la Bourse de New York, un niveau bas jamais atteint depuis 2008. Après cette déconfiture, les cours du sucre ont retrouvé peu à peu de la
    vigueur. Au point de repasser au-dessus des 15 cents de dollar la livre le 10 février. Même regain de faveur en Europe, où le prix de la tonne de sucre est passé dans le même laps de temps de
@@ -234,14 +233,14 @@ Les yeux de Chimène
    Il vous reste 28.42% de cet article à lire. La suite est réservée aux abonnés.
    Lecture du Monde en cours sur un autre appareil.
    Vous pouvez lire Le Monde sur un seul appareil à la fois
-   Continuer à lire ici
+   (BUTTON) Continuer à lire ici
    Ce message s’affichera sur l’autre appareil.
    Découvrir les offres multicomptes
-   Pourquoi voyez-vous ce message ?
-      Parce qu’une autre personne est en train de lire Le Monde avec ce compte sur un autre appareil.
-       Vous ne pouvez lire Le Monde que sur un seul appareil à la fois.
+   (BUTTON) Pourquoi voyez-vous ce message ?
+      Parce qu’une autre personne (ou vous) est en train de lire Le Monde avec ce compte sur un autre appareil.
+       Vous ne pouvez lire Le Monde que sur un seul appareil à la fois (ordinateur, téléphone ou tablette).
       Comment ne plus voir ce message ?
-       En cliquant sur «  Continuer à lire ici » et en vous assurant que vous êtes la seule personne à consulter Le Monde avec ce compte.
+       En cliquant sur «  (BUTTON) Continuer à lire ici » et en vous assurant que vous êtes la seule personne à consulter Le Monde avec ce compte.
       Que se passera-t-il si vous continuez à lire ici ?
        Ce message s’affichera sur l’autre appareil. Ce dernier restera connecté avec ce compte.
       Y a-t-il d’autres limites ?
@@ -259,28 +258,20 @@ Les yeux de Chimène
    à partir de 7,99 €/mois
    Je m’abonne
    Carte Apple Pay Google Pay
-Le Monde Ateliers
+Services Le Monde
    Découvrir
-  
-   Cours du soir
-   Cours du soir
-   Géopolitique - Comprendre la Chine de Xi Jinping
-   Cours du soir
-   Cours du soir
-   Comment regarder un tableau - Les Modernes et les Anciens
-   Cours en ligne
-   Cours en ligne
-   De Socrate à Descartes, comment aborder la philosophie ?
-   Cours en ligne
-   Cours en ligne
-   De l'animation d'une réunion à la préparation d'un discours, apprendre à parler en public
-   Cours en ligne
-   Cours en ligne
-   Du big bang aux trous noirs, les mystères de l’Univers
-   Cours en ligne
-   Cours en ligne
-   De Maria à Diva, l’Opéra à travers la Callas
-   Voir plus
+   (BUTTON) (BUTTON)
+   Ateliers
+   Cours en ligne, cours du soir, ateliers : développez vos compétences
+   Mémorable
+   Testez votre culture générale avec la rédaction du Monde
+   Jeux
+   Mots croisés, sudoku, mots trouvés… Jouez avec nous
+   Guides d’achat
+   Gagnez du temps avec notre sélection des meilleurs produits
+   Boutique
+   Retrouvez nos derniers hors-séries, livres et Unes du Monde
+   (BUTTON) Voir plus
   Services Le Monde
       Boutique Le Monde
       Les ateliers du Monde
@@ -346,14 +337,14 @@ Le Monde Ateliers
       Conditions générales
       Charte du Groupe
       Politique de confidentialité
-      Aide
+      Aide (FAQ)
   Informations légales le Monde
       Mentions légales
       Charte du Groupe
       Politique de confidentialité
       Gestion des cookies
       Conditions générales
-      Aide
+      Aide (FAQ)
    Suivez Le Monde
       Facebook
       Youtube

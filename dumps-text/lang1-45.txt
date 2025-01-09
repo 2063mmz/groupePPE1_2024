@@ -1,47 +1,47 @@
-   #Beware Magazine » Flux Beware Magazine » Flux des commentaires Beware Magazine » Jordan Heraud ou un univers qui mêle douceur et couleur Flux des commentaires JSON oEmbed oEmbed
+   #Beware Magazine » Flux Beware Magazine » Flux des commentaires Beware Magazine » Jordan Heraud ou un univers qui mêle douceur et couleur Flux des commentaires JSON oEmbed (JSON) oEmbed (XML)
    Passer au contenu principal Atteindre le pied de page
    Logo Beware magazine noir
-      Photographie
+      Photographie (BUTTON)
            Découverte
            Photographes
            Edito Photo
            Urbex
-      Graphisme
+      Graphisme (BUTTON)
            Découverte
            Street Art
-      Musique
+      Musique (BUTTON)
            Actualité Musicale
            Artistes
       Lifestyle
-      Radar
+      Radar (BUTTON)
            Critiquature
            Design
            Architecture
            Motion
       Agenda
-  
-      Photographie
+   (BUTTON)
+      Photographie (BUTTON)
            Découverte
            Photographes
            Edito Photo
            Urbex
-      Graphisme
+      Graphisme (BUTTON)
            Découverte
            Street Art
-      Musique
+      Musique (BUTTON)
            Actualité Musicale
            Artistes
       Lifestyle
-      Radar
+      Radar (BUTTON)
            Critiquature
            Design
            Architecture
            Motion
       Agenda
-  
+   (BUTTON)
    Faire une recherche
    Rechercher 
-   ×
+   (BUTTON) ×
    Jordan Heraud Jordan Heraud
    Accueil » Graphisme » Découverte Graphique
 Jordan Heraud ou un univers qui mêle douceur et couleur
@@ -63,7 +63,7 @@ Introduire l’imaginaire dans des lieux anodins
    et communs. Affiche de librairie, étiquette de bouteille ou encore fresque murale pour un restaurant, au-delà de créer de belles lettres Jordan Heraud les incruste subtilement dans un paysage
    auquel elles apportent dynamisme et luminosité. Il les manie si bien que, si elles sont fixes, on croirait pourtant qu’elles se meuvent pour nous dessiner un message.
    Fresque murale, Jordan Heraud Fresque murale, Jordan Heraud Fresque murale, Jordan Heraud
-   Cette fresque murale a été réalisée dans un espace restauration de la MAIF et d’Elior entreprise. Sur un fond noir se dessine un univers
+   Cette fresque murale a été réalisée dans un espace restauration de la MAIF (mutuelle assurance des instituteurs de France) et d’Elior entreprise. Sur un fond noir se dessine un univers
    vivant, qui raconte ludiquement l’histoire des mets servis.
    Fresque murale, Jordan Heraud Fresque murale, Jordan Heraud Fresque murale, Jordan Heraud
    Pour le Colors festival, Jordan Heraud a peint cette jolie fresque, dans les tons rosés. Elle respire cette jovialité qu’on associe à la musique de fin d’été. Son travail construit, en tout
@@ -102,7 +102,7 @@ Ahad alias wiresandtrees : artiste visionnaire entre nature, technologie et NFT
    Article écrit par :
    Kenza Lalouni
    Laisser un commentaire
-Laissez le premier commentaire
+Laissez le premier commentaire (Annuler la réponse)
    Nom  
    Email  
    Site web 
@@ -130,7 +130,7 @@ Restons connectés
    Recevez le meilleur de nos découvertes directement dans votre boite mail
 Email
    
-   Je m'abonne
+   (BUTTON) Je m'abonne
       Agenda
       Politique de confidentialité
       À propos

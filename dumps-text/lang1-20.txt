@@ -11,16 +11,16 @@ Language
       Español
       Português
       Kiswahili
-      Autre
+      (BUTTON) Autre
            Hindi हिंदी
            Urdu اردو
            Global
    Nations Unies
    ONU Info
    L'actualité mondiale Un regard humain
-   fr Recherche
+   (BUTTON) fr (BUTTON) Recherche (BUTTON)
    
-   Recherche
+   (Recherche) Recherche
    Recherche avancée
 Langue
       العربية
@@ -31,11 +31,11 @@ Langue
       Español
       Português
       Kiswahili
-      Autre
+      (BUTTON) Autre
            Hindi हिंदी
            Urdu اردو
            Global
-  
+   (BUTTON)
    ONU Info
    L'actualité mondiale Un regard humain
 Menu
@@ -57,7 +57,7 @@ Menu
            Droit et prévention du crime
            Santé
            Culture et éducation
-           Développement durable
+           Développement durable (ODD)
            Migrants et réfugiés
       Info Plus
            Photoreportages
@@ -86,13 +86,13 @@ Langue
       Español
       Português
       Kiswahili
-      Autre
+      (BUTTON) Autre
            Hindi हिंदी
            Urdu اردو
            Global
 Recherche
    
-   Recherche
+   (Recherche) Recherche
    Recherche avancée
 Audio and Subscription
       Audiothèque
@@ -118,7 +118,7 @@ L’ONU « totalement engagée » à soutenir un transfert de pouvoir en douceur
 Pénuries alimentaires et flambée des prix
    Alors que des pénuries alimentaires ont été signalées dans les grandes villes syriennes, notamment à Deir ez-Zor, Damas et Hama, le prix du pain a augmenté dans certaines localités de 900 %
    entre le 27 novembre et le 9 décembre, ont indiqué mercredi les Nations Unies.
-   Dans son dernier rapport sur la situation en Syrie, le Bureau de coordination des affaires humanitaires de l’ONU note que les combats et l’instabilité ont de « graves conséquences
+   Dans son dernier rapport sur la situation en Syrie, le Bureau de coordination des affaires humanitaires de l’ONU (OCHA) note que les combats et l’instabilité ont de « graves conséquences
    économiques ».
    Des hausses de prix d’autres produits ont été signalées sur les marchés à travers le pays, le prix du poulet ayant augmenté de 119 %, ce qui affecte gravement l’accès des populations à
    l’alimentation de base. De manière générale, les prix ont augmenté entre le 27 novembre et le 9 décembre de 18 à 90 % sur tous les marchés.
@@ -156,47 +156,47 @@ Reprise des activités humanitaires lorsque la sécurité le permet
    Malgré les difficultés et l’instabilité, les agences onusiennes et leurs partenaires poursuivent leurs activités lorsque les conditions de sécurité le permettent. Toutes les ONG et tous les
    établissements de santé qui avaient suspendu leurs activités à Idleb et dans le nord d’Alep en raison des combats sont maintenant revenus à la normale.
    L’opération transfrontalière depuis la Türkiye se poursuit sans entrave. Le 10 décembre, 25 camions transportant de l’aide de l’ONU ont traversé la frontière vers le nord-ouest de la Syrie.
-   Neuf camions transportant 219 tonnes de paniers alimentaires du Programme alimentaire mondial ont traversé le poste frontière de Bab Al-Salam, tandis que 16 camions humanitaires ont
+   Neuf camions transportant 219 tonnes de paniers alimentaires du Programme alimentaire mondial (PAM) ont traversé le poste frontière de Bab Al-Salam, tandis que 16 camions humanitaires ont
    traversé Bab Al-Hawa.
    Les activités humanitaires dans le nord-est de la Syrie restent toutefois largement limitées en raison de l’insécurité. Les ONG à Menbij restent fermées, ce qui entraîne la suspension des
-   services sur l’eau et l’assainissement dans le camp de Menbij, qui abrite près de 16.000 déplacés internes. « Les activités sanitaires dans tous les établissements de santé soutenus
+   services sur l’eau et l’assainissement (WASH) dans le camp de Menbij, qui abrite près de 16.000 déplacés internes. « Les activités sanitaires dans tous les établissements de santé soutenus
    par les ONG sont également restées suspendues en raison d’informations faisant état de pillages », a précisé l’OCHA.
    ♦ Recevez des mises à jour quotidiennes directement dans votre boîte mail - Inscrivez-vous ici.
    ♦ Téléchargez l'application ONU Info pour vos appareils iOS ou Android.
       Crise en Syrie
 ECOUTEZ LA RADIO DE L'ONU
 Articles
-   Geir Pedersen, Envoyé spécial du Secrétaire général pour la Syrie, informe le Conseil de sécurité de la situation dans le pays.
+   Geir Pedersen (à l'écran), Envoyé spécial du Secrétaire général pour la Syrie, informe le Conseil de sécurité de la situation dans le pays (photo d'archives).
 Une véritable chance pour la paix et la stabilité en Syrie, déclare l'envoyé de l'ONU au Conseil de sécurité
-   L'Envoyé spécia de l'ONUl pour la Syrie, Geir Pedersen, parle aux médias à la prison de Saidnaya, où des atrocités ont été commises par l'ancien régime de Bachar Al-Assad.
+   L'Envoyé spécia de l'ONUl pour la Syrie, Geir Pedersen (au centre), parle aux médias à la prison de Saidnaya, où des atrocités ont été commises par l'ancien régime de Bachar Al-Assad.
 Geir Pedersen appelle à des élections « libres et justes » après la période transitoire en Syrie
-   Des gens se rassemblent pour célébrer la liberté à Damas.
-Le Bureau des droits de l’homme de l’ONU enverra la semaine prochaine une équipe en Syrie
+   Deux garçons vendent du pain dans les rues d'Alep en Syrie.
+Syrie : malgré l'incertitude actuelle, l’ONU relance ses opérations humanitaires à grande échelle
 Suivre l'actualité : précédents articles sur le sujet
    La vieille ville de Damas, en Syrie.
 Les rebelles qui ont renversé Assad ont envoyé des « messages positifs » aux Syriens pour l'instant, selon l’ONU
    10 décembre 2024
    Paix et sécurité
-   Le groupe islamiste Hayat Tahrir al-Cham et d’autres groupes armés, à l’origine de l’offensive ayant conduit à la chute du Président syrien Bachar Al-Assad, ont jusqu’à présent « envoyé
+   Le groupe islamiste Hayat Tahrir al-Cham (HTC) et d’autres groupes armés, à l’origine de l’offensive ayant conduit à la chute du Président syrien Bachar Al-Assad, ont jusqu’à présent « envoyé
    un message positif » à la population syrienne, a indiqué mardi un haut responsable des Nations Unies, plaidant également pour des accords de transition aussi inclusifs que possible.
-Ressources Button collapse
+Ressources (BUTTON) Button collapse
       Informations pour les diffuseurs
       Liens ONU
       Avis aux médias
       Journal de l'ONU
       Couverture des réunions
       Bibliothèque audiovisuelle
-Secrétaire général Button collapse
+Secrétaire général (BUTTON) Button collapse
       @antonioguterres
       Déclarations
       Déplacements officiels
       Points de presse
-Bureau du Porte-parole Button collapse
+Bureau du Porte-parole (BUTTON) Button collapse
       Déclarations
       Point de presse : en bref
       Point de presse : transcriptions
       Notes aux correspondants
-Nous trouver Button collapse
+Nous trouver (BUTTON) Button collapse
       ONU Info App
       Facebook
       RSS

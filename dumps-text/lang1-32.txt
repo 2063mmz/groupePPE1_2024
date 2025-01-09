@@ -1,4 +1,4 @@
-   #alternate JSON oEmbed oEmbed
+   #alternate JSON oEmbed (JSON) oEmbed (XML)
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-MJ23WK6
       Où et quand partir Retour à l'accueil
       Destinations
@@ -36,7 +36,7 @@
    Hôtels
    Voiture
    FRANCE ▼
-      France
+      France (drapeau)
        La France
       QUAND PARTIR
            Quand partir en France
@@ -99,7 +99,7 @@ Un village angevin plein de charme
    invitent à la promenade. Une promenade à continuer ensuite en dehors du village le long des sous bois et des chemins de halage qui vous permettront de faire facilement le tour de l’île en une
    randonnée pédestre ou à vélo de quelques kilomètres.
 Et pourquoi pas un saut à Angers ?
-   Angers, la préfecture du Maine‑et‑Loire, est la seconde agglomération des Pays de la Loire avec 250 000 habitants. C’est une ville agréable avec son vieux centre, coeur historique de la
+   Angers, la préfecture du Maine‑et‑Loire (49), est la seconde agglomération des Pays de la Loire avec 250 000 habitants. C’est une ville agréable avec son vieux centre, coeur historique de la
    cité, connu notamment pour ses ruelles, ses monuments médiévaux et ses hôtels particuliers. Parmi les principaux lieux d’intérêt on notera le Musée des Beaux-arts, la maison d’Adam qui est
    une magnifique demeure à colombages datant de la fin du XV^e siècle, la cathédrale Saint-Maurice et surtout le château d’Angers.
    Parce que souvent c’est pour lui que l’on vient. Le Château d’Angers, appelé également Château des Ducs d’Anjou, est en effet le site le plus connu de la ville. Datant du XIII^e siècle, il
@@ -116,30 +116,30 @@ Et pourquoi pas un saut à Angers ?
    contacter !
    IFRAME: /formnewsletter.php
 Réservez un voyage sur mesure en France avec Evaneos
-   5 j.
-   La magie de Noël en Alsace
-   À partir de 1210 €
    7 j.
-   Le mythique tour du Mont Blanc en liberté
-   À partir de 780 €
-   6 j.
-   Rando dans le Mercantour et la vallée des Merveilles
-   À partir de 530 €
+   Le tour du Queyras en randonnée
+   À partir de 690 €
    7 j.
-   Culture et histoire en Normandie : Rouen, Honfleur et les plages du…
-   À partir de 1025 €
-   6 j.
-   Exploration de la région Corse du Valinco
-   À partir de 1175 €
-   8 j.
-   Roadtrip sur la côte Atlantique
-   À partir de 789 €
+   Le Val de Loire entre châteaux, culture et gastronomie
+   À partir de 1350 €
+   9 j.
+   Merveilles provençales en randonnée
+   À partir de 1490 €
+   3 j.
+   Balades guidées entre nature et patrimoine en Loire…
+   À partir de 410 €
    13 j.
-   Escapade du nord au sud de la Corse
-   À partir de 3110 €
+   L'intégrale de Stevenson dans les Cévennes
+   À partir de 1250 €
+   7 j.
+   Carte postale de Normandie
+   À partir de 865 €
+   9 j.
+   Le long de la côte de Bretagne Nord !
+   À partir de 1350 €
    4 j.
-   Découverte à vélo du vignoble de Bourgogne du Sud
-   À partir de 530 €
+   Parenthèse architecturale dans la région lilloise
+   À partir de 930 €
 Nos autres pages sur la France
       La France
       QUAND PARTIR

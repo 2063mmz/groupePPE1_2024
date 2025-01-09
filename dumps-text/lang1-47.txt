@@ -33,7 +33,7 @@
      
    Infos pratiquesTourisme et TransportsShoppingNaissancesUrgencesInfo traficProgramme TVContactez-nous
      
-    chercher
+    (BUTTON) chercher
    fermer MENU
    Maville.com  par  Ouest-France
    Communes Communes
@@ -85,7 +85,7 @@
       Communes préférées
    Se déconnecter
 Pourquoi dire Oui aux cookies ?
-   Réduire ce message
+   (BUTTON) Réduire ce message
    Nous avons besoin de vos cookies pour vous offrir la meilleure expérience de lecture possible et vous proposer des articles personnalisés selon votre lieu de vie et des publicités selon vos
    centres d'intérêt, avec une sécurité maximale du site.
    Ils contribuent au modèle économique de notre entreprise et permettent aux journalistes de notre rédaction déployés à travers la région, de continuer à concevoir une information fiable et de
@@ -131,7 +131,7 @@ Retrouvez d'autres actus sur la commune de :
        
        
        merci de saisir la ville du restaurant
-       Téléchargez votre photo
+       Téléchargez votre photo (2 Mo max)
          
        Nom du bar 
        
@@ -185,37 +185,37 @@ Retrouvez d'autres actus sur la commune de :
    Téléchargez votre photo. Poids de votre photo : 2Mo max                     
      
     En cochant cette case, j'accepte et je reconnais avoir pris connaissance des conditions générales d'utilisation et de la politique de données personnelles.
-     Envoyer
+     (BUTTON) Envoyer
    Vos données personnelles font l’objet d’un traitement informatique par la société Additi Multimedia, sur le fondement de l'exécution d'un contrat et sont utilisées notamment pour prendre en
    compte, modérer et répondre à vos commentaires sur les contenus mis en ligne sur le site. Elles seront conservées conformément à notre politique de données personnelles, sauf dispositions
    légales particulières. Vous disposez d’un droit d’accès, de rectification, d’opposition, de limitation et de portabilité, en vous adressant directement à pdp@sipa.ouest-france.fr ou par
    courrier à "Délégué à la Protection des Données Personnelles SIPA Additi Multimedia - ZI Rennes Sud-Est,– 10 rue du Breil – 35051 Rennes cedex 9". Vous avez également le droit d’introduire
    une réclamation auprès de la CNIL. En savoir plus
-     OK
+     (BUTTON) OK
    Newsletter maville
 Abonnez-vous à la newsletter - Nantes
     Je m'inscris
    En cours de recherche
    Votre e-mail, avec votre consentement, est utilisé par la société Additi Multimedia pour recevoir les newsletters sélectionnées. En savoir plus
 Exprimez-vous !
-   Débat : François Bayrou Premier ministre, bonne ou mauvaise idée ? 13
+   Débat : François Bayrou Premier ministre, bonne ou mauvaise idée ? 14
    Réagir
 L'info en continu
      
-Pour les vœux 2025, les...
-       07/01/25 - 21:49
+Dans les entrepôts de la...
+       09/01/25 - 20:48
      
-Disparition inquiétante en...
-       07/01/25 - 21:47
+Vœux de Johanna Rolland : la...
+       09/01/25 - 20:37
      
-Dernier grand pirate des...
-       07/01/25 - 21:30
+Disparition de Théo Courcoux :...
+       09/01/25 - 20:33
      
-Il avait visé un policier pour...
-       07/01/25 - 21:14
+« Tout a été...
+       09/01/25 - 20:16
      
-Festival Premiers plans à...
-       07/01/25 - 21:00
+Le cheval argenté des Jeux...
+       09/01/25 - 20:08
      Toute l'info en continu
      
     Info     Infos les  lues
@@ -223,34 +223,34 @@ Festival Premiers plans à...
     Info     Infos les  commentées
      
    Nº1
-Les salariés d’un supermarché évacués dans un...
+« On ne s’habitue pas à ça » : l’angoisse des...
      
    Nº2
-À Châteaubriant, le petit Jean est le dernier bébé...
-     
-   Nº3
-Deux véhicules s’embrasent, l’un d’eux explose :...
-     
-   Nº4
-Nuit de la Saint-Sylvestre à Nantes : des véhicules...
-     
-   Nº5
 Aéroport : « On ne fera pas Notre-Dame-des-Landes à...
      
+   Nº3
+Depuis un arrêt de tram à Nantes, un homme tire deux...
+     
+   Nº4
+À Mayenne, l’entreprise pharmaceutique GSK épinglée...
+     
+   Nº5
+Des propriétaires démunis face à la crise de...
+     
    N°1
-Johanna Rolland vous répond : « Est-il prévu...1
+Saint-Nazaire proposera des concerts classiques, sans la...1
      
    N°2
-Ils ont marqué l’aéronautique à Saint-Nazaire :...1
+Mort de Jean-Marie Le Pen : des rassemblements festifs...1
      
    N°3
-Après neuf ans de combat, une mère obtient un procès...
+Pays de la Loire. Christelle Morançais souhaite de...1
      
    N°4
-Rafales de vent à Nantes : Parcs et jardins fermés...
+Mort de Jean-Marie Le Pen. « Les idées ne meurent pas...1
      
    N°5
-En plus d’être généreux, Les Petits papiers...
+Johanna Rolland vous répond : « Est-il prévu...1
 Quiz et jeux
       33 photo quiz. 15 questions sur l'actualit de 2024
 Quiz. 15 questions sur l'actualité de 2024

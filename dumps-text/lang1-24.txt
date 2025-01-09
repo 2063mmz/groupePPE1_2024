@@ -1,13 +1,13 @@
    30e anniversaire ... Dans la guitare de Jobim, la révolution en douceur "Je travaille plus que je ne mérite"
-      Contenu
-      Lecteur audio
-      Menu
-      Pied de page
+      (BUTTON) Contenu
+      (BUTTON) Lecteur audio
+      (BUTTON) Menu
+      (BUTTON) Pied de page
    javascript désactivé
    Votre expérience sur le site radiofrance.fr risque d’être dégradée.
-  
-      Menu
-      Radios
+   (BUTTON)
+      (BUTTON) Menu
+      (BUTTON) Radios
           
           
           
@@ -16,7 +16,7 @@
           
           
       Podcasts
-      Catégories
+      (BUTTON) Catégories
            Sciences et Savoirs
            Société
            Environnement
@@ -37,8 +37,8 @@
       Enfants
       Radio France, aller à la page d'accueil
       Rechercher
-      Se connecter
-     
+      (BUTTON) Se connecter
+      (BUTTON)
 France Musique
      
       Grille des programmes
@@ -49,23 +49,23 @@ France Musique
       Contemporain
    13 novembre 1967 : Frank Sinatra & le guitariste Antônio Carlos Jobim "Un homme et sa musique" partie III ©Getty - NBCU Photo Bank/NBCUniversal 13 novembre 1967 : Frank Sinatra & le
    guitariste Antônio Carlos Jobim "Un homme et sa musique" partie III ©Getty - NBCU Photo Bank/NBCUniversal
-  
+   (BUTTON)
 30e anniversaire ... Dans la guitare de Jobim, la révolution en douceur "Je travaille plus que je ne mérite"
    Publié le samedi 7 décembre 2024
-  
-   écouter 
-  
-  
+   (BUTTON)
+   écouter  (59 min)
+   (BUTTON)
+   (BUTTON)
    13 novembre 1967 : Frank Sinatra & le guitariste Antônio Carlos Jobim "Un homme et sa musique" partie III ©Getty - NBCU Photo Bank/NBCUniversal
    Publicité
    Image carrée Guitare, guitares
 Provenant du podcast Guitare, guitares
-   Contacter Contacter l'émission
-  
-"Antônio Carlos Jobim figure emblématique de la musique populaire brésilienne, inventeur de la bossa nova dans les années 1950, auteur de plus de 400 chansons dont de très grands succès
+   (BUTTON) Contacter Contacter l'émission
+   (BUTTON)
+"Antônio Carlos Jobim (1927-1994) figure emblématique de la musique populaire brésilienne, inventeur de la bossa nova dans les années 1950, auteur de plus de 400 chansons dont de très grands succès
 internationaux, Tom Jobim incarnait par son style de vie, une forme d'épicurisme." Sébastien Llinarès
    Avec
-      Antônio Carlos Jobim interpète, compositeur
+      Antônio Carlos Jobim interpète, compositeur (25 janvier 1927, Rio de Janeiro, Brésil - 08 décembre 1994, New York, USA)
       Tom Jobim
       Sébastien Llinares Producteur de l'émission "Guitare, guitares"
    Logo du magazine Guitare Classique Logo du magazine Guitare Classique
@@ -81,17 +81,17 @@ internationaux, Tom Jobim incarnait par son style de vie, une forme d'épicurism
    À écouter
    Le guitariste Sébastien Llinares : "L'histoire de la guitare a toujours été faite de creux et de bosses"
    L'invité(e) du jour
-  
+   (BUTTON)
    Écouter plus tard
-   Lecture
+   (BUTTON) Lecture
    27 min
    👉 Inscrivez-vous à la newsletter Les évènements de France Musique
 ♫ Guitare, Guitares - Générique
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Sébastien Llinarès, guitare : Je te veux - Album "Erik Satie : Gnossiennes, Gymnopédies, Parade & Other Pieces" - Label Paraty
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Sébastien Llinarès, guitare : Je te veux (Erik Satie / arr. pour guitare Sébastien Llinarès) - Album "Erik Satie : Gnossiennes, Gymnopédies, Parade & Other Pieces (2017)" - Label Paraty
    106415
 ♫ Guitare, Guitares - Programme
    À regarder
@@ -99,65 +99,65 @@ internationaux, Tom Jobim incarnait par son style de vie, une forme d'épicurism
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ The Voice Frank Sinatra & Antônio Carlos Jobim, guitare : Quiet Nights & Change Partners & I Concentrate On You - Album
-   "Sinatra-Jobim Sessions" - Label Reprise Records 34.024-25
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ The Voice Frank Sinatra & Antônio Carlos Jobim, guitare : Quiet Nights (A. C. Jobim / Gene Lees) & Change Partners (Irving Berlin) & I Concentrate On You (Cole Porter) - Album
+   "Sinatra-Jobim Sessions (1979)" - Label Reprise Records 34.024-25
    À écouter
    Guitare jazz ! Autour du dernier album "MoonDial" du guitariste américain Pat Metheny
    Guitare, guitares
-  
+   (BUTTON)
    Écouter plus tard
-   Lecture
+   (BUTTON) Lecture
    59 min
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Antônio Carlos Jobim, voix, piano & Pat Metheny, guitare : Insensatez - Album "The Antonio Carlos Jobim Songbook - Wave - Label
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Antônio Carlos Jobim, voix, piano & Pat Metheny, guitare : Insensatez (How Insensitive) (Norman Gimbel / Vinicius De Moraes) - Album "The Antonio Carlos Jobim Songbook - Wave (1996) - Label
    Verve Records 314 535 528-2
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Pat Metheny, guitare : Garota de Ipanema - Album "What's It All About" - Label Nonesuch Records 527912-2
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Pat Metheny, guitare : Garota de Ipanema (Antônio Carlos Jobim / Vinicius de Moraes) - Album "What's It All About (2011)" - Label Nonesuch Records 527912-2
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Raphael Rabello, guitare brésilienne à 7 cordes : Luiza & avec Paco de Lucia, guitare : Samba Do Avião  - Album "Raphael Rabello - Todos Os
-   Tons" – Label RCA Records M10105
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Raphael Rabello, guitare brésilienne à 7 cordes : Luiza & avec Paco de Lucia, guitare : Samba Do Avião (Antônio Carlos Jobim / arr. Raphael Rabello)  - Album "Raphael Rabello - Todos Os
+   Tons (1993)" – Label RCA Records M10105
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Jason Vieaux, guitare : A Felicidade - Album "Play" - Label Azica Records ACD-71287
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Jason Vieaux, guitare : A Felicidade (Antônio Carlos Jobim / arr. Roland Dyens) - Album "Play (2014)" - Label Azica Records ACD-71287
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Francesco Buzzurro, guitariste sicilien : Chega de Saudade - Album "One Man Band" - Label Rough Trade 319.1498.2
-   ♪ Diego Figueiredo, guitariste brésilien & Rodolfo Stroeter, basse. Robertinho Silva, drums : Samba de uma nota só - Album "Dadaiô" - Label Stunt
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Francesco Buzzurro, guitariste sicilien : Chega de Saudade (Antônio Carlos Jobim / arr. Francesco Buzzurro) - Album "One Man Band (2012)" - Label Rough Trade 319.1498.2
+   ♪ Diego Figueiredo, guitariste brésilien & Rodolfo Stroeter, basse. Robertinho Silva, drums : Samba de uma nota só (Antônio Carlos Jobim / Vinicius De Moraes) - Album "Dadaiô" - Label Stunt
    Records STUCD 08192
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ João Gilberto, guitare : Desafinado & Samba Da Minha Terra - Album "Herbie Mann & João Gilberto with Antonio Carlos Jobim" -
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ João Gilberto, guitare : Desafinado (Antônio Carlos Jobim / Newton Mendonça) & Samba Da Minha Terra (Dorival Caymmi) - Album "Herbie Mann & João Gilberto with Antonio Carlos Jobim (1965)" -
    Label Atlantic SD 8105
    Pour voir ce contenu, acceptez les cookies.
    Pour afficher ce contenu Youtube, vous devez accepter les cookies Publicité.
    Ces cookies permettent à nos partenaires de vous proposer des publicités et des contenus personnalisés en fonction de votre navigation, de votre profil et de vos centres d'intérêt.
-   Gérer mes choix J'autorise
-   ♪ Charlie Byrd, guitare : Dindi - Album "Brazilian Byrd - Music of Antônio Carlos Jobim" - Label Columbia
+   (BUTTON) Gérer mes choix (BUTTON) J'autorise
+   ♪ Charlie Byrd, guitare : Dindi (Antônio Carlos Jobim / Aloysio De Oliveira / Ray Gilbert / arr. Tommy Newsom) - Album "Brazilian Byrd - Music of Antônio Carlos Jobim (1965)" - Label Columbia
    CS 9137
-♫ Guitare de Légende ... "Corcovado" d'Antônio Carlos Jobim
+♫ Guitare de Légende ... "Corcovado" d'Antônio Carlos Jobim (1927-1994)
    À écouter
    Guitare de légende
-   suivre
+   (BUTTON) suivre
       Musiques – Actualité musicale
       Musique classique
       Musiques du monde
-      Guitare
+      Guitare (instrument)
       Bossa nova
    Publicité
    Publicité
@@ -169,80 +169,82 @@ internationaux, Tom Jobim incarnait par son style de vie, une forme d'épicurism
        Réalisation
       Annick Haumier
        Collaboration
-   Épisodes précédents Passer cette liste
-  
+   Épisodes précédents (BUTTON) Passer cette liste
+   (BUTTON)
       Album "Kiki à Paris" : Albane Carrère, Elsa de Lacerda, Magali Rischette
        Chansons & mélodies françaises, Album "Kiki à Paris" & Hommage à Valérie Duchâteau guitariste aux doigts d'or
-       Lecture
+       (BUTTON) Lecture
        30 nov. 2024
         •
        59 min
       31 janvier 2021 : Raphaella Smits, guitare 8 cordes, Mirecourt 1827
        Du côté de l’Argentine avec les guitaristes Raphaella Smits, Quito Gato & la soprano Mariana Flores
-       Lecture
+       (BUTTON) Lecture
        23 nov. 2024
         •
        59 min
       Album "Ibéria : Guillaume Gibert : Llobet - Rodrigo"
        Guillaume Gibert, Pedro Aguiar, Péter, Zoltán - Katona Twins Duo & Le Guitarp Duo - Les parutions d'albums #2
-       Lecture
+       (BUTTON) Lecture
        16 nov. 2024
         •
        58 min
       Le guitariste Pierre Bibault
        Mateusz Kowalski & Le concerto en fa mineur de Frédéric Chopin · Pierre Bibault & La Sequenza de Luciano Berio
-       Lecture
+       (BUTTON) Lecture
        9 nov. 2024
         •
        59 min
       Driss El Maloumi, virtuose du oud
        Les musiques traditionnelles, contemporaines et métissées pour l'Oud - Avec Driss El Maloumi, Magicien du oud
-       Lecture
+       (BUTTON) Lecture
        2 nov. 2024
         •
        59 min
-  
-   Sur le même thème Passer cette liste
-  
-      Pierre Boulez au pupitre de l'Orchestre symphonique de Chicago en 2005
-       Pierre Boulez : « Le silence intérieur est capital pour entendre ce que l’on veut exprimer »
-       Lecture
-       Les Trésors de France Musique
-       Aujourd'hui
-        •
-       59 min
-      Amandine Beyer et l'ensemble Gli Incogniti
-       Les Quatre saisons de Vivaldi par l'ensemble Gli Incogniti et Amandine Beyer
-       Lecture
+   (BUTTON)
+   Sur le même thème (BUTTON) Passer cette liste
+   (BUTTON)
+      Klaus Mäkelä / Elsa Benoit
+       "Initiale"(s) PB... Boulez par l'Orchestre de Paris pour "Anniversaires en série" à la Philharmonie de Paris
+       (BUTTON) Indisponible
        Le Concert du soir
        Aujourd'hui
-        •
-       1h 58min
-      La façade du Palais Garnier, inauguré le 5 janvier 1875
-       Mathias Auclair : "Le Palais Garnier a une capacité de fascination qui transcende les époques"
-       article
-       Chant lyrique
-       Aujourd'hui
-      Frank Peter Zimmermann, violoniste : conviction et imagination, dans Stars du Classique
-       Frank Peter Zimmermann, conviction et imagination
-       Lecture
+      Beatrice Rana, pianiste : authenticité et liberté, dans Stars du Classique
+       Beatrice Rana, authenticité et liberté
+       (BUTTON) Lecture
        Stars du classique
        Aujourd'hui
         •
        1h 28min
-      Mozart par Clifford Curzon et Benjamin Britten
-       Mozart par Clifford Curzon et Benjamin Britten
-       Indisponible
+      Pochette du dique "Scylla et Glaucus" de Jean-Marie Leclair, direction John Eliot Gardiner en 1988 chez Musifrance
+       "Scylla et Glaucus" de Leclair par John Eliot Gardiner
+       (BUTTON) Lecture
        Disques de légende
        Aujourd'hui
-      Charles Dutoit
-       Portrait de Charles Dutoit
-       Lecture
+        •
+       16 min
+      Maurice Ravel dans les années 1920.
+       D'où viens-tu Maurice ?
+       (BUTTON) Lecture
        Relax !
        Aujourd'hui
         •
        1h 28min
-  
+      BBC Legends Emission "Les Essentiels" sur France Musique. Emission #6
+       BBC Legends 6 : de Bizet à Elgar
+       (BUTTON) Lecture
+       Les Essentiels
+       Aujourd'hui
+        •
+       1h 28min
+      Le trio 20° dans le noir, et le compositeur Wei-Chieh Lin pour Création mondiale
+       "Bloop" de Wei-Chieh-Lin pour trois instruments (4/5)
+       (BUTTON) Lecture
+       Création Mondiale
+       Aujourd'hui
+        •
+       5 min
+   (BUTTON)
       Accueil
       France Musique
       Podcasts
@@ -296,7 +298,7 @@ internationaux, Tom Jobim incarnait par son style de vie, une forme d'épicurism
    Aide et contacts
       Nous contacter
       Comment écouter Radio France
-      Questions fréquentes
+      Questions fréquentes (FAQ)
       La Médiatrice
       Votre avis sur le site
    Informations légales

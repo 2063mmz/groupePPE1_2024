@@ -1,7 +1,7 @@
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-MXW2V6N
    Le Quotidien de l'Art Le Quotidien de l'Art
    Le Quotidien de l'Art
-      
+       (BUTTON)
       Les éditions
            Le Quotidien
            L'Hebdo
@@ -11,7 +11,7 @@
            Acteurs de l'art
            Expositions
            Politique culturelle
-      
+       (BUTTON)
       S'abonner
       Se connecter
      
@@ -32,7 +32,7 @@ Drawing Now, démarrage en douceur
    © Drawing now 2024.
    Sous un soleil radieux, la foire consacrée au dessin contemporain a ouvert la saison printanière, avec des allées plutôt bien fréquentées. Certains stands ne dissimulaient pas l’attentisme
    ambiant, dû à une conjoncture plus morose que l'an dernier et à l'ADN local - on n'est pas à Art Basel, avec ses achats instantanés. Chez Georges-Philippe & Nathalie Vallois où l’on commente
-   « un démarrage très tranquille », les émouvants dessins d’Emanuel Proweller attendaient preneur à l’instar des beaux semainiers d’Alechinsky chez Lelong & Co. ou
+   « un démarrage très tranquille », les émouvants dessins d’Emanuel Proweller (entre 2 500 et 22 000 euros) attendaient preneur à l’instar des beaux semainiers d’Alechinsky chez Lelong & Co. ou
    des virtuoses François Rouan chez Templon. À côté des collectionneurs fidèles bien…
    Drawing Now, démarrage en douceur
    Retrouvez cet article dans l'édition N°2793 du 21 mars 2024
@@ -81,7 +81,7 @@ Moderne Art Fair reprend des couleurs
      
      
      
-   Inscrivez-vous à l'alerte quotidienne  valider
+   Inscrivez-vous à l'alerte quotidienne  (BUTTON) valider
       À propos
       Publicité
       CGV
@@ -101,11 +101,11 @@ Moderne Art Fair reprend des couleurs
    Votre adresse e-mail 
    Mot de passe 
     Rester connecté sur ce navigateur
-   Connexion
+   (BUTTON) Connexion
    Mot de passe oublié ?
    Mot de passe oublié
    E-mail utilisé lors de votre inscription 
    Si vous ne vous souvenez plus de votre e-mail:
    Recherchez l'e-mail de confirmation d'inscription ou un e-mail d'alerte de publication et regardez l'adresse sur laquelle vous le recevez.
-   Valider
+   (BUTTON) Valider
    Finalisez votre inscription en confirmant que vous n'êtes pas un robot

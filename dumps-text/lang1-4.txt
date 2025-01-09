@@ -1,27 +1,27 @@
-   #JSON oEmbed oEmbed
+   #JSON oEmbed (JSON) oEmbed (XML)
    Aller au contenu
    Échos Judiciaires Girondins
-   Couverture du journal du 02/01/2025 Le nouveau magazine
-  
-   Mots-clés 
+   Couverture du journal du 02/01/2025 Le nouveau magazine (BUTTON)
+   (BUTTON)
+   Mots-clés  (BUTTON)
       À la Une
       L'éco en bref
       Focus PME
       Dans l'écosystème
       Le cercle des Experts
       Vins & Culture
-      Nos services
-       Revenir
+      (BUTTON) Nos services
+       (BUTTON) Revenir
            Magazines
            Ventes aux enchères & opportunités
            Publiez vos annonces légales
            Annonces publiées
            Nous trouver en kiosques
            Abonnement
-      Abonné journal
+      (BUTTON) Abonné journal
       Client annonces légales
-      Se connecter
-           Abonné journal
+      (BUTTON) Se connecter
+           (BUTTON) Abonné journal
            Client annonces légales
       S'abonner
     1. Accueil
@@ -62,7 +62,7 @@ DOUCEUR DANS MES RELATIONS
       Pratiquer écoute, empathie, reformulation et questionnement, qui favorisent confiance en soi, responsabilité et liberté d’expression. Laisser de côté, dans un premier temps, les ennemis
        de l’écoute que sont solution et conseil, ordre, jugement et évaluation, interprétation et diagnostic. Car si les effets sont positifs en termes de résultats, efficacité et progrès, ils
        sont négatifs pour l’individu : sentiment de rejet ou infériorité, dépendance, repli sur soi, perte de confiance, culpabilité, irritation, blocage, non-responsabilisation.
-      Passer du mode Chacal en mode Girafe en supprimant les paroles qui mettent de l’huile sur le feu et génèrent le conflit : accuser ou agresser,
+      Passer du mode Chacal en mode Girafe (registre de la Communication Non Violente) en supprimant les paroles qui mettent de l’huile sur le feu et génèrent le conflit : accuser ou agresser,
        juger ou reprocher, exiger ou ordonner, faire chanter ou menacer, ironiser ou ridiculiser, faire la leçon ou faire taire, feindre d’être d’accord et manipuler, manquer de respect ou
        insulter, refuser le dialogue ou se soumettre, terminer les phrases de l’autre à sa place, avoir toujours raison, aider l’autre sans demande.
       Adopter le mode OSBD : Observation de la réalité et problématique, Sentiments, Besoins à combler, Demande.
@@ -80,14 +80,14 @@ Annonces légales
    Vos annonces légales au meilleur prix dans toute la France.
    Je publie mon annonce légale
    Coordonnées
-  
+   (BUTTON)
    108 rue Fondaudège CS 71900
    33081 Bordeaux Cedex
    05 56 52 32 13
      
      
    A propos
-  
+   (BUTTON)
       Qui sommes-nous
       Contact
       Annonces légales
@@ -96,7 +96,7 @@ Annonces légales
       Ventes aux enchères & opportunités
       Recrutement
    Sites du groupe
-  
+   (BUTTON)
       7 jours
       Informateur Judiciaire
       Les Annonces Landaises
@@ -104,4 +104,4 @@ Annonces légales
    Échos Judiciaires Girondins
       Plan du site
       Mentions légales
-      Gestion des cookies
+      (BUTTON) Gestion des cookies

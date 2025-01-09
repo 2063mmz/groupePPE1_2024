@@ -1,7 +1,7 @@
    #alternate Voyage Tendances
-   Menu Menu
+   (BUTTON) Menu Menu
    Lire le magazine
-   Se connecter S'abonner : 29,99€ pour un an
+   Se connecter S’abonner pour 1€
       Menu
       Société
       Politique
@@ -15,69 +15,69 @@
       BibliObs
       TéléObs
       Recherche
-  
+   (BUTTON)
    Menu
-   S'abonner Fermer la navigation Fermer
+   S'abonner (BUTTON) Fermer la navigation Fermer
    Se connecter
    S’inscrire Lire
    le magazine FAQ
    Rechercher un article, un sujet
-  
+   (BUTTON)
    A la une
-   La mort de Jean-Marie Le Pen Charlie, dix ans après Mayotte dévastée Actualités en continu
-  
+   La mort de Jean-Marie Le Pen Charlie, dix ans après Donald Trump Actualités en continu
+   (BUTTON)
    Société
    Actualités Société Justice Education Faits divers Santé Droits des femmes Sciences Parentalité
-  
+   (BUTTON)
    Politique
    Actualités Politique Gouvernement Assemblée nationale
-  
+   (BUTTON)
    Monde
    Actualités Monde Afrique Amérique Asie Europe Présidentielle américaine Conflit Israël-Palestine Guerre en Ukraine
-  
+   (BUTTON)
    Ecologie
    Actualités Ecologie Climat Pollution Écologie au quotidien Animaux
-  
+   (BUTTON)
    Economie
    Actualités Economie Numérique Social Entreprises Immobilier Conso Argent Médias
-  
+   (BUTTON)
    Idées
    Actualités Idées Philosophie Histoire Féminisme
-  
+   (BUTTON)
    Culture
    Actualités Culture Cinéma Séries Musique Théâtre Expositions
-  
+   (BUTTON)
    Tendances
    Actualités Tendances Mode High-Tech Food Drinks Vins Voyage Automobile
-  
+   (BUTTON)
    Rue89
    Actualités Rue89 Vies intimes Notre époque
-  
+   (BUTTON)
    BibliObs
    Actualités BibliObs Romans BD Polars Essais
-  
+   (BUTTON)
    TéléObs
    Actualités TéléObs Sélection TV Plateformes Sélection Podcasts
-  
+   (BUTTON)
    Lab-O
    Actualités Lab-O 2049 Les Cycles ÉcoloObs
-  
+   (BUTTON)
    Opinions
    Actualités Opinions Éditos Chroniques Tribunes Billets
-  
+   (BUTTON)
    Sport
    Actualités Sport JO 2024
-  
+   (BUTTON)
    Formats
    Vidéos Toutes nos séries Grands entretiens Portraits Dossiers Tous les jeux
-  
+   (BUTTON)
    Services
    Programme TV Conjugaison Club Abonnés Boutique Mots croisés Comparateur de PER
-  
+   (BUTTON)
    Codes promos
    Service partenaire
    Bons plans Blog Shopping Black Friday Codes promos Code promo Cdiscount Code promo Amazon Code promo Rakuten
-  
+   (BUTTON)
    Partenaires
    Service partenaire
    Cours d'espagnol Cours d'allemand Cours d'anglais Cours de français
@@ -88,23 +88,23 @@
    Télécharger sur iOS
    Télécharger sur Android
    Voyage
-   Autour de Paris
+   Autour de Paris (4/4)
 La douceur de dormir dans une cabane arty au fond des bois
    Par Dorane Vignando
    Publié le 3 janvier 2025 à 12h00
    Une des dix huit cabanes cosy du Loire Valley Lodges.
    Une des dix huit cabanes cosy du Loire Valley Lodges. ANNE-EMMANUELLE THION
-   Lire plus tard Commenter
-  
+   (BUTTON) Lire plus tard (BUTTON) Commenter
+   (BUTTON)
    Masquer ce message
    Vous voulez participer au débat ?
    S’abonner permet de commenter les articles. Et pas que : vous pouvez les consulter et les offrir à vos proches.
    Lire les commentaires S'abonner Se connecter
-   Google Actualités Partager
-  
+   Google Actualités (BUTTON) Partager
+   (BUTTON)
    Masquer ce message
    Vous souhaitez partager cet article ?
-   Facebook Twitter E-mail Copier le lien
+   (BUTTON) Facebook (BUTTON) Twitter (BUTTON) E-mail (BUTTON) Copier le lien
    Saisir ici votre nom 
    Adresse email des ou du destinataire   
    Votre message
@@ -112,9 +112,9 @@ La douceur de dormir dans une cabane arty au fond des bois
    
    
    
-   Envoyer
-   Offrir cet article
-  
+   (BUTTON) Envoyer
+   (BUTTON) Offrir cet article
+   (BUTTON)
    Masquer ce message
    Vous avez envie d’offrir cet article ?
    S’abonner permet d’offrir les articles à vos proches. Et pas que : vous pouvez les consulter et les commenter.
@@ -129,12 +129,12 @@ La douceur de dormir dans une cabane arty au fond des bois
    Le Loire Valley Lodges est un havre de paix maximal pour un bol d’oxygène végétal. Le visiteur est accueilli au fond du bois, dans une ancienne ferme qui fait office de réception. En face,
    une jolie piscine entourée de sculptures contemporaines donne le ton d’un univers où l’art se mélange à la nature. Même sensation au sein des lodges perchés, décorés avec soin et en
    maxiconfort, qui portent chacun la patte créative de photographes, graffeurs, …
-   Et si vous passiez les fêtes avec nos séries inédites ?
-   Des embûches de Noël à la psychologie des kleptomanes, découvrez toutes nos séries de fin d'année et profitez de notre offre spéciale d'abonnement !
-   Offre fêtes : s’abonner pour 1€
-   Subscribe with Google
-   Exclu : -50%
-   pendant 1 an
+   Vous voulez lire la suite de cet article ?
+   S’abonner permet de consulter tous les articles. Et pas que : vous pouvez les commenter et les offrir à vos proches.
+   1€ le premier mois puis 6,99€/mois
+   (BUTTON) Subscribe with Google
+   Exclu : -50% la
+   première année
    Découvrir nos offres Se connecter
    Publicité
    Publicité
@@ -185,13 +185,13 @@ La douceur de dormir dans une cabane arty au fond des bois
       Code promo French Bee
    Cours de langue
    Service partenaire
-      Cours d’anglais
+      Cours d'espagnol
+     
+      Test gratuit
      
       Cours d'allemand
      
-      Cours d'espagnol
-     
-      Cours d’italien
+      Toutes nos langues
    RSS Facebook Instagram X TiKTok Youtube Snapchat Bluesky
    Les univers
       EcoloObs
@@ -205,7 +205,7 @@ La douceur de dormir dans une cabane arty au fond des bois
    Dans l’actu
       La mort de Jean-Marie Le Pen
       Charlie, dix ans après
-      Mayotte dévastée
+      Donald Trump
    Les services
       Le magazine numérique
       S’abonner / se désabonner
@@ -253,8 +253,8 @@ La douceur de dormir dans une cabane arty au fond des bois
       Aide / Contact
    © Le Nouvel Obs - 2024 Les marques ou contenus du site nouvelobs.com sont soumis à la protection de la propriété intellectuelle.
    Annuler
-  
-  
+   (BUTTON)
+   (BUTTON)
    Masquer ce message
    Vous préférez lire plus tard cet article ?
    Créer un compte permet d’enregistrer des articles à lire plus tard. Et pas que : vous pouvez profiter gratuitement de tous les articles offerts.

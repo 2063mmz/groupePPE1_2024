@@ -10,8 +10,8 @@
       Suivre Weelz! sur YouTube
       Suivre Weelz! via flux RSS
    La Vélosud, un nouvel itinéraire cyclable pour longer les Pyrénées en douceur
-   Ouvrir la navigation
-   Weelz! Fermer la navigation
+   (BUTTON) Ouvrir la navigation
+   Weelz! (BUTTON) Fermer la navigation
       Actualités
       Tests produits
       Société
@@ -23,7 +23,7 @@
       Lecture
    Rechercher
    Rechercher :
-    Rechercher
+    (BUTTON) Rechercher
    Fermer
 La Vélosud, un nouvel itinéraire cyclable pour longer les Pyrénées en douceur
    Moins grimper, profiter
@@ -56,8 +56,8 @@ La Vélosud, 658 km le long du Piémont Pyrénéen
    L'itinéraire vélo tourisme de La Vélosud virevolte au pied du versant français des Pyrénées
    D'où l'initiative de la Vélosud, une véloroute qui permet désormais de relier à vélo l'Atlantique à la Méditerranée, via un itinéraire plus "facile". Mais attention, cela ne veut pas dire que
    ça ne grimpe pas un minimum. Il y aura nécessairement quelques franchissements et autres raidards.
-   Toutefois, les chiffres font bien moins peur : la Vélosud, c'est 4 720 mètres de dénivelé positif étalés sur 658 km. Le point culminant de la Vélosud : le col de Linas, non loin du
-   Pech de Bugarach. C'est tout de même mieux que les 20 000 mètres qui vous attendent si vous passez par la montagne.
+   Toutefois, les chiffres font bien moins peur : la Vélosud, c'est 4 720 mètres de dénivelé positif étalés sur 658 km. Le point culminant de la Vélosud : le col de Linas (667 m), non loin du
+   Pech de Bugarach (attention à vos GPS !). C'est tout de même mieux que les 20 000 mètres qui vous attendent si vous passez par la montagne.
 Pays Basque, Comminges, Béarn, Ariège... le territoire des Pyrénées à l'honneur
    la cathédrale de Saint-Bertrand-de-Commingesles gorges de Galamusle Pont Vieux d’Orthez
    Si elle vous évite les cols mythiques, la Vélosud va privilégier le patrimoine des différents territoires des Pyrénées : Pays Basque, Comminges, Béarn, Ariège, Aude... L'itinéraire cyclable
@@ -69,7 +69,7 @@ Les 13 étapes de la Vélosud
    © Peio Gaillard / Cécile Munsch
    L'itinéraire cyclable de la Vélosud a été découpé en 13 étapes que vous pouvez retrouver dans le tableau ci-dessous. Bien entendu, libre à vous d'adapter votre tracé en fonction du temps à
    votre disposition et vos envies de pédalage. Le site France Velo Tourisme rappelle que la Vélosud est connectée à quatre grandes véloroutes :
-   À Biarritz, la Vélodyssée ; entre Urt et Escos, section commune avec La Scandibérique ; à Lannemezan, la Vallée de La Baïse et à Barcarès, la Méditerranée à vélo. Vous trouverez plus
+   À Biarritz, la Vélodyssée ; entre Urt et Escos (40 km), section commune avec La Scandibérique ; à Lannemezan, la Vallée de La Baïse et à Barcarès, la Méditerranée à vélo. Vous trouverez plus
    d'informations sur le site des Pyrénées à vélo. Le projet de la Vélosud a été porté par l'Agence des Pyrénées.
      Étape                  Itinéraire               Distance
    1ère étape Biarritz – Urt                         30 km
@@ -93,8 +93,8 @@ Les 13 étapes de la Vélosud
    A propos de l'auteur
    Xavier CADEAU
    Xavier CADEAU est depuis 2008 le fondateur et rédacteur en chef de Weelz! Xavier cultive dans ce média l'art de vivre autour du vélo et son envie de partager avec le plus grand nombre sa
-   passion pour la bicyclette, tout en usant de ses compétences de créateur de contenus. Cycliste multitâches, il fait le grand écart entre une pratique sportive
-   engagée, du voyage à vélo et le déplacement du quotidien. Lire ses articles
+   passion pour la bicyclette, tout en usant de ses compétences de créateur de contenus (rédactionnel, photo, vidéo). Cycliste multitâches, il fait le grand écart entre une pratique sportive
+   engagée (VTT, gravel, route), du voyage à vélo et le déplacement du quotidien. Lire ses articles
       Weelz.fr
       On partage
       Partager cet article sur Facebook
@@ -115,15 +115,15 @@ Un mot à dire ?
       Tous les commentaires
       Ajouter
 Ça vient de paraître
-   Vélo Cargo
-« 80% des vélos cargo ont été récupérés chez nos clients » – Rappel Babboe, la fin de la tourmente en 2025?
+   Shopping
+Promo casque Abus Hyban 2.0 : le bon plan à ne pas louper, avec -30 % (et plus !) sur plusieurs coloris
    Aujourd'hui
-   Legislation
-Une pétition citoyenne contre l’interdiction de l’éclairage vélo clignotant
-   Hier
    Société
-« Plus aucune crise d’angoisse » : Santé, la pratique du vélo devrait être sur prescription médicale – une résolution 2025?
-   Hier
+« Mon seul regret ? Ne pas avoir commencé le vélo plus tôt » : récit d’une transition vélo réussie
+   Aujourd'hui
+   Actualités
+Un emploi dans le vélo en 2025 – nouvelle année, nouveau métier
+   Aujourd'hui
    Abonne-toi à la chaine YouTube Weelz!
 Les plus lus
    Legislation
@@ -131,16 +131,17 @@ Les plus lus
    Le 24 Décembre 2024
    Legislation
 Une pétition citoyenne contre l’interdiction de l’éclairage vélo clignotant
-   Hier
+   Il y a 3 jours
    Tourisme vélo
 Cyclo Camp, des haltes clés en main pour accueillir les voyageurs à vélo
    Le 13 Décembre 2024
    Legislation
 Nouveau décret : l’éclairage vélo additionnel, les clignotants et le feu stop désormais autorisés
    Le 10 Décembre 2024
-   Insolite
-Inde : un touriste emprisonné pour possession d’un compteur GPS vélo!
-   Le 15 Décembre 2024
+   Visite des Cycles Victoire 2024, contact avec l'artisanat vélo de Clermont-Ferrand
+   Fabricant
+« Rapatrier ce savoir-faire de cadreur disparu de France » – Visite chez les Cycles Victoire, l’artisanat du vélo clermontois
+   Le 3 Janvier 2025
    Newsletter
    Restez connecté
    Ne manquez rien des prochains articles, abonnez-vous à la WeelzLetter! Votre dose hebdomadaire d'actualités vélo.
@@ -162,6 +163,9 @@ Vidéos
 Tests produits
    Voir tout
    Tests produits
+ Velor, tenue de cyclisme entre innovation textile et engagement pour la planète
+   Hier
+   Tests produits
  Gaya Compact, un petit vélo cargo en pleine évolution
    Le 26 Décembre 2024
    Tests produits
@@ -170,10 +174,7 @@ Tests produits
    Tests produits
  Schwalbe G-One RX PRO : un pneu gravel polyvalent, qui roule vite et qui accroche
    Le 10 Décembre 2024
-   Tests produits
- nouveau Yuba Boda Boda version 2025, le vélo longtail à grandes roues de 26 pouces
-   Le 4 Décembre 2024
-Articles àdécouvrir
+Articles à (re)découvrir
    Article épinglé
    Vélo longue distance
 Marin de Saint-Exupéry, le cycliste ultradistance qui pédale aussi entre les courses
@@ -189,7 +190,7 @@ Le vélo gravel, remake du VTT ou nouvelle voie du vélo?
    Le 14 Avril 2024
    Article épinglé
    Mécanique
-Vélo : comment réparer une crevaison
+Vélo : comment réparer une crevaison (ou l’art de se faire chambrer)
    Le 14 Décembre 2023
    Article épinglé
    Vélo Cargo

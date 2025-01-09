@@ -1,66 +1,41 @@
    #alternate alternate SudOuest : rss actualités
    IFRAME: //www.googletagmanager.com/ns.html?id=GTM-NG4RXS
-   La chaîne
+   (BUTTON) La chaîne
    Mon compteS'identifierS'abonnerJournal
-   RechercherLa chaîneLa chaîne
+   (BUTTON) RechercherLa chaîne
    JournalS'identifierMon compte
-   📍 Ma ville  Actualité  DéclicLa sélection  Faits diversSport  Loisirs  Étudiant  Services  Annonces
-  
-      Explorer sur la carte 📍
-      Toutes les communes
-      Agen
-      Angoulême
-      Arcachon
-      Bayonne
-      Bergerac
-      Biarritz
-      Bordeaux
-      Dax
-      Langon
-      La Rochelle
-      Libourne
-      Marmande
-      Médoc
-      Mont-de-Marsan
-      Oloron
-      Orthez
-      Pau
-      Périgueux
-      Rochefort
-      Royan
-      Saintes
-      Saint-Jean-de-Luz
-      Villeneuve-sur-Lot
-  
+   Ma communeActualité  Éco & EntreprisesLa sélection  Faits diversSport  DéclicLoisirs  Services  Annonces
+   ()
       International
       Politique
       Economie
       Environnement
+      Etudiant
       Santé
       Société
-  
+   ( )
       Sélection du jour
       Edition du soir
       Premium
       Bonne humeur
       Insolite
       Le vrai du faux
-  
+   ( )
       Tout le sport
       Football
       Rugby
       Raffut
-      Cyclisme
+      Golf
       Tennis
       Basket
       Surf
       Sports mécaniques
       Hockey
       Résultats
-      Jeux Olympiques
-  
+      Vendée Globe
+   ( )
       Culture
-      Diverto
+      Diverto TV
       Gastronomie
       Idées
       Télévision
@@ -68,32 +43,22 @@
       Tourisme
       Vin
       Auto-moto
-  
-      Accueil
-      Lycée
-      Examens
-      Parcoursup
-      Études supérieures
-      Trouver votre école
-      Résultats bac
-      Résultats brevet
-      Séries TV
-  
+   ( )
       Archives
       Club abonnés
       Jeux
       Horoscope
       Évènements
       Billetterie
-      Bons plans
+      Shopping
       Contenus partenaires
       Boutique
-  
+   ( )
       Avis de décès
       Emploi
       Immobilier
       Légales
-  
+   (BUTTON)
    Sélectionnez votre commune
    
    Suggestions
@@ -101,7 +66,7 @@
    '
    Sud Ouest
    Toute l'actualité de votre région en continu sur notre application
-   Voir
+   (BUTTON) Voir
 Hinx : les œuvres tout en douceur de Pawae à la médiathèque
     Lecture 1 min
    Accueil Landes Hinx
@@ -135,16 +100,16 @@ Hinx : les œuvres tout en douceur de Pawae à la médiathèque
       Les Formats Longs
       Les Archives depuis 1944
    Abonné papier ? Activez votre accès S'abonner à partir de 1€ Mon espace premium
-   Mon compte
-   Déconnexion
-   Mon compte
-   Déconnexion
-   Devenez premium
-   Connexion
-   Devenez premium
+   (BUTTON)
+     Accueil
+     Journal
+     Mon
+       compte
+     S'identifier
+   Rechercher
    Toutes les rubriques
-   Fermer
-   
+   (BUTTON) Fermer
+    (BUTTON) (BUTTON)
    Communes
       Explorer📍
       Bordeaux
@@ -253,11 +218,11 @@ Vous avez choisi de refuser les cookies
    Lire les règles de modération de sudouest.fr
    
    
-   Réagir
+   (BUTTON) Réagir
    Signaler un commentaire
    Merci de nous décrire précisément ce qui vous paraît illégal dans ce message.
    
    
    
    
-   Signaler
+   (BUTTON) Signaler

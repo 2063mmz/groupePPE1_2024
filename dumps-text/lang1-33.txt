@@ -1,6 +1,6 @@
-   #JSON oEmbed oEmbed
-  
-   Mon compte Se connecter je m'abonne
+   #JSON oEmbed (JSON) oEmbed (XML)
+   (BUTTON) (BUTTON)
+   (BUTTON) Mon compte Se connecter je m'abonne
       Les enquêtes de l’Humanité
       L'actu en vidéo
      
@@ -8,11 +8,11 @@
       Politique et citoyenneté
       Environnement
       Féminisme
-   Mon compte Se connecter
+   (BUTTON) Mon compte Se connecter (BUTTON)
     Submit
    En ce moment
    à la une
-   Rubriques
+   (BUTTON) Rubriques
       Politique
       Social et Économie
       Société
@@ -24,7 +24,7 @@
       Histoire
       Sports
       Vie quotidienne
-   Thématiques
+   (BUTTON) Thématiques
       Les enquêtes de l’Humanité
       L'actu en vidéo
      
@@ -32,7 +32,7 @@
       Politique et citoyenneté
       Environnement
       Féminisme
-   Vidéos
+   (BUTTON) Vidéos
       Voir toutes les vidéos
      
    lhumanite L’Humanité du jour lhumanite-magazine L'Humanité Magazine
@@ -46,7 +46,7 @@
    Publié le 11 septembre 2024
    Publié le 11 septembre 2024
    Tom Demars-Granja
-  
+   (BUTTON)
       copier le lien
       Twitter
       Facebook
@@ -54,7 +54,7 @@
       Whatsapp
       Messenger
       Pocket
-   Feurat Alani nous plonge dans l'histoire tourmentée de l'Irak avec mélancolie et poésie, à hauteur d'enfant.
+   (BUTTON) Feurat Alani nous plonge dans l'histoire tourmentée de l'Irak avec mélancolie et poésie, à hauteur d'enfant.
    © Nova Production - Miyu Productions - ARTE France - Lunanime
    Le destin du peuple irakien lui a été confisqué. Il l’a été par la guerre, par la dictature, par l’occupation états-unienne, par le terrorisme. Il s’imposait donc au grand reporter d’origine
    irakienne Feurat Alani de lui offrir une nouvelle chance. Sans rien cacher des atrocités qui s’y sont déroulées au gré des décennies, mais en abordant le sujet avec sincérité et douceur.
@@ -62,7 +62,7 @@
    primordial de ne pas laisser la haine submerger le dialogue, dans une France endeuillée après les attentats de 2015. « J’ai toujours vécu comme une injustice l’idée que mon entourage ne
    comprenne pas l’importance de ce qui se déroulait en Irak pour le monde entier », se rappelle-t-il.
 La misère, le feu et le sang
-   Après 1 000 tweets publiés en deux mois, puis une déclinaison en bande dessinée, Feurat Alani a retravaillé le matériau originel avec son compère
+   Après 1 000 tweets publiés en deux mois, puis une déclinaison en bande dessinée (gagnante du prix Albert-Londres en 2019), Feurat Alani a retravaillé le matériau originel avec son compère
    dessinateur Léonard Cohen pour le transformer en un film d’animation.
    Pour y arriver, le journaliste s’est reposé sur deux piliers : assumer son regard sur la situation et insister sur les liens qui existent entre les « personnages » de son récit et les
    spectateurs. « Lors de discussions que j’ai eues à l’occasion de séances de dédicaces et de rencontres, le retour le plus récurrent était que le récit relevait de l’universel, raconte Feurat
@@ -86,15 +86,15 @@ Avant de partir, une dernière chose…
    L’information indépendante et de qualité a un coût. Payez-le.
    Je veux en savoir plus
    Mon don(Nécessaire)
-   Je donne une fois
-   Je donne tous les mois
+   () Je donne une fois
+   ( ) Je donne tous les mois
    E-mail(Nécessaire)
    
    Prix – Je donne une fois(Nécessaire)
-   5 €
-   20 €
-   50 €
-   Montant libre
+   () 5 €
+   ( ) 20 €
+   ( ) 50 €
+   ( ) Montant libre
    Montant libre – Je donne une fois(Nécessaire)
    
    Après déduction d'impôts, votre don vous reviendra à
@@ -102,10 +102,10 @@ Avant de partir, une dernière chose…
    Vous bénéficiez d’une réduction d’impôt de 66% si vous êtes imposable sur le revenu, dans la limite de 20% de votre revenu imposable et si vous cochez la case ci-dessous pour recevoir le reçu
    fiscal.
    Prix – Je donne tous les mois(Nécessaire)
-   3 €
-   10 €
-   20 €
-   Montant libre
+   () 3 €
+   ( ) 10 €
+   ( ) 20 €
+   ( ) Montant libre
    Montant libre – Je donne tous les mois(Nécessaire)
    
    Après déduction d'impôts, votre don vous reviendra par mois à
@@ -124,8 +124,8 @@ Avant de partir, une dernière chose…
    suppression.
    Je souhaite que mon nom apparaisse sur le mur des donateurs.rices
     Je souhaite que mon nom apparaisse sur le mur des donateurs.rices
-   Le mur des donateurs est une page sur laquelle figurent les noms des donateurs et donatrices à l’Humanité pour les remercier de leur soutien.
-   Name
+   Le mur des donateurs est une page (numérique et dans le journal papier) sur laquelle figurent les noms des donateurs et donatrices à l’Humanité pour les remercier de leur soutien.
+   Phone
    
    Ce champ n’est utilisé qu’à des fins de validation et devrait rester inchangé.
    Je valide mon don
@@ -142,7 +142,7 @@ Avant de partir, une dernière chose…
    Arte Cinéma d'animation documentaire Guerre d'Irak 2003
    Accueil Médias Arte
    « Le Parfum d’Irak » ou la douceur de l’enfance face à la guerre
-  
+   (BUTTON)
       copier le lien
       Twitter
       Facebook
@@ -151,33 +151,41 @@ Avant de partir, une dernière chose…
       Messenger
       Pocket
    En continu
-   22h20 Editorial. Mort de Jean-Marie Le Pen : pourquoi la bourgeoisie lui dit merci
-   21h00 Charlie hebdo : quand l'instrumentalisation l'emporte sur les commémorations
-   20h13 Pourquoi Stéphane Troussel veut transférer les services du conseil départemental du 93 de Bobigny à Saint-Denis
-   19h47 La giga factory Tesla de Berlin, laboratoire de l’ultracapitalisme d’Elon Musk
+   19h37 Chronique. La banalisation, jusqu’au tombeau
+   19h30 Budget 2025 : négociation ou censure, la gauche diverge
+   19h29 Cyclisme : Guillaume Martin-Guyonnet retour vers le futur
+   19h26 « On crée les conditions pour satisfaire coûte que coûte les besoins du patronat » : avec la loi plein emploi, la précarité à marche forcée
    Voir toute l’actu
    Articles les plus lus dans cette rubrique
    1
-   Philippe Val, celui qui a vendu l'âme de Charlie Hebdo
-   Portrait
-   2
-   « Je ne veux plus y aller maman » : le documentaire intense et foutraque d'Antonio Fischetti sur Charlie et la mémoire d’Elsa Cayat
-   Documentaire
-   3
-   Un polar de Camilla Läckberg revisité façon comédie romantique : la bonne surprise de la série « Erica » sur TF1
+   Pénurie d'amoxicilline : Cash Investigation enquête sur la main mise des laboratoires sur les antibiotiques
    Télévision
+   2
+   « On a affaire à un naufrage persistant de la plupart des médias dominants » : comment les journaux français couvrent la guerre à Gaza
+   Les enquêtes de l'Humanité
+   3
+   Wolinski, Cabu, Tignous, Honoré, Elsa Cayat… Ces vies fauchées par la haine intégriste
+   Portraits
      
    à lire aussi
+   Sur Arte, Sharon Stone ou l’expérience cuisante d’être actrice à Hollywood
+   Médias
+   Publié le 9 janvier 2025
    « Attentats 2015, ce qui nous lie » : retour sur une année marquée par l’horreur
    Médias
    Publié le 5 janvier 2025
    « Les trésors des ambassades parisiennes » : France 5 révèle les splendeurs du patrimoine diplomatique
    Médias
    Publié le 30 décembre 2024
-   « Beatles ’64 » : comment les Fab Four ont conquis l’Amérique
-   Médias
-   Publié le 29 décembre 2024
    Vidéos les plus vues
+   « La haine était son métier » : comment l’Huma a conçu sa Une sur la mort de Jean-Marie Le Pen
+   Publié le Publié le 9 janvier 2025
+   Comment les journaux français couvrent la guerre à Gaza
+   Publié le Publié le 9 janvier 2025
+   Charlie : les syndicats unis pour la liberté d’expression
+   Publié le Publié le 8 janvier 2025
+   Démission : quand le directeur général de l’IFOP vole au secours de Macron
+   Publié le Publié le 8 janvier 2025
    Pour Emmanuel Macron, les gouvernements africains ont « oublié de nous dire merci »
    Publié le Publié le 6 janvier 2025
    Espace Boutique
@@ -208,7 +216,7 @@ Avant de partir, une dernière chose…
    Nos thèmes
    Nos services
       Contacter l’Humanité
-      Faire un don
+      Faire un don (déductible des impôts)
       S'abonner à l'Humanité
       Les avantages abonné.es
       Se désabonner
@@ -219,11 +227,11 @@ Avant de partir, une dernière chose…
       La Fête de L'Humanité
       Annonces légales
       Les archives numériques de l'Humanité depuis 1990
-      Droits d'utilisation
+      Droits d'utilisation (textes, photos, vidéos)
       Comédiance  Régie publicitaire
       Mentions légales
       Protection des données personnelles
-      Conditions Générales d’Utilisation
-  
+      Conditions Générales d’Utilisation (CGU)
+   (BUTTON)
    
    

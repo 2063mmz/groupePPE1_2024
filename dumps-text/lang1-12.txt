@@ -1,28 +1,28 @@
    #Flux d'actualité Déco
-   Fermer la modale de partage
+   (BUTTON) Fermer la modale de partage
    Partager
-      Partager sur facebook
-      Partager sur twitter
-      Partager sur pinterest
-      Partager sur whatsapp
-      Partager sur email
-      Partager sur sms
-   Ouvrir le menu principal Elle Décoration
+      (BUTTON) Partager sur facebook
+      (BUTTON) Partager sur twitter
+      (BUTTON) Partager sur pinterest
+      (BUTTON) Partager sur whatsapp
+      (BUTTON) Partager sur email
+      (BUTTON) Partager sur sms
+   (BUTTON) Ouvrir le menu principal Elle Décoration
       Lien vers réseau social mail
       Lien vers réseau social facebook
       Lien vers réseau social twitter
       Lien vers réseau social pinterest
       Lien vers réseau social instagram
       Lien vers réseau social tiktok
-   Je me connecte Sauvegarder Sauvegardé Je m'abonne
-   Ouvrir le menu principal Elle Décoration
+   Je me connecte (BUTTON) (BUTTON) Sauvegarder Sauvegardé Je m'abonne
+   (BUTTON) Ouvrir le menu principal Elle Décoration
    Je m'abonne
-   Ouvrir le modal de recherche
-   Fermer le modal de recherche
+   (BUTTON) Ouvrir le modal de recherche
+   (BUTTON) Fermer le modal de recherche
    Rechercher sur ELLE
-    Lancer la recherche
-   Elle Décoration Fermer menu burger
-   Se connecter Rechercher sur le site
+    (BUTTON) Lancer la recherche
+   Elle Décoration (BUTTON) Fermer menu burger
+   Se connecter (BUTTON) Rechercher sur le site
       Retour vers ELLE.fr
       avant/après
       Petits espaces
@@ -126,9 +126,9 @@
       Elle
       Déco
       News & tendances
-      Partager sur facebook
-      Partager sur twitter
-      Partager sur pinterest
+      (BUTTON) Partager sur facebook
+      (BUTTON) Partager sur twitter
+      (BUTTON) Partager sur pinterest
 #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
    Publié le 02 janvier 2025 à 9h27
    15 Voir la galerie
@@ -139,11 +139,11 @@
      
      
       15
-   Sauvegarder Sauvegardé
+   (BUTTON) Sauvegarder Sauvegardé
    Lire dans l'app
    Idées à picorer, nouvelles tendances à adopter ou spot déco à découvrir, les #ELLEdécoCrush de janvier font la part belle au cocooning.
    15 Voir la galerie
-   Fermer la modal de la galerie
+   (BUTTON) Fermer la modal de la galerie
    #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
    La folie des fêtes de fin d’année vient tout juste de s’achever. Il est temps de ranger décorations, guirlandes et autres sapins de Noël pour retrouver une maison dépourvue d’artifices
    festifs, mais pas dénuée de joie ou de petits plaisirs. Le passage à 2025 est l’occasion de faire rimer Nouvel An avec renouveau déco. À l’aide de simples changements, on peut faire la
@@ -176,7 +176,7 @@ Des nouveautés 2025 pour un intérieur cool et cocooning
        Garabos, à partir de 140 €
       Accessoire de bougie
        L:a Bruket, 55 € en édition limitée à partir du 16 janvier
-      09 Savon déco
+      Savon déco
       Les jolis ustensiles de Our Place
        Our Place
       Bougie rechargeable
@@ -194,21 +194,21 @@ Des nouveautés 2025 pour un intérieur cool et cocooning
       Cocooning
 Toute l'actu Déco
      
-   Immobilier : reconnaître un bien difficile à la revente
+   La somptueuse cuisine du chef Éric Frechon dans un appartement haussmannien
        Édition abonnées
-       Immobilier : reconnaître un bien difficile à la revente
+       La somptueuse cuisine du chef Éric Frechon dans un appartement haussmannien
      
-   Zara Home présente sa gamme enfants, voici notre sélection coup de cœur
-       Zara Home présente sa gamme enfants, voici notre sélection coup de cœur
+   30 tables de chevet pour tous les styles
+       30 tables de chevet pour tous les styles
      
-   Le perce-neige colonise le jardin en hiver
-       Le perce-neige colonise le jardin en hiver
+   Soldes d’hiver 2025 : les bons plans déco à ne pas manquer !
+       Soldes d’hiver 2025 : les bons plans déco à ne pas manquer !
      
-   H&M Home : 25 pièces de rêve sur lesquelles craquer pendant les soldes d’hiver
-       H&M Home : 25 pièces de rêve sur lesquelles craquer pendant les soldes d’hiver
+   Chic et chaleureux : Le nouveau Art & Décoration est en kiosque
+       Chic et chaleureux : Le nouveau Art & Décoration est en kiosque
      
-   On veut un intérieur jaune, la couleur phare de 2025
-       On veut un intérieur jaune, la couleur phare de 2025
+   Voici le secret pour bien entretenir ses plantes, surtout en hiver
+       Voici le secret pour bien entretenir ses plantes, surtout en hiver
    Toutes les infos Déco
 À lire également
      
@@ -231,32 +231,31 @@ Toute l'actu Déco
    On veut un intérieur jaune, la couleur phare de 2025
 Les  populaires News & tendances
      
-   Bureau vintage, Cooven de La Redoute Intérieurs 1
+   On veut un intérieur jaune, la couleur phare de 2025
+       1
+       On veut un intérieur jaune, la couleur phare de 2025
+     
+   Bureau vintage, Cooven de La Redoute Intérieurs 2
        Édition abonnées
        15 nouveautés La Redoute Intérieurs qui paraissent 10 fois leur prix
      
-   Frise décorative Plum Living x Bilboquet Deco
-       2
-       #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
-     
-   On veut un intérieur jaune, la couleur phare de 2025
-       3
-       On veut un intérieur jaune, la couleur phare de 2025
-     
    H&M Home : 25 pièces de rêve sur lesquelles craquer pendant les soldes d’hiver
-       4
+       3
        H&M Home : 25 pièces de rêve sur lesquelles craquer pendant les soldes d’hiver
      
-   petit meuble en bois Søstrene Grene
-       5
-       Édition abonnées
-       15 nouveautés Søstrene Grene qui paraissent 10 fois leur prix
+   Frise décorative Plum Living x Bilboquet Deco
+       4
+       #ELLEdecoCrush : 15 envies déco pour commencer l’année en douceur
      
-   Linge de maison : pourquoi il vaut mieux l’acheter en janvier ? 6
-       Linge de maison : pourquoi il vaut mieux l’acheter en janvier ?
+   Soldes AM.PM hiver 2024 : 20 pièces à s’offrir absolument 5
+       Soldes AM.PM hiver 2025 : 20 pièces à s’offrir absolument
+     
+   Soldes Maisons du Monde hiver 2025
+       6
+       Soldes Maisons du Monde hiver 2025 : ces pièces qui valent le coup (et qui vont partir très vite) !
    Teaser promo
    Pinterest ELLE Décoration Lien abonnement déco
-  
+   (BUTTON)
    Haut de page
    Elle Décoration
 Suivez-nous
@@ -274,7 +273,7 @@ Contacts
       Nos RSS
       Mentions légales et CGU
       Données personnelles et cookies
-      Gérer mes cookies
+      (BUTTON) Gérer mes cookies
       Conditions Générales de Vente
       Foire aux Questions
       Le groupe CMI France

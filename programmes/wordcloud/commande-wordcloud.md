@@ -7,6 +7,7 @@ Ensuite, installe les bibliothèques wordcloud et pillow (si vous ne les avez pa
 Utilise la commande wordcloud\_cli pour générer le nuage de mots. (C'est simple. Bien sûr, on peux aussi utiliser un script Python pour générer le nuage, mais la commande est plus pratique. :))
 
 **La commande standard pour utiliser wordcloud :**
+
 wordcloud\_cli --text ./pals/contextes-lang(1|2|3|4).txt --imagefile lang(1|2|3|4).png --background white --fontfile ./programmes/wordcloud/nom-du-font.ttf --colormap 'cividis'
 
 **wordcloud_cli** : C'est l'outil en ligne de commande utilisé pour générer un nuage de mots.

@@ -57,10 +57,16 @@ do
         # fi
 
         # CHINOIS
-        # if [[ "$base" == "lang4" ]]
-        # then
-        #     # Logic for lang4
-        # fi
+        if [[ "$base" == "lang4" ]]
+        then
+            if [[ -z "$line" ]]
+            then
+                continue
+            fi
+        
+            format_pals=$(echo "$line" | grep -o -P "[\p{Han}]|[[:punct:]]")
+            echo "$format_pals" >> "$sortie_pals_dumps"
+        fi
 
     done < "$fichier"
 done

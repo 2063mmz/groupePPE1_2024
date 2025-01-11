@@ -8,7 +8,7 @@ Utilise la commande wordcloud\_cli pour générer le nuage de mots. (C'est simpl
 
 **La commande standard pour utiliser wordcloud :**
 
-wordcloud\_cli --text ./pals/contextes-lang(1|2|3|4).txt --imagefile lang(1|2|3|4).png --background white --fontfile ./programmes/wordcloud/nom-du-font.ttf --colormap 'cividis'
+*wordcloud\_cli --text ./pals/contextes-lang(1|2|3|4).txt --imagefile lang(1|2|3|4).png --background white --fontfile ./programmes/wordcloud/nom-du-font.ttf --colormap 'cividis'*
 
 **wordcloud_cli** : C'est l'outil en ligne de commande utilisé pour générer un nuage de mots.
 

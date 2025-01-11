@@ -92,19 +92,30 @@
 
       /* Définir le style des éléments du menu */
         .links {
-            display: flex;
+
             justify-content: center;
-            gap: 50px;
             margin-bottom: 30px;
+        }
+
+        .links ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            gap: 83px; /* 设置所需的间距 */
+            justify-content: center;
+        }
+
+        .links li {
+            position: relative; /* Nécessaire pour le positionnement des sous-menus */
         }
 
         .links a {
             background-color: #8E5757;
             color: #F5F5DC;
             padding: 10px 20px;
-            margin-right: 15px;
             text-decoration: none;
-            display: inline-block;
+            display: block;
             border-radius: 5px;
         }
 
@@ -114,13 +125,17 @@
         }
 
         .links .dropdown {
-            display: none;
+            display: none; /* Masqué par défaut */
             position: absolute;
+            top: 100%;
+            left: 0;
             background-color: #8E5757;
             border-radius: 5px;
-            min-width: 200px;
+            min-width: 83px;
             list-style-type: none;
             padding: 0;
+            z-index: 1000;
+            transition: opacity 0.3s ease-in-out;
         }
 
         .links .dropdown li {
@@ -128,9 +143,10 @@
         }
 
         .links .dropdown a {
-            padding: 8px 20px;
             color: #F5F5DC;
+            padding: 10px 20px;
             text-decoration: none;
+            display: block;
         }
 
         .links .dropdown a:hover {
@@ -139,12 +155,9 @@
         }
 
         .links li:hover .dropdown {
-            display: block;
+            display: block; /* Affiché au survol */
         }
 
-        .links .dropdown li {
-            list-style-type: none;
-        }
 
 
         .box {
@@ -237,38 +250,35 @@
             <h2>Concernant la 'Douceur' nous avons quatre langues à présenter</h2>
 
             <div class="links">
-                <a href="#">Tableaux
-                    <ul class="dropdown">
-                        <li><a href="./tableaux/lang1.html">"Français" 1-1</a></li>
-                        <li><a href="./tableaux/lang2.html">"Espagnol" 1-2</a></li>
-                        <li><a href="./tableaux/lang3.html">"Anglais" 1-3</a></li>
-                        <li><a href="./tableaux/lang4.html">"Chinois" 1-4</a></li>
-                    </ul>
-                </a>
-                <a href="#">Nuages
-                    <div class="dropdown">
-                        <a href="#">"Français" 1-1</a>
-                        <a href="#">"Espagnol" 1-2</a>
-                        <a href="#">"Anglais" 1-3</a>
-                        <a href="#">"Chinois" 1-4</a>
-                    </div>
-                </a>
-                <a href="#">Analyse
-                    <div class="dropdown">
-                        <a href="#">"Français" 1-1</a>
-                        <a href="#">"Espagnol" 1-2</a>
-                        <a href="#">"Anglais" 1-3</a>
-                        <a href="#">"Chinois" 1-4</a>
-                    </div>
-                </a>
-                <a href="#">Scripts
-                    <div class="dropdown">
-                        <a href="#">"Français" 1-1</a>
-                        <a href="#">"Espagnol" 1-2</a>
-                        <a href="#">"Anglais" 1-3</a>
-                        <a href="#">"Chinois" 1-4</a>
-                    </div>
-                </a>
+                <ul>
+                    <li>
+                        <a href="#">Tableaux</a>
+                        <ul class="dropdown">
+                            <li><a href="./tableaux/lang1.html">Français</a></li>
+                            <li><a href="./tableaux/lang2.html">Espagnol</a></li>
+                            <li><a href="./tableaux/lang3.html">Anglais</a></li>
+                            <li><a href="./tableaux/lang4.html">Chinois</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Nuages</a>
+                        <ul class="dropdown">
+                            <li><a href="./nuages/nuage-lang1.html">Français</a></li>
+                            <li><a href="./nuages/nuage-lang2.html">Espagnol</a></li>
+                            <li><a href="./nuages/nuage-lang3.html">Anglais</a></li>
+                            <li><a href="./nuages/nuage-lang4.html">Chinois</a></li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <a href="Journal.html">Journal</a> <!-- 将“Scripts”变为直接链接 -->
+
+                    </li>
+                    <li>
+                        <a href="scripts.html">Scripts</a> <!-- 将“Scripts”变为直接链接 -->
+                    </li>
+
+                </ul>
             </div>
 
             <div class="box">

@@ -1,0 +1,15 @@
+and soft analysis?'
+What is the difference between hard and soft analysis?
+I have heard references to "hard" vs. "soft" analysis. What is the
+(soft analysis). A hard analytic argument uses a direct calculation or
+function types to prove a statement. A soft analytic arguement uses the
+An example of a "soft" analytic arguement: (IVT) Let $f$ be a
+and the glb. A soft proof would be as follows: Since an interval $I$ of
+mathematischen Gegenwart" that the dichotomy of "hard vs. soft
+or Littlewood) as opposed to the "soft, large, vague" kind (due to
+narrow" kind as opposed to the "soft, large, vague" kind (I do not
+that the original analysis was soft because the result does not help in
+measure was zero that way. A "soft" argument indeed. That does make the
+point that "facts" need not belong to hard or soft varieties; arguments
+"soft". Second, the argument I sketch by enlarging the ternary
+Cantor set is what I'd call "soft" since it is based on

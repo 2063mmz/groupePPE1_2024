@@ -1,0 +1,6 @@
+Soft Alarms on Masso, what does it mean? (solved)
+Soft alarms mean you are trying to cut outside of the cutting limits of
+Help! My Toolpath says 'Under' or 'Over" (BB controllers) OR 'Soft
+and soft alarm on elite controllers mean the same thing, so the
+Help! My Toolpath says 'Under' or 'Over" (BB controllers) OR 'Soft
+Soft alarm from previously run job (resolved)

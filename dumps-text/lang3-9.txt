@@ -1,0 +1,379 @@
+#MathOverflow Feed for question 'What is the difference between hard
+and soft analysis?'
+
+Skip to main content
+
+Stack Exchange Network
+
+Stack Exchange network consists of 183 Q&A communities including Stack
+Overflow, the largest, most trusted online community for developers to
+learn, share their knowledge, and build their careers.
+____________________
+Loading…
+
+1.
++ Tour Start here for a quick overview of the site
++ Help Center Detailed answers to any questions you might have
++ Meta Discuss the workings and policies of this site
++ About Us Learn more about Stack Overflow the company, and our
+products
+2.
+3.
+
+current community
+help chat
+
+your communities
+Sign up or log in to customize your list.
+
+more stack exchange communities
+company blog
+5. Log in
+6. Sign up
+
+MathOverflow
+
+1.
+1. Home
+2. Questions
+3. Tags
+4.
+5. Users
+6. Unanswered
+
+What is the difference between hard and soft analysis?
+
+Ask Question
+Asked 14 years, 1 month ago
+Modified 2 years, 4 months ago
+Viewed 10k times
+16
+$\begingroup$
+
+I have heard references to "hard" vs. "soft" analysis. What is the
+difference? It seems to do with generality versus nitty-gritty
+estimates, but I haven't gotten any responses more clear than that.
+
+Share
+Improve this question
+asked Nov 20, 2010 at 2:01
+community wiki
+Robert Haraway
+$\endgroup$
+5
+$\begingroup$ <a href="terrytao.wordpress.com/2007/05/23/… post</a>
+at Tao's blog gives a handful of examples illustrating the two
+concepts, and also provides an in-depth account of one instance.
+$\endgroup$
+– Ed Dean
+Commented Nov 20, 2010 at 2:07
+* $\begingroup$ Oops, thought I could use tags in the comment; that
+looks dreadful, sorry. $\endgroup$
+– Ed Dean
+Commented Nov 20, 2010 at 2:08
+$\begingroup$ Ed: because of the formatting error, your link is not
+working. Below is the link that Ed wanted to use:
+terrytao.wordpress.com/2007/05/23/… $\endgroup$
+– Willie Wong
+Commented Nov 20, 2010 at 2:17
+$\begingroup$ I don't think there is a neat separation. Maybe we
+should introduce a Mohs scale of analysis hardness. $\endgroup$
+– Pietro Majer
+Commented Aug 8, 2020 at 14:50
+* $\begingroup$ See also: math.stackexchange.com/q/141364/442 for the
+same question. $\endgroup$
+– Gerald Edgar
+Commented Aug 8, 2020 at 17:25
+
+Add a comment  |
+
+4 Answers 4
+
+Sorted by: Reset to default
+12
+$\begingroup$
+
+Disclaimer: I'm no expert-this is really a question for the analysts
+and historians of mathematics.
+
+As far as I know,the terminology came into existence in the early 20th
+century distinguish the classical "calculus" type analysis (hard
+analysis) from the new point set topology/functional analysis approach
+(soft analysis). A hard analytic argument uses a direct calculation or
+construction of an exact estimate bounds of specific function or
+function types to prove a statement. A soft analytic arguement uses the
+general topological or geometric properties of a space in which a
+function or function class is defined to prove a result indirectly
+without a precisely calculated "bound".
+
+For example, the fact that the Cantor set has measure zero is a "hard"
+analytic arguement; it uses an epsilon-delta arguement to show the
+limit of the sequence of "slices" of the lengths of it's component
+intervals on the real line converges to 0.
+
+An example of a "soft" analytic arguement: (IVT) Let $f$ be a
+continuous function defined on a connected subset of the real line i.e.
+an interval with a well defined least upper bound and greatest lower
+bound. Then the function is defined at every point inbetween the lub
+and the glb. A soft proof would be as follows: Since an interval $I$ of
+$\Bbb R$ is a connected subset of $\Bbb R$ and $f$ is continuous, then
+$f(I)$ is also connected. Therefore, for every $x \in I$, $f(x)$ is in
+$f(I)$. Notice this proof does not involve a direct computation of
+bounds that proves $f(x)$ is in the image set of $f$ (although it
+certainly COULD be proven that way).
+
+Anyway, that's how Gerald Itzkowitz taught it to me and I learned a
+long time ago to trust him on these matters........
+Share
+Improve this answer
+edited Aug 8, 2020 at 17:53
+community wiki
+2 revs, 2 users 83%
+The Mathemagician
+$\endgroup$
+3
+$\begingroup$ I think that your answer about where the line is
+drawn is good, but I would like to point out that Sobolev spaces
+are in the realm of functional analysis but the various embedding
+theorems are part of hard analysis. I think that is right. I
+personally draw the line by seeing what i find appealing and what i
+don't. Also, I think you have to get a bit deeper into the field
+before you start to see the stark differences between the two, in
+that the examples that best exemplify it are further down the
+rabbit hole. I think you are right about the epsilon delta stuff
+though. $\endgroup$
+– Sean Tilson
+Commented Nov 20, 2010 at 3:15
+$\begingroup$ Well,my knowledge of functional analysis and operator
+theory is still rather cursory,Sean-hence the disclaimer at the
+beginning.I hope to rectify this by independent study after getting
+my Master's this January. $\endgroup$
+– The Mathemagician
+Commented Nov 20, 2010 at 4:25
+* $\begingroup$ I was not able to quickly find a reference, but I
+remember that also Gaetano Fichera described the concept in the
+same way in several historical papers on the mathematics (in Italy)
+at the beginning of the 20th century. In particular, in the school
+of Mauro Picone, the “hard analysis” approach was made concrete for
+example in the emphasis on the explicit calculation of the
+constants involved in a priori estimates for PDEs, due to their
+importance for the construction of solutions. $\endgroup$
+– Daniele Tampieri
+Commented Aug 8, 2020 at 18:12
+
+Add a comment  |
+17
+$\begingroup$
+
+A historical note.
+
+Hermann Weyl mentioned in his talk "Felix Kleins Stellung in der
+mathematischen Gegenwart" that the dichotomy of "hard vs. soft
+analysis" had been suggested by Hardy. According to Hardy, there is the
+function theory of the "hard, sharp, narrow" kind (due to Bohr, Landau
+or Littlewood) as opposed to the "soft, large, vague" kind (due to
+Birkhoff or Koebe).
+
+Edit. Apparently, Hardy's musings are contained in his paper
+"Prolegomena To a Chapter on Inequalities" (unfortunately, I don't have
+access to it at the moment).
+
+Edit 2. Indeed, here's the quotation from Hardy's paper.
+
+A thorough mastery of elementary inequalities is to-day one of the
+first necessary qualifications for research in the theory of
+functions; at any rate, in function theory of the "hard, sharp,
+narrow" kind as opposed to the "soft, large, vague" kind (I do not
+use any of these adjectives as words either of praise or blame), the
+function-theory of Bohr, Landau, or Littlewood, as opposed to the
+function-theory of Birkhoff or Koebe. It is essential to anyone
+working in this field to be master both of the main results and of
+the tricks of the trade.
+
+Share
+Improve this answer
+edited Sep 14, 2022 at 13:38
+The Amplitwist's user avatar
+The Amplitwist
+1,44633 gold badges1111 silver badges2323 bronze badges
+answered Nov 20, 2010 at 2:33
+Andrey Rekalo's user avatar
+Andrey RekaloAndrey Rekalo
+22.3k1212 gold badges8989 silver badges122122 bronze badges
+$\endgroup$
+7
+$\begingroup$ Wouldn't it be nice if some charitable soul would
+translate that into a less barbarous language? $\endgroup$
+– Mariano Suárez-Álvarez
+Commented Nov 20, 2010 at 2:43
+$\begingroup$ I wish I could downvote a comment. $\endgroup$
+– Alex B.
+Commented Nov 20, 2010 at 3:23
+$\begingroup$ I confess that by default, I interpret words in their
+modern meaning if one exists, in this particular case e.g. as in
+thefreedictionary.com/barbarous. I am glad this is cleared up now
+and I shall certainly refrain from flagging. $\endgroup$
+– Alex B.
+Commented Nov 20, 2010 at 3:41
+$\begingroup$ To be honest, I am quite puzzled by the fact that
+usage of the word barbarous in its meaning in a language I don't
+understand (originally, in a language which is not Greek, later,
+not in Greek nor in Latin, and so on...) could rise such opposition
+as evinced by the upvotes on Alex's initial comment---which can
+only be understood as downvotes on mine. I don't expect anyone to
+catch a jokingly reference to Herodotus, but what do people really
+find so downvotable? $\endgroup$
+– Mariano Suárez-Álvarez
+Commented Nov 21, 2010 at 2:20
+$\begingroup$ Mariano, the most likely reason people find your
+comment downvotable is that barbarous is essentially a synonym for
+barbaric in English, i.e. savage, violent, cruel, brutal,
+uncivilized, and uncultured. So, the obvious interpretation of your
+statement is something to the effect of "wouldn't it be nice if
+someone translated that ugly German text into a language actually
+spoken by civilized people?" I assume this was not your intention,
+of course! It is also somewhat common for people to say that German
+is an ugly language, probably a sentiment that has carried over
+from the 1940s. $\endgroup$
+– Peter Luthy
+Commented Nov 30, 2010 at 20:03
+
+|  Show 2 more comments
+6
+$\begingroup$
+
+Consider the problem of shuffling a deck of cards using some shuffling
+technique. One may wonder, "If I use this or that shuffling technique,
+will I shuffle the deck?" The problem can be transferred to a question
+of whether a particular finite Markov process converges to the uniform
+distribution or not. Omitting some details, a classical theorem says
+that, yes, the process will converge (to the uniform distribution) as
+long as your technique is reasonable. Not only that, the convergence
+will eventually be exponential. This seems like a useful theorem, but
+it is actually rather deficient. The problem is that your practical
+side may wonder how many shuffles are required to get the deck
+reasonably randomized, and this theorem doesn't help. So you might say
+that the original analysis was soft because the result does not help in
+solving this quantitative problem. It tells you that shuffling is a
+good idea, but it doesn't give you any clue whether a given technique
+could shuffle the deck in your lifetime or not. A hard analysis would
+tell you, for example, "If one defines reasonably randomized by measure
+blahblah, then $2\log_2(52)$ riffle shuffles are sufficient to
+randomize the deck."
+Share
+Improve this answer
+answered Nov 20, 2010 at 16:16
+community wiki
+Peter Luthy
+$\endgroup$
+2
+* $\begingroup$ A probablistic arguement is a good idea,Peter-but I'm
+not sure if as it stands it'll fly. Any of the probablists or
+analysts in the room want to chime in on this? $\endgroup$
+– The Mathemagician
+Commented Nov 20, 2010 at 18:25
+* $\begingroup$ I'm not exactly sure what you mean that this is a
+probabilistic argument. One can phrase it in a probabilistic way,
+but really it boils down to a hard linear algebra problem since the
+Markov process has finitely many states (the measures here are just
+vectors/functions). The statement that convergence happens is just
+the Perron-Frobenius Theorem. It is rather convenient to use
+probabilistic methods in the hard analysis of shuffling, though. I
+think this example rather clearly demonstrates the struggle between
+generality and quantitativeness. By the way, I myself happen to be
+an analyst... $\endgroup$
+– Peter Luthy
+Commented Nov 20, 2010 at 23:44
+
+Add a comment  |
+4
+$\begingroup$
+
+Cantor sets, then. I would expand the ternary Cantor set by a factor of
+three, note that this makes two disjoint copies, and conclude the
+measure was zero that way. A "soft" argument indeed. That does make the
+point that "facts" need not belong to hard or soft varieties; arguments
+may do. Other Cantor sets don't have the exact structure to carry out
+the enlargement. So you need a "hard" argument to include them, at
+least on the face of it.
+Share
+Improve this answer
+answered Nov 20, 2010 at 10:13
+community wiki
+Charles Matthews
+$\endgroup$
+4
+* $\begingroup$ Only one response here: Huh? $\endgroup$
+– The Mathemagician
+Commented Nov 20, 2010 at 18:24
+$\begingroup$ @Andrew: if you wanted to ask what Charles meant,
+anything specific, then do so? "Huh?" is not a sensible comment nor
+question. $\endgroup$
+– Mariano Suárez-Álvarez
+Commented Nov 21, 2010 at 4:02
+$\begingroup$ To quote Andrew L: the fact that the Cantor set has
+measure zero is a "hard" analytic argument. That is something I
+contest in two ways. Firstly, the fact is not either "hard" or
+"soft". Second, the argument I sketch by enlarging the ternary
+Cantor set is what I'd call "soft" since it is based on
+self-similarity. As I mentioned, there are other Cantor sets and
+self-similarity doesn't work directly for those; and at this point
+an "epsilon-delta" or at least "let epsilon > 0" argument may be
+the obvious way to proceed. $\endgroup$
+– Charles Matthews
+Commented Nov 21, 2010 at 8:41
+* $\begingroup$ A hard argument for this would give more: For any
+integer k calculate integers m, n with km<n such that the Cantor
+set is covered by fewer than m intervals all of length 1/n.
+$\endgroup$
+– Colin McLarty
+Commented May 7, 2018 at 11:01
+
+Add a comment  |
+
+You must log in to answer this question.
+
+Not the answer you're looking for? Browse other questions tagged
+
+.
+
+Related
+
+9
+Geometric group theory and analysis
+44
+What's the difference between a real manifold and a smooth variety?
+17
+Differences in philosophy between Lie Groups and Differential Galois
+Theory
+16
+What are the current views on consistency of Reinhardt cardinals
+without AC?
+26
+The meaning and purpose of "canonical''
+3
+More important or relevant progress in discretizing hard problems in
+physics in last decade
+28
+Grothendieck's in-spirit-category-theoretic functional analysis?
+Question feed
+
+Subscribe to RSS
+
+Question feed
+
+To subscribe to this RSS feed, copy and paste this URL into your RSS
+reader.
+
+MathOverflow
+
+
+Company
+
+
+Stack Exchange Network
+
+
+
+Site design / logo © 2025 Stack Exchange Inc; user contributions
+licensed under CC BY-SA . rev 2025.1.7.20880

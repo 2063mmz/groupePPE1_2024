@@ -1,0 +1,64 @@
+#Onefinity CNC Forum Search
+
+Onefinity CNC Forum
+
+Soft Alarms on Masso, what does it mean? (solved)
+
+Machines (Elite Series)
+
+OnefinityCNC (Onefinity Support) October 20, 2023, 8:29pm 2
+
+nd-hard-limits
+
+Soft alarms mean you are trying to cut outside of the cutting limits of
+the machine.
+See:
+
+Help! My Toolpath says 'Under' or 'Over" (BB controllers) OR 'Soft
+Alarm on AXIS" (Elite controllers)! (with videos) Over / Under
+
+While this FAQ was originally wrote for the Non-Elite Machines, the
+same principal applies to both. Over/under on non-elite controllers
+and soft alarm on elite controllers mean the same thing, so the
+below principals apply to all machines. Many new users to the
+Onefinity CNC often get the machine unboxed, assembled, and moving
+in a few minutes without ever needing to look at instructions. But
+then they home the machine and are alarmed when their screen looks
+like this: (Left picture is non-e…
+
+1 Like
+
+show post in topic
+
+Related topics
+
+Topic Replies Views Activity
+Homing my Machine. (Solved)
+Troubleshooting (X35/X50)
+
+1 375 September 17, 2023
+Zeroing error messages
+
+Machines (Original/PRO)
+
+1 379 June 8, 2023
+I can’t get my machine to home correctly and keep getting this error
+message. Please help!
+
+Troubleshooting (X35/X50)
+
+1 712 December 8, 2022
+Help! My Toolpath says 'Under' or 'Over" (BB controllers) OR 'Soft
+Alarm on AXIS" (Elite controllers)! (with videos)
+
+Over / Under
+
+0 17041 December 8, 2020
+Soft alarm from previously run job (resolved)
+
+Machines (Elite Series)
+
+0 118 June 7, 2024
+
+
+Powered by Discourse, best viewed with JavaScript enabled

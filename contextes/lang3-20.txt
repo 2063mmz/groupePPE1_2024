@@ -1,0 +1,14 @@
+Condensed Matter > Soft Condensed Matter
+Title:A Microscopic Theory of Softness in Supercooled Liquids
+View a PDF of the paper titled A Microscopic Theory of Softness in
+which is the softness of the mean-field potential developed by us
+earlier. We find that this softness is sensitive to small changes in
+some universal behaviours like the softness is linearly proportional
+the softness parameter and show that indeed the dynamics when scaled
+collapse when plotted against softness. The dynamics of fragile
+liquids show a strong softness dependence whereas that of strong
+liquids show a much weaker softness dependence. We also connect the
+present study with the earlier studies of softness involving machine
+Subjects: Soft Condensed Matter (cond-mat.soft)
+View a PDF of the paper titled A Microscopic Theory of Softness in
+cond-mat.soft

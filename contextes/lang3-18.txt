@@ -1,0 +1,73 @@
+3 Classes of soft matter
+Soft matter
+For the journal, see Soft Matter (journal).
+Soft matter
+Soft matter or soft condensed matter is a type of matter that can be
+The science of soft matter is a subfield of condensed matter physics.
+Soft materials include liquids, colloids, polymers, foams, gels,
+aspects are generally unimportant. When soft materials interact
+soft matter, in particular, to the behaviors of liquid crystals and
+The current understanding of soft matter grew from Albert Einstein's
+significant impact on medicine, and were the inventors of the soft
+across different forms of soft matter was key to understanding its
+Interesting behaviors arise from soft matter in ways that cannot be
+molecular constituents. Materials termed soft matter exhibit this
+thermal or mechanical agitation, soft matter can undergo local
+A defining characteristic of soft matter is the mesoscopic scale of
+Typical bond energies in soft matter structures are of similar scale to
+Self-assembly is an inherent characteristic of soft matter systems. The
+the functional design of soft materials with these metastable states
+Soft materials often exhibit both elasticity and viscous responses to
+stress, is often used to investigate the bulk properties of soft
+Classes of soft matter
+Soft matter consists of a diverse range of interrelated systems and can
+properties of soft matter, experimental work is primarily focused on
+Computational methods are often employed to model and understand soft
+soft matter due to their applicability to mapping systems at the
+appropriate to all classes of soft matter and some systems may be more
+Soft materials are important in a wide range of technological
+applications, and each soft material can often be associated with
+thermometers. Active liquid crystals are another example of soft
+encompass a large range of soft matter, with applications in material
+research insights from soft matter research have been applied to better
+Historically the problems considered in the early days of soft matter
+important application of soft matter research is biophysics, with a
+soft matter characteristics are used to understand biologically
+* Fracture of soft materials
+1. ^ ^a ^b Kleman, Maurice; Lavrentovich, Oleg D., eds. (2003). Soft
+3. ^ "Soft matter: more than words". Soft Matter. 1 (1): 16. 2005.
+6. ^ Mezzenga, Raffaele (2021-12-22). "Grand Challenges in Soft
+Matter". Frontiers in Soft Matter. 1: 811842.
+7. ^ McLeish, Tom (2020). Soft Matter: a Very Short Introduction
+Soft Matter Physics". Frontiers in Physics. 6: 87.
+(2022), "Fracture in soft elastic materials: Continuum description,
+20. ^ ^a ^b ^c ^d Jones, Richard A. L. (2002). Soft condensed matter.
+21. ^ ^a ^b ^c Nagel, Sidney R. (2017-04-12). "Experimental soft-matter
+John C.; Yodh, Arjun G. (2010-08-10). "Rheology of Soft Materials".
+"Microscopic precursors of failure in soft matter". Soft Matter. 16
+30. ^ Hamley, Ian W. (2003). "Nanotechnology with Soft Materials".
+"Biological Soft Materials". Angewandte Chemie International
+Versatile Self-Organized Smart Soft Materials". Chemical Reviews.
+40. ^ ^a ^b ^c Brown, Michael F. (2017-05-22). "Soft Matter in
+41. ^ ^a ^b Fusco, Diana; Charbonneau, Patrick (2016). "Soft matter
+Manning, Matthew D.; Yingling, Yaroslava G. (2019). "Soft Matter
+M.,  de, N. (2020), "Liquid-Phase Electron Microscopy for Soft
+46. ^ Garcia, Ricardo (2020-08-17). "Nanomechanical mapping of soft
+(2022-03-30). "3D Printing Soft Matters and Applications: A
+* I. Hamley, Introduction to Soft Matter (2nd edition), J. Wiley,
+* R. A. L. Jones, Soft Condensed Matter, Oxford University Press,
+* M. Kleman and O. D. Lavrentovich, Soft Matter Physics: An
+* A. V. Zvelindovsky (editor), Nanostructured Soft Matter -
+M. Daoud, C.E. Williams (editors), Soft Matter Physics, Springer
+de Gennes, Pierre-Gilles, Soft Matter, Nobel Lecture, December 9,
+Gang, Oleg, "Soft Matter and Biomaterials on the Nanoscale: The WSPC
+Media related to Soft matter at Wikimedia Commons
+* American Physical Society Topical Group on Soft Matter (GSOFT)
+* Softbites - a blog run by graduate students and postdocs that makes
+soft matter more accessible through bite-sized posts that summarize
+current and classic soft matter research
+soft condensed matter.
+* Harvard School of Engineering and Applied Sciences Soft Matter Wiki
+- organizes, reviews, and summarizes academic papers on soft
+* Soft Matter Engineering - A group dedicated to Soft Matter
+* Google Scholar page on soft matter

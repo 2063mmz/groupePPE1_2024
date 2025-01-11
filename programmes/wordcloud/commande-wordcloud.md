@@ -18,7 +18,7 @@ Utilise la commande wordcloud\_cli pour générer le nuage de mots. (C'est simpl
 
 **--background white** : Définit la couleur de fond du nuage de mots
 
-**--fontfile ./word-cloud/JosefinSans-MediumItalic.ttf** : Le chemin du fichier de police à utiliser pour le nuage de mots. J'ai aussi téléchargé d'autres polices et les ai placées dans le dossier 'wordcloud', pour le chinois peut utiliser 'NotoSerifSC'.
+**--fontfile ./word-cloud/JosefinSans-MediumItalic.ttf** : Le chemin du fichier de police à utiliser pour le nuage de mots. J'ai aussi téléchargé d'autres polices et les ai placées dans le dossier 'wordcloud', pour le chinois peut utiliser *NotoSerifSC*.
 
 **--colormap 'cividis'** : Définit le schéma de couleurs du nuage de mots. Il existe d'autres couleurs que vous pouvez utiliser : viridis', 'plasma', 'inferno', 'magma', 'cividis', 'twilight', 'hsv', 'coolwarm', 'Spring', 'Summer', 'Autumn', 'Winter'...
 

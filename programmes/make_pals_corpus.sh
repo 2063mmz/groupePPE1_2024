@@ -51,10 +51,15 @@ do
         fi
 
         # ANGLAIS
-        # if [[ "$base" == "lang3" ]]
-        # then
-        #     # Logic for lang3
-        # fi
+        if [[ "$base" == "lang3" ]]
+        then
+            if [[ -z "$line" ]]
+            then
+                continue
+            fi
+            format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]")
+            echo "$format_pals" >> "$sortie_pals_contextes"
+        fi
 
         # CHINOIS
         if [[ "$base" == "lang4" ]]

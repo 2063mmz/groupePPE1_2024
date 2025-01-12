@@ -1,9 +1,9 @@
-### Visitez notre site web !
-Pour explorer les résultats de notre projet, consultez notre site web en cliquant sur le lien ci-dessous :
+### Visitez notre site web!
+Pour explorer les résultats de notre projet, consultez notre site web en cliquant sur le lien ci-dessous:
 
 [Accéder au site web du projet](https://2063mmz.github.io/groupePPE1_2024/)
 
-Nous y présentons les corpus, les tableaux, les nuages de mots, et bien plus encore !
+Nous y présentons les corpus, les tableaux, les nuages de mots, et bien plus encore!
 
 ## Sélection du mot et des langues
 ### Le mot : Douceur

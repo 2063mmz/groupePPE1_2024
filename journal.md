@@ -41,7 +41,7 @@ Pour le pied de page (footer), je voulais qu’il reste en bas de la page, mais 
 
 Donc, que ce soit pour un script ou autre chose, il faut vraiment faire gaffe à la logique et aux détails.
 
-## Corpus - Langue2 : l'espagnol
+## Corpus - Langue 2 : L'espagnol
 
 ### Stratégie des URLs
 Je souhite prendre en compte la diversité des contextes où l'espagnol est utilisé.
@@ -67,7 +67,7 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 - Un site en particulier montre qu'il n'a que deux mots. Après avoir examiné son code, j'ai remarqué qu'il contient bien des informations textuelles, mais elles ne sont pas détectées.
 - J'ai un site qui est traité, mais le script n'arrive pas à récupérer son encodage, alors qu'il réussit pour tous les autres sites. Il me faudra inspecter le cas de cette URL dans le terminal, notamment l'emplacement de l'encodage dans l'entête, afin de voir si l'encodage est organisé différemment de ce que l'on attend.
 
-## Corpus - Langue 3 : Anglais
+## Corpus - Langue 3 : L'anglais
 
 ### Stratégie et collecte d'URL
 J'ai choisi d'utiliser les mots "sweet" et "soft" car ils sont tous deux étroitement liés au mot "douceur" en français. Cette double approche m'a permis d'explorer les nuances culturelles et linguistiques propres à chaque mot et capture une gamme plus large de contextes.
@@ -82,6 +82,30 @@ Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
 Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
 
 - Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
+
+## Corpus - Langue 4 : Le chinois
+
+### Stratégie et collecte d'URL
+Dans le cadre de la construction du corpus pour le mot "douceur" en chinois, j'ai pris en compte les particularités linguistiques de cette langue. En français, le mot "douceur" peut se traduire en chinois par plusieurs termes tels que "甜味" (goût sucré), "轻柔" (léger et doux), "温和" (modéré), entre autres. Chacune de ces traductions reflète un sens distinct. Or, comme le chinois favorise généralement les mots disyllabiques, choisir des termes comme "轻柔" ou "温柔" aurait limité le contexte d'utilisation à un seul domaine. C'est pourquoi j'ai opté pour le caractère unique "柔" qui, lorsqu'il est combiné avec d'autres caractères, permet une plus grande diversité contextuelle.
+
+Pour constituer mon corpus, j'ai principalement utilisé le corpus Chinese Web 2017 (zhTenTen17) Simplified disponible sur Sketch Engine. J'ai sélectionné 500 URL pour garantir une couverture variée et pertinente. Afin d'assurer la qualité et la pertinence des données, j'ai procédé à plusieurs étapes de filtrage :
+1.Exclusion des URL inaccessibles via des scripts bash utilisant curl.
+2.Suppression des pages web contenant moins de 100 mots afin d'éliminer les contenus pauvres.
+3.Élimination des URL où le caractère "柔" n'apparaissait pas du tout.
+Grâce à cette méthodologie rigoureuse, j'ai pu constituer un corpus représentatif et adapté aux objectifs de notre projet d'analyse comparative du terme "douceur" dans différentes langues.
+
+### Modifications au script bash
+En raison des différences significatives entre le chinois et les langues alphabétiques comme le français, l'anglais et l'espagnol, un traitement spécifique a été nécessaire pour manipuler les données en chinois :
+- Lors de la génération des fichiers dump text, il a été essentiel d'ajouter une condition spécifique :
+    `if [[ "$base" == "lang4" ]]`
+    `then`
+    `contenu_dump=$(lynx -dump -nolist -assume_charset=GB18030 -display_charset=UTF-8 "$aspiration")`
+Cette modification permet d'assurer que les pages web en chinois sont correctement encodées et affichées.
+- Lors de la génération des fichiers PALS, il a également été nécessaire d'ajouter une commande supplémentaire pour extraire correctement les caractères chinois : `grep -o -P "[\p{Han}]|[[:punct:]]"`
+Cette commande garantit que seuls les caractères chinois et la ponctuation pertinente sont extraits, améliorant ainsi la précision de l'analyse.
+
+### Défi avec le corpus
+Lors de la génération du nuage de mots, j'ai remarqué que le terme associé le plus fréquemment avec "柔" était "电". Cependant, ce mot n'est ni courant ni d'un usage quotidien en chinois. En analysant plus en détail mon corpus, j'ai découvert qu'il incluait des contenus liés au domaine technologique. Bien que ce domaine puisse constituer un contexte d'utilisation de "柔", il ne correspondait pas aux objectifs principaux de notre projet. Par conséquent, j'ai décidé de supprimer manuellement les données du corpus qui n'étaient pas liées aux usages quotidiens afin d'obtenir des résultats plus pertinents.
 
 ## Scripts développés
 #### main.sh

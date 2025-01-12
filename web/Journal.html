@@ -263,7 +263,7 @@
             
             <h3>Scripts développés</h3>
             <ul>
-                <li>main.sh : Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
+                <li><strong>main.sh : </strong> Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
                     <ul>
                         <li>Validation de l'URL pour gérer les URL inaccessibles et enregistrement des messages d'erreur.</li>
                         <li>Téléchargement HTML pour enregistrer les pages dans les aspirations.</li>
@@ -272,27 +272,27 @@
                         <li>Population des tableaux en mettant à jour les fichiers dans le dossier tableaux/ avec les données traitées.</li>
                     </ul>
                 </li>
-                <li>get_concordance.sh : Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche, mot-clé, contexte droit).</li>
-                <li>make_pals_corpus.sh : Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS.</li>
+                <li><strong>get_concordance.sh : </strong> Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche, mot-clé, contexte droit).</li>
+                <li><strong>make_pals_corpus.sh : </strong> Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS.</li>
             </ul>
             
             <h3>Étapes suivantes</h3>
             <ul>
-            <li>- Récupération de données: Utilisation de curl pour récupérer des pages HTML.</li>
-            <li>- Prétraitement du texte: Extraction du texte brut à l'aide de lynx. Nettoyage des caractères inutiles avec sed.</li>
-            <li>- Analyse des mots-clés: Comptage des occurrences de mots-clés à l'aide de grep. Extraction du contexte avec les lignes environnantes.</li> 
-            <li>- Concordances: Transformation du texte en concordance à l'aide de sed.</li>
-            <li>- Préparation PALS: Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure. -Génération de nuages de mots: Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels. Sauvegarde des images dans le dossier nuages.</li>
+            <li><strong>Récupération de données: </strong>Utilisation de curl pour récupérer des pages HTML.</li>
+            <li><strong>Prétraitement du texte: </strong>Extraction du texte brut à l'aide de lynx. Nettoyage des caractères inutiles avec sed.</li>
+            <li><strong>Analyse des mots-clés: </strong>Comptage des occurrences de mots-clés à l'aide de grep. Extraction du contexte avec les lignes environnantes.</li> 
+            <li><strong>Concordances: </strong>Transformation du texte en concordance à l'aide de sed.</li>
+            <li><strong>Préparation PALS: </strong>Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure. -Génération de nuages de mots: Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels. Sauvegarde des images dans le dossier nuages.</li>
             </ul>
 
 
             <h3>Analyse et Résultats</h3>
-            <p>Visualisation : Nuages de Mots Pour chaque langue, un nuage de mots a été généré avec wordcloud_cli pour identifier les termes et concepts les plus associés au mot "douceur".</p>
+            <p><strong>Visualisation : </strong>Nuages de Mots Pour chaque langue, un nuage de mots a été généré avec wordcloud_cli pour identifier les termes et concepts les plus associés au mot "douceur".</p>
 
 
-
+            <!--
             <h3>Défis</h3>
-            <p>- Problèmes d'encodage : La requête HTTP head ne contenait parfois pas d'information sur l'encodage. Pour résoudre ce problème, nous avons accédé aux aspirations et vérifié la balise meta. À l'intérieur de la balise meta, nous avons pu trouver l'encodage nécessaire pour traiter les pages correctement.</p>
+            <p><strong>Problèmes d'encodage : </strong>La requête HTTP head ne contenait parfois pas d'information sur l'encodage. Pour résoudre ce problème, nous avons accédé aux aspirations et vérifié la balise meta. À l'intérieur de la balise meta, nous avons pu trouver l'encodage nécessaire pour traiter les pages correctement.</p>
 
 
 
@@ -316,7 +316,7 @@
 
             <h3>Stratégie et collecte d'URL</h3>
             <p></p>
-
+            -->
 
         </div>
 

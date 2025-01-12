@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Scripts</title>
+    <style>
+        /* Styles hérités de la page principale */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://i.imgur.com/yWXz38o.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            min-height: 100vh;
+            box-sizing: border-box;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Style pour le titre et le bouton de retour */
+        .header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alignement à gauche!!!! */
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            font-family: Tahoma, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .return-button {
+            margin-top: 10px;
+        }
+
+        .return-button a {
+            font-family: Tahoma, Verdana, sans-serif;
+            background-color: rgba(158, 170, 132, 0.6);
+            color: #F5F5DC;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.4s ease;
+        }
+
+        .return-button a:hover {
+            background-color: #9E7B44;
+        }
+
+        /* Style pour le contenu principal */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            margin-bottom: 10px;
+            width: 100%;
+
+        }
+
+        .image-container img {
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: -8px;
+        }
+
+        .image-container p {
+            font-size: 16px;
+            color: #555;
+        }
+        .command {
+            font-weight: bold;
+            color: #9E7B44;
+            text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); /* Ombre portée */
+            font-family: 'Courier New', Courier, monospace; /* Police monospace */
+        }
+
+        .command:hover {
+            color: #1b3173;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        .footer {
+                    color: black;
+                    text-align: center;
+                    position: relative;
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    box-sizing: border-box;
+                    width: 100%;
+        }
+
+        /* Responsive en utilisant @media pour faciliter la conception réactive, et permettant aux sites web de s'adapter de manière optimale à une variété de dispositifs et de tailles d'écran.  */
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .content-box {
+                padding: 15px;
+            }
+
+            .image-container img {
+                max-width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Avec le titre et le bouton de retour -->
+        <div class="header">
+            <h1>Analyse le Script</h1>
+            <div class="return-button">
+                <a href="../index.html">Retour</a>
+            </div>
+        </div>
+
+        <!-- Contenu principal dans un cadre blanc -->
+        <div class="content-box">
+
+            <div class="image-container">
+                <p>Pour utiliser ce script allez dans le répertoire "programmes". Ensuite, tapez dans la ligne de commande. Par exemple <span class="command">./main.sh lang2.txt lang2 </span>  Faire attention à ce que le script soit exécutable.Ensuite, effectuer la vérification du système d'exploitation, afin de détecter le système d'exploitation actuellement utilisé pour gérer les différences entre les systèmes (comme macOS et Linux). Par exemple : <span class="command">MAC="Darwin"</span> </p>
+            </div>
+
+            <div class="image-container">
+
+                <p>Ensuite, définir les scripts externes comme exécutables, et définition des paramètres d'entrée, afin de vérifier et de définir les paramètres d'entrée du script, en s'assurant que l'utilisateur a fourni le nombre correct de paramètres. </p>
+
+                <img src="https://i.imgur.com/K5wNwXB.png" alt="DEFINTION D'ARGUMENT D'ENTREE">
+
+            </div>
+
+            <div class="image-container">
+
+                <p>Étant donné que nous avons quatre langues, il est nécessaire de définir les variables globales et les chemins de sortie, afin de configurer les termes de recherche et les chemins des fichiers HTML de sortie en fonction des différentes bases de la langue.
+                </p>
+
+                <img src="https://i.imgur.com/njceQIH.png" alt="DEFINTION DES VARIABLES GLOBALES ET DES CHEMINS DE SORTIE">
+            </div>
+
+            <div class="image-container">
+
+                <p>Étape suivante importante : définition de la page HTML et automatisation de la création et de l'organisation des informations, dans le but de générer l'en-tête du fichier HTML et la structure du tableau, afin d'afficher les résultats du traitement..</p>
+
+                <img src="https://i.imgur.com/frO3FJ1.png" alt="DEFINITION DE LA PAGE HTML">
+            </div>
+
+            <div class="image-container">
+
+                <p>Lire le fichier d'URLs ligne par ligne, traiter chaque URL, extraire les informations nécessaires et les remplir dans le tableau HTML. Utiliser la commande <span class="command">curl </span> pour obtenir le code d'état HTTP de l'URL, afin de déterminer si l'URL est accessible. Ensuite, extraire le codage des caractères de la page, en fonction du système d'exploitation utilisé.</p>
+
+                <img src="https://i.imgur.com/oWNt9jB.png" alt="Extraire le codage des caractères de la page">
+            </div>
+
+            <div class="image-container">
+
+                <p>Ici, c'est pour télécharger le contenu HTML de l'URL, gérer le codage et sauvegarder dans le répertoire spécifié.</p>
+
+                <img src="https://i.imgur.com/akvMy11.png" alt="Télécharger le contenu HTML de l'URL">
+            </div>
+
+            <div class="image-container">
+
+                <p>Si la réponse HTTP ne contient pas d'information sur le codage, extraire celle-ci à partir des balises meta du HTML. Si le codage n'est pas en UTF-8, le convertir en UTF-8 (Pour éviter une conversion forcée en UTF-8, il est possible, dès le début lors de la sélection des URLs, de filtrer et d'exclure les sites ne fournissant pas d'information sur le codage).</p>
+                <img src="https://i.imgur.com/kTHGaCM.png" alt="Situation de l'encodage.">
+            </div>
+
+            <div class="image-container">
+
+                <p>Utiliser lynx pour convertir le contenu HTML en texte brut et effectuer le vidage du contenu textuel. <span class="command">def</span></p>
+
+                <img src="https://i.imgur.com/kcpVAW3.png" alt="Convertir le contenu HTML en texte brut">
+            </div>
+
+            <div class="image-container">
+
+                <p>Supprimer le contenu textuel inutile, afin de maintenir la propreté du texte. Définir les informations textuelles à supprimer. (En plus de certains symboles spéciaux, il faut également supprimer le contenu entre [] et ()).</p>
+
+                <img src="https://i.imgur.com/s2HAywl.png" alt="Supprimer le contenu textuel inutile">
+            </div>
+
+             <div class="image-container">
+
+                <p>Compter le nombre d'occurrences du mot-clé cible dans le texte nettoyé. <span class="command">occurrences=$(grep -o -i -E "$mot_pattern" <<< "$cleaned_contenu_dump" | wc -l)</span>
+                Pour <span class="command"> grep -o -i -E "$mot_pattern"  </span> Recherche toutes les occurrences du motif défini dans mot_pattern dans le texte fourni, en ignorant la casse et en utilisant des expressions régulières étendues, et affiche uniquement les correspondances trouvées. Sur <span class="command"> <<< </span> est le 'Here String'. Cette partie fournit le contenu de la variable <span class="command"> cleaned_contenu_dump </span> comme entrée à la commande <span class="command">grep</span>.</p>
+
+             </div>
+
+             <div class="image-container">
+
+                <p>Extraire le contexte contenant le mot-clé cible. </p>
+
+                <img src="https://i.imgur.com/ihY9L4Y.png" alt="Extraire le contexte">
+             </div>
+
+             <div class="image-container">
+
+                <p>Générer les informations de concordance pour le mot-clé, et les sauvegarder au format HTML.</p>
+
+                <img src="https://i.imgur.com/ZyVinMr.png" alt="Générer les informations de concordance">
+             </div>
+
+             <div class="image-container">
+
+                <p>Ajouter le résultat du traitement de l'URL actuelle comme une ligne dans le tableau HTML.</p>
+
+                <img src="https://i.imgur.com/3719Zzz.png" alt="Ajouter le résultat dans le tableau HTML">
+             </div>
+
+             <div class="image-container">
+
+                <p>Si l'URL est inaccessible, l'enregistrer comme "Indisponible" et le marquer dans le tableau HTML.</p>
+
+                <img src="https://i.imgur.com/HmDzyOa.png" alt="Si l'URL est inaccessible">
+             </div>
+
+             <div class="image-container">
+
+                <p>Enfin, terminer! Écrire dans l'ordre pour fermer le tableau et les balises de la page HTML.</p>
+                <img src="https://i.imgur.com/lN0vcyv.png" alt="Fini!">
+             </div>
+
+             <div class="image-container">
+                <p>Si vous trouvez l'image floue, vous pouvez agrandir la page web ou visiter <a href="https://github.com/2063mmz/groupePPE1_2024/tree/main">le GitHub de notre groupe</a>!!!</p>
+
+
+            </div>
+      </div>
+
+      <!-- Ajoutez autre sections -->
+      <div class="footer">
+         Ce site web a été créé par CAO Yue
+      </div>
+</body>
+</html>
+

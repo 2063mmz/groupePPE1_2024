@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuage de Espagnol</title>
     <style>
-        /* Styles de base */
+  
         body {
             margin: 0;
             padding: 0;
@@ -28,8 +28,7 @@
         /* Bouton de retour à la page d'accueil */
         .back-button {
             align-self: flex-start;
-            margin-top: 40px; /* Ajuster l'espacement supérieur */
-            margin-bottom: 0px;
+            margin-top: 40px;
             padding: 5px 10px;
             font-size: 14px;
             color: #F5F5DC;
@@ -42,7 +41,7 @@
             background-color: #9E7B44;
         }
 
-         /* Style du titre */
+     
         h1 {
             font-family: Tahoma, Verdana, sans-serif;
             margin: 20px 0;
@@ -51,28 +50,38 @@
             font-weight: normal;
             text-align: center;
             background: rgba(158, 170, 132, 0.6);
-            padding: 9px 0px;
+            padding: 9px;
             border-radius: 8px;
             width: 100%;
         }
 
-        /* Conteneur pour l'image et la description */
         .content {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             width: 100%;
             margin-top: 20px;
+            gap: 20px;
         }
 
-        /* La deuxième image */
+        .image-container {
+            flex: 1; 
+            max-width: 100%; 
+            text-align: center; 
+        }
+
         .image2 {
-            flex: 1; /* L'image occupe l'espace gauche */
-            max-width: 45%;
+            max-width: 100%; 
+            height: auto; 
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(158, 170, 132, 0.6);
         }
 
+        figcaption {
+            color: rgb(183, 181, 181);
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
 
         .description {
             flex: 1;
@@ -81,36 +90,97 @@
             background: rgba(245, 245, 220, 0.9);
             padding: 10px 20px;
             border-radius: 8px;
-            margin-left: 20px;
             line-height: 1.5;
             text-align: justify;
             box-shadow: 0 4px 10px rgba(158, 170, 132, 0.6);
         }
+
         .footer {
             color: black;
             text-align: center;
-            padding: 10px 0;
+            padding: 50px;
             font-size: 14px;
-            margin-top: auto; /* Assurer que le texte reste toujours en bas de la page */
+            margin-top: auto; 
         }
-        
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Bouton pour revenir à la page d'accueil -->
+      
         <a href="../index.html" class="back-button">Retour à la page d'accueil</a>
 
-        <!-- Titre -->
-        <h1>Le nuage du Espagnol - Douceur</h1>
+
+        <h1>Espagnol sur le web et le mot d'étude : Suave(s)</h1>
+
+     
+        <div class="content">
+            <figure class="image-container">
+                <img class="image2" src="./lang2.png" alt="Word Cloud">
+                <figcaption><em>Figure 1 : À partir des contextes liés au mot suave, voici les mots coocurrents représentés sous forme de nuage de mots.</em></figcaption>
+            </figure>
+            <div class="description">
+                <p>
+                    La langue espagnole est très riche. Si vous voyagez dans un pays hispanophone, le sens des mots peut changer d’un pays à un autre, voire d’une région à une autre. Nous pouvons observer ce phénomène même sur le web, sans avoir besoin de voyager.
+                </p>
+                <p>
+                    Pour cette tâche, nous analysons le mot espagnol dans plusieurs contextes et à travers des pays tels que :
+                </p>
+                <ul>
+                    <li>L'Espagne</li>
+                    <li>Le Chili</li>
+                    <li>Le Mexique</li>
+                    <li>L'Équateur</li>
+                    <li>L'Argentine</li>
+                    <li>Le Pérou</li>
+                    <li>La Colombie</li>
+                </ul>
+                <p>
+                    Dans cette étude, nous nous concentrons sur le mot suave et ses variations (suaves) pour découvrir ses utilisations et connotations dans différents contextes.
+                </p>
+            </div>
+        </div>
+
+
+        <h1>Analyse et réflexion
+
+        </h1>
+        <div class="content_image">
+            <img class="image" src="../pals-output/pals-lang2.png" alt="Word Cloud" class="image2">
+
+            <figcaption><em>Figure 2 : Les résultats à partir des analyses PALS. </em></figcaption>
+
+        </div>
+
         <div class="content">
 
-        <img src="https://i.imgur.com/x9KdBAt.png" alt="Word Cloud" class="image2">
+        <div class="description">
+            <p>
+                La représentation de ces données est influencée par le fait que les sites technologiques et gouvernementaux avaient une plus grande fréquence d’utilisation du mot suave dans leurs pages, bien que celles-ci soient moins nombreuses. En revanche, les sites de musique, de style de vie et de littérature présentaient une fréquence plus faible du mot dans leurs pages. Cependant, il était plus facile de trouver une plus grande quantité de ces sites, ce qui a attisé ma curiosité.
+                
+                
+            </p>
+            <p>Prenant en compte les suivantes : </p>
 
-        <p class="description">
-            Ce nuage de mots espagnol est présenté sous la forme d'un soleil et de nuages, avec des mots clés tels que « más » (plus), « suave » (doux) et « metodología » (méthodologie) suggérant que le contenu est lié aux méthodes, au conseil ou aux vacances, complétés par des mots tels que « vacaciones » (vacances) et « sistemas » (systèmes). « (méthodologie) proposent des contenus liés aux méthodes, au conseil ou aux vacances, complétés par des mots tels que “ vacaciones ” (vacances) et “ sistemas ” (systèmes), qui transmettent une image de douceur, de systématicité et d'ouverture d'esprit, systématique et positif, qui peut concerner l'apprentissage, le service ou la planification.
-        </p>
-    </div>
+            <ul>
+                <li>Selon nos résultats, la vie du mot *suave* est très riche, bien que nous ayons uniquement analysé le mot *suave* au singulier et au pluriel.</li> 
+                <br>
+                
+                <li>La plupart de ces données ont été récupérées sur des sites web, principalement dans un contexte informationnel. Ce qui manque dans l'analyse, et qui aurait été intéressant à inclure en tenant compte des contraintes de notre exercice, ce sont des informations sur l'usage du mot dans des contextes de conversations entre internautes. Par exemple, il était difficile de récupérer ce type de données, car les réseaux sociaux ont récemment renforcé les restrictions pour accéder aux publications et discussions des internautes.</li> 
+                <br>
+
+                </li>
+            </ul>
+            <p>Au cours de cet exercice, j'ai découvert à quel point le mot suave peut être riche dans différentes expressions. J'en étais consciente, mais pas à ce point. C'était un exercice très enrichissant, et cela pourrait être intéressant à explorer davantage à l'avenir</p>
+    
+        </div>
+        
+          
+               
+            
+        </div>
+
+
+      
     <div class="footer">
         Ce site web a été créé par CAO Yue
     </div>

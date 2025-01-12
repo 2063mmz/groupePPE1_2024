@@ -1,3 +1,10 @@
+### Visitez notre site web !
+Pour explorer les résultats de notre projet, consultez notre site web en cliquant sur le lien ci-dessous :
+
+[Accéder au site web du projet](https://2063mmz.github.io/groupePPE1_2024/)
+
+Nous y présentons les corpus, les tableaux, les nuages de mots, et bien plus encore !
+
 ## Sélection du mot et des langues
 ### Le mot : Douceur
 Après beaucoup de déliberation, on a décidé de choisir le mot "douceur".
@@ -72,8 +79,7 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 ### Stratégie et collecte d'URL
 J'ai choisi d'utiliser les mots "sweet" et "soft" car ils sont tous deux étroitement liés au mot "douceur" en français. Cette double approche m'a permis d'explorer les nuances culturelles et linguistiques propres à chaque mot et capture une gamme plus large de contextes.
 
-Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada).
-Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
+Inclusion de sites de pays anglophones variés (États-Unis, Royaume-Uni, Canada) à l'exclusion des URL inaccessibles. Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté. Pour constituer mon corpus en anglais, j'ai principalement utilisé Google comme moteur de recherche pour trouver des articles contenant plusieurs occurrences de ces mots. Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
 
 ### Modifications au script bash
 Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
@@ -82,6 +88,9 @@ Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
 Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
 
 - Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
+
+- J'ai également inclus des liens issus de sites comme Quora et WordReference (des forums). Ces sites étaient utiles pour observer des contextes informels ou des échanges autour du vocabulaire. Cependant, il semble que certains liens provenant de ces sites n'ont pas été traités correctement par le script. Cela a conduit à l'apparition de contextes vides dans les tableaux générés, ce qui suggère des problèmes potentiels avec la structure des pages ou leur encodage.
+
 
 ## Corpus - Langue 4 : Le chinois
 

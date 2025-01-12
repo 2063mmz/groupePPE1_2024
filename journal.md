@@ -81,34 +81,34 @@ Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
 ### Défis rencontrés
 - Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
 
--Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
+- Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
 
 ## Scripts développés
--main.sh
+- main.sh
 Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
 
 Validation de l'URL qui ne tient pas compte des URL inaccessibles avec enregistrement des messages d'erreur. Le téléchargement HTML permet d'enregistrer les pages dans les aspirations. Extraction de texte, qui déverse le texte nettoyé dans dumps-text. L'analyse des mots-clés, qui compte les occurrences et extrait le contexte vers les contextes et la population des tableaux, met à jour les tableaux/ avec les données traitées.
 
--get_concordance.sh
+- get_concordance.sh
 Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche,mot-clé,contexte droit)
 
--make_pals_corpus.sh
+- make_pals_corpus.sh
 Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS. 
 
 ## Étapes suivantes
--Récupération de données:
+- Récupération de données:
 Utilisation de curl pour récupérer des pages HTML.
--Prétraitement du texte:
+- Prétraitement du texte:
 Extraction du texte brut à l'aide de lynx.
 Nettoyage des caractères inutiles avec sed.
--Analyse des mots-clés:
+- Analyse des mots-clés:
 Comptage des occurrences de mots-clés à l'aide de grep.
 Extraction du contexte avec les lignes environnantes.
--Concordances:
+- Concordances:
 Transformation du texte en concordance à l'aide de sed.
--Préparation PALS:
+- Préparation PALS:
 Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure.
--Génération de nuages de mots:
+- Génération de nuages de mots:
 Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels.
 Sauvegarde des images dans le dossier nuages.
 
@@ -118,6 +118,6 @@ Visualisation : Nuages de Mots
 Pour chaque langue, un nuage de mots a été généré avec wordcloud_cli pour identifier les termes et concepts les plus associés au mot "douceur".
 
 ## Défis
--Problèmes d'encodage : Certaines URL ne comportaient pas d'encodage de caractères dans les en-têtes. Nous avons résolu ce problème en extrayant l'encodage des balises <meta> ou en convertissant en UTF-8 à l'aide d'iconv.
--Fichiers de contexte vides : Nous avons identifié et traité les cas où les URL n'avaient pas de contenu pertinent.
+- Problèmes d'encodage : Certaines URL ne comportaient pas d'encodage de caractères dans les en-têtes. Nous avons résolu ce problème en extrayant l'encodage des balises <meta> ou en convertissant en UTF-8 à l'aide d'iconv.
+- Fichiers de contexte vides : Nous avons identifié et traité les cas où les URL n'avaient pas de contenu pertinent.
 -Duplication de fichiers : Nous avons veillé à ce que les scripts effacent les fichiers de sortie existants avant d'ajouter de nouvelles données.

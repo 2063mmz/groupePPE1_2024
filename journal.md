@@ -27,12 +27,6 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 - Identifier et sélectionner des exemples d'utilisation du mot "douceur" dans différents pays hispanophones, en visant d'avoir plus de diversité où le mot apparaît.
 - Étant limitée à 50 URLs, j’ai fait de mon mieux pour choisir des sources variées et représentatives.
 
-## Corpus - Langue 3 : Anglais
-
-## Stratégie et collecte d'URL
-Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada).
-Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
-
 ### Modifications au script bash
 - stderr >&2
     - Au début, j'avais simplement mis un echo avec l'erreur, mais après quelques tests, je me suis aperçue qu'il s'affichait dans le HTML du tableau.
@@ -47,6 +41,12 @@ Focus sur des textes littéraires et des blogs pour observer des nuances dans l'
 
 - Un site en particulier montre qu'il n'a que deux mots. Après avoir examiné son code, j'ai remarqué qu'il contient bien des informations textuelles, mais elles ne sont pas détectées.
 - J'ai un site qui est traité, mais le script n'arrive pas à récupérer son encodage, alors qu'il réussit pour tous les autres sites. Il me faudra inspecter le cas de cette URL dans le terminal, notamment l'emplacement de l'encodage dans l'entête, afin de voir si l'encodage est organisé différemment de ce que l'on attend.
+
+## Corpus - Langue 3 : Anglais
+
+### Stratégie et collecte d'URL
+Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada).
+Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
 
 ## Scripts développés
 -main.sh

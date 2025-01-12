@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Scripts - Générer un document au format PALS</title>
+    <style>
+        /* Styles hérités de la page principale */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://i.imgur.com/yWXz38o.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            min-height: 100vh;
+            box-sizing: border-box;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Style pour le titre et le bouton de retour */
+        .header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alignement à gauche!!!! */
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            font-family: Tahoma, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .return-button {
+            margin-top: 10px;
+        }
+
+        .return-button a {
+            font-family: Tahoma, Verdana, sans-serif;
+            background-color: rgba(158, 170, 132, 0.6);
+            color: #F5F5DC;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.4s ease;
+        }
+
+        .return-button a:hover {
+            background-color: #9E7B44;
+        }
+
+        .navigation {
+             margin-top: 20px;
+             text-align: center;
+             width: 100%;
+             display: flex;
+             justify-content: center;
+             gap: 15px;
+        }
+
+        .navigation a {
+            font-family: Tahoma, Verdana, sans-serif;
+            background-color: rgba(158, 170, 132, 0.6);
+            color: #F5F5DC;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.4s ease;
+            min-width: 23px;
+            text-align: center;
+        }
+
+        .navigation a:hover {
+            background-color: #9E7B44;
+        }
+
+
+        /* Style pour le contenu principal */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            margin-bottom: 10px;
+            width: 100%;
+
+        }
+
+        .image-container img {
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: -8px;
+        }
+
+        .image-container p {
+            font-size: 16px;
+            color: #555;
+        }
+        .command {
+            font-weight: bold;
+            color: #9E7B44;
+            text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); /* Ombre portée */
+            font-family: 'Courier New', Courier, monospace; /* Police monospace */
+        }
+
+        .command:hover {
+            color: #1b3173;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        .footer {
+                    color: black;
+                    text-align: center;
+                    position: relative;
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    box-sizing: border-box;
+                    width: 100%;
+        }
+
+        /* Responsive en utilisant @media pour faciliter la conception réactive, et permettant aux sites web de s'adapter de manière optimale à une variété de dispositifs et de tailles d'écran.  */
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .content-box {
+                padding: 15px;
+            }
+
+            .image-container img {
+                max-width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Avec le titre et le bouton de retour -->
+        <div class="header">
+            <h1>Analyse le Script - Générer un document au format PALS</h1>
+            <div class="return-button">
+                <a href="../index.html">Retour</a>
+            </div>
+        </div>
+
+        <!-- Contenu principal dans un cadre blanc -->
+        <div class="content-box">
+
+            <div class="image-container">
+                <p> D'abord, Vérifie si l'utilisateur a bien fourni deux arguments. <span class="command">if [[ $# -ne 2 ]] </span> Définition des variables globales <span class="command"> dossier=$1, base=$2</span> Et définir les fichiers d'entrée et les fichiers de sortie:</p>
+                 <img src="https://i.imgur.com/WlOrB81.png" alt="Définir les fichiers d'entrée et les fichiers de sortie">
+            </div>
+
+            <div class="image-container">
+
+                <p>Ensuite, Traitement des textes par langue. Pour l'Espagnol, les fonctionnalités sont : Ignore les lignes vides. Extrait les mots et la ponctuation grâce à une expression régulière. Écrit le texte formaté dans le fichier contextes. Pour l'Anglais: Pour <span class="command">dumps-text</span> Sépare les mots et la ponctuation avec sed et tr. Supprime les lignes vides. Écrit le texte formaté dans le fichier dumps-text. Pour <span class="command">contextes</span> Extrait les mots et ponctuations. Écrit le résultat dans le fichier contextes.</p>
+
+                <img src="https://i.imgur.com/K5wNwXB.png" alt="Traitement des textes par langue">
+
+            </div>
+
+            <div class="image-container">
+
+                <p>Pour le Chinois, Extrait chaque caractère chinois et ponctuation. Écrit le résultat dans le fichier <span class="command"> dumps-text</span>.
+                </p>
+
+                <img src="https://i.imgur.com/QeDhtCG.png" alt="Commands pour l'angue chinoise'">
+            </div>
+
+            <div class="image-container">
+                <p>A la fin, Les fichiers de sortie sont enregistrés dans le dossier <span class="command">../pals/</span>, avec les noms: <span class="command">dumps-text-&lt;base&gt;.txt</span> et <span class="command">contextes-&lt;base&gt;.txt</span>.
+                </p>
+            </div>
+
+            <div class="image-container">
+                <p>( ु•⌄• )و✧ Si vous trouvez l'image floue, vous pouvez agrandir la page web ou visiter <a href="https://github.com/2063mmz/groupePPE1_2024/tree/main">le GitHub de notre groupe</a> ╰(●’◡’●)╮ </p>
+           </div>
+      </div>
+  <!-- Ajoutez autre sections -->
+      <div class="navigation">
+         <a href="./Analyse-les-scripts-1.html">1</a>
+         <a href="./Analyse-les-scripts-2.html">2</a>
+      </div>
+
+      <div class="footer">
+         Ce site web a été créé par CAO Yue
+      </div>
+</body>
+</html>

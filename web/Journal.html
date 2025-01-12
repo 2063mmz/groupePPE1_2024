@@ -236,7 +236,10 @@
 
             <h2>Corpus - Langue 3 : L'Anglais</h2>
             <h3>Stratégie et collecte d'URL</h3>
-            <p>Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada). Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.</p>
+            <p>
+            J'ai choisi d'utiliser les mots "sweet" et "soft" car ils sont tous deux étroitement liés au mot "douceur" en français. Cette double approche m'a permis d'explorer les nuances culturelles et linguistiques propres à chaque mot et de capturer une gamme plus large de contextes.
+            </p>
+            <p>Inclusion de sites de pays anglophones variés (États-Unis, Royaume-Uni, Canada). Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.</p>
 
             <h3>Scripts développés</h3>
             <p><span class="command">-main.sh</span> Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :</p>
@@ -247,9 +250,40 @@
 
             <p><span class="command">-make_pals_corpus.sh</span> Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS.</p>
 
-            <h3>Étapes suivantes</h3>
-            <p>-Récupération de données: Utilisation de curl pour récupérer des pages HTML. -Prétraitement du texte: Extraction du texte brut à l'aide de lynx. Nettoyage des caractères inutiles avec sed. -Analyse des mots-clés: Comptage des occurrences de mots-clés à l'aide de grep. Extraction du contexte avec les lignes environnantes. -Concordances: Transformation du texte en concordance à l'aide de sed. -Préparation PALS: Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure. -Génération de nuages de mots: Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels. Sauvegarde des images dans le dossier nuages.</p>
+            <h3>Modifications au script bash</h3>
+            <p>
+            Le regex prend en charge plusieurs mots-clés ("sweet" et "soft"), permettant d'élargir la portée de l'analyse et de mieux capturer les nuances du mot étudié.
+            </p>
 
+            <h3>Défis rencontrés</h3>
+            <p>
+            - Homonymes : Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.</p>
+            <p>
+            - Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés, ce qui a augmenté le temps de traitement.</p>    
+            
+            <h3>Scripts développés</h3>
+            <ul>
+                <li>main.sh : Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
+                    <ul>
+                        <li>Validation de l'URL pour gérer les URL inaccessibles et enregistrement des messages d'erreur.</li>
+                        <li>Téléchargement HTML pour enregistrer les pages dans les aspirations.</li>
+                        <li>Extraction de texte pour déverser le texte nettoyé dans dumps-text.</li>
+                        <li>Analyse des mots-clés pour compter les occurrences et extraire le contexte vers les contextes.</li>
+                        <li>Population des tableaux en mettant à jour les fichiers dans le dossier tableaux/ avec les données traitées.</li>
+                    </ul>
+                </li>
+                <li>get_concordance.sh : Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche, mot-clé, contexte droit).</li>
+                <li>make_pals_corpus.sh : Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS.</li>
+            </ul>
+            
+            <h3>Étapes suivantes</h3>
+            <ul>
+            <li>- Récupération de données: Utilisation de curl pour récupérer des pages HTML.</li>
+            <li>- Prétraitement du texte: Extraction du texte brut à l'aide de lynx. Nettoyage des caractères inutiles avec sed.</li>
+            <li>- Analyse des mots-clés: Comptage des occurrences de mots-clés à l'aide de grep. Extraction du contexte avec les lignes environnantes.</li> 
+            <li>- Concordances: Transformation du texte en concordance à l'aide de sed.</li>
+            <li>- Préparation PALS: Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure. -Génération de nuages de mots: Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels. Sauvegarde des images dans le dossier nuages.</li>
+            </ul>
 
 
             <h3>Analyse et Résultats</h3>
@@ -258,7 +292,7 @@
 
 
             <h3>Défis</h3>
-            <p>-Problèmes d'encodage : Certaines URL ne comportaient pas d'encodage de caractères dans les en-têtes. Nous avons résolu ce problème en extrayant l'encodage des balises ou en convertissant en UTF-8 à l'aide d'iconv. -Fichiers de contexte vides : Nous avons identifié et traité les cas où les URL n'avaient pas de contenu pertinent. -Duplication de fichiers : Nous avons veillé à ce que les scripts effacent les fichiers de sortie existants avant d'ajouter de nouvelles données.</p>
+            <p>- Problèmes d'encodage : La requête HTTP head ne contenait parfois pas d'information sur l'encodage. Pour résoudre ce problème, nous avons accédé aux aspirations et vérifié la balise meta. À l'intérieur de la balise meta, nous avons pu trouver l'encodage nécessaire pour traiter les pages correctement.</p>
 
 
 

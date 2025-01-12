@@ -14,7 +14,32 @@ Pour les langues, on voulait inclure celles qu'on parle et rassembler des contex
 - L'espagnol
 - L'anglais
 - Le chinois
+## Corpus - Langue 1 : Le français
 
+### Stratégie et collecte d'URL
+Le mot "douceur" est utilisé dans plein de contextes différents : le toucher, les émotions, la météo, la musique, etc. Du coup, quand je cherche des URLs, je ne me contente pas de taper juste "douceur". J’ajoute d’autres mots-clés comme "musique", "émotion" ou "relation". Merci de CNRTL, que j’utilise pas mal, je aussi fais mes recherches dans l’onglet "Actualités" de Google. Ça permet de trouver des résultats plus récents et souvent plus variés.
+
+### Modifications au script bash
+Je n’ai pas utilisé les scripts de GitHub (en vrai, je les ai pas vu...), mais mon approche est à peu près la même. J’ai commencé par créer un fichier TSV pour afficher le code HTTP des URLs, leur encodage, et le nombre de mots-clés trouvés. J’ai utilisé la commande IFS= read -r line. L’IFS, c’est juste pour définir un séparateur interne, histoire que les espaces ou tabulations ne foutent pas le bazar.
+
+Pour les codes HTTP, j’ai utilisé : Status=$(echo "$info_head" | tail -n2 | head -n1)
+
+Et pour compter les mots-clés, j’ai fait comme ça :nb_mot_cle=$(echo "$text" | grep -o -i "$mot_cle" | wc -l)
+
+### Défi avec des URLs
+Pour ce qui est des cookies, la plupart des sites permettent d’accéder au contenu sans avoir à accepter, mais pour certains, c’est bloqué. Par contre, presque tous obligent à cliquer manuellement pour accepter ou refuser les cookies.
+
+### La création du site web
+Pour le site, j’ai d’abord réfléchi à une structure globale. J’ai regardé des travaux des années précédentes pour m’inspirer : comment ils relient le thème du site aux mots-clés， etc. Et pour notre page d’accueil affiche les infos principales dans des encadrés fixes.
+
+Après avoir l'image du design général, j’ai utilisé *W3Schools* pour choisir les styles CSS que je voulais. J’ai ensuite construit une version de base, puis je l’ai ouverte dans le navigateur. Avec l’outil de développement web, j’ai ajusté les détails. Comme cet outil ne sauvegarde pas les changements, il fallait que je retourne manuellement dans le script pour faire les modifs.
+
+Créer un site, comme construire une maison. On avance étape par étape, et à la fin, on arrive à décorer le site comme on le veut.
+
+### Problèmes rencontrés pendant la création du site
+Pour le pied de page (footer), je voulais qu’il reste en bas de la page, mais au début, il se calait à l’intérieur des encadrés (box). Après rechercher sur le script, j’ai compris que c’était un problème d’indentation : le footer était inclus dans la section des encadrés.
+
+Donc, que ce soit pour un script ou autre chose, il faut vraiment faire gaffe à la logique et aux détails.
 
 ## Corpus - Langue2 : l'espagnol
 

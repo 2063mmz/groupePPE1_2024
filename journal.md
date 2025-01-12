@@ -85,7 +85,7 @@ Inclusion de sites de pays anglophones variés (États-Unis, Royaume-Uni, Canada
 Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
 
 ### Défis rencontrés
-Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
+- Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
 
 - Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
 

@@ -47,7 +47,18 @@ do
             fi
 
             format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]")
-            echo "$format_pals" >> "$sortie_pals_contextes"
+            # netooyage supplémentaire
+            format_pals=$(echo "$format_pals" | sed -E -e 's/\*//g' -e '/facebook|twitter|instagram|Descarga|Suscríbete|youtube/Id')
+
+            if [[ "$dossier" == "dumps-text" ]]
+            then
+                echo "$format_pals" >> "$sortie_pals_dumps"
+            fi
+            if [[ "$dossier" == "contextes" ]]
+            then
+                echo "$format_pals" >> "$sortie_pals_contextes"
+            fi
+
         fi
 
         # ANGLAIS

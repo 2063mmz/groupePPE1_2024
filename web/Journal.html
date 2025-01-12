@@ -232,8 +232,6 @@
             </ul>
 
 
-
-
             <h2>Corpus - Langue 3 : L'Anglais</h2>
             <h3>Stratégie et collecte d'URL</h3>
             <p>
@@ -260,6 +258,41 @@
             <strong>Homonymes : </strong>Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.</p>
             <p>
             <strong>Volume de contenu : </strong>Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés, ce qui a augmenté le temps de traitement.</p>    
+
+            <h2>Corpus - Langue 4 : Le Chinois</h2>
+            <h3>Stratégie et collecte d'URL</h3>
+            <p>Dans le cadre de la construction du corpus pour le mot "douceur" en chinois, j'ai pris en compte les particularités linguistiques de cette langue. En français, le mot "douceur" peut se traduire en chinois par plusieurs termes tels que "甜味" (tiánwèi - goût sucré), "轻柔" (qīngróu - léger et doux), "温和" (wēnhé - doux, modéré), entre autres. Chacune de ces traductions reflète un sens distinct. Or, comme le chinois favorise généralement les mots disyllabiques, choisir des termes comme "轻柔" ou "温柔" aurait limité le contexte d'utilisation à un seul domaine. C'est pourquoi j'ai opté pour le caractère unique "柔" qui, lorsqu'il est combiné avec d'autres caractères, permet une plus grande diversité contextuelle.</p>
+            <p>Pour constituer mon corpus, j'ai principalement utilisé le corpus Chinese Web 2017 (zhTenTen17) Simplified disponible sur Sketch Engine. J'ai sélectionné 500 URL pour garantir une couverture variée et pertinente. Afin d'assurer la qualité et la pertinence des données, j'ai procédé à plusieurs étapes de filtrage :
+            <ul>
+                <li>Exclusion des URL inaccessibles via des scripts bash utilisant curl.</li>
+                <li>Suppression des pages web contenant moins de 100 mots afin d'éliminer les contenus pauvres.</li>
+                <li>Élimination des URL où le caractère "柔" n'apparaissait pas du tout.</li>
+            </ul>
+            <p>Grâce à cette méthodologie rigoureuse, j'ai pu constituer un corpus représentatif et adapté aux objectifs de notre projet d'analyse comparative du terme "douceur" dans différentes langues.</p>
+            
+            <h3>Modifications au script bash</h3>
+            <p>En raison des différences significatives entre le chinois et les langues alphabétiques comme le français, l'anglais et l'espagnol, un traitement spécifique a été nécessaire pour manipuler les données en chinois.</p>
+            <ul>
+                <li>Lors de la génération des fichiers dump text, il a été essentiel d'ajouter une condition spécifique :
+                    <br>
+                    <span class="command">
+                        $(lynx -dump -nolist -assume_charset=GB18030 -display_charset=UTF-8 "$aspiration")
+                    </span>
+                    <br>
+                    Cette modification permet d'assurer que les pages web en chinois sont correctement encodées et affichées.
+                </li>
+                <li>Lors de la génération des fichiers PALS, il a également été nécessaire d'ajouter une commande supplémentaire pour extraire correctement les caractères chinois :
+                    <br>
+                    <span class="command">
+                        grep -o -P "[\p{Han}]|[[:punct:]]"
+                    </span>
+                    <br>
+                    Cette commande garantit que seuls les caractères chinois et la ponctuation pertinente sont extraits, améliorant ainsi la précision de l'analyse.
+                </li>
+            </ul>
+
+            <h3>Défi avec le corpus</h3>
+            <p>Lors de la génération du nuage de mots, j'ai remarqué que le terme associé le plus fréquemment avec "柔" était "电". Cependant, ce mot n'est ni courant ni d'un usage quotidien en chinois. En analysant plus en détail mon corpus, j'ai découvert qu'il incluait des contenus liés au domaine technologique. Bien que ce domaine puisse constituer un contexte d'utilisation de "柔", il ne correspondait pas aux objectifs principaux de notre projet. Par conséquent, j'ai décidé de supprimer manuellement les données du corpus qui n'étaient pas liées aux usages quotidiens afin d'obtenir des résultats plus pertinents.</p>
 
             <!--
             <h3>Scripts développés</h3>

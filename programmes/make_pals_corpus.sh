@@ -61,7 +61,8 @@ do
             # Dumps-text: lignes complètes
             if [[ "$dossier" == "dumps-text" ]]
             then
-                format_pals=$(echo "$line") # Include the full line
+                # Tokeniser : un mot par ligne, préserver la ponctuation
+                format_pals=$(echo "$line" | sed -E 's/([[:punct:]])/ \1 /g' | tr ' ' '\n' | sed '/^$/d')
                 echo "$format_pals" >> "$sortie_pals_dumps"
             fi
             # Contextes : contextes extraits

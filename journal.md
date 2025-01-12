@@ -27,7 +27,11 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 - Identifier et sélectionner des exemples d'utilisation du mot "douceur" dans différents pays hispanophones, en visant d'avoir plus de diversité où le mot apparaît.
 - Étant limitée à 50 URLs, j’ai fait de mon mieux pour choisir des sources variées et représentatives.
 
+## Corpus - Langue 3 : Anglais
 
+## Stratégie et collecte d'URL
+Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada).
+Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
 
 ### Modifications au script bash
 - stderr >&2
@@ -43,3 +47,42 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 
 - Un site en particulier montre qu'il n'a que deux mots. Après avoir examiné son code, j'ai remarqué qu'il contient bien des informations textuelles, mais elles ne sont pas détectées.
 - J'ai un site qui est traité, mais le script n'arrive pas à récupérer son encodage, alors qu'il réussit pour tous les autres sites. Il me faudra inspecter le cas de cette URL dans le terminal, notamment l'emplacement de l'encodage dans l'entête, afin de voir si l'encodage est organisé différemment de ce que l'on attend.
+
+## Scripts développés
+-main.sh
+Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
+
+Validation de l'URL qui ne tient pas compte des URL inaccessibles avec enregistrement des messages d'erreur. Le téléchargement HTML permet d'enregistrer les pages dans les aspirations. Extraction de texte, qui déverse le texte nettoyé dans dumps-text. L'analyse des mots-clés, qui compte les occurrences et extrait le contexte vers les contextes et la population des tableaux, met à jour les tableaux/ avec les données traitées.
+
+-get_concordance.sh
+Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche,mot-clé,contexte droit)
+
+-make_pals_corpus.sh
+Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS. 
+
+## Étapes suivantes
+-Récupération de données:
+Utilisation de curl pour récupérer des pages HTML.
+-Prétraitement du texte:
+Extraction du texte brut à l'aide de lynx.
+Nettoyage des caractères inutiles avec sed.
+-Analyse des mots-clés:
+Comptage des occurrences de mots-clés à l'aide de grep.
+Extraction du contexte avec les lignes environnantes.
+-Concordances:
+Transformation du texte en concordance à l'aide de sed.
+-Préparation PALS:
+Création de fichiers compatibles avec l'EPLA en vue d'une analyse ultérieure.
+-Génération de nuages de mots:
+Utilisation de wordcloud_cli pour générer des nuages de mots à partir de fichiers contextuels.
+Sauvegarde des images dans le dossier nuages.
+
+## Analyse et Résultats
+
+Visualisation : Nuages de Mots
+Pour chaque langue, un nuage de mots a été généré avec wordcloud_cli pour identifier les termes et concepts les plus associés au mot "douceur".
+
+## Défis
+-Problèmes d'encodage : Certaines URL ne comportaient pas d'encodage de caractères dans les en-têtes. Nous avons résolu ce problème en extrayant l'encodage des balises <meta> ou en convertissant en UTF-8 à l'aide d'iconv.
+-Fichiers de contexte vides : Nous avons identifié et traité les cas où les URL n'avaient pas de contenu pertinent.
+-Duplication de fichiers : Nous avons veillé à ce que les scripts effacent les fichiers de sortie existants avant d'ajouter de nouvelles données.

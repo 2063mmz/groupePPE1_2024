@@ -257,10 +257,11 @@
 
             <h3>Défis rencontrés</h3>
             <p>
-            - Homonymes : Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.</p>
+            <strong>Homonymes : </strong>Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.</p>
             <p>
-            - Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés, ce qui a augmenté le temps de traitement.</p>    
-            
+            <strong>Volume de contenu : </strong>Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés, ce qui a augmenté le temps de traitement.</p>    
+
+            <!--
             <h3>Scripts développés</h3>
             <ul>
                 <li><strong>main.sh : </strong> Ce script est l'épine dorsale du projet. Il traite chaque URL, extrait des informations et remplit le tableau HTML. Les principales étapes sont les suivantes :
@@ -275,6 +276,7 @@
                 <li><strong>get_concordance.sh : </strong> Ce script génère des concordances au format HTML. Il divise le texte en trois colonnes (contexte gauche, mot-clé, contexte droit).</li>
                 <li><strong>make_pals_corpus.sh : </strong> Ce script convertit les fichiers texte traités dans un format adapté à l'analyse textométrique PALS.</li>
             </ul>
+            -->
             
             <h3>Étapes suivantes</h3>
             <ul>
@@ -290,12 +292,12 @@
             <p><strong>Visualisation : </strong>Nuages de Mots Pour chaque langue, un nuage de mots a été généré avec wordcloud_cli pour identifier les termes et concepts les plus associés au mot "douceur".</p>
 
 
-            <!--
+         
             <h3>Défis</h3>
             <p><strong>Problèmes d'encodage : </strong>La requête HTTP head ne contenait parfois pas d'information sur l'encodage. Pour résoudre ce problème, nous avons accédé aux aspirations et vérifié la balise meta. À l'intérieur de la balise meta, nous avons pu trouver l'encodage nécessaire pour traiter les pages correctement.</p>
 
 
-
+            <!--
             <h3>Stratégie et collecte d'URL</h3>
             <p></p>
 

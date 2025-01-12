@@ -51,36 +51,23 @@ do
         fi
 
         # ANGLAIS
-        # NOTE:lors de l'exécution précédente du script, les fichiers contextes (contextes-lang3.txt) ont été créés avec succès mais les fichiers dumps-text-lang3.txt n'ont pas été générés    # Afin d'éviter une duplication inutile des contenus déjà présents dans les fichiers contextes,
-        # voici une étape pour effacer les fichiers existants avant de les recréer
-        
         if [[ "$base" == "lang3" ]]
         then
             if [[ -z "$line" ]]
             then
                 continue
             fi
-            # Si le dossier est "dumps-text" traite les fichiers dumps-text pour lang3
+
+            # Dumps-text: lignes complètes
             if [[ "$dossier" == "dumps-text" ]]
             then
-                # Efface le fichier de sortie existant pour éviter la duplication
-                if [[ -f "$sortie_pals_dumps" ]]
-                then
-                    > "$sortie_pals_dumps"
-                fi
-                format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]")
+                format_pals=$(echo "$line") # Include the full line
                 echo "$format_pals" >> "$sortie_pals_dumps"
             fi
-            
-            # Si le dossier est "contextes", traite les fichiers contextes pour lang3
+            # Contextes : contextes extraits
             if [[ "$dossier" == "contextes" ]]
             then
-                # Efface le fichier de sortie existant pour éviter la duplication
-                if [[ -f "$sortie_pals_contextes" ]]
-                then
-                    > "$sortie_pals_contextes"
-                fi
-                format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]")
+                format_pals=$(echo "$line" | grep -o -E "\w+|[[:punct:]]") # Extraire les mots et la ponctuation
                 echo "$format_pals" >> "$sortie_pals_contextes"
             fi
         fi

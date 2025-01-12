@@ -70,8 +70,18 @@ Je souhite prendre en compte la diversité des contextes où l'espagnol est util
 ## Corpus - Langue 3 : Anglais
 
 ### Stratégie et collecte d'URL
+J'ai choisi d'utiliser les mots "sweet" et "soft" car ils sont tous deux étroitement liés au mot "douceur" en français. Cette double approche m'a permis d'explorer les nuances culturelles et linguistiques propres à chaque mot et capture une gamme plus large de contextes.
+
 Inclusion de sites de pays anglophones variés (e.g., États-Unis, Royaume-Uni, Canada).
 Focus sur des textes littéraires et des blogs pour observer des nuances dans l'usage du mot. Un nombre important d'usages informels qui se distinguent. Ces usages reflètent souvent des expressions culturelles, des phrases idiomatiques et un langage décontracté.
+
+### Modifications au script bash
+Mon script prend en charge plusieurs mots-clés ("sweet" et "soft")
+
+### Défis rencontrés
+- Homonymes: Les mots "sweet" et "soft" ont de multiples significations en anglais. Par exemple, "sweet" peut être utilisé pour décrire une personnalité agréable, une douceur gustative, ou même un terme d'affection. Cela a compliqué l'extraction de contextes pertinents.
+
+-Volume de contenu : Certains sites anglophones contenaient de longs articles où les mots clés étaient dispersés ce qui a augmenté le temps de traitement.
 
 ## Scripts développés
 -main.sh
